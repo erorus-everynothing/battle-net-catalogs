@@ -1,0 +1,14 @@
+{
+  "fragment_id": "world_of_warcraft_win10_classic",
+  "products": [
+    {
+      "base": {
+        "install_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "play_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE"
+      },
+      "id": "WoWC"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

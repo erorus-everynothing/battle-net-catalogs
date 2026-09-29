@@ -1,0 +1,5 @@
+{
+  "fragment_id": "warcraft_i_remastered_hide_battle_chest",
+  "products": [{"base": {"quick_links": [{"hidden": true, "id": "upgrade"}]}, "id": "W1R"}],
+  "version": 30
+}

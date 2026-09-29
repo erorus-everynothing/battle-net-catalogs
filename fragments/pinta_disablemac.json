@@ -1,0 +1,13 @@
+{
+  "fragment_id": "pinta_disablemac",
+  "products": [
+    {
+      "base": {
+        "starter_items": [{"hidden": true, "id": "purchase_now", "type": "button"}],
+        "supported_platforms": ["mobile"]
+      },
+      "id": "PNTA"
+    }
+  ],
+  "version": 30
+}

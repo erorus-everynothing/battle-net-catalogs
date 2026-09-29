@@ -1,0 +1,338 @@
+{
+  "files": {
+    "default": {
+      "starcraft_remastered#S1_BACKGROUND": {
+        "hash": "04c3d05cf159415bbb7a671233d2e810",
+        "name": "resources/starcraft1/background_starcraft1_new_panel.webp"
+      },
+      "starcraft_remastered#S1_ICON_MASSIVE": {
+        "hash": "5613d4d483ef42a206147df0bafa5d35",
+        "name": "resources/starcraft1/icon_game_s1_massive.png"
+      },
+      "starcraft_remastered#S1_ICON_MEDIUM": {
+        "hash": "82712d9831bbb0aa789085ba150636e6",
+        "name": "resources/starcraft1/icon_game_s1_medium.png"
+      },
+      "starcraft_remastered#S1_ICON_SMALL": {
+        "hash": "c4c400a9776afb3dbf356116dda06772",
+        "name": "resources/starcraft1/icon_game_s1_small.png"
+      },
+      "starcraft_remastered#S1_ICON_SVG": {
+        "hash": "dae871bb9295a663354707d23adcfa13",
+        "name": "resources/starcraft1/icon_starcraft1.svg"
+      },
+      "starcraft_remastered#S1_ICON_TINY": {
+        "hash": "86e715da4cddfed0846f358b68b2644a",
+        "name": "resources/starcraft1/icon_game_s1_tiny.png"
+      },
+      "starcraft_remastered#S1_INSTALL_BACKGROUND": {
+        "hash": "6c726fd4e02b6f38bc4571f277cdf2ab",
+        "name": "resources/starcraft1/install_background_s1_v2_2x.jpg"
+      },
+      "starcraft_remastered#S1_KEY_ART": {
+        "hash": "6c88c1beac0964550eb59d0c93740cf5",
+        "name": "resources/starcraft1/key_art_starcraft_enUS.jpg"
+      },
+      "starcraft_remastered#S1_LOGO": {
+        "hash": "a8e9eb6d672b778310a0fbcc74edd87d",
+        "name": "resources/starcraft1/logo_starcraft1_v2.png"
+      }
+    },
+    "zhCN": {
+      "starcraft_remastered#S1_INSTALL_BACKGROUND": {
+        "hash": "2cd96981b9e98a9b325d66803576d116",
+        "name": "resources/starcraft1/install_background_s1_wRM_zhcn_v2_2x.jpg"
+      },
+      "starcraft_remastered#S1_KEY_ART": {
+        "hash": "4041b7b119d530b4e9c7d107ac6b9d7f",
+        "name": "resources/starcraft1/key_art_starcraft_zhCN.jpg"
+      },
+      "starcraft_remastered#S1_LOGO": {
+        "hash": "876e1d80575892bd49eb661d796c22c1",
+        "name": "resources/starcraft1/logo_starcraft1_zhCN_v2.png"
+      }
+    },
+    "zhTW": {
+      "starcraft_remastered#S1_INSTALL_BACKGROUND": {
+        "hash": "3887f48cac3a93299898f8ca44fc954f",
+        "name": "resources/starcraft1/install_background_s1_wRM_zhtw_v2_2x.jpg"
+      },
+      "starcraft_remastered#S1_KEY_ART": {
+        "hash": "c6eacc605f56ef69e6000bf01b537321",
+        "name": "resources/starcraft1/key_art_starcraft_zhTW.jpg"
+      },
+      "starcraft_remastered#S1_LOGO": {
+        "hash": "2e3e9780afd21a877003c17e0a8f46d3",
+        "name": "resources/starcraft1/logo_starcraft1_zhTW_v2.png"
+      }
+    }
+  },
+  "fragment_id": "starcraft_remastered",
+  "installs": {
+    "s1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "run_64_bit_default": true,
+      "tact_product": "s1"
+    },
+    "s1_ptr": {"tact_product": "s1t"}
+  },
+  "presence_resources": [
+    {
+      "display_name": "starcraft_remastered#S1_NAME",
+      "icon_16": "starcraft_remastered#S1_ICON_TINY",
+      "icon_275": "starcraft_remastered#S1_ICON_MASSIVE",
+      "icon_32": "starcraft_remastered#S1_ICON_SMALL",
+      "icon_56": "starcraft_remastered#S1_ICON_MEDIUM",
+      "icon_svg": "starcraft_remastered#S1_ICON_SVG",
+      "program_id": "S1"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/starcraft-remastered",
+        "background": "starcraft_remastered#S1_BACKGROUND",
+        "badges": [
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/starcraft/alert",
+        "content_id": "starcraft",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_REAL_TIME_STRATEGY",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "starcraft_remastered#S1_ICON_MEDIUM",
+        "icon_small": "starcraft_remastered#S1_ICON_SMALL",
+        "icon_svg": "starcraft_remastered#S1_ICON_SVG",
+        "icon_tiny": "starcraft_remastered#S1_ICON_TINY",
+        "install_background": "starcraft_remastered#S1_INSTALL_BACKGROUND",
+        "key_art": "starcraft_remastered#S1_KEY_ART",
+        "locale_support_flag": "primary_locale",
+        "logo": "starcraft_remastered#S1_LOGO",
+        "misc_flags": ["play_for_free"],
+        "name": "starcraft_remastered#S1_NAME",
+        "program_id": "S1",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/starcraft-remastered"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"external": true, "target": "external-sso", "type": "url", "url": "nydus://client/forum/S1"},
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 303
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/starcraft"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 304
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [{"CN": "disabled_invisible", "override_type": "region"}]
+        },
+        "starter_items": [
+          {
+            "action": {"type": "install"},
+            "id": "play_now",
+            "label": "default#STARTER_ITEM_PLAY_NOW",
+            "rank": 2,
+            "style": "secondary",
+            "tooltip_remarks": "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK",
+            "type": "button"
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://starcraft.com/?utm_source=app-battlenetdesktop&utm_content=starter-screen"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 3,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "tab_order": 16,
+        "title_id": 1398030674,
+        "types": {
+          "ptr": {
+            "breaking_news_url": "nydus://client/starcraft/ptr/alert",
+            "quick_links": [
+              {
+                "action": {"cms_id": "s1", "cms_type": "PTR", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "selector_display_name": "starcraft_remastered#S1_PTR_DISPLAY_NAME",
+            "supported_regions": ["XX"],
+            "uid": "s1_ptr"
+          },
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "badges": [
+              {
+                "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+                "hidden": true,
+                "id": "game_pass",
+                "image": "default#LOGO_XBOX_GAME_PASS",
+                "label": "default#BADGE_TEXT_INCLUDED_WITH",
+                "rank": 1,
+                "tooltip": "starcraft_remastered#S1_GAME_PASS_DISCLAIMER"
+              }
+            ],
+            "quick_links": [
+              {
+                "action": {"cms_id": "s1", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "supported_regions": ["US", "EU", "CN", "KR"],
+            "uid": "s1",
+            "xbox_uid": "9N2GWLMCHJTN"
+          }
+        }
+      },
+      "id": "S1"
+    }
+  ],
+  "program_configuration": {
+    "S1": {
+      "run_each_rule": [{"actions": [{"add_product": {"product_id": {"id": "S1", "type": "ptr"}}}]}],
+      "run_first_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "S1", "type": "retail"}}}],
+          "match": {"any_of": [{"license_id": 17019}]}
+        },
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "S1", "type": "retail"}}},
+            {"add_tag": {"name": "play_for_free"}}
+          ],
+          "match": {"any_of": [{"game_account": {"program_id": "S1"}}]}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "Das Grundspiel ist im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben. Für das Add-on „Cartooned“ ist ein separater Kauf erforderlich.",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Öffentlicher Testrealm (PTR)",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "Die kostenlose Version hat Originalgrafik und -ton."
+    },
+    "default": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "Base game is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account. Cartooned add-on requires a separate purchase.",
+      "starcraft_remastered#S1_NAME": "StarCraft",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Public Test Realm",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "Free version comes with original graphics and audio"
+    },
+    "esES": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "El juego base se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox. El complemento de Dibujos animados se vende por separado.",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Reino público de pruebas",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "La versión gratuita incluye gráficos y sonido originales."
+    },
+    "esMX": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "El juego base se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox. El complemento Cartooned requiere una compra por separado.",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Reino público de pruebas",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "La versión gratuita trae gráficos y audios originales"
+    },
+    "frFR": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "Le jeu de base est inclus dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox. Les extensions Cartooned devront être achetées séparément.",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Royaume public de test",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "La version gratuite comprend les graphismes et l’audio d’origine."
+    },
+    "itIT": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "Il gioco base è incluso in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox. Il contenuto aggiuntivo Cartooned richiede un acquisto separato.",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Reame pubblico di prova",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "La versione gratuita include grafica e audio originali"
+    },
+    "jaJP": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、ベースゲームをXbox Game Passでお楽しみいただけます。なお、「Cartooned」アドオンをご利用いただくには、別途購入が必要です。",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "パブリックテストサーバー",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "無料版は、独自のグラフィックとオーディオで構成されています"
+    },
+    "koKR": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "기본 게임은 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다. 카툰 추가 콘텐츠는 별도 구매가 필요합니다.",
+      "starcraft_remastered#S1_NAME": "스타크래프트",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "공개 테스트 서버",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "무료 버전은 원본 그래픽과 오디오와 함께 제공됩니다"
+    },
+    "plPL": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "Gra podstawowa jest dostępna w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox. Dodatek Cartooned wymaga osobnego zakupu.",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Publiczny Serwer Testowy",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "Bezpłatna wersja zawiera oryginalną grafikę i dźwięk"
+    },
+    "ptBR": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "O jogo base está incluso no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox. A expansão Cartooned exige uma compra separada.",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Reino de Teste Público",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "A versão gratuita possui os gráficos e áudio originais"
+    },
+    "ruRU": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "Основная игра доступна активным пользователям Xbox Game Pass с действующей подпиской, связавшим Battle.net с учетной записью сети Xbox. Дополнение «Мультяшки» приобретается отдельно.",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "Тестовый игровой мир (PTR)",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "Бесплатная версия содержит оригинальную графику и звуковое сопровождение."
+    },
+    "thTH": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "ตัวเกมหลักจะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox ส่วนเสริมการ์ตูนต้องซื้อแยกต่างหาก",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "เซิร์ฟเวอร์ทดสอบสาธารณะ (PTR)",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "เวอร์ชันฟรีมาพร้อมกับกราฟิกและเสียงแบบดั้งเดิม"
+    },
+    "zhCN": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩基础游戏。重制版追加内容需另行购买。",
+      "starcraft_remastered#S1_NAME": "星际争霸：重制版",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "公共测试服",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "免费版本配备原版图像和音效。"
+    },
+    "zhTW": {
+      "starcraft_remastered#S1_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩基礎遊戲。卡通版追加內容需要另外購買。",
+      "starcraft_remastered#S1_NAME": "《星海爭霸》",
+      "starcraft_remastered#S1_PTR_DISPLAY_NAME": "測試伺服器",
+      "starcraft_remastered#S1_STARTER_TOOLTIP_REMARK": "免費版帶有原版畫質及音效"
+    }
+  },
+  "version": 30
+}

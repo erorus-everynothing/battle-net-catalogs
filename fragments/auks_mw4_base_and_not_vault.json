@@ -1,0 +1,47 @@
+{
+  "files": {},
+  "fragment_id": "auks_mw4_base_and_not_vault",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "retail": {
+            "quick_links": [
+              {"hidden": true, "id": "purchase_mw4"},
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "url",
+                  "url": "nydus://client/shop/product/call-of-duty-modern-warfare-4"
+                },
+                "color": "#6cdb00",
+                "icon": "default#QUICK_LINK_ICON_UPGRADE",
+                "id": "upgrade_mw4",
+                "label": "auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4",
+                "rank": 100
+              }
+            ]
+          }
+        }
+      },
+      "id": "AUKS"
+    }
+  ],
+  "strings": {
+    "deDE": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Steig auf die Vault Edition um"},
+    "default": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Upgrade to the Vault Edition"},
+    "esES": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Mejora a la Edición de archivo"},
+    "esMX": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Mejora a la Edición Bóveda"},
+    "frFR": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Passez à l'édition Coffre d'armes"},
+    "itIT": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Passa all'Edizione Cassaforte"},
+    "jaJP": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "秘蔵版にアップグレード"},
+    "koKR": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "볼트 에디션으로 업그레이드"},
+    "plPL": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Ulepsz do Edycji Skarbca"},
+    "ptBR": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Faça o upgrade para a Edição Cofre"},
+    "ruRU": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "Улучшите игру до Vault Edition"},
+    "thTH": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "อัพเกรดเป็น Vault Edition"},
+    "zhCN": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "升级至金库版"},
+    "zhTW": {"auks_mw4_base_and_not_vault#AUKS_QUICKLINK_UPGRADE_MW4": "升級至寶庫版"}
+  },
+  "version": 30
+}

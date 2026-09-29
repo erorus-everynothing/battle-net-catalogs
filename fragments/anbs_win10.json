@@ -1,0 +1,15 @@
+{
+  "fragment_id": "anbs_win10",
+  "products": [
+    {
+      "base": {
+        "install_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "play_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "starter_items": [{"hidden": true, "id": "play_on_pc", "type": "button"}]
+      },
+      "id": "ANBS"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

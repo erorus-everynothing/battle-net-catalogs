@@ -1,0 +1,54 @@
+{
+  "fragment_id": "world_of_warcraft_wow_forever_access_restriction",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "wow_classic_beta": {
+            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
+            "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
+            "release_date_message": "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE"
+          }
+        }
+      },
+      "id": "WoW"
+    }
+  ],
+  "strings": {
+    "deDE": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Verfügbar ab 4. November 2026"
+    },
+    "default": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Available November 4, 2026"
+    },
+    "esES": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponible el 4 de noviembre de 2026"
+    },
+    "esMX": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponible el 4 de noviembre de 2026"
+    },
+    "frFR": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponible le 4 novembre 2026"
+    },
+    "itIT": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponibile dal 4 novembre 2026"
+    },
+    "jaJP": {"world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "2026年11月4日リリース"},
+    "koKR": {"world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "2026년 11월 4일 출시"},
+    "plPL": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Gra dostępna od 4 listopada 2026"
+    },
+    "ptBR": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponível em 4 de novembro de 2026"
+    },
+    "ruRU": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Доступно с 4 ноября 2026 г."
+    },
+    "thTH": {
+      "world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "เปิดให้เล่นวันที่ 4 พ.ย. 2026 (ตามเวลาประเทศไทย)"
+    },
+    "zhCN": {"world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "将于2026年11月4日上线"},
+    "zhTW": {"world_of_warcraft_wow_forever_access_restriction#WOW_FOREVER_RELEASE_DATE_MESSAGE": "2026 年 11 月 4 日推出"}
+  },
+  "version": 30
+}

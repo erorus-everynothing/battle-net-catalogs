@@ -1,0 +1,17 @@
+{
+  "fragment_id": "world_of_warcraft_ruru_patch_notes",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "retail": {"quick_links": [{"hidden": true, "id": "patch_notes"}]},
+          "wow_classic": {"quick_links": [{"hidden": true, "id": "patch_notes"}]},
+          "wow_classic_anniversary": {"quick_links": [{"hidden": true, "id": "patch_notes"}]},
+          "wow_classic_era": {"quick_links": [{"hidden": true, "id": "patch_notes"}]}
+        }
+      },
+      "id": "WoW"
+    }
+  ],
+  "version": 30
+}

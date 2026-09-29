@@ -1,0 +1,5 @@
+{
+  "fragment_id": "diablo_iii_china_devearlyacces",
+  "products": [{"base": {"region_permission_flags": {"default": "unrestricted"}}, "id": "D3CN"}],
+  "version": 30
+}

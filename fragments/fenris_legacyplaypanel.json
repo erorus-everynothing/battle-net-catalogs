@@ -1,0 +1,40 @@
+{
+  "files": {
+    "default": {
+      "fenris_legacyplaypanel#FENRIS_BACKGROUND_OLD_PANEL": {
+        "hash": "40c6f05f9139335b59f3069285acef79",
+        "name": "resources/fenris/background_fenris.png"
+      },
+      "fenris_legacyplaypanel#FENRIS_LOH_TAB_BACKGROUND_OLD_PANEL": {
+        "hash": "429fc8f46bfb865327340a8c0a6fbd96",
+        "name": "resources/fenris/d4_loh_tab_background_old_panel.webp"
+      },
+      "fenris_legacyplaypanel#FENRIS_VOH_BACKGROUND_OLD_PANEL": {
+        "hash": "b95c7ed62d76376c72414e2eaad2b8cd",
+        "name": "resources/fenris/background_fenris_voh.png"
+      }
+    }
+  },
+  "fragment_id": "fenris_legacyplaypanel",
+  "products": [
+    {
+      "base": {"background": "fenris_legacyplaypanel#FENRIS_BACKGROUND_OLD_PANEL"},
+      "id": "Fen",
+      "variants": {
+        "FenX1": {
+          "types": {
+            "ptr": {"background": "fenris_legacyplaypanel#FENRIS_VOH_BACKGROUND_OLD_PANEL"},
+            "retail": {"background": "fenris_legacyplaypanel#FENRIS_VOH_BACKGROUND_OLD_PANEL"}
+          }
+        },
+        "FenX2": {
+          "types": {
+            "ptr": {"background": "fenris_legacyplaypanel#FENRIS_LOH_TAB_BACKGROUND_OLD_PANEL"},
+            "retail": {"background": "fenris_legacyplaypanel#FENRIS_LOH_TAB_BACKGROUND_OLD_PANEL"}
+          }
+        }
+      }
+    }
+  ],
+  "version": 30
+}

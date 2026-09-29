@@ -1,0 +1,330 @@
+{
+  "files": {
+    "default": {
+      "aqua#AQUA_BACKGROUND": {
+        "hash": "1d763cb9564ed9fb66765f7a35ecc817",
+        "name": "resources/aqua/background_aqua_new_panel.webp"
+      },
+      "aqua#AQUA_ICON_MASSIVE": {
+        "hash": "90784df6f3a9ce898d39744fb53e82b6",
+        "name": "resources/aqua/icon_game_aqua_massive.png"
+      },
+      "aqua#AQUA_ICON_MEDIUM": {
+        "hash": "219fe1004084bd4fd42af4657d3137c8",
+        "name": "resources/aqua/icon_game_aqua_medium.png"
+      },
+      "aqua#AQUA_ICON_SMALL": {
+        "hash": "b5e83152a51b7e0204b7a85acafdbd45",
+        "name": "resources/aqua/icon_game_aqua_small.png"
+      },
+      "aqua#AQUA_ICON_SVG": {"hash": "e88141497b34facd8a86ecda1247c6cc", "name": "resources/aqua/icon_aqua.svg"},
+      "aqua#AQUA_INSTALL_BACKGROUND": {
+        "hash": "424b09d9ac2dc25eacdc6b5fa6f04a87",
+        "name": "resources/aqua/install_background_aqua_enUS.jpg"
+      },
+      "aqua#AQUA_KEY_ART": {"hash": "15283eac732796216408c8bb7a1ad09c", "name": "resources/aqua/key_art_aqua_enUS.jpg"},
+      "aqua#AQUA_LOGO": {"hash": "0034b097ce266a5a17c6f249f7cd7a99", "name": "resources/aqua/logo_aqua_enUS.png"}
+    }
+  },
+  "fragment_id": "aqua",
+  "installs": {
+    "aqua": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aqua"
+    },
+    "aqua_artbook": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aqua-artbook"
+    },
+    "aqua_artbook_dev_1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aqua-artbook-dev-1"
+    },
+    "aqua_artbook_rc": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aqua-artbook-rc"
+    },
+    "aqua_retail_dev_1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aqua-retail-dev-1"
+    },
+    "aqua_retail_rc": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aqua-retail-rc"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "aqua#AQUA_NAME",
+      "icon_16": "aqua#AQUA_ICON_SMALL",
+      "icon_275": "aqua#AQUA_ICON_MASSIVE",
+      "icon_32": "aqua#AQUA_ICON_SMALL",
+      "icon_56": "aqua#AQUA_ICON_MEDIUM",
+      "icon_svg": "aqua#AQUA_ICON_SVG",
+      "program_id": "AQUA"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/avowed",
+        "background": "aqua#AQUA_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_HH_COMPATIBLE",
+            "hidden": false,
+            "id": "hh_compatible",
+            "image": "default#LOGO_HH_COMPATIBLE",
+            "label": "default#BADGE_TEXT_HH_COMPATIBLE",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/avowed/alert",
+        "content_id": "avowed",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_FIRST_PERSON_FANTASY_RPG",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_OPTIMIZED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_compatible"],
+        "icon_medium": "aqua#AQUA_ICON_MEDIUM",
+        "icon_small": "aqua#AQUA_ICON_SMALL",
+        "icon_svg": "aqua#AQUA_ICON_SVG",
+        "install_background": "aqua#AQUA_INSTALL_BACKGROUND",
+        "key_art": "aqua#AQUA_KEY_ART",
+        "kr_data_sharing_consent": "aqua#AQUA_KR_DATA_SHARING_CONSENT",
+        "kr_data_sharing_consent_type_id": 107,
+        "logo": "aqua#AQUA_LOGO",
+        "name": "aqua#AQUA_NAME",
+        "post_launch_actions": ["game_session_monitor"],
+        "program_id": "AQUA",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/avowed"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://forums.obsidian.net/"},
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 302
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://avowed.obsidian.net/"},
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 304
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.obsidian.net/?utm_source=app-battlenetdesktop&utm_content=quick-link&blzcmp=app"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 303
+          },
+          {
+            "action": {"target": "shop", "type": "upgrade", "url": "nydus://client/shop/product/avowed"},
+            "color": "#6cdb00",
+            "icon": "default#QUICK_LINK_ICON_UPGRADE",
+            "id": "upgrade",
+            "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+            "rank": 100
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {"BLR": "disabled_invisible", "RUS": "disabled_invisible", "override_type": "country"}
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://avowed.obsidian.net/"},
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": false,
+        "supported_platforms": ["win"],
+        "supported_regions": ["GLOBAL"],
+        "supports_starter_mode": true,
+        "tab_order": 19,
+        "title_id": 1095849281,
+        "types": {
+          "artbook": {
+            "auto_favorite_on_grant": true,
+            "name": "aqua#AQUA_ARTBOOK_NAME",
+            "selector_display_name": "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME",
+            "uid": "aqua_artbook"
+          },
+          "artbook_dev": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "default#TYPES_DEVELOPER_2_NAME",
+            "supports_starter_mode": false,
+            "type_name": "default#TYPES_DEVELOPER_2_NAME",
+            "uid": "aqua_artbook_dev_1"
+          },
+          "artbook_rc": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "aqua#AQUA_ARTBOOK_RC",
+            "supports_starter_mode": false,
+            "type_name": "aqua#AQUA_ARTBOOK_RC",
+            "uid": "aqua_artbook_rc"
+          },
+          "dev": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "default#TYPES_DEVELOPER_1_NAME",
+            "supports_starter_mode": false,
+            "type_name": "default#TYPES_DEVELOPER_1_NAME",
+            "uid": "aqua_retail_dev_1"
+          },
+          "rc": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "aqua#AQUA_RETAIL_RC",
+            "supports_starter_mode": false,
+            "type_name": "aqua#AQUA_RETAIL_RC",
+            "uid": "aqua_retail_rc"
+          },
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "badges": [
+              {
+                "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+                "hidden": true,
+                "id": "game_pass",
+                "image": "default#LOGO_XBOX_GAME_PASS",
+                "label": "default#BADGE_TEXT_INCLUDED_WITH",
+                "rank": 1,
+                "tooltip": "default#GAME_PASS_DISCLAIMER"
+              }
+            ],
+            "region_permission_flags": {
+              "default": "requires_account_visible",
+              "overrides": [
+                {"CN": "disabled_invisible", "override_type": "region"},
+                {
+                  "BLR": "disabled_invisible",
+                  "CHN": "disabled_invisible",
+                  "RUS": "disabled_invisible",
+                  "override_type": "country"
+                }
+              ]
+            },
+            "uid": "aqua"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "AQUA"
+    }
+  ],
+  "program_configuration": {
+    "AQUA": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "AQUA", "type": "retail"}}}],
+          "match": {"license_id": [1042653]}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "AQUA", "type": "artbook"}}}],
+          "match": {"license_id": [1057937]}
+        },
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "AQUA", "type": "dev"}}},
+            {"add_product": {"product_id": {"id": "AQUA", "type": "artbook_dev"}}},
+            {"add_product": {"product_id": {"id": "AQUA", "type": "rc"}}},
+            {"add_product": {"product_id": {"id": "AQUA", "type": "artbook_rc"}}}
+          ],
+          "match": {"license_id": [1054886]}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "Mit der Markierung dieser Option stimmen Sie zu, alle notwendigen Informationen für die Bereitstellung von Spieldiensten von Xbox Studio der Microsoft Corporation (Standort: Vereinigte Staaten, Kontakt: <a href=\"https://www.microsoft.com/de-de/privacy/privacy-support-requests\">Kundendienst</a>) per Onlinetransfer zum Zeitpunkt des Kaufs und der Nutzung anzugeben. Die zur Bereitstellung des Spieldienstes benötigten Informationen umfassen Kontoinformationen (personenbezogene Daten wie Battle.net-ID, BattleTag, Xbox-ID, Web-Token, Region/Land und Altersgruppe), Produktberechtigung und Gameplay-Informationen (wie Daten bezüglich Spielkauf/-berechtigung/-nutzungsaufzeichnungen) sowie Sozialinformationen (wie Freundesliste, Nachrichten und Informationen bezüglich Account/Rolle/Privilegien von Freunden, die für verschiedene Gameplay-Modi erforderlich sind). Diese Informationen werden für die Dauer der Spieldienstlaufzeit gespeichert. Sie können die Zustimmung verweigern, allerdings schränkt dies Ihre Möglichkeit ein, das Spiel zu spielen."
+    },
+    "default": {
+      "aqua#AQUA_ARTBOOK_NAME": "Avowed Artbook & Soundtrack",
+      "aqua#AQUA_ARTBOOK_RC": "Artbook & Soundtrack RC",
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "By checking this check-box, you agree to provide all necessary information for the provision of Xbox studio game services to Microsoft Corporation (location: United States, contact: <a href=\"https://www.microsoft.com/en-us/privacy/privacy-support-requests\">Customer center</a>) via online transfer at the time of purchase and usage. The information required for game service provision includes account information (Identity information such as Battle.net ID, BattleTag, Xbox ID, web token, region/country, and age classification), product entitlement and gameplay information (such as game purchase/entitlement/usage record data), and social information (such as friends list, messages, and friends' account/role/privilege information necessary for different gameplay modes). This information will be retained for the duration of the game service period. You may refuse to consent, but refusal will limit your ability to play the game.",
+      "aqua#AQUA_NAME": "Avowed",
+      "aqua#AQUA_RETAIL_RC": "Avowed RC"
+    },
+    "esES": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "Al marcar esta casilla, accedes a proporcionar toda la información necesaria para la provisión de los servicios de juego del estudio de Xbox a Microsoft Corporation (ubicación: Estados Unidos, contacto: <a href=\"https://www.microsoft.com/es-es/privacy/privacy-support-requests\">centro de asistencia al cliente</a>) a través de una transferencia en línea en el momento de la compra y el uso. La información necesaria para la provisión de los servicios de juego incluye la información de la cuenta (información de identidad como ID de Battle.net, BattleTag, ID de Xbox, token web, región o país y clasificación por edad), titularidad de los productos e información de juego (como datos de registro de compra, titularidad o uso del juego) e información social (como lista de amigos, mensajes e información de cuenta, función o privilegio de los amigos necesaria para otros modos de juego). Esta información se guardará durante el período del servicio de juego. Puedes denegar el consentimiento, pero el rechazo limitará tu capacidad para jugar al juego."
+    },
+    "esMX": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "Al marcar esta casilla, acepta proporcionar toda la información necesaria para acceder a los servicios de juego de estudios de Xbox a Microsoft Corporation (ubicación: Estados Unidos, contacto: <a href=\"https://www.microsoft.com/es-mx/privacy/privacy-support-requests\">centro de servicio al cliente</a>) mediante una transferencia en línea en el momento de la compra y del uso. La información requerida para la prestación de servicios de juego incluye información de la cuenta (información de identidad, como el ID de Battle.net, el BattleTag, el ID de XBOX, el token web, la región/país y la clasificación por edad), información de derechos de producto y de juego (como los datos de registro de compra/derechos/uso del juego) e información social (como la lista de amigos, los mensajes y la información de cuenta/rol/privilegios de amigos necesaria para los distintos modos de juego). Esta información se almacenará durante todo el período de servicio del juego. Puede negarse a dar su consentimiento, pero su negativa limitará su facultad para jugar."
+    },
+    "frFR": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "En cochant cette case, vous consentez à communiquer à Microsoft Corporation toutes les informations nécessaires aux services offerts par le studio Xbox (lieu : États-Unis, contact : <a href=\"https://www.microsoft.com/fr-fr/privacy/privacy-support-requests\">centre clientèle</a>) par transfert en ligne au moment de l’achat et de l’utilisation. Les informations requises pour la fourniture de services comprennent les informations de compte (informations d’identité telles que l’ID Battle.net, le BattleTag, l’ID Xbox, le jeton web, la région/le pays et la classe d’âge), les informations relatives aux droits sur le produit et à la jouabilité (telles que les données relatives à l’achat/aux droits/à l’utilisation du jeu) et les informations sociales (telles que la liste de contacts, les messages et les informations relatives aux comptes/rôles/privilèges des contacts nécessaires pour les différents modes de jeu). Ces informations seront conservées pendant toute la durée de la période de service. Vous pouvez refuser de donner votre consentement, mais ce refus limitera votre capacité à jouer au jeu."
+    },
+    "itIT": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "Spuntando questa casella, l'utente accetta di fornire tutte le informazioni necessarie per la fornitura dei servizi di gioco di Xbox Studios a Microsoft Corporation (sede: Stati Uniti; contatti: <a href=\"https://www.microsoft.com/it-it/privacy/privacy-support-requests\">centro assistenza clienti</a>) tramite trasferimento online al momento dell'acquisto e dell'utilizzo. Le informazioni richieste per la fornitura dei servizi di gioco includono le informazioni sull'account (informazioni sull'identità come l'ID Battle.net, il BattleTag, l'ID Xbox, il token web, la regione o il Paese e la fascia d'età), le informazioni su autorizzazioni relative al prodotto e sull'esperienza di gioco (come i dati relativi all'acquisto, alle autorizzazioni o all'utilizzo del gioco) e le informazioni sociali (come l'elenco amici, i messaggi e le informazioni sull'account, sul ruolo o sui privilegi degli amici necessarie per le diverse modalità di gioco). Queste informazioni saranno conservate per tutta la durata del servizio di gioco. L'utente può negare il consenso, ma ciò comporterà delle limitazioni nell'utilizzo del gioco."
+    },
+    "jaJP": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "このチェックボックスにチェックを入れることにより、あなたはXboxスタジオのゲームに関するサービスを利用するのに必要なすべての情報を、ゲームの購入時および利用時にインターネットを経由してMicrosoft Corporation（所在地: アメリカ合衆国、連絡先: <a href=\"https://www.microsoft.com/ja-jp/privacy/privacy-support-requests\">カスタマーセンター</a>）に提供することに同意したとみなされます。ゲームに関するサービスを利用するのに必要な情報には、アカウント情報（Battle.netのID、BattleTag、Xbox ID、ウェブトークン、お住まいの地域/国、年齢等）、製品に対する権利やゲームプレイに関する情報（ゲームの購入/権利/利用記録のデータ等）、ソーシャル活動に関する情報（フレンド・リスト、メッセージ、ゲームプレイのモードに応じて必要となるフレンドのアカウント/役割/特権に関する情報等）が含まれます。これらの情報はゲームサービスの継続中ずっと保持されます。同意せずにおくことも可能ですが、その場合ゲームのプレイに制限がかかることになります。"
+    },
+    "koKR": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "이 체크박스에 표시함으로써, Xbox 스튜디오 게임 서비스 제공을 위해 필요한 정보 일체를 온라인 전송의 방법으로 구매 및 이용 시에 Microsoft Corporation(미국 소재, 문의처: <a href=\"https://www.microsoft.com/ko-kr/privacy/privacy-support-requests\">고객센터</a>)에게 제공하는 것에 동의합니다. 게임서비스 제공에 필요한 정보는 계정 정보(배틀넷 ID, 배틀태그, Xbox ID, 웹토큰, 지역/국가, 연령 등급과 같은 식별정보), 게임 구매/사용권한/이용 내역 데이터와 같은 제품에 대한 권한 및 게임 플레이 정보, 소셜정보(친구목록, 메시지, 친구의 계정/역할/권한 정보와 같이 다양한 게임모드를 위해 필요한 정보)를 포함합니다. 해당 정보들은 게임 서비스 기간 동안 보유됩니다. 동의를 거부할 수 있으나 이 경우 게임 플레이가 제한됩니다."
+    },
+    "plPL": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "Zaznaczając to okienko, wyrażasz zgodę na udostępnienie Microsoft Corporation wszelkich informacji koniecznych do świadczenia usług związanych z grami studia Xbox (miejsce: Stany Zjednoczone, kontakt: <a href=\"https://www.microsoft.com/pl-pl/privacy/privacy-support-requests\">centrum obsługi klienta</a>) przez przelew internetowy w momencie zakupu i używania. Informacje wymagane do świadczenia usług związanych z grami obejmują informacje o koncie (dane identyfikujące takie jak identyfikator Battle.net, BattleTag, identyfikator Xbox, token sieciowy, region/kraj i klasyfikacja wiekowa), uprawnienia do korzystania z produktu, informacje o rozgrywce (takie jak dane zakupu gry/uprawnień/użytku) i informacje społecznościowe (takie jak lista znajomych, wiadomości oraz informacje o kontach/roli/przywilejach potrzebne do różnych trybów rozgrywki). Informacje będą przechowywane przez okres trwania usługi związanej z grą. Możesz odmówić zgody, ale odmowa ograniczy twoje możliwości grania w grę."
+    },
+    "ptBR": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "Ao marcar esta caixa, você concorda em fornecer todas as informações necessárias para a prestação de serviços de jogo do Xbox Studio à Microsoft Corporation (localização: Estados Unidos; contato: <a href=\"https://www.microsoft.com/pt-br/privacy/privacy-support-requests\">Central de Atendimento ao Cliente</a>) por meio de transferência online no momento da compra e uso. As informações necessárias para a prestação de serviços de jogo incluem informações da conta (informações de identidade, como ID do Battle.net, BattleTag, ID do Xbox, token web, região/país e classificação etária), direito ao produto e informações de jogabilidade (como dados de compra/direito/uso do jogo) e informações sociais (como lista de amigos, mensagens e informações sobre contas/funções/privilégios de amigos necessárias para os diferentes modos de jogo). Esta informação será retida durante todo o período de serviço do jogo. Você pode recusar o consentimento, mas isso limitará sua capacidade de jogar o jogo."
+    },
+    "ruRU": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "Отмечая этот пункт, вы соглашаетесь предоставить всю необходимую информацию для использования игровых сервисов Xbox Studio корпорации Microsoft (местонахождение: Соединенные Штаты Америки, контактное лицо: <a href=\"https://www.microsoft.com/ru-ru/privacy/privacy-support-requests\">служба поддержки компании Microsoft</a>) посредством передачи данных онлайн в момент покупки и во время использования этих сервисов. К необходимой для использования игровых сервисов информации относятся сведения об учетной записи (включая такие средства идентификации, как идентификатор Battle.net, BattleTag, идентификатор Xbox, веб-токен, а также сведения о стране и регионе проживания и возрасте), сведения о правах на продукт, игровые сведения (включая данные об игровых покупках и сведения об использовании игрового сервиса) и социальная информация (включая информацию о списке друзей, игровых сообщениях и учетных записях/ролях/привилегиях в различных режимах игры). Эта информация будет храниться в течение всего срока использования игровых сервисов. Вы можете не давать согласие, но отказ ограничит вашу возможность играть в игру."
+    },
+    "thTH": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "การทำเครื่องหมายในช่องนี้หมายความว่าคุณตกลงที่จะให้ข้อมูลที่จำเป็นทั้งหมดสำหรับการให้บริการเกมของ Xbox Studio แก่บริษัท Microsoft Corporation (ที่ตั้ง: สหรัฐอเมริกา ติดต่อ: <a href=\"https://www.microsoft.com/th-th/privacy/privacy-support-requests\">ศูนย์บริการลูกค้า</a>) ผ่านการโอนข้อมูลออนไลน์ในขณะทำการซื้อและใช้งานบริการ ข้อมูลที่จำเป็นสำหรับการให้บริการเกมรวมถึงข้อมูลบัญชี (ข้อมูลประจำตัว เช่น Battle.net ID, BattleTag, Xbox ID, เว็บโทเค็น, ภูมิภาค/ประเทศ และการจัดประเภทอายุ) สิทธิ์ในการใช้งานผลิตภัณฑ์และข้อมูลการเล่นเกม (เช่น ข้อมูลประวัติการซื้อ/สิทธิ์ในการใช้งาน/การใช้งาน) และข้อมูลโซเชียล (เช่น รายชื่อเพื่อน ข้อความ และข้อมูลบัญชี/บทบาท/สิทธิ์ของเพื่อนที่จำเป็นสำหรับโหมดเกมต่างๆ) ข้อมูลนี้จะถูกเก็บรักษาไว้ตลอดระยะเวลาการให้บริการเกม คุณสามารถปฏิเสธที่จะยินยอมได้ แต่การปฏิเสธจะทำให้คุณไม่สามารถเล่นเกมได้"
+    },
+    "zhCN": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "勾选此选择框，即代表您同意为了向您提供Xbox studio游戏服务，在您购买和使用Xbox studio游戏服务时，通过在线传输方式向Microsoft Corporation（地点：美国，联系人：<a href=\"https://www.microsoft.com/zh-cn/privacy/privacy-support-requests\">客服中心</a>）提供所有必要的信息。提供游戏服务所需要的信息包括账号信息（身份信息如战网ID、战网昵称、Xbox ID、网络令牌、地区/国家以及年龄段），产品权益及游戏游玩信息（例如游戏购买/权益/使用记录数据），以及社交媒体信息（例如好友列表、消息以及不同游戏模式需要的好友账号/角色/权限）。我们会在您使用游戏服务期间保存此类信息。您可以拒绝提供，但这样会对您游玩游戏带来限制。"
+    },
+    "zhTW": {
+      "aqua#AQUA_KR_DATA_SHARING_CONSENT": "勾選此核取方塊後，即代表你同意在購買及使用 Xbox Game Studios 遊戲服務時，向 Microsoft Corporation（地點：美國，聯絡人：<a href=\"https://www.microsoft.com/zh-tw/privacy/privacy-support-requests\">顧客中心</a>）線上傳輸所有遊戲服務所需的資訊。遊戲服務所需的資訊包括帳號資訊（例如 Battle.net ID、BattleTag、Xbox ID、網路權杖、地區/國家，以及年齡層等身分識別資訊），產品權利及遊戲資訊（例如遊戲購物/權利/使用紀錄資料），以及社交資訊（例如好友名單、訊息，以及不同遊戲模式所需的好友帳號/角色/權限資訊）。我們會在你使用遊戲服務的期間保存這些資訊。你可以拒絕提供資訊，但這樣會限制遊戲功能。"
+    }
+  },
+  "version": 30
+}

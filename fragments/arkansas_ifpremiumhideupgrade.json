@@ -1,0 +1,5 @@
+{
+  "fragment_id": "arkansas_ifpremiumhideupgrade",
+  "products": [{"base": {"quick_links": [{"hidden": true, "id": "upgrade"}]}, "id": "ARK"}],
+  "version": 30
+}

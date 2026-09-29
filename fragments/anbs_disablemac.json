@@ -1,0 +1,5 @@
+{
+  "fragment_id": "anbs_disablemac",
+  "products": [{"base": {"starter_items": [{"hidden": true, "id": "play_on_pc", "type": "button"}]}, "id": "ANBS"}],
+  "version": 30
+}

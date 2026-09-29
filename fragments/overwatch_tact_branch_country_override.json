@@ -1,0 +1,58 @@
+{
+  "files": {},
+  "fragment_id": "overwatch_tact_branch_country_override",
+  "installs": {
+    "prometheus": {"tact_branch": "nexon", "tact_product": "pro"},
+    "prometheus_dev_14": {"tact_branch": "nexon", "tact_product": "prodev14"}
+  },
+  "products": [
+    {
+      "base": {
+        "quick_links": [
+          {"hidden": true, "id": "shop"},
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://overwatch.nexon.com/"},
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 310
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/overwatch"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_BLIZZARD_SUPPORT",
+            "rank": 304
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://overwatch.nexon.com/support/faq"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "nexon_support",
+            "label": "overwatch_tact_branch_country_override#OVERWATCH_QUICK_LINK_NEXON_SUPPORT",
+            "rank": 301
+          }
+        ],
+        "types": {
+          "ow_dev_14": {"breaking_news_url": "nydus://client/overwatch-nexon/alert"},
+          "retail": {"breaking_news_url": "nydus://client/overwatch-nexon/alert"}
+        }
+      },
+      "id": "Pro"
+    }
+  ],
+  "strings": {
+    "default": {"overwatch_tact_branch_country_override#OVERWATCH_QUICK_LINK_NEXON_SUPPORT": "Nexon Support"},
+    "koKR": {"overwatch_tact_branch_country_override#OVERWATCH_QUICK_LINK_NEXON_SUPPORT": "넥슨 고객지원"}
+  },
+  "version": 30
+}

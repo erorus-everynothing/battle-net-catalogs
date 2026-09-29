@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "starcraft_remastered_legacyplaypanel#S1_BACKGROUND_OLD_PANEL": {
+        "hash": "9d1e0453d531b290aaf2db9540ac5f6d",
+        "name": "resources/starcraft1/background_starcraft1_v2.png"
+      }
+    }
+  },
+  "fragment_id": "starcraft_remastered_legacyplaypanel",
+  "products": [{"base": {"background": "starcraft_remastered_legacyplaypanel#S1_BACKGROUND_OLD_PANEL"}, "id": "S1"}],
+  "version": 30
+}

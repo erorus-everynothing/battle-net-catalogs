@@ -1,0 +1,23 @@
+{
+  "files": {
+    "default": {
+      "diablo_iii_legacyplaypanel#D3_BACKGROUND_OLD_PANEL": {
+        "hash": "ede3764ce5a03493cb3cc7921b13d5ec",
+        "name": "resources/diablo3/background_diablo3_v2.png"
+      },
+      "diablo_iii_legacyplaypanel#D3_BACKGROUND_ROS_OLD_PANEL": {
+        "hash": "22ee24eaaad38c7198676a5a8c0da9e7",
+        "name": "resources/diablo3/background_diablo3_ros_v2.png"
+      }
+    }
+  },
+  "fragment_id": "diablo_iii_legacyplaypanel",
+  "products": [
+    {
+      "base": {"background": "diablo_iii_legacyplaypanel#D3_BACKGROUND_OLD_PANEL"},
+      "id": "D3",
+      "variants": {"D3X1": {"background": "diablo_iii_legacyplaypanel#D3_BACKGROUND_ROS_OLD_PANEL"}}
+    }
+  ],
+  "version": 30
+}

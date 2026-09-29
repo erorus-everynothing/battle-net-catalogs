@@ -1,0 +1,212 @@
+{
+  "files": {
+    "default": {
+      "warcraft_i#W1_BACKGROUND": {
+        "hash": "45f94dda99f2ef196dfc3726e311a7b8",
+        "name": "resources/warcraft1/background_warcraft1_new_panel.webp"
+      },
+      "warcraft_i#W1_ICON_MASSIVE": {
+        "hash": "210a5b19277aeb73f10d175f9d81ab1a",
+        "name": "resources/warcraft1/icon_game_warcraft1_massive.png"
+      },
+      "warcraft_i#W1_ICON_MEDIUM": {
+        "hash": "c3cd103093121a355c6d4d524b17102c",
+        "name": "resources/warcraft1/icon_game_warcraft1_medium.png"
+      },
+      "warcraft_i#W1_ICON_SMALL": {
+        "hash": "0e0dc1dc24037ce2ef7fcd4f0d0748f8",
+        "name": "resources/warcraft1/icon_game_warcraft1_small.png"
+      },
+      "warcraft_i#W1_ICON_SVG": {
+        "hash": "edd07cb36ac100b196584bf1dce1ff43",
+        "name": "resources/warcraft1/icon_warcraft1.svg"
+      },
+      "warcraft_i#W1_ICON_TINY": {
+        "hash": "c8f559a77ebbd1ad0986d354e0dd7928",
+        "name": "resources/warcraft1/icon_game_warcraft1_tiny.png"
+      },
+      "warcraft_i#W1_INSTALL_BACKGROUND": {
+        "hash": "e0f3acfc7cb276c1612c687cc0ee42a0",
+        "name": "resources/warcraft1/install_background_warcraft1_enUS.jpg"
+      },
+      "warcraft_i#W1_KEY_ART": {
+        "hash": "99c9de131c978377d56ac8b094a87e1e",
+        "name": "resources/warcraft1/key_art_warcraft1_enUS.jpg"
+      },
+      "warcraft_i#W1_LOGO": {
+        "hash": "722bda9ba391e97a9f59c55760f54673",
+        "name": "resources/warcraft1/logo_warcraft1_enUS.png"
+      }
+    }
+  },
+  "fragment_id": "warcraft_i",
+  "installs": {
+    "w1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "war1"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "warcraft_i#W1_NAME",
+      "icon_16": "warcraft_i#W1_ICON_TINY",
+      "icon_275": "warcraft_i#W1_ICON_MASSIVE",
+      "icon_32": "warcraft_i#W1_ICON_SMALL",
+      "icon_56": "warcraft_i#W1_ICON_MEDIUM",
+      "icon_svg": "warcraft_i#W1_ICON_SVG",
+      "program_id": "W1"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/warcraft-orcs-and-humans",
+        "background": "warcraft_i#W1_BACKGROUND",
+        "badges": [
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/warcraftstrategy-war1/alert",
+        "content_id": "warcraft",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_REAL_TIME_STRATEGY",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "warcraft_i#W1_ICON_MEDIUM",
+        "icon_small": "warcraft_i#W1_ICON_SMALL",
+        "icon_svg": "warcraft_i#W1_ICON_SVG",
+        "icon_tiny": "warcraft_i#W1_ICON_TINY",
+        "install_background": "warcraft_i#W1_INSTALL_BACKGROUND",
+        "install_requires_login": true,
+        "key_art": "warcraft_i#W1_KEY_ART",
+        "locale_support_flag": "primary_locale",
+        "logo": "warcraft_i#W1_LOGO",
+        "name": "warcraft_i#W1_NAME",
+        "program_id": "W1",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/warcraft-rts"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://us.forums.blizzard.com/en/blizzard/c/warcraft-ii/31?utm_source=app-battlenetdesktop&utm_medium=internal"
+            },
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 302
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/legacy"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 303
+          },
+          {
+            "action": {
+              "target": "shop",
+              "type": "url",
+              "url": "nydus://client/shop/product/warcraft-remastered-battle-chest"
+            },
+            "color": "#6cdb00",
+            "icon": "default#QUICK_LINK_ICON_UPGRADE",
+            "id": "upgrade",
+            "label": "default#QUICK_LINK_UPGRADE_BATTLE_CHEST",
+            "rank": 100
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {
+              "BLR": "disabled_invisible",
+              "KOR": "disabled_invisible",
+              "RUS": "disabled_invisible",
+              "override_type": "country"
+            }
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {"product_id": "W1R", "type": "select_product"},
+            "id": "looking_for",
+            "label": "warcraft_i#W1_LOOKING_FOR_W1R",
+            "rank": 1,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "supported_platforms": ["win"],
+        "supports_starter_mode": true,
+        "tab_order": 33,
+        "title_id": 1463898673,
+        "types": {"retail": {"auto_favorite_on_grant": true, "supported_regions": ["GLOBAL"], "uid": "W1"}},
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "W1"
+    }
+  ],
+  "program_configuration": {
+    "W1": {
+      "run_each_rule": [
+        {"actions": [{"add_product": {"product_id": {"id": "W1", "type": "retail"}}}], "match": {"license_id": 931927}}
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {"warcraft_i#W1_LOOKING_FOR_W1R": "Suchst du nach Warcraft I: Remastered?"},
+    "default": {
+      "warcraft_i#W1_LOOKING_FOR_W1R": "Looking for Warcraft I: Remastered?",
+      "warcraft_i#W1_NAME": "Warcraft: Orcs & Humans"
+    },
+    "esES": {"warcraft_i#W1_LOOKING_FOR_W1R": "¿Buscas Warcraft I: Remastered?"},
+    "esMX": {"warcraft_i#W1_LOOKING_FOR_W1R": "¿Buscas Warcraft I: Remastered?"},
+    "frFR": {"warcraft_i#W1_LOOKING_FOR_W1R": "À la recherche de Warcraft I: Remastered ?"},
+    "itIT": {"warcraft_i#W1_LOOKING_FOR_W1R": "Cerchi Warcraft I: Remastered?"},
+    "jaJP": {"warcraft_i#W1_LOOKING_FOR_W1R": "「ウォークラフト I: リマスタード」をお探しですか？"},
+    "koKR": {"warcraft_i#W1_LOOKING_FOR_W1R": "워크래프트 I: 리마스터를 찾고 계신가요?"},
+    "plPL": {"warcraft_i#W1_LOOKING_FOR_W1R": "Szukasz Warcraft I: Remastered?"},
+    "ptBR": {"warcraft_i#W1_LOOKING_FOR_W1R": "Procurando Warcraft I: Remastered?"},
+    "ruRU": {"warcraft_i#W1_LOOKING_FOR_W1R": "Ищете Warcraft I: Remastered?"},
+    "thTH": {"warcraft_i#W1_LOOKING_FOR_W1R": "มองหา Warcraft I: Remastered อยู่ใช่ไหม"},
+    "zhCN": {"warcraft_i#W1_LOOKING_FOR_W1R": "在找《魔兽争霸 I：重制版》吗？"},
+    "zhTW": {"warcraft_i#W1_LOOKING_FOR_W1R": "你在找《魔獸爭霸 I：重製版》嗎？"}
+  },
+  "version": 30
+}

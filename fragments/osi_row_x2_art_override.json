@@ -1,0 +1,37 @@
+{
+  "files": {
+    "default": {
+      "osi_row_x2_art_override#OSI_X2_LOGO": {
+        "hash": "a1a8b644da5e6e7c5bc3a1503d52f3cf",
+        "name": "resources/osi/phx_game_tab_logo_garden_enus.png"
+      }
+    },
+    "jaJP": {
+      "osi_row_x2_art_override#OSI_X2_LOGO": {
+        "hash": "b61e3b87b21ae2ed1c970fd33f70f2cd",
+        "name": "resources/osi/phx_game_tab_logo_garden_jajp.png"
+      }
+    },
+    "koKR": {
+      "osi_row_x2_art_override#OSI_X2_LOGO": {
+        "hash": "26cb34161c17407c0ba05e0c50349510",
+        "name": "resources/osi/phx_game_tab_logo_garden_kokr.png"
+      }
+    },
+    "zhCN": {
+      "osi_row_x2_art_override#OSI_X2_LOGO": {
+        "hash": "545bc4a33f6fc036c37e35ea436ab53b",
+        "name": "resources/osi/phx_game_tab_logo_garden_zhcn.png"
+      }
+    },
+    "zhTW": {
+      "osi_row_x2_art_override#OSI_X2_LOGO": {
+        "hash": "f456e9103024a8c84b3f0aa4eae13b23",
+        "name": "resources/osi/phx_game_tab_logo_garden_zhtw.png"
+      }
+    }
+  },
+  "fragment_id": "osi_row_x2_art_override",
+  "products": [{"base": {"logo": "osi_row_x2_art_override#OSI_X2_LOGO"}, "id": "OSI"}],
+  "version": 30
+}

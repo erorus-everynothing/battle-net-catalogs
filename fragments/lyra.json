@@ -1,0 +1,316 @@
+{
+  "files": {
+    "default": {
+      "lyra#LYRA_BACKGROUND": {
+        "hash": "129b820545348c9fe265ae2ca13051ec",
+        "name": "resources/lyra/phx_game_tab_app_background_w3re.png"
+      },
+      "lyra#LYRA_ICON_MASSIVE": {
+        "hash": "b159d54ae7ade171d2297b93c3af99a4",
+        "name": "resources/lyra/presence-icon-lyra-512.png"
+      },
+      "lyra#LYRA_ICON_MEDIUM": {
+        "hash": "09d23c942088e50139b81f8e55ed299d",
+        "name": "resources/lyra/presence-icon-lyra-256.png"
+      },
+      "lyra#LYRA_ICON_SMALL": {
+        "hash": "da32fc8cb38c861b2f209ccdf36299af",
+        "name": "resources/lyra/presence-icon-lyra-64.png"
+      },
+      "lyra#LYRA_ICON_SVG": {"hash": "af7655b7a8790954e9200fd341071357", "name": "resources/lyra/game_icon_w3re.svg"},
+      "lyra#LYRA_ICON_TINY": {
+        "hash": "5b013a56158b43e309eb2defa7a1bd55",
+        "name": "resources/lyra/presence-icon-lyra-32.png"
+      },
+      "lyra#LYRA_INSTALL_BACKGROUND": {
+        "hash": "0255d5c11944f24af929a7d99c476dca",
+        "name": "resources/lyra/install_background_w3re.jpg"
+      },
+      "lyra#LYRA_KEY_ART": {
+        "hash": "6945eebfe4a9db9dfb19a70bae250af2",
+        "name": "resources/lyra/phx_game_card_w3re.jpg"
+      },
+      "lyra#LYRA_LOGO": {
+        "hash": "839ac50db9a2ace369dee634baff595a",
+        "name": "resources/lyra/phx_game_tab_logo_w3re.png"
+      }
+    },
+    "plPL": {
+      "lyra#LYRA_INSTALL_BACKGROUND": {
+        "hash": "5f4f5761066364861c552bb2d4be67c7",
+        "name": "resources/lyra/install_background_w3re_plpl.jpg"
+      },
+      "lyra#LYRA_KEY_ART": {
+        "hash": "87c1ae09220823c2799a565615b6af55",
+        "name": "resources/lyra/phx_game_card_w3re_plpl.jpg"
+      },
+      "lyra#LYRA_LOGO": {
+        "hash": "94acfdffc65befa239eae4c1d6eaed83",
+        "name": "resources/lyra/phx_game_tab_logo_w3re_plpl.png"
+      }
+    },
+    "ruRU": {
+      "lyra#LYRA_INSTALL_BACKGROUND": {
+        "hash": "06de7e2eafe9cc13ee6de2e77400e406",
+        "name": "resources/lyra/install_background_w3re_ruru.jpg"
+      },
+      "lyra#LYRA_KEY_ART": {
+        "hash": "8b66d1264de797f6d9d7235a2e7f8ced",
+        "name": "resources/lyra/phx_game_card_w3re_ruru.jpg"
+      },
+      "lyra#LYRA_LOGO": {
+        "hash": "c5097e6e56d2e348f8ff9709b8aab465",
+        "name": "resources/lyra/phx_game_tab_logo_w3re_ruru.png"
+      }
+    },
+    "zhTW": {
+      "lyra#LYRA_INSTALL_BACKGROUND": {
+        "hash": "2617d7bab15e0f0895a602097f5bde1e",
+        "name": "resources/lyra/install_background_w3re_zhtw.jpg"
+      },
+      "lyra#LYRA_KEY_ART": {
+        "hash": "41acc5792c409766abe9207edabb4008",
+        "name": "resources/lyra/phx_game_card_w3re_zhtw.jpg"
+      },
+      "lyra#LYRA_LOGO": {
+        "hash": "d311c2ebe73c0b9df8dbe2e088eb27fc",
+        "name": "resources/lyra/phx_game_tab_logo_w3re_zhtw.png"
+      }
+    }
+  },
+  "fragment_id": "lyra",
+  "installs": {
+    "lyra": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "requires_sso_token": true,
+      "sso_launch_argument": "-launcherlogin",
+      "tact_product": "lyra"
+    },
+    "lyra_retail_dev_1": {
+      "requires_sso_token": false,
+      "sso_launch_argument": "-launcherlogin",
+      "tact_product": "lyra-retail-dev-1"
+    },
+    "lyra_retail_rc": {
+      "requires_sso_token": true,
+      "sso_launch_argument": "-launcherlogin",
+      "tact_product": "lyra-retail-rc"
+    },
+    "lyra_vendor_dev_1": {
+      "requires_sso_token": false,
+      "sso_launch_argument": "-launcherlogin",
+      "tact_product": "lyra-vendor-dev-1"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "lyra#LYRA_NAME",
+      "icon_16": "lyra#LYRA_ICON_TINY",
+      "icon_275": "lyra#LYRA_ICON_MASSIVE",
+      "icon_32": "lyra#LYRA_ICON_SMALL",
+      "icon_56": "lyra#LYRA_ICON_MEDIUM",
+      "icon_svg": "lyra#LYRA_ICON_SVG",
+      "program_id": "URSA"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/the-witcher-3-wild-hunt-remastered",
+        "background": "lyra#LYRA_BACKGROUND",
+        "breaking_news_url": "nydus://client/witcher3/alert",
+        "content_id": "the-witcher-3-wild-hunt-remastered",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_ACTION_RPG",
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "lyra#LYRA_ICON_MEDIUM",
+        "icon_small": "lyra#LYRA_ICON_SMALL",
+        "icon_svg": "lyra#LYRA_ICON_SVG",
+        "icon_tiny": "lyra#LYRA_ICON_TINY",
+        "install_background": "lyra#LYRA_INSTALL_BACKGROUND",
+        "key_art": "lyra#LYRA_KEY_ART",
+        "locale_support_flag": "text_audio",
+        "logo": "lyra#LYRA_LOGO",
+        "milestone": {"state": "new"},
+        "name": "lyra#LYRA_NAME",
+        "post_launch_actions": ["game_session_monitor"],
+        "program_id": "URSA",
+        "quick_links": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/witcher-3/pc"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 300
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://forums.cdprojektred.com/index.php?forums/the-witcher-3.10772581/"
+            },
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://www.thewitcher.com/us/en/witcher3"
+            },
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 302
+          }
+        ],
+        "region_permission_flags": {
+          "default": "requires_account_visible",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {
+              "BLR": "disabled_invisible",
+              "CHN": "disabled_invisible",
+              "RUS": "disabled_invisible",
+              "override_type": "country"
+            }
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://www.thewitcher.com/us/en/witcher3"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 1,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": false,
+        "supported_platforms": ["win"],
+        "supported_regions": ["GLOBAL"],
+        "supports_language_selection": true,
+        "supports_starter_mode": true,
+        "tab_order": 3,
+        "title_id": 1431458625,
+        "types": {
+          "dev_1": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "default#TYPES_RETAIL_DEV_1_NAME",
+            "supported_regions": ["GLOBAL", "XX"],
+            "supports_starter_mode": false,
+            "type_name": "default#TYPES_RETAIL_DEV_1_NAME",
+            "uid": "lyra_retail_dev_1"
+          },
+          "rc": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "default#TYPES_RC_NAME",
+            "supported_regions": ["GLOBAL", "XX"],
+            "supports_starter_mode": false,
+            "type_name": "default#TYPES_RETAIL_RC_NAME",
+            "uid": "lyra_retail_rc"
+          },
+          "retail": {"auto_favorite_on_grant": true, "supports_starter_mode": true, "uid": "lyra"},
+          "vendor_1": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "default#TYPES_VENDOR_1_NAME",
+            "supported_regions": ["GLOBAL", "XX"],
+            "supports_starter_mode": false,
+            "type_name": "default#TYPES_VENDOR_1_NAME",
+            "uid": "lyra_vendor_dev_1"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "LYRA"
+    }
+  ],
+  "program_configuration": {
+    "LYRA": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "LYRA", "type": "retail"}}}],
+          "match": {"license_id": 1208577}
+        },
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "LYRA", "type": "vendor_1"}}}],
+          "match": {"license_id": 1208757}
+        },
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "LYRA", "type": "dev_1"}}}],
+          "match": {"license_id": 1208777}
+        },
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "LYRA", "type": "rc"}}}],
+          "match": {"license_id": 1208778}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {"lyra#LYRA_NAME": "The Witcher 3: Wild Hunt – Remastered"},
+    "default": {"lyra#LYRA_NAME": "The Witcher 3: Wild Hunt – Remastered"},
+    "esES": {"lyra#LYRA_NAME": "The Witcher 3: Wild Hunt – Remastered"},
+    "esMX": {"lyra#LYRA_NAME": "The Witcher 3: Wild Hunt – Remastered"},
+    "frFR": {"lyra#LYRA_NAME": "The Witcher 3: Wild Hunt – Remastered"},
+    "itIT": {"lyra#LYRA_NAME": "The Witcher 3: Wild Hunt – Remastered"},
+    "jaJP": {"lyra#LYRA_NAME": "ウィッチャー３ ワイルドハント リマスタ"},
+    "koKR": {"lyra#LYRA_NAME": "The Witcher 3: Wild Hunt – Remastered"},
+    "plPL": {"lyra#LYRA_NAME": "Wiedźmin 3: Dziki Gon – Remaster"},
+    "ptBR": {"lyra#LYRA_NAME": "The Witcher 3: Wild Hunt –Remastered"},
+    "ruRU": {"lyra#LYRA_NAME": "Ведьмак 3: Дикая Охота — Обновлённое издание"},
+    "zhCN": {"lyra#LYRA_NAME": "巫师3：狂猎 —— 重制版"},
+    "zhTW": {"lyra#LYRA_NAME": "巫師3：狂獵 — 重置版"}
+  },
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_vendor",
+        "id": "vendor_1",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 1,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_VENDOR_1_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "dev_1",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 1,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_RETAIL_DEV_1_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "rc",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 4,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_RETAIL_RC_NAME"
+        }
+      }
+    ]
+  },
+  "version": 30
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "scorpio_legacyplaypanel#SCOR_BACKGROUND_OLD_PANEL": {
+        "hash": "1f1c578c6fffef4f809bb7288f987b81",
+        "name": "resources/scor/background_scorpio.png"
+      }
+    }
+  },
+  "fragment_id": "scorpio_legacyplaypanel",
+  "products": [{"base": {"background": "scorpio_legacyplaypanel#SCOR_BACKGROUND_OLD_PANEL"}, "id": "SCOR"}],
+  "version": 30
+}

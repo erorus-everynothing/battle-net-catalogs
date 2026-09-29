@@ -1,0 +1,372 @@
+{
+  "files": {
+    "default": {
+      "scorpio#SCOR_BACKGROUND": {
+        "hash": "2e5fa20c29aa0a04b2600fe47ba0e98e",
+        "name": "resources/scor/background_scorpio_new_panel.webp"
+      },
+      "scorpio#SCOR_ICON_MASSIVE": {
+        "hash": "026d641c80b8e156f24580823c7a6302",
+        "name": "resources/scor/icon_game_scorpio_massive.png"
+      },
+      "scorpio#SCOR_ICON_MEDIUM": {
+        "hash": "ca5941fc78abcad3db253ad7703cc59a",
+        "name": "resources/scor/icon_game_scorpio_medium.png"
+      },
+      "scorpio#SCOR_ICON_SMALL": {
+        "hash": "d62008cb638995169d51963af0030cc7",
+        "name": "resources/scor/icon_game_scorpio_small.png"
+      },
+      "scorpio#SCOR_ICON_SVG": {"hash": "df675697ce09dcdebb38c26689787e53", "name": "resources/scor/icon_scorpio.svg"},
+      "scorpio#SCOR_INSIDER_LOGO": {
+        "hash": "5affe2614c7fb9feb0cba9d8cb6366a6",
+        "name": "resources/scor/logo_insider_scorpio.png"
+      },
+      "scorpio#SCOR_INSTALL_BACKGROUND": {
+        "hash": "9c6537fb5bf7cbaa98c90034ffea4003",
+        "name": "resources/scor/install_background_scorpio.jpg"
+      },
+      "scorpio#SCOR_KEY_ART": {
+        "hash": "4fbd12d39a82d9ce3e7aedea2004c031",
+        "name": "resources/scor/key_art_scorpio.jpg"
+      },
+      "scorpio#SCOR_LOGO": {"hash": "81a13cea5dd27e946d897e3ed0a6d456", "name": "resources/scor/logo_scorpio.png"}
+    }
+  },
+  "fragment_id": "scorpio",
+  "installs": {
+    "scor": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "scor"
+    },
+    "scor_beta": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "scor-beta"
+    },
+    "scor_beta_dev_1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "scor-beta-dev-1"
+    },
+    "scor_beta_rc": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "scor-beta-rc"
+    },
+    "scor_retail_dev_1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "scor-retail-dev-1"
+    },
+    "scor_retail_rc": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "scor-retail-rc"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "scorpio#SCOR_NAME",
+      "icon_16": "scorpio#SCOR_ICON_SMALL",
+      "icon_275": "scorpio#SCOR_ICON_MASSIVE",
+      "icon_32": "scorpio#SCOR_ICON_SMALL",
+      "icon_56": "scorpio#SCOR_ICON_MEDIUM",
+      "icon_svg": "scorpio#SCOR_ICON_SVG",
+      "program_id": "SCOR"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/sea-of-thieves",
+        "background": "scorpio#SCOR_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "hidden": false,
+            "id": "hh_optimized",
+            "image": "default#LOGO_HH_OPTIMIZED",
+            "label": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/seaofthieves/alert",
+        "content_id": "sea-of-thieves",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_ACTION_ADVENTURE",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_optimized"],
+        "icon_medium": "scorpio#SCOR_ICON_MEDIUM",
+        "icon_small": "scorpio#SCOR_ICON_SMALL",
+        "icon_svg": "scorpio#SCOR_ICON_SVG",
+        "install_background": "scorpio#SCOR_INSTALL_BACKGROUND",
+        "key_art": "scorpio#SCOR_KEY_ART",
+        "logo": "scorpio#SCOR_LOGO",
+        "name": "scorpio#SCOR_NAME",
+        "program_id": "SCOR",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/sea-of-thieves"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://www.seaofthieves.com/"},
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 306
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.seaofthieves.com/"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 305
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://www.seaofthieves.com/community/forums/categories"
+            },
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 303
+          }
+        ],
+        "region_permission_flags": {
+          "default": "requires_account_visible",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {"BLR": "disabled_invisible", "RUS": "disabled_invisible", "override_type": "country"}
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://www.seaofthieves.com/"},
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": false,
+        "supported_platforms": ["win"],
+        "supported_regions": ["GLOBAL"],
+        "supports_starter_mode": true,
+        "tab_order": 21,
+        "title_id": 1396920146,
+        "types": {
+          "beta": {
+            "auto_favorite_on_grant": true,
+            "logo": "scorpio#SCOR_INSIDER_LOGO",
+            "name": "scorpio#SCOR_INSIDER_NAME",
+            "name_style": "default",
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://www.seaofthieves.com/insider/news"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "selector_display_name": "scorpio#SCOR_INSIDER_NAME",
+            "supports_starter_mode": false,
+            "uid": "scor_beta"
+          },
+          "beta_dev": {
+            "post_launch_actions": ["overlay"],
+            "selector_display_name": "default#TYPES_BETA_DEV_1_NAME",
+            "type_name": "default#TYPES_BETA_DEV_1_NAME",
+            "uid": "scor_beta_dev_1"
+          },
+          "beta_rc": {
+            "post_launch_actions": ["overlay"],
+            "selector_display_name": "default#TYPES_BETA_RC_NAME",
+            "type_name": "default#TYPES_BETA_RC_NAME",
+            "uid": "scor_beta_rc"
+          },
+          "dev": {
+            "auto_favorite_on_grant": true,
+            "post_launch_actions": ["overlay"],
+            "selector_display_name": "default#TYPES_RETAIL_DEV_1_NAME",
+            "type_name": "default#TYPES_RETAIL_DEV_1_NAME",
+            "uid": "scor_retail_dev_1"
+          },
+          "rc": {
+            "post_launch_actions": ["overlay"],
+            "selector_display_name": "default#TYPES_RETAIL_RC_NAME",
+            "type_name": "default#TYPES_RETAIL_RC_NAME",
+            "uid": "scor_retail_rc"
+          },
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "badges": [
+              {
+                "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+                "hidden": true,
+                "id": "game_pass",
+                "image": "default#LOGO_XBOX_GAME_PASS",
+                "label": "default#BADGE_TEXT_INCLUDED_WITH",
+                "rank": 1,
+                "tooltip": "scorpio#SCOR_GAME_PASS_DISCLAIMER"
+              }
+            ],
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://www.seaofthieves.com/release-notes"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "uid": "scor"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "SCOR",
+      "variants": {"SCOR_Standard": {"types": {"retail": {"uid": "scor"}}}}
+    }
+  ],
+  "program_configuration": {
+    "SCOR": {
+      "run_each_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "SCOR", "type": "dev"}}},
+            {"add_product": {"product_id": {"id": "SCOR", "type": "rc"}}},
+            {"add_product": {"product_id": {"id": "SCOR", "type": "beta_dev"}}},
+            {"add_product": {"product_id": {"id": "SCOR", "type": "beta_rc"}}}
+          ],
+          "match": {"license_id": [1054906]}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "SCOR", "type": "beta"}}}],
+          "match": {"license_id": [1058526]}
+        }
+      ],
+      "run_first_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "SCOR", "type": "retail"}}}],
+          "match": {"license_id": [1042675]}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "Die Standard Edition ist im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben. Für den Zugriff auf die zusätzlichen Inhalte der Premium und der Deluxe Edition ist ein separater Kauf erforderlich."
+    },
+    "default": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "Standard Edition is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account. Access to Premium and Deluxe Edition items requires a separate purchase.",
+      "scorpio#SCOR_INSIDER_NAME": "Sea of Thieves Insiders",
+      "scorpio#SCOR_NAME": "Sea of Thieves"
+    },
+    "esES": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "La Edición Estándar se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox. El acceso a los artículos de la Edición Prémium y la Edición Deluxe se vende por separado."
+    },
+    "esMX": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "La Edición Estándar se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox. El acceso a los elementos de la Edición Prémium y la Edición Deluxe requiere una compra por separado."
+    },
+    "frFR": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "L’Édition Standard est incluse dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox. Les éléments des Éditions Premium et Deluxe devront être achetés séparément."
+    },
+    "itIT": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "La Standard Edition è inclusa in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox. L'accesso agli oggetti della Premium Edition e Deluxe Edition richiede un acquisto separato."
+    },
+    "jaJP": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、スタンダードエディションをXbox Game Passでお楽しみいただけます。なお、プレミアムとデラックスエディションのアイテムをご利用いただくには、別途購入が必要です。"
+    },
+    "koKR": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "스탠다드 에디션은 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다. 프리미엄 및 디럭스 에디션 아이템을 이용하려면 별도 구매가 필요합니다."
+    },
+    "plPL": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "Standard Edition jest dostępna w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox. Dostęp do przedmiotów ze Standard Edition i Deluxe Edition wymaga osobnego zakupu."
+    },
+    "ptBR": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "A Edição Padrão está inclusa no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox. O acesso aos itens das Edições Premium e Deluxe exige uma compra separada."
+    },
+    "ruRU": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "Стандартное издание доступно активным пользователям Xbox Game Pass с действующей подпиской, связавшим Battle.net с учетной записью сети Xbox. Доступ к Deluxe Edition и предметам премиум-издания приобретается отдельно."
+    },
+    "thTH": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "Standard Edition จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox สิทธิ์รับรายการต่างๆ ใน Premium และ Deluxe Edition ต้องซื้อแยกต่างหาก"
+    },
+    "zhCN": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩标准版。高级版与豪华版物品需另行购买才能解锁。"
+    },
+    "zhTW": {
+      "scorpio#SCOR_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩標準版。若要取得高級版和豪華版物品，則需另外購買。"
+    }
+  },
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_in_development",
+        "id": "beta_dev",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 5,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "beta_rc",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 6,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      }
+    ]
+  },
+  "version": 30
+}

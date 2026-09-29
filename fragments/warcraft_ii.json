@@ -1,0 +1,212 @@
+{
+  "files": {
+    "default": {
+      "warcraft_ii#W2_BACKGROUND": {
+        "hash": "acc495badaa14ea51201327da695cf22",
+        "name": "resources/warcraft2/background_warcraft2_new_panel.webp"
+      },
+      "warcraft_ii#W2_ICON_MASSIVE": {
+        "hash": "5a36c80af16fc503855735d0501c87cd",
+        "name": "resources/warcraft2/icon_game_warcraft2_massive.png"
+      },
+      "warcraft_ii#W2_ICON_MEDIUM": {
+        "hash": "b91e4ec3ac1541b17d12f32cad9a9166",
+        "name": "resources/warcraft2/icon_game_warcraft2_medium.png"
+      },
+      "warcraft_ii#W2_ICON_SMALL": {
+        "hash": "05181289c72d34ecb91de393d03393c4",
+        "name": "resources/warcraft2/icon_game_warcraft2_small.png"
+      },
+      "warcraft_ii#W2_ICON_SVG": {
+        "hash": "5bcc2e605c589753a846070268e852da",
+        "name": "resources/warcraft2/icon_warcraft2.svg"
+      },
+      "warcraft_ii#W2_ICON_TINY": {
+        "hash": "332cb39d2ca1425081a5a605c79a9e49",
+        "name": "resources/warcraft2/icon_game_warcraft2_tiny.png"
+      },
+      "warcraft_ii#W2_INSTALL_BACKGROUND": {
+        "hash": "458e0da92ff3a519d47dbea995eabf21",
+        "name": "resources/warcraft2/install_background_warcraft2_enUS.jpg"
+      },
+      "warcraft_ii#W2_KEY_ART": {
+        "hash": "0bb02353975a9f9c3c3839d8887edfa2",
+        "name": "resources/warcraft2/key_art_warcraft2_enUS.jpg"
+      },
+      "warcraft_ii#W2_LOGO": {
+        "hash": "111ac25e7cfa34eaeb86b97d6992f6f9",
+        "name": "resources/warcraft2/logo_warcraft2_enUS.png"
+      }
+    }
+  },
+  "fragment_id": "warcraft_ii",
+  "installs": {
+    "w2": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "w2bn"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "warcraft_ii#W2_NAME",
+      "icon_16": "warcraft_ii#W2_ICON_TINY",
+      "icon_275": "warcraft_ii#W2_ICON_MASSIVE",
+      "icon_32": "warcraft_ii#W2_ICON_SMALL",
+      "icon_56": "warcraft_ii#W2_ICON_MEDIUM",
+      "icon_svg": "warcraft_ii#W2_ICON_SVG",
+      "program_id": "W2"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/warcraft-2-battle-net-edition",
+        "background": "warcraft_ii#W2_BACKGROUND",
+        "badges": [
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/warcraftstrategy-war2bnet/alert",
+        "content_id": "warcraft-2",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_REAL_TIME_STRATEGY",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "warcraft_ii#W2_ICON_MEDIUM",
+        "icon_small": "warcraft_ii#W2_ICON_SMALL",
+        "icon_svg": "warcraft_ii#W2_ICON_SVG",
+        "icon_tiny": "warcraft_ii#W2_ICON_TINY",
+        "install_background": "warcraft_ii#W2_INSTALL_BACKGROUND",
+        "install_requires_login": true,
+        "key_art": "warcraft_ii#W2_KEY_ART",
+        "locale_support_flag": "primary_locale",
+        "logo": "warcraft_ii#W2_LOGO",
+        "name": "warcraft_ii#W2_NAME",
+        "program_id": "W2",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/warcraft-rts"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://us.forums.blizzard.com/en/blizzard/c/warcraft-ii/31?utm_source=app-battlenetdesktop&utm_medium=internal"
+            },
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 302
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/legacy"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 303
+          },
+          {
+            "action": {
+              "target": "shop",
+              "type": "url",
+              "url": "nydus://client/shop/product/warcraft-remastered-battle-chest"
+            },
+            "color": "#6cdb00",
+            "icon": "default#QUICK_LINK_ICON_UPGRADE",
+            "id": "upgrade",
+            "label": "default#QUICK_LINK_UPGRADE_BATTLE_CHEST",
+            "rank": 100
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {
+              "BLR": "disabled_invisible",
+              "KOR": "disabled_invisible",
+              "RUS": "disabled_invisible",
+              "override_type": "country"
+            }
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {"product_id": "W2R", "type": "select_product"},
+            "id": "looking_for",
+            "label": "warcraft_ii#W2_LOOKING_FOR_W2R",
+            "rank": 1,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "supported_platforms": ["win"],
+        "supports_starter_mode": true,
+        "tab_order": 32,
+        "title_id": 1462911566,
+        "types": {"retail": {"auto_favorite_on_grant": true, "supported_regions": ["GLOBAL"], "uid": "W2"}},
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "W2"
+    }
+  ],
+  "program_configuration": {
+    "W2": {
+      "run_each_rule": [
+        {"actions": [{"add_product": {"product_id": {"id": "W2", "type": "retail"}}}], "match": {"license_id": 931928}}
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {"warcraft_ii#W2_LOOKING_FOR_W2R": "Suchst du nach Warcraft II: Remastered?"},
+    "default": {
+      "warcraft_ii#W2_LOOKING_FOR_W2R": "Looking for Warcraft II: Remastered?",
+      "warcraft_ii#W2_NAME": "Warcraft II: Battle.net Edition"
+    },
+    "esES": {"warcraft_ii#W2_LOOKING_FOR_W2R": "¿Buscas Warcraft II: Remastered?"},
+    "esMX": {"warcraft_ii#W2_LOOKING_FOR_W2R": "¿Buscas Warcraft II: Remastered?"},
+    "frFR": {"warcraft_ii#W2_LOOKING_FOR_W2R": "À la recherche de Warcraft II: Remastered ?"},
+    "itIT": {"warcraft_ii#W2_LOOKING_FOR_W2R": "Cerchi Warcraft II: Remastered?"},
+    "jaJP": {"warcraft_ii#W2_LOOKING_FOR_W2R": "「ウォークラフト II: リマスタード」をお探しですか？"},
+    "koKR": {"warcraft_ii#W2_LOOKING_FOR_W2R": "워크래프트 II: 리마스터를 찾고 계신가요?"},
+    "plPL": {"warcraft_ii#W2_LOOKING_FOR_W2R": "Szukasz Warcraft II: Remastered?"},
+    "ptBR": {"warcraft_ii#W2_LOOKING_FOR_W2R": "Procurando Warcraft II: Remastered?"},
+    "ruRU": {"warcraft_ii#W2_LOOKING_FOR_W2R": "Ищете Warcraft II: Remastered?"},
+    "thTH": {"warcraft_ii#W2_LOOKING_FOR_W2R": "มองหา Warcraft II: Remastered อยู่ใช่ไหม"},
+    "zhCN": {"warcraft_ii#W2_LOOKING_FOR_W2R": "在找《魔兽争霸 II：重制版》吗？"},
+    "zhTW": {"warcraft_ii#W2_LOOKING_FOR_W2R": "你在找《魔獸爭霸 II：重製版》嗎？"}
+  },
+  "version": 30
+}

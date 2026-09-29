@@ -1,0 +1,32 @@
+{
+  "files": {
+    "default": {
+      "fenris_newplaypanelcn#FENRIS_BACKGROUND": {
+        "hash": "2e8429d06218b86c03b41accf0b23da7",
+        "name": "resources/fenris/background_fenris_new_panel.webp"
+      }
+    }
+  },
+  "fragment_id": "fenris_newplaypanelcn",
+  "products": [
+    {
+      "base": {"types": {"retail": {"background": "fenris_newplaypanelcn#FENRIS_BACKGROUND"}}},
+      "id": "Fen",
+      "variants": {
+        "FenX1": {
+          "types": {
+            "ptr": {"background": "fenris_newplaypanelcn#FENRIS_BACKGROUND"},
+            "retail": {"background": "fenris_newplaypanelcn#FENRIS_BACKGROUND"}
+          }
+        },
+        "FenX2": {
+          "types": {
+            "ptr": {"background": "fenris_newplaypanelcn#FENRIS_BACKGROUND"},
+            "retail": {"background": "fenris_newplaypanelcn#FENRIS_BACKGROUND"}
+          }
+        }
+      }
+    }
+  ],
+  "version": 30
+}

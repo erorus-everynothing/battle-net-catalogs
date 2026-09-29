@@ -1,0 +1,61 @@
+{
+  "files": {
+    "default": {
+      "diablo_iii_gamepass#D3_ROS_LOGO": {
+        "hash": "8d95237a090deaf5fa25937958da680c",
+        "name": "resources/diablo3/logo_diablo3_ros_v2.png"
+      }
+    },
+    "koKR": {
+      "diablo_iii_gamepass#D3_ROS_LOGO": {
+        "hash": "5bc45bcce54e270caf19fb82f458aabf",
+        "name": "resources/diablo3/logo_diablo3_ros_koKR_v2.png"
+      }
+    },
+    "zhCN": {
+      "diablo_iii_gamepass#D3_ROS_LOGO": {
+        "hash": "668a2ff097b0dfa8340eea4c33ce7a3d",
+        "name": "resources/diablo3/logo_diablo3_ros_zhCN_v2.png"
+      }
+    },
+    "zhTW": {
+      "diablo_iii_gamepass#D3_ROS_LOGO": {
+        "hash": "cbea58cb4d67ad6673cd808d9f1b27ff",
+        "name": "resources/diablo3/logo_diablo3_ros_zhTW_v2.png"
+      }
+    }
+  },
+  "fragment_id": "diablo_iii_gamepass",
+  "products": [
+    {
+      "base": {
+        "badges": [{"hidden": false, "id": "game_pass"}],
+        "logo": "diablo_iii_gamepass#D3_ROS_LOGO",
+        "misc_flags": ["xbox_app_enabled", "game_pass_pc", "game_pass_ultimate"],
+        "starter_items": [
+          {"hidden": true, "id": "try_for_free", "type": "button"},
+          {"hidden": true, "id": "website", "type": "button"},
+          {
+            "action": {"type": "install"},
+            "id": "gp_install",
+            "label": "default#STARTER_ITEM_INSTALL_LABEL",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/diablo-iii"},
+            "id": "shop_all_editions",
+            "label": "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL",
+            "rank": 2,
+            "style": "secondary",
+            "type": "button"
+          }
+        ]
+      },
+      "id": "D3"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

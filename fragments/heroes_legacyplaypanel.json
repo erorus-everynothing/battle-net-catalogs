@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "heroes_legacyplaypanel#HEROES_BACKGROUND_OLD_PANEL": {
+        "hash": "67493db5a786e3108706f9c298a6cf48",
+        "name": "resources/heroes/background_heroes_v2.png"
+      }
+    }
+  },
+  "fragment_id": "heroes_legacyplaypanel",
+  "products": [{"base": {"background": "heroes_legacyplaypanel#HEROES_BACKGROUND_OLD_PANEL"}, "id": "Hero"}],
+  "version": 30
+}

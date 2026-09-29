@@ -1,0 +1,8 @@
+{
+  "fragment_id": "osi_cnretailplaydisabledwithoutlicense",
+  "products": [
+    {"base": {"types": {"retail": {"play_disabled_message": "default#PLAY_DISABLED_MESSAGE_PURCHASE"}}}, "id": "OSI"}
+  ],
+  "strings": {},
+  "version": 30
+}

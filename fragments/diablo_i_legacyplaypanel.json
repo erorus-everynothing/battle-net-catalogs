@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "diablo_i_legacyplaypanel#D1_BACKGROUND_OLD_PANEL": {
+        "hash": "d8a327b47d49af7de8cd29cf5987de94",
+        "name": "resources/diablo1/background_diablo1.png"
+      }
+    }
+  },
+  "fragment_id": "diablo_i_legacyplaypanel",
+  "products": [{"base": {"background": "diablo_i_legacyplaypanel#D1_BACKGROUND_OLD_PANEL"}, "id": "D1"}],
+  "version": 30
+}

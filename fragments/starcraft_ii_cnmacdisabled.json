@@ -1,0 +1,14 @@
+{
+  "fragment_id": "starcraft_ii_cnmacdisabled",
+  "products": [
+    {
+      "base": {
+        "install_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "play_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE"
+      },
+      "id": "S2"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

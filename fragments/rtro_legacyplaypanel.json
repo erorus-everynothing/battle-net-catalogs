@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "rtro_legacyplaypanel#RTRO_BACKGROUND_OLD_PANEL": {
+        "hash": "836e52e6f7bba6bbcbd8895da7c4507f",
+        "name": "resources/retro/background_retro_v2.png"
+      }
+    }
+  },
+  "fragment_id": "rtro_legacyplaypanel",
+  "products": [{"base": {"background": "rtro_legacyplaypanel#RTRO_BACKGROUND_OLD_PANEL"}, "id": "RTRO"}],
+  "version": 30
+}

@@ -1,0 +1,97 @@
+{
+  "files": {},
+  "fragment_id": "gdt",
+  "installs": {
+    "gdt": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "gdt"
+    },
+    "gdt_retail_dev_1": {"tact_product": "gdt-retail-dev-1"},
+    "gdt_retail_dev_2": {"tact_product": "gdt-retail-dev-2"},
+    "gdt_retail_rc": {"tact_product": "gdt-retail-rc"}
+  },
+  "products": [
+    {
+      "base": {
+        "background": "default#DEV_BACKGROUND",
+        "content_id": "game",
+        "default_product_type": "retail",
+        "icon_svg": "default#DEV_ICON_SVG",
+        "install_background": "default#DEV_INSTALL_BACKGROUND",
+        "name": "gdt#GDT_NAME",
+        "program_id": "GDT",
+        "region_permission_flags": {"default": "requires_account"},
+        "supported_platforms": ["win"],
+        "supported_regions": ["US", "EU", "KR", "XX"],
+        "supports_starter_mode": false,
+        "tab_order": 39,
+        "title_id": 4670548,
+        "types": {
+          "dev_1": {
+            "selector_display_name": "gdt#GDT_DEV_1_NAME",
+            "type_name": "gdt#GDT_DEV_1_NAME",
+            "uid": "gdt_retail_dev_1"
+          },
+          "dev_2": {
+            "selector_display_name": "gdt#GDT_DEV_2_NAME",
+            "type_name": "gdt#GDT_DEV_2_NAME",
+            "uid": "gdt_retail_dev_2"
+          },
+          "rc": {"selector_display_name": "gdt#GDT_RC_NAME", "type_name": "gdt#GDT_RC_NAME", "uid": "gdt_retail_rc"},
+          "retail": {"uid": "gdt"}
+        }
+      },
+      "id": "GDT"
+    }
+  ],
+  "program_configuration": {
+    "GDT": {
+      "run_each_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "GDT", "type": "retail"}}},
+            {"add_product": {"product_id": {"id": "GDT", "type": "rc"}}},
+            {"add_product": {"product_id": {"id": "GDT", "type": "dev_1"}}},
+            {"add_product": {"product_id": {"id": "GDT", "type": "dev_2"}}}
+          ],
+          "match": {"license_id": 1100385}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "default": {
+      "gdt#GDT_DEV_1_NAME": "GDT Dev 1",
+      "gdt#GDT_DEV_2_NAME": "GDT Dev 2",
+      "gdt#GDT_NAME": "GDT",
+      "gdt#GDT_RC_NAME": "GDT RC"
+    }
+  },
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_in_development",
+        "id": "dev_1",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 1,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "dev_2",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 2,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      }
+    ]
+  },
+  "version": 30
+}

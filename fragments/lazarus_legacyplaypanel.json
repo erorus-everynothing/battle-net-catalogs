@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "lazarus_legacyplaypanel#LAZARUS_BACKGROUND_OLD_PANEL": {
+        "hash": "040e84b5691495310572f53e4bf0f4eb",
+        "name": "resources/lazarus/background_codmw2cr_v2.png"
+      }
+    }
+  },
+  "fragment_id": "lazarus_legacyplaypanel",
+  "products": [{"base": {"background": "lazarus_legacyplaypanel#LAZARUS_BACKGROUND_OLD_PANEL"}, "id": "LAZR"}],
+  "version": 30
+}

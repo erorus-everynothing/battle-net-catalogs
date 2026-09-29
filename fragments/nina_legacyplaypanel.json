@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "nina_legacyplaypanel#NINA_BACKGROUND_OLD_PANEL": {
+        "hash": "75d779eed91b334e99a337b8ab941225",
+        "name": "resources/nina/background_nina.png"
+      }
+    }
+  },
+  "fragment_id": "nina_legacyplaypanel",
+  "products": [{"base": {"background": "nina_legacyplaypanel#NINA_BACKGROUND_OLD_PANEL"}, "id": "NINA"}],
+  "version": 30
+}

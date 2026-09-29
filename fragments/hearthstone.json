@@ -1,0 +1,416 @@
+{
+  "files": {
+    "default": {
+      "hearthstone#HS_BACKGROUND": {
+        "hash": "040603e4ad7b54fb486aa1da0e25825f",
+        "name": "resources/hearthstone/phx_play_panel_hs.png"
+      },
+      "hearthstone#HS_ICON_MASSIVE": {
+        "hash": "259d99fd5b4b67f45486f88263e38e64",
+        "name": "resources/hearthstone/icon_game_hs_massive.png"
+      },
+      "hearthstone#HS_ICON_MEDIUM": {
+        "hash": "9ad7f76d359e17d42b92a654e165cb03",
+        "name": "resources/hearthstone/icon_game_hs_medium.png"
+      },
+      "hearthstone#HS_ICON_SMALL": {
+        "hash": "8acca1e8032c2eeda9f1a1264f3b06da",
+        "name": "resources/hearthstone/icon_game_hs_small.png"
+      },
+      "hearthstone#HS_ICON_SVG": {
+        "hash": "06c3caa31a83b040e85881dd6bd35426",
+        "name": "resources/hearthstone/icon_hearthstone.svg"
+      },
+      "hearthstone#HS_ICON_TINY": {
+        "hash": "5e1553ea358f3706e2f935bb99ef9496",
+        "name": "resources/hearthstone/icon_game_hs_tiny.png"
+      },
+      "hearthstone#HS_INSTALL_BACKGROUND": {
+        "hash": "e2df8c8a4318f95567a2fc4e18d36c85",
+        "name": "resources/hearthstone/install_background_hs_enUS.png"
+      },
+      "hearthstone#HS_KEY_ART": {
+        "hash": "044aa25d818220319be80e87cbb87f59",
+        "name": "resources/hearthstone/key_art_hs_enUS.png"
+      },
+      "hearthstone#HS_LOGO": {
+        "hash": "73512f39a5984b2b963fe4dc4e7d48f9",
+        "name": "resources/hearthstone/logo_hearthstone_v2.png"
+      },
+      "hearthstone#HS_QR_CODE": {
+        "hash": "7bafb6ddaa3a0923c9b9571705bfc872",
+        "name": "resources/hearthstone/qr_code_hs.png"
+      }
+    },
+    "jaJP": {
+      "hearthstone#HS_INSTALL_BACKGROUND": {
+        "hash": "2e15eeaa3f34ce9eeff4e2c898043ded",
+        "name": "resources/hearthstone/install_background_hs_jaJP.png"
+      },
+      "hearthstone#HS_KEY_ART": {
+        "hash": "c9e19aed645f483abafc00d8ebf18b20",
+        "name": "resources/hearthstone/key_art_hs_jaJP.png"
+      },
+      "hearthstone#HS_LOGO": {
+        "hash": "62fbb2d661019624200b9cfa4a57c482",
+        "name": "resources/hearthstone/logo_hearthstone_jaJP_v2.png"
+      }
+    },
+    "zhCN": {
+      "hearthstone#HS_INSTALL_BACKGROUND": {
+        "hash": "da74dcd10339689ac1b7de4b58286a04",
+        "name": "resources/hearthstone/install_background_hs_zhCN.png"
+      },
+      "hearthstone#HS_KEY_ART": {
+        "hash": "4d55415b1ce8b0e0a153ccce7706dc5e",
+        "name": "resources/hearthstone/key_art_hs_zhCN.png"
+      },
+      "hearthstone#HS_LOGO": {
+        "hash": "74902547e2756757913d6f8b3b63936e",
+        "name": "resources/hearthstone/logo_hearthstone_zhCN_v2.png"
+      }
+    },
+    "zhTW": {
+      "hearthstone#HS_INSTALL_BACKGROUND": {
+        "hash": "7c8649cd21e8fe7bdb260895ddc763af",
+        "name": "resources/hearthstone/install_background_hs_zhTW.png"
+      },
+      "hearthstone#HS_KEY_ART": {
+        "hash": "478fa4beda55d819260e4ba6936e9e7f",
+        "name": "resources/hearthstone/key_art_hs_zhTW.png"
+      },
+      "hearthstone#HS_LOGO": {
+        "hash": "b03b92019a76afb73ab33d07167be659",
+        "name": "resources/hearthstone/logo_hearthstone_zhTW_v2.png"
+      }
+    }
+  },
+  "fragment_id": "hearthstone",
+  "installs": {
+    "hs_alpha": {"requires_sso_token": true, "tact_product": "hsdev"},
+    "hs_beta": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "requires_sso_token": true,
+      "tact_product": "hsb"
+    },
+    "hs_event": {"requires_sso_token": true, "tact_product": "hse"},
+    "hs_event_1": {"requires_sso_token": true, "tact_product": "hse1"},
+    "hs_rc": {"requires_sso_token": true, "tact_product": "hsrc"},
+    "hs_tournament": {"requires_sso_token": true, "tact_product": "hsc"}
+  },
+  "presence_resources": [
+    {
+      "display_name": "hearthstone#HS_NAME",
+      "icon_16": "hearthstone#HS_ICON_TINY",
+      "icon_275": "hearthstone#HS_ICON_MASSIVE",
+      "icon_32": "hearthstone#HS_ICON_SMALL",
+      "icon_56": "hearthstone#HS_ICON_MEDIUM",
+      "icon_svg": "hearthstone#HS_ICON_SVG",
+      "program_id": "WTCG"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/hearthstone",
+        "background": "hearthstone#HS_BACKGROUND",
+        "badges": [
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/hearthstone/alert",
+        "content_id": "hearthstone",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_STRATEGY_CARD_GAME",
+        "handheld_feature_compatibility": [
+          {
+            "compatibility": "handheld_unsupported",
+            "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED"
+          },
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "hearthstone#HS_ICON_MEDIUM",
+        "icon_small": "hearthstone#HS_ICON_SMALL",
+        "icon_svg": "hearthstone#HS_ICON_SVG",
+        "icon_tiny": "hearthstone#HS_ICON_TINY",
+        "install_background": "hearthstone#HS_INSTALL_BACKGROUND",
+        "key_art": "hearthstone#HS_KEY_ART",
+        "locale_support_flag": "primary_locale",
+        "logo": "hearthstone#HS_LOGO",
+        "misc_flags": ["play_for_free"],
+        "mobile_qr_code": "hearthstone#HS_QR_CODE",
+        "mobile_qr_code_text": "default#MOBILE_QR_CODE_DOWNLOAD",
+        "name": "hearthstone#HS_NAME",
+        "program_id": "WTCG",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/hearthstone"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"custom_action_id": "open_play_on_mobile_modal", "type": "custom_action"},
+            "icon": "default#QUICK_LINK_ICON_MOBILE",
+            "id": "play_on_mobile",
+            "label": "default#QUICK_LINK_MOBILE",
+            "rank": 302
+          },
+          {
+            "action": {"external": true, "target": "external-sso", "type": "url", "url": "nydus://client/forum/WTCG"},
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 304
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/hearthstone"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 305
+          }
+        ],
+        "region_permission_flags": {"default": "unrestricted"},
+        "starter_items": [
+          {
+            "action": {"type": "install"},
+            "id": "play_for_free",
+            "label": "default#STARTER_ITEM_PLAY_FOR_FREE",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "id": "play_on_mobile_starter",
+            "qr_body": "default#MOBILE_QR_CODE_DOWNLOAD",
+            "qr_image": "hearthstone#HS_QR_CODE",
+            "qr_title": "default#QUICK_LINK_MOBILE",
+            "rank": 2,
+            "type": "qr_code"
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://playhearthstone.com/?utm_source=app-battlenetdesktop&utm_content=starter-screen"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 3,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "supported_platforms": ["win", "mac", "mobile"],
+        "tab_order": 9,
+        "title_id": 1465140039,
+        "types": {
+          "alpha": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "hearthstone#HS_NAME_ALPHA",
+            "supported_regions": ["US", "CN"],
+            "supports_starter_mode": false,
+            "uid": "hs_alpha"
+          },
+          "hs_event": {
+            "selector_display_name": "hearthstone#HS_EVENT_DISPLAY_NAME",
+            "supported_regions": ["US", "CN"],
+            "supports_starter_mode": false,
+            "uid": "hs_event"
+          },
+          "hs_event_1": {
+            "deprecated": true,
+            "region_permission_flags": {"default": "requires_account"},
+            "supported_regions": ["US", "CN"],
+            "supports_starter_mode": false,
+            "uid": "hs_event_1"
+          },
+          "hs_rc": {"supported_regions": ["US", "EU", "KR", "CN"], "supports_starter_mode": false, "uid": "hs_rc"},
+          "retail": {
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://hearthstone.blizzard.com/news/patchnotes?utm_source=app-battlenetdesktop&utm_medium=internal&utm_content=play-panel"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 303
+              }
+            ],
+            "show_region_switch_warning": true,
+            "supported_regions": ["US", "EU", "KR", "CN"],
+            "uid": "hs_beta"
+          },
+          "tournament": {
+            "selector_display_name": "hearthstone#HS_TOURNAMENT_DISPLAY_NAME",
+            "supported_regions": ["US", "CN"],
+            "supports_starter_mode": false,
+            "uid": "hs_tournament"
+          }
+        },
+        "use_playable_progress": true
+      },
+      "id": "WTCG"
+    }
+  ],
+  "program_configuration": {
+    "WTCG": {
+      "run_each_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "WTCG", "type": "retail"}}},
+            {"add_tag": {"name": "play_for_free"}}
+          ],
+          "match": {"game_account": {"program_id": "WTCG"}}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WTCG", "type": "tournament"}}}],
+          "match": {"license_id": 32836}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WTCG", "type": "hs_event"}}}],
+          "match": {"license_id": 50216}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WTCG", "type": "hs_event_1"}}}],
+          "match": {"license_id": [311806, 1209990]}
+        },
+        {"actions": [{"add_product": {"product_id": {"id": "WTCG", "type": "alpha"}}}], "match": {"license_id": 69859}},
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WTCG", "type": "hs_rc"}}}],
+          "match": {"license_id": 1013549}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "Eventrealm",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Turnierrealm"
+    },
+    "default": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "Event 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "Event Realm",
+      "hearthstone#HS_LIVE_RC_TYPE_STRING": "Live-RC",
+      "hearthstone#HS_NAME": "Hearthstone",
+      "hearthstone#HS_NAME_ALPHA": "Hearthstone Alpha",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Tournament Realm"
+    },
+    "esES": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "Evento 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "Reino del evento",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Reino del torneo"
+    },
+    "esMX": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "Evento 1",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Reino del torneo"
+    },
+    "frFR": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "Évènement 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "Royaume d’évènement",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Royaume de tournoi"
+    },
+    "itIT": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "Evento 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "Reame evento",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Reame torneo"
+    },
+    "jaJP": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "イベント 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "イベント用サーバー",
+      "hearthstone#HS_NAME": "ハースストーン",
+      "hearthstone#HS_NAME_ALPHA": "ハースストーン アルファ",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "トーナメント用サーバー"
+    },
+    "koKR": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "이벤트 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "이벤트 서버",
+      "hearthstone#HS_NAME": "하스스톤",
+      "hearthstone#HS_NAME_ALPHA": "하스스톤 알파",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "토너먼트 서버"
+    },
+    "plPL": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "Wydarzenie 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "Serwer wydarzeń",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Serwer turniejowy"
+    },
+    "ptBR": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "Evento 1",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Reino de Torneio"
+    },
+    "ruRU": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "Событие 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "Игровой мир мероприятия",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "Турнирный игровой мир"
+    },
+    "thTH": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "กิจกรรม 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "อาณาจักรสำหรับกิจกรรม",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "อาณาจักรสำหรับการแข่งขัน"
+    },
+    "zhCN": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "活动 1",
+      "hearthstone#HS_NAME": "炉石传说",
+      "hearthstone#HS_NAME_ALPHA": "炉石传说Alpha测试"
+    },
+    "zhTW": {
+      "hearthstone#HS_EVENT1_TYPE_STRING": "活動 1",
+      "hearthstone#HS_EVENT_DISPLAY_NAME": "活動伺服器",
+      "hearthstone#HS_NAME": "《爐石戰記》",
+      "hearthstone#HS_NAME_ALPHA": "《爐石戰記》 Alpha",
+      "hearthstone#HS_TOURNAMENT_DISPLAY_NAME": "競技場伺服器"
+    }
+  },
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_in_development",
+        "id": "hs_event",
+        "product_defaults": {"name_style": "type_name_suffix", "type_name": "default#TYPES_EVENT_NAME"}
+      },
+      {
+        "category": "cat_in_development",
+        "id": "hs_event_1",
+        "product_defaults": {"name_style": "type_name_suffix", "type_name": "hearthstone#HS_EVENT1_TYPE_STRING"}
+      },
+      {
+        "category": "cat_in_development",
+        "id": "hs_rc",
+        "product_defaults": {"name_style": "type_name_suffix", "type_name": "hearthstone#HS_LIVE_RC_TYPE_STRING"}
+      }
+    ]
+  },
+  "version": 30
+}

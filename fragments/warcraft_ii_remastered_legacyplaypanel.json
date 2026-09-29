@@ -1,0 +1,15 @@
+{
+  "files": {
+    "default": {
+      "warcraft_ii_remastered_legacyplaypanel#W2R_BACKGROUND_OLD_PANEL": {
+        "hash": "33d87591dc21581c60105698da8d9dd4",
+        "name": "resources/w2r/background_w2r.png"
+      }
+    }
+  },
+  "fragment_id": "warcraft_ii_remastered_legacyplaypanel",
+  "products": [
+    {"base": {"background": "warcraft_ii_remastered_legacyplaypanel#W2R_BACKGROUND_OLD_PANEL"}, "id": "W2R"}
+  ],
+  "version": 30
+}

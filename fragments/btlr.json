@@ -1,0 +1,382 @@
+{
+  "files": {
+    "default": {
+      "btlr#BTLR_BACKGROUND": {
+        "hash": "2f1c8191bfa7962c76d893f127829925",
+        "name": "resources/btlr/background_btlr_new_panel.png"
+      },
+      "btlr#BTLR_ICON_MEDIUM": {
+        "hash": "c620a50f3e35f78c706b0704e2de0395",
+        "name": "resources/btlr/icon_btlr_medium.svg"
+      },
+      "btlr#BTLR_ICON_SMALL": {
+        "hash": "9b3e2008357b37bf74a03ff4e75557bb",
+        "name": "resources/btlr/icon_btlr_small.svg"
+      },
+      "btlr#BTLR_ICON_SVG": {"hash": "c620a50f3e35f78c706b0704e2de0395", "name": "resources/btlr/icon_btlr_medium.svg"},
+      "btlr#BTLR_INSTALL_BACKGROUND": {
+        "hash": "3d9e5d478125c3605c36f9f73ed727be",
+        "name": "resources/btlr/install_background_btlr.png"
+      },
+      "btlr#BTLR_KEY_ART": {"hash": "52ebf646ff2dcc26976169a644bcc8f6", "name": "resources/btlr/key_art_btlr.png"},
+      "btlr#BTLR_LOGO": {"hash": "2c45c7f34cca2507673764f78fc022f1", "name": "resources/btlr/logo_btlr.png"}
+    }
+  },
+  "fragment_id": "btlr",
+  "installs": {
+    "btlr": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "requires_sso_token": true,
+      "serialize_install_data_in_launch_options": true,
+      "tact_product": "btlr"
+    },
+    "btlr_vendor_1": {"requires_sso_token": true, "tact_product": "btlrv1"},
+    "btlr_vendor_10": {"requires_sso_token": true, "tact_product": "btlrv10"},
+    "btlr_vendor_11": {"requires_sso_token": true, "tact_product": "btlrv11"},
+    "btlr_vendor_12": {"requires_sso_token": true, "tact_product": "btlrv12"},
+    "btlr_vendor_13": {"requires_sso_token": true, "tact_product": "btlrv13"},
+    "btlr_vendor_14": {"requires_sso_token": true, "tact_product": "btlrv14"},
+    "btlr_vendor_15": {"requires_sso_token": true, "tact_product": "btlrv15"},
+    "btlr_vendor_16": {"requires_sso_token": true, "tact_product": "btlrv16"},
+    "btlr_vendor_17": {"requires_sso_token": true, "tact_product": "btlrv17"},
+    "btlr_vendor_18": {"requires_sso_token": true, "tact_product": "btlrv18"},
+    "btlr_vendor_19": {"requires_sso_token": true, "tact_product": "btlrv19"},
+    "btlr_vendor_2": {"requires_sso_token": true, "tact_product": "btlrv2"},
+    "btlr_vendor_20": {"requires_sso_token": true, "tact_product": "btlrv20"},
+    "btlr_vendor_21": {"requires_sso_token": true, "tact_product": "btlrv21"},
+    "btlr_vendor_22": {"requires_sso_token": true, "tact_product": "btlrv22"},
+    "btlr_vendor_23": {"requires_sso_token": true, "tact_product": "btlrv23"},
+    "btlr_vendor_24": {"requires_sso_token": true, "tact_product": "btlrv24"},
+    "btlr_vendor_25": {"requires_sso_token": true, "tact_product": "btlrv25"},
+    "btlr_vendor_26": {"requires_sso_token": true, "tact_product": "btlrv26"},
+    "btlr_vendor_27": {"requires_sso_token": true, "tact_product": "btlrv27"},
+    "btlr_vendor_28": {"requires_sso_token": true, "tact_product": "btlrv28"},
+    "btlr_vendor_29": {"requires_sso_token": true, "tact_product": "btlrv29"},
+    "btlr_vendor_3": {"requires_sso_token": true, "tact_product": "btlrv3"},
+    "btlr_vendor_30": {"requires_sso_token": true, "tact_product": "btlrv30"},
+    "btlr_vendor_4": {"requires_sso_token": true, "tact_product": "btlrv4"},
+    "btlr_vendor_5": {"requires_sso_token": true, "tact_product": "btlrv5"},
+    "btlr_vendor_6": {"requires_sso_token": true, "tact_product": "btlrv6"},
+    "btlr_vendor_7": {"requires_sso_token": true, "tact_product": "btlrv7"},
+    "btlr_vendor_8": {"requires_sso_token": true, "tact_product": "btlrv8"},
+    "btlr_vendor_9": {"requires_sso_token": true, "tact_product": "btlrv9"}
+  },
+  "products": [
+    {
+      "base": {
+        "background": "btlr#BTLR_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "hidden": false,
+            "id": "hh_optimized",
+            "image": "default#LOGO_HH_OPTIMIZED",
+            "label": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "rank": 0
+          }
+        ],
+        "content_id": "cod-mwii",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_ACTION_SHOOTER",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_optimized"],
+        "icon_medium": "btlr#BTLR_ICON_MEDIUM",
+        "icon_small": "btlr#BTLR_ICON_SMALL",
+        "icon_svg": "btlr#BTLR_ICON_SVG",
+        "icon_tiny": "btlr#BTLR_ICON_SMALL",
+        "install_background": "btlr#BTLR_INSTALL_BACKGROUND",
+        "install_requires_login": true,
+        "is_activision_game": true,
+        "key_art": "btlr#BTLR_KEY_ART",
+        "logo": "btlr#BTLR_LOGO",
+        "name": "btlr#BTLR_NAME",
+        "program_id": "AUKS",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/call-of-duty"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://support.activision.com"},
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 307
+          }
+        ],
+        "region_permission_flags": {"default": "unrestricted"},
+        "starter_items": [
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/call-of-duty-black-ops-6"},
+            "id": "purchase_btlr",
+            "label": "btlr#BTLR_BUY_BO6",
+            "rank": 3,
+            "style": "secondary",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": true,
+        "supported_platforms": ["win"],
+        "supported_regions": ["US", "EU", "KR", "XX"],
+        "supports_starter_mode": false,
+        "tab_order": 23,
+        "title_id": 1096108883,
+        "track_exit_code": true,
+        "types": {
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "nydus://client/patchnotes/callofduty"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "supports_starter_mode": true,
+            "uid": "btlr"
+          },
+          "vendor_1": {"selector_display_name": "default#TYPES_VENDOR_1_NAME", "uid": "btlr_vendor_1"},
+          "vendor_10": {"selector_display_name": "default#TYPES_VENDOR_10_NAME", "uid": "btlr_vendor_10"},
+          "vendor_11": {"selector_display_name": "default#TYPES_VENDOR_11_NAME", "uid": "btlr_vendor_11"},
+          "vendor_12": {"selector_display_name": "default#TYPES_VENDOR_12_NAME", "uid": "btlr_vendor_12"},
+          "vendor_13": {"selector_display_name": "default#TYPES_VENDOR_13_NAME", "uid": "btlr_vendor_13"},
+          "vendor_14": {"selector_display_name": "default#TYPES_VENDOR_14_NAME", "uid": "btlr_vendor_14"},
+          "vendor_15": {"selector_display_name": "default#TYPES_VENDOR_15_NAME", "uid": "btlr_vendor_15"},
+          "vendor_16": {"selector_display_name": "default#TYPES_VENDOR_16_NAME", "uid": "btlr_vendor_16"},
+          "vendor_17": {"selector_display_name": "default#TYPES_VENDOR_17_NAME", "uid": "btlr_vendor_17"},
+          "vendor_18": {"selector_display_name": "default#TYPES_VENDOR_18_NAME", "uid": "btlr_vendor_18"},
+          "vendor_19": {"selector_display_name": "default#TYPES_VENDOR_19_NAME", "uid": "btlr_vendor_19"},
+          "vendor_2": {"selector_display_name": "default#TYPES_VENDOR_2_NAME", "uid": "btlr_vendor_2"},
+          "vendor_20": {"selector_display_name": "default#TYPES_VENDOR_20_NAME", "uid": "btlr_vendor_20"},
+          "vendor_21": {"selector_display_name": "default#TYPES_VENDOR_21_NAME", "uid": "btlr_vendor_21"},
+          "vendor_22": {"selector_display_name": "default#TYPES_VENDOR_22_NAME", "uid": "btlr_vendor_22"},
+          "vendor_23": {"selector_display_name": "default#TYPES_VENDOR_23_NAME", "uid": "btlr_vendor_23"},
+          "vendor_24": {"selector_display_name": "default#TYPES_VENDOR_24_NAME", "uid": "btlr_vendor_24"},
+          "vendor_25": {"selector_display_name": "default#TYPES_VENDOR_25_NAME", "uid": "btlr_vendor_25"},
+          "vendor_26": {"selector_display_name": "default#TYPES_VENDOR_26_NAME", "uid": "btlr_vendor_26"},
+          "vendor_27": {"selector_display_name": "default#TYPES_VENDOR_27_NAME", "uid": "btlr_vendor_27"},
+          "vendor_28": {"selector_display_name": "default#TYPES_VENDOR_28_NAME", "uid": "btlr_vendor_28"},
+          "vendor_29": {"selector_display_name": "default#TYPES_VENDOR_29_NAME", "uid": "btlr_vendor_29"},
+          "vendor_3": {"selector_display_name": "default#TYPES_VENDOR_3_NAME", "uid": "btlr_vendor_3"},
+          "vendor_30": {"selector_display_name": "default#TYPES_VENDOR_30_NAME", "uid": "btlr_vendor_30"},
+          "vendor_4": {"selector_display_name": "default#TYPES_VENDOR_4_NAME", "uid": "btlr_vendor_4"},
+          "vendor_5": {"selector_display_name": "default#TYPES_VENDOR_5_NAME", "uid": "btlr_vendor_5"},
+          "vendor_6": {"selector_display_name": "default#TYPES_VENDOR_6_NAME", "uid": "btlr_vendor_6"},
+          "vendor_7": {"selector_display_name": "default#TYPES_VENDOR_7_NAME", "uid": "btlr_vendor_7"},
+          "vendor_8": {"selector_display_name": "default#TYPES_VENDOR_8_NAME", "uid": "btlr_vendor_8"},
+          "vendor_9": {"selector_display_name": "default#TYPES_VENDOR_9_NAME", "uid": "btlr_vendor_9"}
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "BTLR"
+    }
+  ],
+  "program_configuration": {
+    "BTLR": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "retail"}}}],
+          "match": {"license_id": 274545}
+        },
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_1"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_2"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_3"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_4"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_5"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_6"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_7"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_8"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_9"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_10"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_11"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_12"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_13"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_14"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_15"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_16"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_17"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_18"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_19"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_20"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_21"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_22"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_23"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_24"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_25"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_26"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_27"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_28"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_29"}}},
+            {"add_product": {"product_id": {"id": "BTLR", "type": "vendor_30"}}}
+          ],
+          "match": {"license_id": 274566}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_1"}}}],
+          "match": {"license_id": 686068}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_2"}}}],
+          "match": {"license_id": 686339}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_3"}}}],
+          "match": {"license_id": 686069}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_4"}}}],
+          "match": {"license_id": 686070}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_5"}}}],
+          "match": {"license_id": 686071}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_6"}}}],
+          "match": {"license_id": 686072}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_7"}}}],
+          "match": {"license_id": 686340}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_8"}}}],
+          "match": {"license_id": 686341}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_9"}}}],
+          "match": {"license_id": 686073}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_10"}}}],
+          "match": {"license_id": 686074}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_11"}}}],
+          "match": {"license_id": 686075}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_12"}}}],
+          "match": {"license_id": 686076}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_13"}}}],
+          "match": {"license_id": 686342}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_14"}}}],
+          "match": {"license_id": 686077}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_15"}}}],
+          "match": {"license_id": 686343}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_16"}}}],
+          "match": {"license_id": 686344}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_17"}}}],
+          "match": {"license_id": 686078}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_18"}}}],
+          "match": {"license_id": 686345}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_19"}}}],
+          "match": {"license_id": 686346}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_20"}}}],
+          "match": {"license_id": 686347}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_21"}}}],
+          "match": {"license_id": 686079}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_22"}}}],
+          "match": {"license_id": 686080}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_23"}}}],
+          "match": {"license_id": 686081}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_24"}}}],
+          "match": {"license_id": 686082}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_25"}}}],
+          "match": {"license_id": 686083}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_26"}}}],
+          "match": {"license_id": 686348}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_27"}}}],
+          "match": {"license_id": 686349}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_28"}}}],
+          "match": {"license_id": 686084}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_29"}}}],
+          "match": {"license_id": 686085}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "BTLR", "type": "vendor_30"}}}],
+          "match": {"license_id": 686366}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {"btlr#BTLR_BUY_BO6": "Call of Duty: BO6 kaufen"},
+    "default": {"btlr#BTLR_BUY_BO6": "Buy Call of Duty: BO6", "btlr#BTLR_NAME": "Call of Duty: Black Ops 6"},
+    "esES": {"btlr#BTLR_BUY_BO6": "Comprar Call of Duty: BO6"},
+    "esMX": {"btlr#BTLR_BUY_BO6": "Comprar Call of Duty: BO6"},
+    "frFR": {"btlr#BTLR_BUY_BO6": "Acheter Call of Duty: BO6"},
+    "itIT": {"btlr#BTLR_BUY_BO6": "Compra Call of Duty: BO6"},
+    "jaJP": {"btlr#BTLR_BUY_BO6": "「Call of Duty: BO6」の購入"},
+    "koKR": {"btlr#BTLR_BUY_BO6": "콜 오브 듀티: 블랙 옵스 6 구매", "btlr#BTLR_NAME": "콜 오브 듀티: 블랙 옵스 6"},
+    "plPL": {"btlr#BTLR_BUY_BO6": "Kup Call of Duty: BO6"},
+    "ptBR": {"btlr#BTLR_BUY_BO6": "Compre Call of Duty: BO6"},
+    "ruRU": {"btlr#BTLR_BUY_BO6": "Приобрести Call of Duty: BO6"},
+    "thTH": {"btlr#BTLR_BUY_BO6": "ซื้อ Call of Duty: BO6"},
+    "zhCN": {"btlr#BTLR_BUY_BO6": "购买 決勝時刻：黑色行動6", "btlr#BTLR_NAME": "決勝時刻：黑色行動6"},
+    "zhTW": {"btlr#BTLR_BUY_BO6": "購買 使命召唤：黑色行动6", "btlr#BTLR_NAME": "使命召唤：黑色行动6"}
+  },
+  "types": {"definitions": []},
+  "version": 30
+}

@@ -1,0 +1,26 @@
+{
+  "fragment_id": "heroes_gamepass",
+  "products": [
+    {
+      "base": {
+        "misc_flags": ["play_for_free", "xbox_app_enabled", "game_pass_pc", "game_pass_ultimate"],
+        "starter_items": [
+          {"hidden": true, "id": "play_for_free", "type": "button"},
+          {"hidden": true, "id": "website", "type": "button"},
+          {
+            "action": {"type": "install"},
+            "id": "gp_install",
+            "label": "default#STARTER_ITEM_INSTALL_LABEL",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          }
+        ],
+        "types": {"retail": {"badges": [{"hidden": false, "id": "game_pass"}]}}
+      },
+      "id": "Hero"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

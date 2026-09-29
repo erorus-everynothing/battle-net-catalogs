@@ -1,0 +1,5 @@
+{
+  "fragment_id": "auks_disable_starter_mode_licensed",
+  "products": [{"base": {"types": {"retail": {"supports_starter_mode": false}}}, "id": "AUKS"}],
+  "version": 30
+}

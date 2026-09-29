@@ -1,0 +1,5 @@
+{
+  "fragment_id": "odin_deprecate_event",
+  "products": [{"base": {"types": {"odin_event": {"deprecated": true}}}, "id": "ODIN"}],
+  "version": 30
+}

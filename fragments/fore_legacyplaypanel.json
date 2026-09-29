@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "fore_legacyplaypanel#VANGUARD_BACKGROUND_OLD_PANEL": {
+        "hash": "c2d58c4fe49f1e37a51f9c9606188dc3",
+        "name": "resources/fore/background_vanguard.png"
+      }
+    }
+  },
+  "fragment_id": "fore_legacyplaypanel",
+  "products": [{"base": {"background": "fore_legacyplaypanel#VANGUARD_BACKGROUND_OLD_PANEL"}, "id": "FORE"}],
+  "version": 30
+}

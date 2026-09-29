@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "aqua_legacyplaypanel#AQUA_BACKGROUND_OLD_PANEL": {
+        "hash": "df93f863b542f2989aad7589f7bb109d",
+        "name": "resources/aqua/background_aqua.png"
+      }
+    }
+  },
+  "fragment_id": "aqua_legacyplaypanel",
+  "products": [{"base": {"background": "aqua_legacyplaypanel#AQUA_BACKGROUND_OLD_PANEL"}, "id": "AQUA"}],
+  "version": 30
+}

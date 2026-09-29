@@ -1,0 +1,50 @@
+{
+  "files": {
+    "default": {
+      "anbs_cndefault#ANUBIS_QR_CODE_CN": {
+        "hash": "cb72f7e0a29fcaebf9c1654436dda4ec",
+        "name": "resources/anubis/qr_code_anubis_CN.png"
+      }
+    }
+  },
+  "fragment_id": "anbs_cndefault",
+  "products": [
+    {
+      "base": {
+        "mobile_qr_code": "anbs_cndefault#ANUBIS_QR_CODE_CN",
+        "quick_links": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://gamepay.163.com/DiabloImmortal?channel=yydc_cps4.anhei_zw"
+            },
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {"hidden": true, "id": "patch_notes"},
+          {"hidden": true, "id": "support"}
+        ],
+        "starter_items": [
+          {
+            "id": "play_on_mobile",
+            "qr_body": "default#MOBILE_QR_CODE_DOWNLOAD",
+            "qr_image": "anbs_cndefault#ANUBIS_QR_CODE_CN",
+            "qr_title": "default#QUICK_LINK_MOBILE",
+            "rank": 2,
+            "type": "qr_code"
+          },
+          {"hidden": true, "id": "website", "type": "button"}
+        ],
+        "supported_regions": ["CN"],
+        "types": {"rc": {"uid": "anbs_cn_rc"}, "retail": {"uid": "anbs_cn"}}
+      },
+      "id": "ANBS"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

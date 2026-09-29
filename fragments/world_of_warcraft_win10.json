@@ -1,0 +1,16 @@
+{
+  "fragment_id": "world_of_warcraft_win10",
+  "products": [
+    {
+      "base": {
+        "install_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "misc_flags": [],
+        "play_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "starter_items": [{"hidden": true, "id": "try_for_free", "type": "button"}]
+      },
+      "id": "WoW"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

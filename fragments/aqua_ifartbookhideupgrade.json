@@ -1,0 +1,5 @@
+{
+  "fragment_id": "aqua_ifartbookhideupgrade",
+  "products": [{"base": {"quick_links": [{"hidden": true, "id": "upgrade"}]}, "id": "AQUA"}],
+  "version": 30
+}

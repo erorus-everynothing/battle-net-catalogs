@@ -1,0 +1,349 @@
+{
+  "files": {
+    "default": {
+      "aris#ARIS_BACKGROUND": {
+        "hash": "bfb6063dc6ba52f03eefef254791db98",
+        "name": "resources/aris/background_aries_new_panel.webp"
+      },
+      "aris#ARIS_ICON_MASSIVE": {
+        "hash": "f32bff773ce18433d8e8da72ff47e44a",
+        "name": "resources/aris/icon_game_aries_massive.png"
+      },
+      "aris#ARIS_ICON_MEDIUM": {
+        "hash": "5c7e98d9753f64175965e3352c089bef",
+        "name": "resources/aris/icon_game_aries_medium.png"
+      },
+      "aris#ARIS_ICON_SMALL": {
+        "hash": "f25867a11ba76eeb2d0593e75cbdaf0e",
+        "name": "resources/aris/icon_game_aries_small.png"
+      },
+      "aris#ARIS_ICON_SVG": {"hash": "c4567b771029ab2de3f4f37b752507e7", "name": "resources/aris/icon_aries.svg"},
+      "aris#ARIS_INSTALL_BACKGROUND": {
+        "hash": "132a6ef5df605a63203f7453f0704faf",
+        "name": "resources/aris/install_background_aries_enUS.jpg"
+      },
+      "aris#ARIS_KEY_ART": {
+        "hash": "0cbfd085ef33da81e93e7b3069e9d49d",
+        "name": "resources/aris/key_art_aries_enUS.jpg"
+      },
+      "aris#ARIS_LOGO": {"hash": "6ed6167e86336856cf94f511ab3b3722", "name": "resources/aris/logo_aries_enUS.png"}
+    }
+  },
+  "fragment_id": "aris",
+  "installs": {
+    "aris": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aris"
+    },
+    "aris_artbook": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aris-artbook"
+    },
+    "aris_artbook_dev_1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aris-artbook-dev-1"
+    },
+    "aris_artbook_rc": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aris-artbook-rc"
+    },
+    "aris_retail_dev_1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aris-retail-dev-1"
+    },
+    "aris_retail_rc": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "aris-retail-rc"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "aris#ARIS_NAME",
+      "icon_16": "aris#ARIS_ICON_SMALL",
+      "icon_275": "aris#ARIS_ICON_MASSIVE",
+      "icon_32": "aris#ARIS_ICON_SMALL",
+      "icon_56": "aris#ARIS_ICON_MEDIUM",
+      "icon_svg": "aris#ARIS_ICON_SVG",
+      "program_id": "ARIS"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/doom-the-dark-ages",
+        "background": "aris#ARIS_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "hidden": false,
+            "id": "hh_optimized",
+            "image": "default#LOGO_HH_OPTIMIZED",
+            "label": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "rank": 0
+          }
+        ],
+        "content_id": "doom-the-dark-ages",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_ACTION_SHOOTER",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_optimized"],
+        "icon_medium": "aris#ARIS_ICON_MEDIUM",
+        "icon_small": "aris#ARIS_ICON_SMALL",
+        "icon_svg": "aris#ARIS_ICON_SVG",
+        "install_background": "aris#ARIS_INSTALL_BACKGROUND",
+        "key_art": "aris#ARIS_KEY_ART",
+        "logo": "aris#ARIS_LOGO",
+        "name": "aris#ARIS_NAME",
+        "post_launch_actions": ["game_session_monitor"],
+        "program_id": "ARIS",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/doom-the-dark-ages"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://doom.bethesda.net/the-dark-ages"
+            },
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 304
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://discord.gg/DOOM"},
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 303
+          }
+        ],
+        "region_permission_flags": {
+          "default": "requires_account_visible",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {"BLR": "disabled_invisible", "RUS": "disabled_invisible", "override_type": "country"}
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://doom.bethesda.net/the-dark-ages"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": false,
+        "supported_platforms": ["win"],
+        "supported_regions": ["GLOBAL"],
+        "supports_starter_mode": true,
+        "tab_order": 18,
+        "title_id": 1095911763,
+        "types": {
+          "artbook": {
+            "auto_favorite_on_grant": true,
+            "name": "aris#ARIS_ARTBOOK_NAME",
+            "selector_display_name": "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME",
+            "uid": "aris_artbook"
+          },
+          "artbook_dev": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "aris#ARIS_ARTBOOK_NAME_DEV",
+            "supports_starter_mode": false,
+            "uid": "aris_artbook_dev_1"
+          },
+          "artbook_rc": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "aris#ARIS_ARTBOOK_NAME_RC",
+            "supports_starter_mode": false,
+            "uid": "aris_artbook_rc"
+          },
+          "dev": {
+            "auto_favorite_on_grant": true,
+            "pre_launch_actions": ["denuvo"],
+            "selector_display_name": "default#TYPES_DEVELOPER_1_NAME",
+            "supports_starter_mode": false,
+            "uid": "aris_retail_dev_1"
+          },
+          "rc": {
+            "auto_favorite_on_grant": true,
+            "pre_launch_actions": ["denuvo"],
+            "selector_display_name": "aris#ARIS_NAME_RC",
+            "supports_starter_mode": false,
+            "uid": "aris_retail_rc"
+          },
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "badges": [
+              {
+                "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+                "hidden": true,
+                "id": "game_pass",
+                "image": "default#LOGO_XBOX_GAME_PASS",
+                "label": "default#BADGE_TEXT_INCLUDED_WITH",
+                "rank": 1,
+                "tooltip": "aris#ARIS_GAME_PASS_DISCLAIMER"
+              }
+            ],
+            "pre_launch_actions": ["denuvo"],
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://slayersclub.bethesda.net"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "uid": "aris"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "ARIS",
+      "variants": {
+        "ARIS_Standard": {
+          "types": {
+            "retail": {
+              "quick_links": [
+                {
+                  "action": {
+                    "target": "shop",
+                    "type": "upgrade",
+                    "url": "nydus://client/shop/product/doom-the-dark-ages"
+                  },
+                  "color": "#6cdb00",
+                  "icon": "default#QUICK_LINK_ICON_UPGRADE",
+                  "id": "upgrade",
+                  "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+                  "rank": 100
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "program_configuration": {
+    "ARIS": {
+      "run_each_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "ARIS", "type": "dev"}}},
+            {"add_product": {"product_id": {"id": "ARIS", "type": "rc"}}},
+            {"add_product": {"product_id": {"id": "ARIS", "type": "artbook_dev"}}},
+            {"add_product": {"product_id": {"id": "ARIS", "type": "artbook_rc"}}}
+          ],
+          "match": {"license_id": [1042670]}
+        }
+      ],
+      "run_first_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "ARIS", "type": "retail"}}},
+            {"add_product": {"product_id": {"id": "ARIS", "type": "artbook"}}}
+          ],
+          "match": {"all_of": [{"license_id": [1091697]}, {"license_id": [1091726]}]}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "ARIS_Standard", "type": "retail"}}}],
+          "match": {"license_id": [1091697]}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "Die Standard Edition und der Skin „Leeren-DOOM-Slayer“ sind im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben. Für den Zugriff auf die zusätzlichen Inhalte der Premium Edition ist ein separater Kauf erforderlich."
+    },
+    "default": {
+      "aris#ARIS_ARTBOOK_NAME": "DOOM: The Dark Ages Digital Artbook and Original Soundtrack",
+      "aris#ARIS_ARTBOOK_NAME_DEV": "Artbook Dev",
+      "aris#ARIS_ARTBOOK_NAME_RC": "Artbook RC",
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "Standard Edition and Void DOOM Slayer Skin are included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account. Access to Premium Edition items requires a separate purchase.",
+      "aris#ARIS_NAME": "Doom: The Dark Ages",
+      "aris#ARIS_NAME_RC": "Aries RC"
+    },
+    "esES": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "La Edición Estándar y el aspecto DOOM Slayer del Vacío se incluyen en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox. El acceso a los artículos de la Edición Prémium se vende por separado."
+    },
+    "esMX": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "La Edición Estándar y el diseño de DOOM Slayer del vacío se incluyen en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox. El acceso a los elementos de la Edición Prémium requiere una compra por separado."
+    },
+    "frFR": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "L’Édition Standard et l’apparence Void pour le DOOM Slayer sont incluses dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox. Les éléments de l’Édition Premium devront être achetés séparément"
+    },
+    "itIT": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "La Standard Edition e la skin DOOM Slayer Vuoto sono incluse in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox. L'accesso agli oggetti della Premium Edition richiede un acquisto separato."
+    },
+    "jaJP": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、スタンダードエディションとドゥームスレイヤースキン「ヴォイド」をXbox Game Passでお楽しみいただけます。なお、プレミアムエディションのアイテムをご利用いただくには、別途購入が必要です。"
+    },
+    "koKR": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "스탠다드 에디션과 공허 둠 슬레이어 스킨은 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다. 프리미엄 에디션 아이템을 이용하려면 별도 구매가 필요합니다."
+    },
+    "plPL": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "Edycja Standardowa i skórka pustki dla DOOM Slayera są dostępne w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox. Dostęp do przedmiotów z Edycji Premium wymaga osobnego zakupu."
+    },
+    "ptBR": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "A Edição Padrão e o Visual DOOM Slayer do Vazio estão inclusos no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox. O acesso aos itens da Edição Premium exige uma compra separada."
+    },
+    "ruRU": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "Стандартное издание и облик Палача Рока «Пустота» доступны активным пользователям Xbox Game Pass, связавшим Battle.net с учетной записью сети Xbox. Доступ к предметам премиум-издания приобретается отдельно."
+    },
+    "thTH": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "Standard Edition และสกิน Void DOOM Slayer จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox สิทธิ์รับรายการต่างๆ ใน Premium Edition ต้องซื้อแยกต่างหาก"
+    },
+    "zhCN": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩标准版并获得虚空毁灭战士皮肤。高级版物品需另行购买才能解锁。"
+    },
+    "zhTW": {
+      "aris#ARIS_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩標準版並獲得虛空毀滅戰士造型。若要取得高級版物品，則需另外購買。"
+    }
+  },
+  "version": 30
+}

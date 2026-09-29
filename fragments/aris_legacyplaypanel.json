@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "aris_legacyplaypanel#ARIS_BACKGROUND_OLD_PANEL": {
+        "hash": "e1ede625855a0de4680e4ef9de238911",
+        "name": "resources/aris/background_aries.png"
+      }
+    }
+  },
+  "fragment_id": "aris_legacyplaypanel",
+  "products": [{"base": {"background": "aris_legacyplaypanel#ARIS_BACKGROUND_OLD_PANEL"}, "id": "ARIS"}],
+  "version": 30
+}

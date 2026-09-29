@@ -1,0 +1,5 @@
+{
+  "fragment_id": "overwatch_prodemo4notdeprecatedwithnewlicense",
+  "products": [{"base": {"types": {"ow_demo_4": {"deprecated": false}}}, "id": "Pro"}],
+  "version": 30
+}

@@ -1,0 +1,287 @@
+{
+  "files": {},
+  "fragment_id": "kelp",
+  "installs": {
+    "kelp_vendor_1": {"requires_sso_token": true, "tact_product": "kelpv1"},
+    "kelp_vendor_10": {"requires_sso_token": true, "tact_product": "kelpv10"},
+    "kelp_vendor_11": {"requires_sso_token": true, "tact_product": "kelpv11"},
+    "kelp_vendor_12": {"requires_sso_token": true, "tact_product": "kelpv12"},
+    "kelp_vendor_13": {"requires_sso_token": true, "tact_product": "kelpv13"},
+    "kelp_vendor_14": {"requires_sso_token": true, "tact_product": "kelpv14"},
+    "kelp_vendor_15": {"requires_sso_token": true, "tact_product": "kelpv15"},
+    "kelp_vendor_16": {"requires_sso_token": true, "tact_product": "kelpv16"},
+    "kelp_vendor_17": {"requires_sso_token": true, "tact_product": "kelpv17"},
+    "kelp_vendor_18": {"requires_sso_token": true, "tact_product": "kelpv18"},
+    "kelp_vendor_19": {"requires_sso_token": true, "tact_product": "kelpv19"},
+    "kelp_vendor_2": {"requires_sso_token": true, "tact_product": "kelpv2"},
+    "kelp_vendor_20": {"requires_sso_token": true, "tact_product": "kelpv20"},
+    "kelp_vendor_21": {"requires_sso_token": true, "tact_product": "kelpv21"},
+    "kelp_vendor_22": {"requires_sso_token": true, "tact_product": "kelpv22"},
+    "kelp_vendor_23": {"requires_sso_token": true, "tact_product": "kelpv23"},
+    "kelp_vendor_24": {"requires_sso_token": true, "tact_product": "kelpv24"},
+    "kelp_vendor_25": {"requires_sso_token": true, "tact_product": "kelpv25"},
+    "kelp_vendor_26": {"requires_sso_token": true, "tact_product": "kelpv26"},
+    "kelp_vendor_27": {"requires_sso_token": true, "tact_product": "kelpv27"},
+    "kelp_vendor_28": {"requires_sso_token": true, "tact_product": "kelpv28"},
+    "kelp_vendor_29": {"requires_sso_token": true, "tact_product": "kelpv29"},
+    "kelp_vendor_3": {"requires_sso_token": true, "tact_product": "kelpv3"},
+    "kelp_vendor_30": {"requires_sso_token": true, "tact_product": "kelpv30"},
+    "kelp_vendor_31": {"requires_sso_token": true, "tact_product": "kelpv31"},
+    "kelp_vendor_32": {"requires_sso_token": true, "tact_product": "kelpv32"},
+    "kelp_vendor_33": {"requires_sso_token": true, "tact_product": "kelpv33"},
+    "kelp_vendor_34": {"requires_sso_token": true, "tact_product": "kelpv34"},
+    "kelp_vendor_35": {"requires_sso_token": true, "tact_product": "kelpv35"},
+    "kelp_vendor_4": {"requires_sso_token": true, "tact_product": "kelpv4"},
+    "kelp_vendor_5": {"requires_sso_token": true, "tact_product": "kelpv5"},
+    "kelp_vendor_6": {"requires_sso_token": true, "tact_product": "kelpv6"},
+    "kelp_vendor_7": {"requires_sso_token": true, "tact_product": "kelpv7"},
+    "kelp_vendor_8": {"requires_sso_token": true, "tact_product": "kelpv8"},
+    "kelp_vendor_9": {"requires_sso_token": true, "tact_product": "kelpv9"}
+  },
+  "products": [
+    {
+      "base": {
+        "background": "default#BACKGROUND_DEFAULT",
+        "content_id": "game",
+        "default_product_type": "retail",
+        "is_activision_game": true,
+        "name": "kelp#KELP_NAME",
+        "program_id": "AUKS",
+        "region_permission_flags": {"default": "requires_account"},
+        "starter_mode_when_offline": true,
+        "supported_platforms": ["win"],
+        "supported_regions": ["US", "EU", "KR", "XX"],
+        "supports_starter_mode": false,
+        "tab_order": 41,
+        "track_exit_code": true,
+        "types": {
+          "retail": {"auto_favorite_on_grant": true, "region_permission_flags": {"default": "disabled"}, "uid": "kelp"},
+          "vendor_1": {"selector_display_name": "default#TYPES_VENDOR_1_NAME", "uid": "kelp_vendor_1"},
+          "vendor_10": {"selector_display_name": "default#TYPES_VENDOR_10_NAME", "uid": "kelp_vendor_10"},
+          "vendor_11": {"selector_display_name": "default#TYPES_VENDOR_11_NAME", "uid": "kelp_vendor_11"},
+          "vendor_12": {"selector_display_name": "default#TYPES_VENDOR_12_NAME", "uid": "kelp_vendor_12"},
+          "vendor_13": {"selector_display_name": "default#TYPES_VENDOR_13_NAME", "uid": "kelp_vendor_13"},
+          "vendor_14": {"selector_display_name": "default#TYPES_VENDOR_14_NAME", "uid": "kelp_vendor_14"},
+          "vendor_15": {"selector_display_name": "default#TYPES_VENDOR_15_NAME", "uid": "kelp_vendor_15"},
+          "vendor_16": {"selector_display_name": "default#TYPES_VENDOR_16_NAME", "uid": "kelp_vendor_16"},
+          "vendor_17": {"selector_display_name": "default#TYPES_VENDOR_17_NAME", "uid": "kelp_vendor_17"},
+          "vendor_18": {"selector_display_name": "default#TYPES_VENDOR_18_NAME", "uid": "kelp_vendor_18"},
+          "vendor_19": {"selector_display_name": "default#TYPES_VENDOR_19_NAME", "uid": "kelp_vendor_19"},
+          "vendor_2": {"selector_display_name": "default#TYPES_VENDOR_2_NAME", "uid": "kelp_vendor_2"},
+          "vendor_20": {"selector_display_name": "default#TYPES_VENDOR_20_NAME", "uid": "kelp_vendor_20"},
+          "vendor_21": {"selector_display_name": "default#TYPES_VENDOR_21_NAME", "uid": "kelp_vendor_21"},
+          "vendor_22": {"selector_display_name": "default#TYPES_VENDOR_22_NAME", "uid": "kelp_vendor_22"},
+          "vendor_23": {"selector_display_name": "default#TYPES_VENDOR_23_NAME", "uid": "kelp_vendor_23"},
+          "vendor_24": {"selector_display_name": "default#TYPES_VENDOR_24_NAME", "uid": "kelp_vendor_24"},
+          "vendor_25": {"selector_display_name": "default#TYPES_VENDOR_25_NAME", "uid": "kelp_vendor_25"},
+          "vendor_26": {"selector_display_name": "default#TYPES_VENDOR_26_NAME", "uid": "kelp_vendor_26"},
+          "vendor_27": {"selector_display_name": "default#TYPES_VENDOR_27_NAME", "uid": "kelp_vendor_27"},
+          "vendor_28": {"selector_display_name": "default#TYPES_VENDOR_28_NAME", "uid": "kelp_vendor_28"},
+          "vendor_29": {"selector_display_name": "default#TYPES_VENDOR_29_NAME", "uid": "kelp_vendor_29"},
+          "vendor_3": {"selector_display_name": "default#TYPES_VENDOR_3_NAME", "uid": "kelp_vendor_3"},
+          "vendor_30": {"selector_display_name": "default#TYPES_VENDOR_30_NAME", "uid": "kelp_vendor_30"},
+          "vendor_31": {"selector_display_name": "default#TYPES_VENDOR_31_NAME", "uid": "kelp_vendor_31"},
+          "vendor_32": {"selector_display_name": "default#TYPES_VENDOR_32_NAME", "uid": "kelp_vendor_32"},
+          "vendor_33": {"selector_display_name": "default#TYPES_VENDOR_33_NAME", "uid": "kelp_vendor_33"},
+          "vendor_34": {"selector_display_name": "default#TYPES_VENDOR_34_NAME", "uid": "kelp_vendor_34"},
+          "vendor_35": {"selector_display_name": "default#TYPES_VENDOR_35_NAME", "uid": "kelp_vendor_35"},
+          "vendor_4": {"selector_display_name": "default#TYPES_VENDOR_4_NAME", "uid": "kelp_vendor_4"},
+          "vendor_5": {"selector_display_name": "default#TYPES_VENDOR_5_NAME", "uid": "kelp_vendor_5"},
+          "vendor_6": {"selector_display_name": "default#TYPES_VENDOR_6_NAME", "uid": "kelp_vendor_6"},
+          "vendor_7": {"selector_display_name": "default#TYPES_VENDOR_7_NAME", "uid": "kelp_vendor_7"},
+          "vendor_8": {"selector_display_name": "default#TYPES_VENDOR_8_NAME", "uid": "kelp_vendor_8"},
+          "vendor_9": {"selector_display_name": "default#TYPES_VENDOR_9_NAME", "uid": "kelp_vendor_9"}
+        }
+      },
+      "id": "KELP"
+    }
+  ],
+  "program_configuration": {
+    "KELP": {
+      "run_each_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_1"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_2"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_3"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_4"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_5"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_6"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_7"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_8"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_9"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_10"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_11"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_12"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_13"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_14"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_15"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_16"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_17"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_18"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_19"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_20"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_21"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_22"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_23"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_24"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_25"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_26"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_27"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_28"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_29"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_30"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_31"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_32"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_33"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_34"}}},
+            {"add_product": {"product_id": {"id": "KELP", "type": "vendor_35"}}}
+          ],
+          "match": {"license_id": 1198923}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_1"}}}],
+          "match": {"license_id": 1198925}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_2"}}}],
+          "match": {"license_id": 1198926}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_3"}}}],
+          "match": {"license_id": 1198927}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_4"}}}],
+          "match": {"license_id": 1198928}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_5"}}}],
+          "match": {"license_id": 1198929}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_6"}}}],
+          "match": {"license_id": 1198930}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_7"}}}],
+          "match": {"license_id": 1198931}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_8"}}}],
+          "match": {"license_id": 1198932}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_9"}}}],
+          "match": {"license_id": 1198933}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_10"}}}],
+          "match": {"license_id": 1198934}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_11"}}}],
+          "match": {"license_id": 1198935}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_12"}}}],
+          "match": {"license_id": 1198936}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_13"}}}],
+          "match": {"license_id": 1198937}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_14"}}}],
+          "match": {"license_id": 1198938}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_15"}}}],
+          "match": {"license_id": 1198939}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_16"}}}],
+          "match": {"license_id": 1198940}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_17"}}}],
+          "match": {"license_id": 1198941}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_18"}}}],
+          "match": {"license_id": 1198942}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_19"}}}],
+          "match": {"license_id": 1198943}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_20"}}}],
+          "match": {"license_id": 1198944}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_21"}}}],
+          "match": {"license_id": 1198945}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_22"}}}],
+          "match": {"license_id": 1198946}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_23"}}}],
+          "match": {"license_id": 1198947}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_24"}}}],
+          "match": {"license_id": 1198948}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_25"}}}],
+          "match": {"license_id": 1198949}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_26"}}}],
+          "match": {"license_id": 1198950}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_27"}}}],
+          "match": {"license_id": 1198951}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_28"}}}],
+          "match": {"license_id": 1198952}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_29"}}}],
+          "match": {"license_id": 1198953}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_30"}}}],
+          "match": {"license_id": 1198954}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_31"}}}],
+          "match": {"license_id": 1198955}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_32"}}}],
+          "match": {"license_id": 1198956}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_33"}}}],
+          "match": {"license_id": 1198957}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_34"}}}],
+          "match": {"license_id": 1198958}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "KELP", "type": "vendor_35"}}}],
+          "match": {"license_id": 1198959}
+        }
+      ]
+    }
+  },
+  "strings": {"default": {"kelp#KELP_NAME": "Kelp"}},
+  "version": 30
+}

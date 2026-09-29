@@ -1,0 +1,363 @@
+{
+  "files": {
+    "default": {
+      "starcraft_ii#S2_BACKGROUND": {
+        "hash": "ce1fdf0c2f214891c91483eaa973bcb5",
+        "name": "resources/starcraft2/background_sc2_new_panel.webp"
+      },
+      "starcraft_ii#S2_ICON_MASSIVE": {
+        "hash": "7279cbad6a2a3d4b4c8d291ae724c333",
+        "name": "resources/starcraft2/icon_game_sc2_massive.png"
+      },
+      "starcraft_ii#S2_ICON_MEDIUM": {
+        "hash": "8325cf83c768a0cf8f323615260e94f2",
+        "name": "resources/starcraft2/icon_game_sc2_medium.png"
+      },
+      "starcraft_ii#S2_ICON_SMALL": {
+        "hash": "b2ba7a18f0930c2caee315c3f8742ffd",
+        "name": "resources/starcraft2/icon_game_sc2_small.png"
+      },
+      "starcraft_ii#S2_ICON_SVG": {
+        "hash": "4e7f6022112b48b13f380273cb78d94d",
+        "name": "resources/starcraft2/icon_sc2.svg"
+      },
+      "starcraft_ii#S2_ICON_TINY": {
+        "hash": "97cf14cfa886cf41661043d1721125b4",
+        "name": "resources/starcraft2/icon_game_sc2_tiny.png"
+      },
+      "starcraft_ii#S2_INSTALL_BACKGROUND": {
+        "hash": "a1f48c4a62964eb050c5b20c2d4dec8f",
+        "name": "resources/starcraft2/install_background_sc2_v2_2x.jpg"
+      },
+      "starcraft_ii#S2_KEY_ART": {
+        "hash": "104f9e950b7096d4460ae19e268fb4fa",
+        "name": "resources/starcraft2/key_art_starcraft2_enUS.jpg"
+      },
+      "starcraft_ii#S2_LOGO": {
+        "hash": "54c2e45c1d02bf9af248e78143166fcb",
+        "name": "resources/starcraft2/logo_starcraft2_v2.png"
+      }
+    },
+    "zhCN": {
+      "starcraft_ii#S2_INSTALL_BACKGROUND": {
+        "hash": "83e4afc145f95edffa2c77d1de81c157",
+        "name": "resources/starcraft2/install_background_sc2_zhCN_v2_2x.jpg"
+      },
+      "starcraft_ii#S2_KEY_ART": {
+        "hash": "418f6e6991a15faf8df2844f15932f2e",
+        "name": "resources/starcraft2/key_art_starcraft2_zhCN.jpg"
+      },
+      "starcraft_ii#S2_LOGO": {
+        "hash": "8650b50e7a05a781c104e48b6e5cd247",
+        "name": "resources/starcraft2/logo_starcraft2_zhCN_v2.png"
+      }
+    },
+    "zhTW": {
+      "starcraft_ii#S2_INSTALL_BACKGROUND": {
+        "hash": "8b993c5e7cf2cd58bfd2ed6628163a8e",
+        "name": "resources/starcraft2/install_background_sc2_zhTW_v2_2x.jpg"
+      },
+      "starcraft_ii#S2_KEY_ART": {
+        "hash": "fbaceb81e1a5cd7e74e24a0502d223d9",
+        "name": "resources/starcraft2/key_art_starcraft2_zhTW.jpg"
+      },
+      "starcraft_ii#S2_LOGO": {
+        "hash": "31308beb5eff0a0200e8a66889cfa7c5",
+        "name": "resources/starcraft2/logo_starcraft2_zhTW_v2.png"
+      }
+    }
+  },
+  "fragment_id": "starcraft_ii",
+  "installs": {
+    "s2": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "locale_specific_uid": true,
+      "tact_product": "s2",
+      "uses_web_credentials": false
+    },
+    "s2_cn": {"locale_specific_uid": true, "tact_product": "s2c", "uses_web_credentials": false},
+    "s2_ptr": {"locale_specific_uid": true, "tact_product": "s2t", "uses_web_credentials": false},
+    "s2_vendor": {"locale_specific_uid": true, "tact_product": "s2v", "uses_web_credentials": false}
+  },
+  "presence_resources": [
+    {
+      "display_name": "starcraft_ii#S2_NAME",
+      "icon_16": "starcraft_ii#S2_ICON_TINY",
+      "icon_275": "starcraft_ii#S2_ICON_MASSIVE",
+      "icon_32": "starcraft_ii#S2_ICON_SMALL",
+      "icon_56": "starcraft_ii#S2_ICON_MEDIUM",
+      "icon_svg": "starcraft_ii#S2_ICON_SVG",
+      "program_id": "S2"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/starcraft-ii",
+        "background": "starcraft_ii#S2_BACKGROUND",
+        "badges": [
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/starcraft2/alert",
+        "content_id": "starcraft-2",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_REAL_TIME_STRATEGY",
+        "handheld_feature_compatibility": [
+          {
+            "compatibility": "handheld_unsupported",
+            "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED"
+          },
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "starcraft_ii#S2_ICON_MEDIUM",
+        "icon_small": "starcraft_ii#S2_ICON_SMALL",
+        "icon_svg": "starcraft_ii#S2_ICON_SVG",
+        "icon_tiny": "starcraft_ii#S2_ICON_TINY",
+        "install_background": "starcraft_ii#S2_INSTALL_BACKGROUND",
+        "key_art": "starcraft_ii#S2_KEY_ART",
+        "locale_support_flag": "text_audio",
+        "logo": "starcraft_ii#S2_LOGO",
+        "misc_flags": ["play_for_free"],
+        "name": "starcraft_ii#S2_NAME",
+        "program_id": "S2",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/starcraft-ii"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"name": "editor", "type": "launch"},
+            "icon": "default#QUICK_LINK_ICON_EDITOR",
+            "id": "editor",
+            "label": "starcraft_ii#QUICK_LINK_EDITOR",
+            "rank": 302
+          },
+          {
+            "action": {"external": true, "target": "external-sso", "type": "url", "url": "nydus://client/forum/S2"},
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 304
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/starcraft2"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 305
+          }
+        ],
+        "region_permission_flags": {"default": "unrestricted"},
+        "starter_items": [
+          {
+            "action": {"type": "install"},
+            "id": "play_for_free",
+            "label": "default#STARTER_ITEM_PLAY_FOR_FREE",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://starcraft2.com/?utm_source=app-battlenetdesktop&utm_content=starter-screen"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "tab_order": 17,
+        "title_id": 21298,
+        "types": {
+          "ptr": {
+            "breaking_news_url": "nydus://client/starcraft2/ptr/alert",
+            "quick_links": [
+              {
+                "action": {"cms_id": "s2", "cms_type": "PTR", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 303
+              }
+            ],
+            "ribbon_text": "default#RIBBON_TEXT_PTR",
+            "selector_display_name": "starcraft_ii#S2_PTR_DISPLAY_STRING",
+            "supported_regions": ["XX"],
+            "uid": "s2_ptr"
+          },
+          "retail": {
+            "badges": [
+              {
+                "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+                "hidden": true,
+                "id": "game_pass",
+                "image": "default#LOGO_XBOX_GAME_PASS",
+                "label": "default#BADGE_TEXT_INCLUDED_WITH",
+                "rank": 1,
+                "tooltip": "starcraft_ii#S2_GAME_PASS_DISCLAIMER"
+              }
+            ],
+            "quick_links": [
+              {
+                "action": {"cms_id": "s2", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 303
+              }
+            ],
+            "show_region_switch_warning": true,
+            "supported_regions": ["US", "EU", "KR", "CN"],
+            "uid": "s2",
+            "xbox_uid": "9PB7921QZ087"
+          },
+          "vendor": {
+            "auto_favorite_on_grant": true,
+            "supported_regions": ["US", "EU", "KR", "CN"],
+            "supports_starter_mode": false,
+            "uid": "s2_vendor"
+          }
+        }
+      },
+      "id": "S2"
+    }
+  ],
+  "program_configuration": {
+    "S2": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "S2", "type": "ptr"}}}],
+          "match": {"game_account": {"program_id": "S2"}}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "S2", "type": "vendor"}}}],
+          "match": {"all_of": [{"license_id": 1116810}, {"account_region": ["CN"]}]}
+        }
+      ],
+      "run_first_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "S2", "type": "retail"}}}],
+          "match": {"license_id": [150, 236, 260, 16515]}
+        },
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "S2", "type": "retail"}}},
+            {"add_tag": {"name": "play_for_free"}}
+          ],
+          "match": true
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Editor starten",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "Die Kampagnensammlung ist im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben. Für den Zugriff auf die zusätzlichen Inhalte der Digital Deluxe Edition ist ein separater Kauf erforderlich.",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Öffentlicher Testrealm (PTR)"
+    },
+    "default": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Launch Editor",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "Campaign Collection is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account. Access to the Digital Deluxe items requires a separate purchase.",
+      "starcraft_ii#S2_NAME": "StarCraft II",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Public Test Realm"
+    },
+    "esES": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Iniciar Editor",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "La Colección de campañas se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox. El acceso a los artículos de la Edición Digital Deluxe se vende por separado.",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Reino público de pruebas"
+    },
+    "esMX": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Ejecutar editor",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "La Saga Completa se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox. El acceso a los elementos de la Edición Digital Deluxe requiere una compra por separado.",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Reino público de pruebas"
+    },
+    "frFR": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Lancer l’éditeur",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "La Collection de campagnes est incluse dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox. Les éléments de l’Édition Digital Deluxe devront être achetés séparément.",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Royaume public de test"
+    },
+    "itIT": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Editor",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "L'Edizione Campagne è inclusa in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox. L'accesso agli oggetti dell'Edizione digitale deluxe richiede un acquisto separato.",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Reame pubblico di prova"
+    },
+    "jaJP": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "エディターを起動",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、「Campaign Collection」をXbox Game Passでお楽しみいただけます。なお、デジタルデラックスのアイテムをご利用いただくには、別途購入が必要です。",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "パブリックテストサーバー"
+    },
+    "koKR": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "편집기 실행",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、「Campaign Collection」をXbox Game Passでお楽しみいただけます。なお、デジタルデラックスのアイテムをご利用いただくには、別途購入が必要です。",
+      "starcraft_ii#S2_NAME": "스타크래프트 II",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "공개 테스트 서버"
+    },
+    "plPL": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Uruchom Edytor",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "Kolekcja kampanii jest dostępna w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox. Dostęp do przedmiotów z Edycji Cyfrowej Deluxe wymaga osobnego zakupu.",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Publiczny Serwer Testowy"
+    },
+    "ptBR": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Iniciar Editor",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "A Saga Completa está inclusa no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox. O acesso aos itens da Edição Digital Deluxe exige uma compra separada.",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Reino de Teste Público"
+    },
+    "ruRU": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "Запуск редактора",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "Сюжетная коллекция доступна активным пользователям Xbox Game Pass с действующей подпиской, связавшим Battle.net с учетной записью сети Xbox. Доступ к предметам издания Digital Deluxe приобретается отдельно.",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "Тестовый игровой мир (PTR)"
+    },
+    "thTH": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "เปิดตัวแก้ไข",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "Campaign Collection จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox สิทธิ์รับรายการต่างๆ ใน Digital Deluxe ต้องซื้อแยกต่างหาก",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "เซิร์ฟเวอร์ทดสอบสาธารณะ (PTR)"
+    },
+    "zhCN": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "启动编辑器",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩《Campaign Collection》。数字豪华版物品需另行购买才能解锁。",
+      "starcraft_ii#S2_NAME": "星际争霸II",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "公共测试服"
+    },
+    "zhTW": {
+      "starcraft_ii#QUICK_LINK_EDITOR": "啟動編輯器",
+      "starcraft_ii#S2_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩劇情戰役組合包。若要取得數位豪華版物品，則需另外購買。",
+      "starcraft_ii#S2_NAME": "《星海爭霸II》",
+      "starcraft_ii#S2_PTR_DISPLAY_STRING": "測試伺服器"
+    }
+  },
+  "version": 30
+}

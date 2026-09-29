@@ -1,0 +1,58 @@
+{
+  "files": {
+    "default": {
+      "osi_cn#OSI_INSTALL_BACKGROUND_CN": {
+        "hash": "d3807d40471df572411e78d389de2fe5",
+        "name": "resources/osi/install_background_osi_cn_zhCN.png"
+      },
+      "osi_cn#OSI_KEY_ART_CN": {
+        "hash": "dc033277aa8802007bc7fd3f89d815d2",
+        "name": "resources/osi/key_art_osi_cn_zhCN.png"
+      },
+      "osi_cn#OSI_LOGO_CN": {"hash": "a1c797f3c17f423e8aa7b3ec1570aa21", "name": "resources/osi/logo_osi_cn_zhCN.png"}
+    }
+  },
+  "fragment_id": "osi_cn",
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/product/diablo_ii_resurrected",
+        "install_background": "osi_cn#OSI_INSTALL_BACKGROUND_CN",
+        "key_art": "osi_cn#OSI_KEY_ART_CN",
+        "logo": "osi_cn#OSI_LOGO_CN",
+        "name": "osi_cn#OSI_NAME_CN",
+        "quick_links": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.battlenet.com.cn/ld9"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 304
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/diablo"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {"hidden": true, "id": "forums"}
+        ],
+        "starter_items": [{"hidden": true, "id": "website", "type": "button"}],
+        "types": {
+          "beta": {"deprecated": false},
+          "osi_dev": {"deprecated": false},
+          "retail": {"quick_links": [{"hidden": true, "id": "patch_notes"}], "uid": "osic"}
+        }
+      },
+      "id": "OSI"
+    }
+  ],
+  "strings": {"default": {"osi_cn#OSI_NAME_CN": "《暗黑破坏神2®》重制版"}},
+  "version": 30
+}

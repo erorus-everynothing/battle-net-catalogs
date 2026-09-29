@@ -1,0 +1,36 @@
+{
+  "files": {},
+  "fragment_id": "starcraft_ii_cnoverride",
+  "products": [
+    {
+      "base": {
+        "starter_items": [{"hidden": true, "id": "website", "type": "button"}],
+        "supported_platforms": ["win"],
+        "types": {
+          "retail": {
+            "quick_links": [
+              {"hidden": true, "id": "patch_notes"},
+              {"hidden": true, "id": "forums"},
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://support.battlenet.com.cn/ld6/"
+                },
+                "icon": "default#QUICK_LINK_ICON_SUPPORT",
+                "id": "support",
+                "label": "default#QUICK_LINK_SUPPORT",
+                "rank": 305
+              }
+            ],
+            "uid": "s2_cn"
+          }
+        }
+      },
+      "id": "S2"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

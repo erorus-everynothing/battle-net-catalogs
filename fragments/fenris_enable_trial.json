@@ -1,0 +1,79 @@
+{
+  "fragment_id": "fenris_enable_trial",
+  "products": [
+    {
+      "base": {
+        "starter_items": [
+          {
+            "action": {"type": "install"},
+            "id": "try_for_free",
+            "label": "default#STARTER_ITEM_TRY_FOR_FREE",
+            "rank": 0,
+            "style": "primary",
+            "tooltip": "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP",
+            "type": "button"
+          }
+        ],
+        "types": {
+          "retail": {
+            "region_permission_flags": {
+              "default": "unrestricted",
+              "overrides": [
+                {
+                  "BLR": "disabled_invisible",
+                  "RUS": "disabled_invisible",
+                  "SYR": "disabled_invisible",
+                  "override_type": "country"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "id": "Fen"
+    }
+  ],
+  "strings": {
+    "deDE": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "Probiert für kurze Zeit die neue Klasse der Erweiterung, den Geistgeborenen, aus und spielt bis Stufe 25!"
+    },
+    "default": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "Try the new expansion class, Spiritborn, free for a limited time! Play up to Level 25."
+    },
+    "esES": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "¡Prueba gratis por tiempo limitado la nueva clase de la expansión, el espiritualista! Juega hasta el nivel 25."
+    },
+    "esMX": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "Prueba al Encarnaespíritu, la nueva clase de la expansión, ¡gratis por tiempo limitado! Juega hasta el nivel 25."
+    },
+    "frFR": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "Pour une durée limitée, essayez gratuitement la classe sacresprit, nouvelle classe de l’extension, jusqu’au niveau 25."
+    },
+    "itIT": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "Prova la nuova classe dell'espansione, lo Spiritista, per un periodo limitato! Gioca fino al livello 25."
+    },
+    "jaJP": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "拡張パックで登場した新クラス「スピリットボーン」を期間限定で無料体験しましょう！ 最大レベル25までプレイ可能です。"
+    },
+    "koKR": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "정해진 기간 동안 신규 확장팩 직업 혼령사를 무료로 체험해 보십시오! 25레벨까지 플레이 가능합니다."
+    },
+    "plPL": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "Przez ograniczony czas wypróbuj za darmo nową klasę spirytystów z dodatku! Graj do poziomu 25."
+    },
+    "ptBR": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "Teste a nova classe da expansão, o Natispírito, de graça por tempo limitado! Jogue até o nível 25."
+    },
+    "ruRU": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "Играйте за новый класс наследника духов из дополнения бесплатно в течение ограниченного времени! Развивайте персонажа до 25-го уровня."
+    },
+    "thTH": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "ลองใช้คลาส Spiritborn (สปิริตบอร์น) ในส่วนเสริมชุดใหม่ได้ฟรีในเวลาที่กำหนด! เล่นได้ถึงเลเวล 25"
+    },
+    "zhCN": {"fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "限时免费试玩资料片新职业：灵巫！可免费试玩至 25 级。"},
+    "zhTW": {
+      "fenris_enable_trial#FENRIS_STARTER_ITEM_TRY_FOR_FREE_SPIRITBORN_TOOLTIP": "限時免費試玩最新資料片的職業「魂靈師」。最多能玩到等級 25。"
+    }
+  },
+  "version": 30
+}

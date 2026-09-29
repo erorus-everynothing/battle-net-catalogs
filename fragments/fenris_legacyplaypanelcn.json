@@ -1,0 +1,35 @@
+{
+  "files": {
+    "default": {
+      "fenris_legacyplaypanelcn#FENRIS_BACKGROUND_OLD_PANEL": {
+        "hash": "40c6f05f9139335b59f3069285acef79",
+        "name": "resources/fenris/background_fenris.png"
+      }
+    }
+  },
+  "fragment_id": "fenris_legacyplaypanelcn",
+  "products": [
+    {
+      "base": {
+        "background": "fenris_legacyplaypanelcn#FENRIS_BACKGROUND_OLD_PANEL",
+        "types": {"retail": {"background": "fenris_legacyplaypanelcn#FENRIS_BACKGROUND_OLD_PANEL"}}
+      },
+      "id": "Fen",
+      "variants": {
+        "FenX1": {
+          "types": {
+            "ptr": {"background": "fenris_legacyplaypanelcn#FENRIS_BACKGROUND_OLD_PANEL"},
+            "retail": {"background": "fenris_legacyplaypanelcn#FENRIS_BACKGROUND_OLD_PANEL"}
+          }
+        },
+        "FenX2": {
+          "types": {
+            "ptr": {"background": "fenris_legacyplaypanelcn#FENRIS_BACKGROUND_OLD_PANEL"},
+            "retail": {"background": "fenris_legacyplaypanelcn#FENRIS_BACKGROUND_OLD_PANEL"}
+          }
+        }
+      }
+    }
+  ],
+  "version": 30
+}

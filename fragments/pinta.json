@@ -1,0 +1,188 @@
+{
+  "files": {
+    "default": {
+      "pinta#PNTA_BACKGROUND": {
+        "hash": "31506294685749c6e786ab424d1a97e5",
+        "name": "resources/pinta/background_pinta_new_panel.webp"
+      },
+      "pinta#PNTA_ICON_MEDIUM": {
+        "hash": "fd7692fb2eec04194d722ba5fa382c2c",
+        "name": "resources/pinta/icon_game_pinta_medium.png"
+      },
+      "pinta#PNTA_ICON_SMALL": {
+        "hash": "0eb51f7b0a341405c02165b7ac1013cb",
+        "name": "resources/pinta/icon_game_pinta_small.png"
+      },
+      "pinta#PNTA_ICON_SVG": {"hash": "ec26d2799d463779b4556cc49ab8f19e", "name": "resources/pinta/icon_pinta.svg"},
+      "pinta#PNTA_INSTALL_BACKGROUND": {
+        "hash": "e6703b6273d0fbfda5467a813d428abc",
+        "name": "resources/pinta/install_background_pinta_enUS.jpg"
+      },
+      "pinta#PNTA_KEY_ART": {
+        "hash": "1737a10dd05db9166a2604ade5ee234b",
+        "name": "resources/pinta/key_art_pinta_enUS.jpg"
+      },
+      "pinta#PNTA_LOGO": {"hash": "4b0dd335b5d5a735f7c7fa055d96b6a1", "name": "resources/pinta/logo_pinta_enUS.png"}
+    }
+  },
+  "fragment_id": "pinta",
+  "installs": {
+    "pinta": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "requires_sso_token": true,
+      "serialize_install_data_in_launch_options": true,
+      "tact_product": "pinta"
+    }
+  },
+  "products": [
+    {
+      "base": {
+        "background": "pinta#PNTA_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_HH_COMPATIBLE",
+            "hidden": false,
+            "id": "hh_compatible",
+            "image": "default#LOGO_HH_COMPATIBLE",
+            "label": "default#BADGE_TEXT_HH_COMPATIBLE",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/codmw2/alert",
+        "content_id": "cod-mwii",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_ACTION_SHOOTER",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_compatible"],
+        "icon_medium": "pinta#PNTA_ICON_MEDIUM",
+        "icon_small": "pinta#PNTA_ICON_SMALL",
+        "icon_svg": "pinta#PNTA_ICON_SVG",
+        "icon_tiny": "pinta#PNTA_ICON_SMALL",
+        "install_background": "pinta#PNTA_INSTALL_BACKGROUND",
+        "install_requires_login": true,
+        "is_activision_game": true,
+        "key_art": "pinta#PNTA_KEY_ART",
+        "kr_data_sharing_consent": "pinta#PNTA_KR_DATA_SHARING_CONSENT",
+        "kr_data_sharing_consent_type_id": 85,
+        "logo": "pinta#PNTA_LOGO",
+        "name": "pinta#PNTA_NAME",
+        "program_id": "AUKS",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/call-of-duty"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://support.activision.com"},
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 304
+          }
+        ],
+        "region_permission_flags": {
+          "default": "requires_account_visible",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {"BLR": "disabled_invisible", "RUS": "disabled_invisible", "override_type": "country"}
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {
+              "target": "shop",
+              "type": "url",
+              "url": "nydus://client/shop/product/call-of-duty-modern-warfare-iii"
+            },
+            "id": "purchase_now",
+            "label": "pinta#PNTA_QUICKLINK_BUY_MWIII",
+            "rank": 3,
+            "style": "secondary",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": true,
+        "supported_platforms": ["win"],
+        "supported_regions": ["US", "EU", "KR"],
+        "supports_starter_mode": false,
+        "tab_order": 24,
+        "title_id": 1096108883,
+        "types": {
+          "retail": {
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "nydus://client/patchnotes/callofduty"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "supports_starter_mode": true,
+            "uid": "pinta"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "PNTA"
+    }
+  ],
+  "program_configuration": {
+    "PNTA": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "PNTA", "type": "retail"}}}],
+          "match": {"license_id": 823086}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "Call of Duty: MW III kaufen"},
+    "default": {
+      "pinta#PNTA_KR_DATA_SHARING_CONSENT": "By checking this check-box, your BattleTag, Blizzard ID information, region information and this game service purchase and usage record will be transferred to Activision Publishing, Inc. (location: United States, contact: privacy@activision.com) and retained for service period for service provision purpose by online transfer at the time of purchase and usage of this game service. Your game play shall be restricted if you don’t consent. Please refer to <a href=\"http://kr.blizzard.com/ko-kr/company/about/privacy.html\">Blizzard Privacy Policy</a>.",
+      "pinta#PNTA_NAME": "Call of Duty: Modern Warfare III",
+      "pinta#PNTA_QUICKLINK_BUY_MWIII": "Buy Call of Duty: MW III"
+    },
+    "esES": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "Comprar Call of Duty: MW III"},
+    "esMX": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "Comprar Call of Duty: MW III"},
+    "frFR": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "Acheter Call of Duty: MW III"},
+    "itIT": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "Compra Call of Duty: MW III"},
+    "jaJP": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "「Call of Duty: MW III」の購入"},
+    "koKR": {
+      "pinta#PNTA_KR_DATA_SHARING_CONSENT": "이 체크박스에 표시함으로써, 귀하의 배틀태그, 블리자드 계정 정보, 지역 정보, 본 게임 서비스 구매 및 이용 내역이 서비스 제공을 위하여 Activision Publishing, Inc. (미국 소재, 문의처: privacy@activision.com)에게 온라인 전송의 방법으로 구매 및 이용 시에 제공되며, 서비스 기간 동안 보유됩니다. 이에 동의하지 않으실 경우 게임 플레이가 제한됩니다. <a href=\"http://kr.blizzard.com/ko-kr/company/about/privacy.html\">블리자드 개인정보 처리방침</a>을 참조해주세요.",
+      "pinta#PNTA_NAME": "콜 오브 듀티: 모던 워페어 III 2023",
+      "pinta#PNTA_QUICKLINK_BUY_MWIII": "콜 오브 듀티: 모던 워페어 III 2023 구매"
+    },
+    "plPL": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "Kup Call of Duty: MW III"},
+    "ptBR": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "Compre Call of Duty: MW III"},
+    "ruRU": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "Приобрести Call of Duty: MW III"},
+    "thTH": {"pinta#PNTA_QUICKLINK_BUY_MWIII": "ซื้อ Call of Duty: MW III"},
+    "zhCN": {"pinta#PNTA_NAME": "《使命召唤：现代战争III 2023》", "pinta#PNTA_QUICKLINK_BUY_MWIII": "购买《使命召唤：现代战争III 2023》"},
+    "zhTW": {"pinta#PNTA_NAME": "《決勝時刻：現代戰爭III 2023》", "pinta#PNTA_QUICKLINK_BUY_MWIII": "購買《決勝時刻：現代戰爭III 2023》"}
+  },
+  "version": 30
+}

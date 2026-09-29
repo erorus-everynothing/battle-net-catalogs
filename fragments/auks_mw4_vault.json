@@ -1,0 +1,14 @@
+{
+  "fragment_id": "auks_mw4_vault",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "retail": {"quick_links": [{"hidden": true, "id": "purchase_mw4"}, {"hidden": true, "id": "upgrade_mw4"}]}
+        }
+      },
+      "id": "AUKS"
+    }
+  ],
+  "version": 30
+}

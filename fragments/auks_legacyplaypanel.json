@@ -1,0 +1,21 @@
+{
+  "files": {
+    "default": {
+      "auks_legacyplaypanel#AUKS_BACKGROUND_COD_OLD_PANEL": {
+        "hash": "44319c7ba18e48d6dbf78e19fb2376ef",
+        "name": "resources/auks/background_cod_v2.png"
+      }
+    }
+  },
+  "fragment_id": "auks_legacyplaypanel",
+  "products": [
+    {
+      "base": {
+        "background": "auks_legacyplaypanel#AUKS_BACKGROUND_COD_OLD_PANEL",
+        "types": {"auks_dev": {"background": "auks_legacyplaypanel#AUKS_BACKGROUND_COD_OLD_PANEL"}}
+      },
+      "id": "AUKS"
+    }
+  ],
+  "version": 30
+}

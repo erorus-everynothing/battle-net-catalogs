@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "warcraft_ii_legacyplaypanel#W2_BACKGROUND_OLD_PANEL": {
+        "hash": "f4b8ad81efbffc6842b3ad8a5daf9bf8",
+        "name": "resources/warcraft2/background_warcraft2.png"
+      }
+    }
+  },
+  "fragment_id": "warcraft_ii_legacyplaypanel",
+  "products": [{"base": {"background": "warcraft_ii_legacyplaypanel#W2_BACKGROUND_OLD_PANEL"}, "id": "W2"}],
+  "version": 30
+}

@@ -1,0 +1,74 @@
+{
+  "files": {},
+  "fragment_id": "overwatch_cn_assets_links_overrides",
+  "products": [
+    {
+      "base": {
+        "quick_links": [
+          {"hidden": true, "id": "forums"},
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://ow.blizzard.cn/home.html"
+            },
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 305
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.battlenet.com.cn/ld5"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 304
+          }
+        ],
+        "starter_items": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://ow.blizzard.cn/home.html"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "types": {
+          "retail": {
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://ow.blizzard.cn/news/patch-notes/"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "xbox_uid": ""
+          }
+        }
+      },
+      "id": "Pro"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

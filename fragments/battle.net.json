@@ -1,0 +1,311 @@
+{
+  "features": [
+    {"id": "alt_content_for_starter", "requires": true},
+    {"id": "history_navigation", "requires": true},
+    {
+      "id": "alt_content_enabled",
+      "requires": {
+        "all_of": [{"id": "alt_content_for_starter", "type": "feature"}, {"fraction": 0.5, "type": "random_sample"}]
+      },
+      "tag": "starter_pdp_variant"
+    },
+    {
+      "id": "alt_content_enabled_not",
+      "requires": {
+        "all_of": [
+          {"id": "alt_content_for_starter", "type": "feature"},
+          {"not": {"id": "alt_content_enabled", "type": "feature"}}
+        ]
+      },
+      "tag": "starter_cui_control"
+    },
+    {
+      "id": "app_feedback_attention_center_cta",
+      "requires": {
+        "all_of": [
+          {"pipeline": "beta", "type": "client_pipeline"},
+          {"exclude": "CN", "type": "login_region"},
+          {"not": {"type": "is_handheld"}}
+        ]
+      }
+    },
+    {"id": "app_feedback_bar", "requires": {"pipeline": "beta", "type": "client_pipeline"}},
+    {"id": "app_feedback_dialog", "requires": {"not": {"type": "is_handheld"}}},
+    {"id": "appear_offline", "requires": true},
+    {"id": "auto_update_optimization", "requires": true},
+    {"id": "blizzcon_tab", "requires": false},
+    {
+      "id": "blizzcon_default_tab",
+      "requires": {
+        "all_of": [
+          {"id": "blizzcon_tab", "type": "feature"},
+          {"begin": "2026-09-12T13:30:00Z", "end": "2026-09-12T19:00:00Z", "type": "server_time"}
+        ]
+      }
+    },
+    {
+      "id": "blizzcon_live_indicator",
+      "requires": {
+        "all_of": [
+          {"id": "blizzcon_tab", "type": "feature"},
+          {
+            "any_of": [
+              {"begin": "2026-09-12T13:30:00Z", "end": "2026-09-13T02:00:00Z", "type": "server_time"},
+              {"begin": "2026-09-13T16:00:00Z", "end": "2026-09-14T01:00:00Z", "type": "server_time"}
+            ]
+          }
+        ]
+      }
+    },
+    {"id": "blizzard_profiles", "requires": {"exclude": "CN", "type": "login_region"}},
+    {"id": "chat_giphy", "requires": {"exclude": "CN", "type": "login_region"}},
+    {"id": "channels_dry_run", "requires": {"exclude": "CN", "type": "login_region"}},
+    {"id": "clear_chat_history", "requires": true},
+    {"id": "cn_age_alert", "requires": true},
+    {"id": "cn_auto_login", "requires": true},
+    {"id": "collapsible_social_panel", "requires": true},
+    {"id": "content_ui", "requires": true},
+    {
+      "id": "content_ui_game_launch",
+      "requires": {"op": "greater_equal", "type": "client_version", "version": "2.37.0"}
+    },
+    {"disabled_tag": "token_share_control", "id": "cui_token", "requires": true, "tag": "token_share_variant"},
+    {"id": "default_startup_screen", "requires": true},
+    {"id": "disable_friend_note", "requires": false},
+    {"id": "disable_gametime_ux", "requires": false},
+    {
+      "id": "disable_home_page",
+      "requires": {"any_of": [{"include": "CN", "type": "login_region"}, {"type": "is_handheld"}]}
+    },
+    {"id": "disable_invite_link", "requires": {"include": "CN", "type": "login_region"}},
+    {
+      "id": "disable_takeovers",
+      "requires": {
+        "any_of": [
+          {"type": "is_handheld"},
+          {
+            "all_of": [
+              {"include": "CN", "type": "login_region"},
+              {
+                "any_of": [
+                  {"op": "equal", "type": "client_version", "version": "2.33.0"},
+                  {"op": "equal", "type": "client_version", "version": "2.33.1"}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {"id": "disable_voice_chat", "requires": {"include": "CN", "type": "login_region"}},
+    {"id": "entitlements_drive_gametime_ux", "requires": false},
+    {
+      "id": "first_time_experience",
+      "requires": {"all_of": [{"exclude": "CN", "type": "login_region"}, {"not": {"type": "is_handheld"}}]}
+    },
+    {"id": "friend_request_management", "requires": true},
+    {"id": "friends_list_popout", "requires": true},
+    {
+      "id": "frosted_tab_fx",
+      "requires": {
+        "all_of": [
+          {"id": "blizzcon_tab", "type": "feature"},
+          {"begin": "2026-09-07T17:15:00Z", "end": "2026-09-14T15:00:00Z", "type": "server_time"}
+        ]
+      }
+    },
+    {
+      "disabled_tag": "game_packages_control",
+      "id": "game_packages",
+      "requires": {
+        "any_of": [{"pipeline": "beta", "type": "client_pipeline"}, {"fraction": 0.9, "type": "random_sample"}]
+      },
+      "tag": "game_packages_variant"
+    },
+    {"id": "gift_inventory", "requires": true},
+    {"id": "global_legendary_promos", "requires": true},
+    {"id": "group_privacy_settings", "requires": true},
+    {"id": "high_dpi", "requires": true},
+    {"id": "install_packages", "requires": {"type": "agent_version", "version": "2.22.3"}},
+    {
+      "id": "last_played",
+      "requires": {
+        "all_of": [{"exclude": "CN", "type": "login_region"}, {"not": {"id": "quick_action", "type": "feature"}}]
+      },
+      "tag": "last_played_control"
+    },
+    {"id": "library_game_pass_filter", "requires": true},
+    {"id": "link_previews", "requires": {"exclude": "CN", "type": "login_region"}},
+    {"id": "mapped_urls", "requires": true},
+    {"id": "mentions", "requires": true},
+    {
+      "id": "ms_game_catalog_extension",
+      "requires": {
+        "all_of": [
+          {"not": {"type": "registered_igr"}},
+          {"platform": "win", "type": "platform", "version": "10.0.18362.0"},
+          {"exclude": "CN", "type": "login_region"}
+        ]
+      }
+    },
+    {"id": "multichats", "requires": true},
+    {"id": "modify_install", "requires": {"id": "install_packages", "type": "feature"}},
+    {"id": "netease_login_flow", "requires": true},
+    {"id": "non_friend_whispers", "requires": true},
+    {"id": "notification_center", "requires": true},
+    {"id": "optimizely", "requires": false},
+    {
+      "disabled_tag": "per_account_browser_cache_control",
+      "id": "per_account_browser_cache",
+      "requires": true,
+      "tag": "per_account_browser_cache_variant"
+    },
+    {"id": "quick_action", "requires": true},
+    {"id": "refresh_friend_tooltip", "requires": true},
+    {"id": "region_selection_nfe", "requires": {"op": "greater_equal", "type": "client_version", "version": "2.50.1"}},
+    {"id": "rpc_warning_telemetry", "requires": {"pipeline": "beta", "type": "client_pipeline"}},
+    {"id": "shared_container_installs", "requires": true},
+    {"id": "sc2_account_selection_dialog", "requires": true},
+    {"id": "social_tab", "requires": true},
+    {"id": "sms_protect_requirements", "requires": true},
+    {"id": "suggested_facebook_friends", "requires": {"exclude": "CN", "type": "login_region"}},
+    {
+      "id": "shop_wish_list",
+      "requires": {"all_of": [{"exclude": "JPN", "type": "account_country"}, {"exclude": "CN", "type": "login_region"}]}
+    },
+    {"id": "suggested_group_members", "requires": true},
+    {"id": "update_time_remaining", "requires": true},
+    {
+      "id": "voice_transcription",
+      "requires": {
+        "all_of": [
+          {"name": "Client.Voice.VoiceTranscriptionOptIn", "type": "var"},
+          {"id": "voice_transcription_allow_opt_in", "type": "feature"}
+        ]
+      }
+    },
+    {
+      "id": "voice_transcription_allow_opt_in",
+      "requires": {
+        "all_of": [{"include": "US", "type": "account_region"}, {"pipeline": "beta", "type": "client_pipeline"}]
+      }
+    },
+    {"id": "whisper_voice", "requires": true},
+    {"id": "link_handler_fix", "requires": {"op": "greater_equal", "type": "client_version", "version": "2.48.0"}},
+    {
+      "id": "cui_sales_section",
+      "requires": {"begin": "2026-08-11T17:00:00Z", "end": "2026-08-25T18:00:00Z", "type": "server_time"}
+    },
+    {
+      "id": "homepage_carousel_16_9",
+      "requires": {"begin": "2026-08-19T17:00:00Z", "end": "2026-09-04T17:00:00Z", "type": "server_time"},
+      "splits": [{"distribution": ["control", "variant"], "requires": {"exclude": "CN", "type": "login_region"}}]
+    },
+    {"id": "external_license_game_pass_pc", "requires": {"licenses": [959845], "type": "licenses"}},
+    {"id": "external_license_game_pass_ultimate", "requires": {"licenses": [1043666], "type": "licenses"}},
+    {"id": "external_license_game_pass_core", "requires": {"licenses": [1043667], "type": "licenses"}},
+    {"id": "external_license_game_pass_standard", "requires": {"licenses": [1043668], "type": "licenses"}},
+    {
+      "id": "external_license_game_pass",
+      "requires": {
+        "any_of": [
+          {"id": "external_license_game_pass_pc", "type": "feature"},
+          {"id": "external_license_game_pass_ultimate", "type": "feature"},
+          {"id": "external_license_game_pass_core", "type": "feature"},
+          {"id": "external_license_game_pass_standard", "type": "feature"}
+        ]
+      }
+    }
+  ],
+  "files": {
+    "default": {
+      "battle.net#PRODUCTS_APP_ICON_MASSIVE": {
+        "hash": "2f8cfc20638a8976640b35e512316de0",
+        "name": "resources/shared/icon_social_massive.png"
+      },
+      "battle.net#PRODUCTS_APP_ICON_MEDIUM": {
+        "hash": "a677dce650b153c19b83c2e97ba93064",
+        "name": "resources/shared/icon_social_medium.png"
+      },
+      "battle.net#PRODUCTS_APP_ICON_SMALL": {
+        "hash": "3cc864af4b60cd6a2233d698957a1e62",
+        "name": "resources/shared/icon_social_small.png"
+      },
+      "battle.net#PRODUCTS_APP_ICON_SVG": {
+        "hash": "b280d925eded9fa3118253bb0795b1ea",
+        "name": "resources/shared/icon_social.svg"
+      },
+      "battle.net#PRODUCTS_APP_ICON_TINY": {
+        "hash": "a15b24b89470aee8d364dd4c897224c1",
+        "name": "resources/shared/icon_social_tiny.png"
+      }
+    }
+  },
+  "fragment_id": "battle.net",
+  "presence_resources": [
+    {
+      "display_name": "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME",
+      "icon_16": "battle.net#PRODUCTS_APP_ICON_TINY",
+      "icon_275": "battle.net#PRODUCTS_APP_ICON_MASSIVE",
+      "icon_32": "battle.net#PRODUCTS_APP_ICON_SMALL",
+      "icon_56": "battle.net#PRODUCTS_APP_ICON_MEDIUM",
+      "icon_svg": "battle.net#PRODUCTS_APP_ICON_SVG",
+      "program_id": "App"
+    },
+    {
+      "display_name": "battle.net#PRODUCTS_MOBILE_NAME",
+      "icon_16": "battle.net#PRODUCTS_APP_ICON_TINY",
+      "icon_275": "battle.net#PRODUCTS_APP_ICON_MASSIVE",
+      "icon_32": "battle.net#PRODUCTS_APP_ICON_SMALL",
+      "icon_56": "battle.net#PRODUCTS_APP_ICON_MEDIUM",
+      "icon_svg": "battle.net#PRODUCTS_APP_ICON_SVG",
+      "program_id": "BSAp"
+    }
+  ],
+  "strings": {
+    "deDE": {"battle.net#PRODUCTS_MOBILE_NAME": "Mobilgerät"},
+    "default": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "In Battle.net",
+      "battle.net#PRODUCTS_MOBILE_NAME": "Mobile"
+    },
+    "esES": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "En Battle.net",
+      "battle.net#PRODUCTS_MOBILE_NAME": "Móvil"
+    },
+    "esMX": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "En Battle.net",
+      "battle.net#PRODUCTS_MOBILE_NAME": "Móvil"
+    },
+    "frFR": {"battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "Dans Battle.net"},
+    "jaJP": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "Battle.netにアクセス中",
+      "battle.net#PRODUCTS_MOBILE_NAME": "モバイル"
+    },
+    "koKR": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "Battle.net 접속 중",
+      "battle.net#PRODUCTS_MOBILE_NAME": "모바일"
+    },
+    "plPL": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "Na Battle.necie",
+      "battle.net#PRODUCTS_MOBILE_NAME": "Mobilnie"
+    },
+    "ptBR": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "No Battle.net",
+      "battle.net#PRODUCTS_MOBILE_NAME": "Celular"
+    },
+    "ruRU": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "В Battle.net",
+      "battle.net#PRODUCTS_MOBILE_NAME": "Мобильная версия"
+    },
+    "thTH": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "ใน Battle.net",
+      "battle.net#PRODUCTS_MOBILE_NAME": "โทรศัพท์มือถือ"
+    },
+    "zhCN": {"battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "正在使用战网", "battle.net#PRODUCTS_MOBILE_NAME": "移动版"},
+    "zhTW": {
+      "battle.net#PRODUCTS_APP_PRESENCE_DISPLAY_NAME": "已登入 Battle.net 應用程式",
+      "battle.net#PRODUCTS_MOBILE_NAME": "行動裝置"
+    }
+  },
+  "version": 30
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "viper_legacyplaypanel#VIPER_BACKGROUND_OLD_PANEL": {
+        "hash": "bec824fe6014de23bbec054265ff8c93",
+        "name": "resources/viper/background_codbo4_v2.png"
+      }
+    }
+  },
+  "fragment_id": "viper_legacyplaypanel",
+  "products": [{"base": {"background": "viper_legacyplaypanel#VIPER_BACKGROUND_OLD_PANEL"}, "id": "VIPR"}],
+  "version": 30
+}

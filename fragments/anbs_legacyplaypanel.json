@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "anbs_legacyplaypanel#ANUBIS_BACKGROUND_OLD_PANEL": {
+        "hash": "0f2a11141ffbc79d89ef39601a984cdb",
+        "name": "resources/anubis/background_anubis.png"
+      }
+    }
+  },
+  "fragment_id": "anbs_legacyplaypanel",
+  "products": [{"base": {"background": "anbs_legacyplaypanel#ANUBIS_BACKGROUND_OLD_PANEL"}, "id": "ANBS"}],
+  "version": 30
+}

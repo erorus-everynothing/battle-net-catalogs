@@ -1,0 +1,112 @@
+{
+  "files": {
+    "default": {
+      "fenris_cn#FENRIS_CN_LOGO": {
+        "hash": "3b436ee16bb2da66dd6c397b07a95d9f",
+        "name": "resources/fenris/logo_fenris_cn.png"
+      },
+      "fenris_cn#FENRIS_CN_REGION_INSTALL_BACKGROUND": {
+        "hash": "a0f8daf4190a47dc608728fa96f160a3",
+        "name": "resources/fenris/install_background_fenris_CNregion.png"
+      },
+      "fenris_cn#FENRIS_CN_REGION_KEY_ART": {
+        "hash": "817ae7de6ddfe09410166744e87372c3",
+        "name": "resources/fenris/key_art_fenris_CNregion.png"
+      }
+    }
+  },
+  "fragment_id": "fenris_cn",
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/diablo-iv",
+        "install_background": "fenris_cn#FENRIS_CN_REGION_INSTALL_BACKGROUND",
+        "key_art": "fenris_cn#FENRIS_CN_REGION_KEY_ART",
+        "locale_support_flag": "primary_locale",
+        "logo": "fenris_cn#FENRIS_CN_LOGO",
+        "quick_links": [
+          {"hidden": true, "id": "shop"},
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://d4.blizzard.cn/"},
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "fenris_cn#FENRIS_QUICK_LINK_WEBSITE_CN",
+            "rank": 306
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.battlenet.com.cn/ld3/"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 305
+          },
+          {"hidden": true, "id": "forums"}
+        ],
+        "region_permission_flags": {"default": "unrestricted"},
+        "supported_regions": ["CN"],
+        "types": {
+          "beta": {"deprecated": false},
+          "fenris_dev_2": {"deprecated": false},
+          "retail": {
+            "install_background": "fenris_cn#FENRIS_CN_REGION_INSTALL_BACKGROUND",
+            "logo": "fenris_cn#FENRIS_CN_LOGO",
+            "post_launch_actions": ["overlay"],
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://d4.blizzard.cn/news/patchnotes/"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              },
+              {"hidden": true, "id": "upgrade"}
+            ],
+            "region_permission_flags": {"default": "unrestricted"}
+          }
+        }
+      },
+      "id": "Fen",
+      "variants": {
+        "FenX1": {
+          "types": {
+            "ptr": {
+              "install_background": "fenris_cn#FENRIS_CN_REGION_INSTALL_BACKGROUND",
+              "logo": "fenris_cn#FENRIS_CN_LOGO"
+            },
+            "retail": {
+              "install_background": "fenris_cn#FENRIS_CN_REGION_INSTALL_BACKGROUND",
+              "logo": "fenris_cn#FENRIS_CN_LOGO"
+            }
+          }
+        },
+        "FenX2": {
+          "types": {
+            "ptr": {
+              "install_background": "fenris_cn#FENRIS_CN_REGION_INSTALL_BACKGROUND",
+              "logo": "fenris_cn#FENRIS_CN_LOGO"
+            },
+            "retail": {
+              "install_background": "fenris_cn#FENRIS_CN_REGION_INSTALL_BACKGROUND",
+              "logo": "fenris_cn#FENRIS_CN_LOGO"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "strings": {
+    "default": {"fenris_cn#FENRIS_QUICK_LINK_WEBSITE_CN": "游戏官网"},
+    "zhCN": {"fenris_cn#FENRIS_QUICK_LINK_WEBSITE_CN": "游戏官网"}
+  },
+  "version": 30
+}

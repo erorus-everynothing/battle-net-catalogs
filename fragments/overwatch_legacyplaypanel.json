@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "overwatch_legacyplaypanel#OVERWATCH_BACKGROUND_OLD_PANEL": {
+        "hash": "1df432aaf2344204c3767b5f6b760479",
+        "name": "resources/overwatch/background_ow.png"
+      }
+    }
+  },
+  "fragment_id": "overwatch_legacyplaypanel",
+  "products": [{"base": {"background": "overwatch_legacyplaypanel#OVERWATCH_BACKGROUND_OLD_PANEL"}, "id": "Pro"}],
+  "version": 30
+}

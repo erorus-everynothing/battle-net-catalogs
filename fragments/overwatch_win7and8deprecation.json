@@ -1,0 +1,14 @@
+{
+  "fragment_id": "overwatch_win7and8deprecation",
+  "products": [
+    {
+      "base": {
+        "install_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "play_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE"
+      },
+      "id": "Pro"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

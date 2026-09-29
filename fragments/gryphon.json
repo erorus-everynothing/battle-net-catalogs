@@ -1,0 +1,297 @@
+{
+  "files": {
+    "default": {
+      "gryphon#GRYPHON_BACKGROUND": {
+        "hash": "0edabff385a0f865896fda450d500e0c",
+        "name": "resources/gryphon/background_gryphon_new_panel.webp"
+      },
+      "gryphon#GRYPHON_ICON_MEDIUM": {
+        "hash": "24c44a2274eb8fce0558d15cd8ff03c3",
+        "name": "resources/gryphon/icon_gryphon_medium.png"
+      },
+      "gryphon#GRYPHON_ICON_SMALL": {
+        "hash": "16585e0d724574d4b4327181456d79c1",
+        "name": "resources/gryphon/icon_gryphon_small.png"
+      },
+      "gryphon#GRYPHON_ICON_SVG": {
+        "hash": "bc07b9651119d4b9c2a84842ebb5ffae",
+        "name": "resources/gryphon/icon_gryphon.svg"
+      },
+      "gryphon#GRYPHON_ICON_TINY": {
+        "hash": "4131f8cf5bb8aabc79d35622973baeaa",
+        "name": "resources/gryphon/icon_gryphon_tiny.png"
+      },
+      "gryphon#GRYPHON_INSTALL_BACKGROUND": {
+        "hash": "dd6f07da4b0d9c7d51d003df335db363",
+        "name": "resources/gryphon/install_background_gryphon.jpg"
+      },
+      "gryphon#GRYPHON_KEY_ART": {
+        "hash": "76137fa67889eb3bb49211f83f94e6ee",
+        "name": "resources/gryphon/key_art_gryphon.jpg"
+      },
+      "gryphon#GRYPHON_LOGO": {
+        "hash": "d3899d7aae168873f4addfc1b96f05a4",
+        "name": "resources/gryphon/logo_gryphon.png"
+      },
+      "gryphon#GRYPHON_QR_CODE_LAUNCH": {
+        "hash": "f5e9f4ab85c420d252d0f5685098299e",
+        "name": "resources/gryphon/qr_code_gryphon_launch.png"
+      }
+    },
+    "zhTW": {
+      "gryphon#GRYPHON_INSTALL_BACKGROUND": {
+        "hash": "3f0ca5f0151084888d6d8d3f8e0c9747",
+        "name": "resources/gryphon/install_background_gryphon_zhTW.jpg"
+      },
+      "gryphon#GRYPHON_KEY_ART": {
+        "hash": "cd97ffda3afa03223faa73d58a5b95cd",
+        "name": "resources/gryphon/key_art_gryphon_TW.jpg"
+      },
+      "gryphon#GRYPHON_LOGO": {
+        "hash": "0bbfa56fdfafea0b39a2374bd6bbb3de",
+        "name": "resources/gryphon/logo_gryphon_TW.png"
+      }
+    }
+  },
+  "fragment_id": "gryphon",
+  "installs": {
+    "gryphon": {"tact_product": "gryphon"},
+    "gryphon_dev": {"tact_product": "gryphondev"},
+    "gryphon_dev_3": {"tact_product": "gryphondev3"},
+    "gryphon_vendor": {"tact_product": "gryphonv"}
+  },
+  "presence_resources": [
+    {
+      "display_name": "gryphon#GRYPHON_NAME",
+      "icon_16": "gryphon#GRYPHON_ICON_TINY",
+      "icon_275": "default#PRODUCTS_APP_ICON_MASSIVE",
+      "icon_32": "gryphon#GRYPHON_ICON_SMALL",
+      "icon_56": "gryphon#GRYPHON_ICON_MEDIUM",
+      "icon_svg": "gryphon#GRYPHON_ICON_SVG",
+      "program_id": "GRY"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/warcraft-rumble",
+        "background": "gryphon#GRYPHON_BACKGROUND",
+        "badges": [
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/rumble/alert",
+        "content_id": "warcraft-rumble",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_ACTION_STRATEGY",
+        "handheld_feature_compatibility": [
+          {
+            "compatibility": "handheld_unsupported",
+            "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED"
+          },
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "heading_text": "default#QUICK_LINK_MOBILE",
+        "icon_medium": "gryphon#GRYPHON_ICON_MEDIUM",
+        "icon_small": "gryphon#GRYPHON_ICON_SMALL",
+        "icon_svg": "gryphon#GRYPHON_ICON_SVG",
+        "icon_tiny": "gryphon#GRYPHON_ICON_TINY",
+        "install_background": "gryphon#GRYPHON_INSTALL_BACKGROUND",
+        "key_art": "gryphon#GRYPHON_KEY_ART",
+        "logo": "gryphon#GRYPHON_LOGO",
+        "milestone": {"state": "open_beta"},
+        "misc_flags": ["play_for_free"],
+        "mobile_promo_text": "default#QUICK_LINK_MOBILE",
+        "mobile_qr_code": "gryphon#GRYPHON_QR_CODE_LAUNCH",
+        "mobile_qr_code_text": "default#MOBILE_QR_CODE_DOWNLOAD",
+        "name": "gryphon#GRYPHON_NAME",
+        "program_id": "GRY",
+        "quick_links": [
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/warcraft-rumble"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 300
+          },
+          {
+            "action": {"custom_action_id": "open_play_on_mobile_modal", "type": "custom_action"},
+            "icon": "default#QUICK_LINK_ICON_MOBILE",
+            "id": "play_on_mobile",
+            "label": "default#QUICK_LINK_MOBILE",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/rumble"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 302
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external-sso",
+              "type": "url",
+              "url": "nydus://client/forum/warcraftrumble/"
+            },
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 303
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://warcraftrumble.blizzard.com/?utm_source=app-battlenetdesktop&utm_medium=internal&utm_content=starter-screen"
+            },
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 304
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {
+              "BLR": "disabled_invisible",
+              "CUB": "disabled_invisible",
+              "IRN": "disabled_invisible",
+              "RUS": "disabled_invisible",
+              "SDN": "disabled_invisible",
+              "override_type": "country"
+            }
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {"type": "install"},
+            "id": "play_for_free",
+            "label": "default#STARTER_ITEM_PLAY_FOR_FREE",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "id": "play_on_mobile",
+            "qr_body": "default#MOBILE_QR_CODE_DOWNLOAD",
+            "qr_image": "gryphon#GRYPHON_QR_CODE_LAUNCH",
+            "qr_title": "default#QUICK_LINK_MOBILE",
+            "rank": 2,
+            "type": "qr_code"
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://warcraftrumble.blizzard.com/?utm_source=app-battlenetdesktop&utm_medium=internal&utm_content=starter-screen"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 3,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": true,
+        "supported_platforms": ["win", "mobile"],
+        "supported_regions": ["GLOBAL"],
+        "supports_starter_mode": true,
+        "tab_order": 31,
+        "title_id": 4674137,
+        "types": {
+          "dev": {
+            "region_permission_flags": {
+              "default": "requires_account_visible",
+              "overrides": [{"CN": "disabled_invisible", "override_type": "region"}]
+            },
+            "selector_display_name": "gryphon#GRYPHON_DEV_1",
+            "supports_starter_mode": false,
+            "uid": "gryphon_dev"
+          },
+          "dev_3": {
+            "region_permission_flags": {"default": "requires_account_visible"},
+            "selector_display_name": "gryphon#GRYPHON_DEV_3",
+            "supports_starter_mode": false,
+            "uid": "gryphon_dev_3"
+          },
+          "retail": {"uid": "gryphon"},
+          "vendor_1": {
+            "region_permission_flags": {"default": "requires_account_visible"},
+            "selector_display_name": "default#TYPES_SUBMISSION_NAME",
+            "supports_starter_mode": false,
+            "uid": "gryphon_vendor"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "GRY"
+    }
+  ],
+  "program_configuration": {
+    "GRY": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "GRY", "type": "retail"}}}],
+          "match": {"game_account": {"program_id": "GRY"}}
+        },
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "GRY", "type": "dev"}}},
+            {"add_product": {"product_id": {"id": "GRY", "type": "dev_3"}}}
+          ],
+          "match": {"license_id": 1043772}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "GRY", "type": "vendor_1"}}}],
+          "match": {"license_id": [1043772, 1037006]}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "default": {
+      "gryphon#GRYPHON_DEV_1": "Tech Test",
+      "gryphon#GRYPHON_DEV_3": "Strike Team",
+      "gryphon#GRYPHON_NAME": "Warcraft Rumble"
+    },
+    "koKR": {"gryphon#GRYPHON_NAME": "워크래프트 럼블"},
+    "zhTW": {"gryphon#GRYPHON_NAME": "魔獸兵團"}
+  },
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_in_development",
+        "id": "dev_3",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 3,
+          "supports_starter_mode": false,
+          "type_name": "gryphon#GRYPHON_DEV_3"
+        }
+      }
+    ]
+  },
+  "version": 30
+}

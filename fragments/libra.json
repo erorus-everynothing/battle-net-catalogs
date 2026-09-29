@@ -1,0 +1,355 @@
+{
+  "files": {
+    "default": {
+      "libra#LBRA_BACKGROUND": {
+        "hash": "dd6cd1ef4471c10da349db0c177926d6",
+        "name": "resources/libra/background_libra_new_panel.webp"
+      },
+      "libra#LBRA_ICON_MASSIVE": {
+        "hash": "ccdbcb544250ba577c3d255f7456c79d",
+        "name": "resources/libra/icon_game_libra_massive.png"
+      },
+      "libra#LBRA_ICON_MEDIUM": {
+        "hash": "d75514204aaf55f5eaf3dfbd6cd9a106",
+        "name": "resources/libra/icon_game_libra_medium.png"
+      },
+      "libra#LBRA_ICON_SMALL": {
+        "hash": "eede9fbe1a0630ba6ec7960218fc5da8",
+        "name": "resources/libra/icon_game_libra_small.png"
+      },
+      "libra#LBRA_ICON_SVG": {"hash": "46d7de950ba0b4866d5d5075ec8f9af6", "name": "resources/libra/icon_libra.svg"},
+      "libra#LBRA_INSTALL_BACKGROUND": {
+        "hash": "b1fefb32dae2723c5dafd78b8715a5a7",
+        "name": "resources/libra/install_background_libra_enUS.png"
+      },
+      "libra#LBRA_KEY_ART": {
+        "hash": "19257ac52f4faa4f43e656ae9e8ff5af",
+        "name": "resources/libra/key_art_libra_enUS.jpg"
+      },
+      "libra#LBRA_LOGO": {"hash": "d6813560c1212a79b59eeaf03fddeea0", "name": "resources/libra/logo_libra_enUS.png"}
+    }
+  },
+  "fragment_id": "libra",
+  "installs": {
+    "lbra": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "lbra"
+    },
+    "lbra_demo": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "lbra-demo"
+    },
+    "lbra_demo_dev_1": {"tact_product": "lbra-demo-dev-1"},
+    "lbra_demo_rc": {"tact_product": "lbra-demo-rc"},
+    "lbra_retail_dev_1": {"tact_product": "lbra-retail-dev-1"},
+    "lbra_retail_rc": {"tact_product": "lbra-retail-rc"}
+  },
+  "presence_resources": [
+    {
+      "display_name": "libra#LBRA_NAME",
+      "icon_16": "libra#LBRA_ICON_SMALL",
+      "icon_275": "libra#LBRA_ICON_MASSIVE",
+      "icon_32": "libra#LBRA_ICON_SMALL",
+      "icon_56": "libra#LBRA_ICON_MEDIUM",
+      "icon_svg": "libra#LBRA_ICON_SVG",
+      "program_id": "LBRA"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/tony-hawks-pro-skater-3-4",
+        "background": "libra#LBRA_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/tonyhawk/alert",
+        "content_id": "tony-hawks-pro-skater-3-4",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_EXTREME_ACTION_SPORTS",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "libra#LBRA_ICON_MEDIUM",
+        "icon_small": "libra#LBRA_ICON_SMALL",
+        "icon_svg": "libra#LBRA_ICON_SVG",
+        "install_background": "libra#LBRA_INSTALL_BACKGROUND",
+        "key_art": "libra#LBRA_KEY_ART",
+        "logo": "libra#LBRA_LOGO",
+        "name": "libra#LBRA_NAME",
+        "program_id": "LBRA",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/tony-hawks-pro-skater"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://www.tonyhawkthegame.com/"
+            },
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 303
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.activision.com/?utm_source=app-battlenetdesktop&utm_content=quick-link&blzcmp=app"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 302
+          },
+          {
+            "action": {
+              "target": "shop",
+              "type": "upgrade",
+              "url": "nydus://client/shop/product/tony-hawks-pro-skater-3-4"
+            },
+            "color": "#6cdb00",
+            "icon": "default#QUICK_LINK_ICON_UPGRADE",
+            "id": "upgrade",
+            "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+            "rank": 100
+          }
+        ],
+        "region_permission_flags": {
+          "default": "requires_account_visible",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {
+              "BLR": "disabled_invisible",
+              "KOR": "disabled_invisible",
+              "RUS": "disabled_invisible",
+              "override_type": "country"
+            }
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://www.tonyhawkthegame.com/"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": false,
+        "supported_platforms": ["win"],
+        "supported_regions": ["GLOBAL"],
+        "supports_starter_mode": false,
+        "tab_order": 22,
+        "title_id": 1279414849,
+        "types": {
+          "demo": {
+            "auto_favorite_on_grant": true,
+            "badges": [
+              {
+                "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+                "hidden": true,
+                "id": "game_pass",
+                "image": "default#LOGO_XBOX_GAME_PASS",
+                "label": "default#BADGE_TEXT_INCLUDED_WITH",
+                "rank": 1,
+                "tooltip": "libra#LBRA_GAME_PASS_DISCLAIMER"
+              }
+            ],
+            "selector_display_name": "libra#LBRA_DEMO",
+            "supports_starter_mode": true,
+            "uid": "lbra_demo"
+          },
+          "demo_dev": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "libra#LBRA_FOUNDRY_DEMO_DEV_1",
+            "type_name": "libra#LBRA_FOUNDRY_DEMO_DEV_1",
+            "uid": "lbra_demo_dev_1"
+          },
+          "demo_rc": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "libra#LBRA_DEMO_RC",
+            "type_name": "libra#LBRA_DEMO_RC",
+            "uid": "lbra_demo_rc"
+          },
+          "dev": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "default#TYPES_DEVELOPER_1_NAME",
+            "type_name": "default#TYPES_DEVELOPER_1_NAME",
+            "uid": "lbra_retail_dev_1"
+          },
+          "rc": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "default#TYPES_RETAIL_RC_NAME",
+            "type_name": "default#TYPES_RETAIL_RC_NAME",
+            "uid": "lbra_retail_rc"
+          },
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "badges": [
+              {
+                "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+                "hidden": true,
+                "id": "game_pass",
+                "image": "default#LOGO_XBOX_GAME_PASS",
+                "label": "default#BADGE_TEXT_INCLUDED_WITH",
+                "rank": 1,
+                "tooltip": "libra#LBRA_GAME_PASS_DISCLAIMER"
+              }
+            ],
+            "supports_starter_mode": true,
+            "uid": "lbra"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "LBRA"
+    }
+  ],
+  "program_configuration": {
+    "LBRA": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "LBRA", "type": "retail"}}}],
+          "match": {"license_id": [1081728]}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "LBRA", "type": "demo"}}}],
+          "match": {"license_id": [1081786]}
+        },
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "LBRA", "type": "dev"}}},
+            {"add_product": {"product_id": {"id": "LBRA", "type": "rc"}}},
+            {"add_product": {"product_id": {"id": "LBRA", "type": "demo_dev"}}},
+            {"add_product": {"product_id": {"id": "LBRA", "type": "demo_rc"}}}
+          ],
+          "match": {"license_id": [1096656]}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "libra#LBRA_DEMO": "Tony Hawk's™ Pro Skater™ 3 + 4 – Demo",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "Die Standard Edition ist im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben. Für den Zugriff auf die zusätzlichen Inhalte der Deluxe Edition ist ein separater Kauf erforderlich."
+    },
+    "default": {
+      "libra#LBRA_DEMO": "Tony Hawk's™ Pro Skater™ 3 + 4 – Demo",
+      "libra#LBRA_DEMO_RC": "Tony Hawk's Pro Skater 3+4 - Demo RC",
+      "libra#LBRA_FOUNDRY_DEMO_DEV_1": "Foundry Demo Developer-1",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "Standard Edition is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account. Access to Digital Deluxe Edition items requires a separate purchase.",
+      "libra#LBRA_NAME": "Tony Hawk's™ Pro Skater™ 3 + 4"
+    },
+    "esES": {
+      "libra#LBRA_DEMO": "Tony Hawk's™ Pro Skater™ 3 + 4 – Demo",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "La Edición Estándar se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox. El acceso a los artículos de la Edición Digital Deluxe se vende por separado."
+    },
+    "esMX": {
+      "libra#LBRA_DEMO": "Demo de Tony Hawk's™ Pro Skater™ 3 + 4",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "La Edición Estándar se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox. El acceso a los elementos de la Edición Digital Deluxe requiere una compra por separado."
+    },
+    "frFR": {
+      "libra#LBRA_DEMO": "Tony Hawk’s™ Pro Skater™ 3 + 4 – Démo",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "L’Édition Standard est incluse dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox. L’Édition Digital Deluxe devra être achetée séparément."
+    },
+    "itIT": {
+      "libra#LBRA_DEMO": "Tony Hawk's™ Pro Skater™ 3 + 4 - Demo",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "L'Edizione Standard è inclusa in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox. L'accesso agli oggetti dell'Edizione Digitale Deluxe richiede un acquisto separato."
+    },
+    "jaJP": {
+      "libra#LBRA_DEMO": "トニー・ホーク™ プロ・スケーター™ 3+4 – 体験版",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、スタンダードエディションをXbox Game Passでお楽しみいただけます。なお、デジタルデラックスエディションのアイテムをご利用いただくには、別途購入が必要です。",
+      "libra#LBRA_NAME": "トニー・ホーク™ プロ・スケーター™ 3+4"
+    },
+    "koKR": {
+      "libra#LBRA_DEMO": "Tony Hawk's™ Pro Skater™ 3 + 4 - 데모",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "스탠다드 에디션은 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다. 디지털 디럭스 에디션 아이템을 이용하려면 별도 구매가 필요합니다."
+    },
+    "plPL": {
+      "libra#LBRA_DEMO": "Tony Hawk’s™ Pro Skater™ 3 + 4 – wersja demonstracyjna",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "Edycja Standardowa jest dostępna w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox. Dostęp do przedmiotów z Edycji Cyfrowej Deluxe wymaga osobnego zakupu."
+    },
+    "ptBR": {
+      "libra#LBRA_DEMO": "Tony Hawk's™ Pro Skater™ 3 + 4 – Demo",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "A Edição Padrão está inclusa no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox. O acesso aos itens da Edição Digital Deluxe exige uma compra separada."
+    },
+    "ruRU": {
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "Стандартное издание доступно активным пользователям Xbox Game Pass с действующей подпиской, связавшим Battle.net с учетной записью сети Xbox. Издание Digital Deluxe приобретается отдельно."
+    },
+    "thTH": {
+      "libra#LBRA_DEMO": "Tony Hawk's™ Pro Skater™ 3 + 4 – เดโม",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "Standard Edition จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox สิทธิ์รับรายการต่างๆ ใน Digital Deluxe Edition ต้องซื้อแยกต่างหาก"
+    },
+    "zhCN": {
+      "libra#LBRA_DEMO": "Tony Hawk's™ Pro Skater 3 + 4 - 试玩版",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩标准版。数字豪华版物品需另行购买才能解锁。"
+    },
+    "zhTW": {
+      "libra#LBRA_DEMO": "《Tony Hawk's™ Pro Skater™ 3 + 4》：試玩版",
+      "libra#LBRA_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩標準版。若要取得數位豪華版物品，則需另外購買。"
+    }
+  },
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_in_development",
+        "id": "demo_dev",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 5,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "demo_rc",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 6,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      }
+    ]
+  },
+  "version": 30
+}

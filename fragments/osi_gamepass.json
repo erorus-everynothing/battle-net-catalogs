@@ -1,0 +1,33 @@
+{
+  "fragment_id": "osi_gamepass",
+  "products": [
+    {
+      "base": {
+        "misc_flags": ["xbox_app_enabled", "game_pass_pc", "game_pass_ultimate"],
+        "starter_items": [
+          {"hidden": true, "id": "website", "type": "button"},
+          {
+            "action": {"type": "install"},
+            "id": "gp_install",
+            "label": "default#STARTER_ITEM_INSTALL_LABEL",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/diablo_ii_resurrected"},
+            "id": "buy_now",
+            "label": "default#STARTER_ITEM_BUY_NOW",
+            "rank": 2,
+            "style": "secondary",
+            "type": "button"
+          }
+        ],
+        "types": {"retail": {"badges": [{"hidden": false, "id": "game_pass"}]}}
+      },
+      "id": "OSI"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

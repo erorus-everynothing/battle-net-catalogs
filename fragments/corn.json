@@ -1,0 +1,371 @@
+{
+  "files": {},
+  "fragment_id": "corn",
+  "installs": {
+    "corn_vendor_1": {"requires_sso_token": true, "tact_product": "cornv1"},
+    "corn_vendor_10": {"requires_sso_token": true, "tact_product": "cornv10"},
+    "corn_vendor_11": {"requires_sso_token": true, "tact_product": "cornv11"},
+    "corn_vendor_12": {"requires_sso_token": true, "tact_product": "cornv12"},
+    "corn_vendor_13": {"requires_sso_token": true, "tact_product": "cornv13"},
+    "corn_vendor_14": {"requires_sso_token": true, "tact_product": "cornv14"},
+    "corn_vendor_15": {"requires_sso_token": true, "tact_product": "cornv15"},
+    "corn_vendor_16": {"requires_sso_token": true, "tact_product": "cornv16"},
+    "corn_vendor_17": {"requires_sso_token": true, "tact_product": "cornv17"},
+    "corn_vendor_18": {"requires_sso_token": true, "tact_product": "cornv18"},
+    "corn_vendor_19": {"requires_sso_token": true, "tact_product": "cornv19"},
+    "corn_vendor_2": {"requires_sso_token": true, "tact_product": "cornv2"},
+    "corn_vendor_20": {"requires_sso_token": true, "tact_product": "cornv20"},
+    "corn_vendor_21": {"requires_sso_token": true, "tact_product": "cornv21"},
+    "corn_vendor_22": {"requires_sso_token": true, "tact_product": "cornv22"},
+    "corn_vendor_23": {"requires_sso_token": true, "tact_product": "cornv23"},
+    "corn_vendor_24": {"requires_sso_token": true, "tact_product": "cornv24"},
+    "corn_vendor_25": {"requires_sso_token": true, "tact_product": "cornv25"},
+    "corn_vendor_26": {"requires_sso_token": true, "tact_product": "cornv26"},
+    "corn_vendor_27": {"requires_sso_token": true, "tact_product": "cornv27"},
+    "corn_vendor_28": {"requires_sso_token": true, "tact_product": "cornv28"},
+    "corn_vendor_29": {"requires_sso_token": true, "tact_product": "cornv29"},
+    "corn_vendor_3": {"requires_sso_token": true, "tact_product": "cornv3"},
+    "corn_vendor_30": {"requires_sso_token": true, "tact_product": "cornv30"},
+    "corn_vendor_4": {"requires_sso_token": true, "tact_product": "cornv4"},
+    "corn_vendor_5": {"requires_sso_token": true, "tact_product": "cornv5"},
+    "corn_vendor_6": {"requires_sso_token": true, "tact_product": "cornv6"},
+    "corn_vendor_7": {"requires_sso_token": true, "tact_product": "cornv7"},
+    "corn_vendor_8": {"requires_sso_token": true, "tact_product": "cornv8"},
+    "corn_vendor_9": {"requires_sso_token": true, "tact_product": "cornv9"}
+  },
+  "products": [
+    {
+      "base": {
+        "background": "default#BACKGROUND_DEFAULT",
+        "content_id": "game",
+        "default_product_type": "retail",
+        "name": "corn#CORN_NAME",
+        "program_id": "AUKS",
+        "region_permission_flags": {"default": "requires_account"},
+        "starter_mode_when_offline": true,
+        "supported_platforms": ["win"],
+        "supported_regions": ["US", "EU", "KR"],
+        "supports_starter_mode": false,
+        "tab_order": 40,
+        "track_exit_code": true,
+        "types": {
+          "retail": {"auto_favorite_on_grant": true, "region_permission_flags": {"default": "disabled"}, "uid": "corn"},
+          "vendor_1": {
+            "selector_display_name": "default#TYPES_VENDOR_1_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_1"
+          },
+          "vendor_10": {
+            "selector_display_name": "default#TYPES_VENDOR_10_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_10"
+          },
+          "vendor_11": {
+            "selector_display_name": "default#TYPES_VENDOR_11_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_11"
+          },
+          "vendor_12": {
+            "selector_display_name": "default#TYPES_VENDOR_12_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_12"
+          },
+          "vendor_13": {
+            "selector_display_name": "default#TYPES_VENDOR_13_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_13"
+          },
+          "vendor_14": {
+            "selector_display_name": "default#TYPES_VENDOR_14_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_14"
+          },
+          "vendor_15": {
+            "selector_display_name": "default#TYPES_VENDOR_15_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_15"
+          },
+          "vendor_16": {
+            "selector_display_name": "default#TYPES_VENDOR_16_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_16"
+          },
+          "vendor_17": {
+            "selector_display_name": "default#TYPES_VENDOR_17_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_17"
+          },
+          "vendor_18": {
+            "selector_display_name": "default#TYPES_VENDOR_18_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_18"
+          },
+          "vendor_19": {
+            "selector_display_name": "default#TYPES_VENDOR_19_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_19"
+          },
+          "vendor_2": {
+            "selector_display_name": "default#TYPES_VENDOR_2_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_2"
+          },
+          "vendor_20": {
+            "selector_display_name": "default#TYPES_VENDOR_20_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_20"
+          },
+          "vendor_21": {
+            "selector_display_name": "default#TYPES_VENDOR_21_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_21"
+          },
+          "vendor_22": {
+            "selector_display_name": "default#TYPES_VENDOR_22_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_22"
+          },
+          "vendor_23": {
+            "selector_display_name": "default#TYPES_VENDOR_23_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_23"
+          },
+          "vendor_24": {
+            "selector_display_name": "default#TYPES_VENDOR_24_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_24"
+          },
+          "vendor_25": {
+            "selector_display_name": "default#TYPES_VENDOR_25_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_25"
+          },
+          "vendor_26": {
+            "selector_display_name": "default#TYPES_VENDOR_26_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_26"
+          },
+          "vendor_27": {
+            "selector_display_name": "default#TYPES_VENDOR_27_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_27"
+          },
+          "vendor_28": {
+            "selector_display_name": "default#TYPES_VENDOR_28_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_28"
+          },
+          "vendor_29": {
+            "selector_display_name": "default#TYPES_VENDOR_29_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_29"
+          },
+          "vendor_3": {
+            "selector_display_name": "default#TYPES_VENDOR_3_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_3"
+          },
+          "vendor_30": {
+            "selector_display_name": "default#TYPES_VENDOR_30_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_30"
+          },
+          "vendor_4": {
+            "selector_display_name": "default#TYPES_VENDOR_4_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_4"
+          },
+          "vendor_5": {
+            "selector_display_name": "default#TYPES_VENDOR_5_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_5"
+          },
+          "vendor_6": {
+            "selector_display_name": "default#TYPES_VENDOR_6_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_6"
+          },
+          "vendor_7": {
+            "selector_display_name": "default#TYPES_VENDOR_7_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_7"
+          },
+          "vendor_8": {
+            "selector_display_name": "default#TYPES_VENDOR_8_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_8"
+          },
+          "vendor_9": {
+            "selector_display_name": "default#TYPES_VENDOR_9_NAME",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "corn_vendor_9"
+          }
+        }
+      },
+      "id": "CORN"
+    }
+  ],
+  "program_configuration": {
+    "CORN": {
+      "run_each_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_1"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_2"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_3"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_4"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_5"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_6"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_7"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_8"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_9"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_10"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_11"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_12"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_13"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_14"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_15"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_16"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_17"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_18"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_19"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_20"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_21"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_22"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_23"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_24"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_25"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_26"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_27"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_28"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_29"}}},
+            {"add_product": {"product_id": {"id": "CORN", "type": "vendor_30"}}}
+          ],
+          "match": {"license_id": 1110743}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_1"}}}],
+          "match": {"license_id": 1106459}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_2"}}}],
+          "match": {"license_id": 1106461}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_3"}}}],
+          "match": {"license_id": 1106462}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_4"}}}],
+          "match": {"license_id": 1106463}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_5"}}}],
+          "match": {"license_id": 1106464}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_6"}}}],
+          "match": {"license_id": 1106493}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_7"}}}],
+          "match": {"license_id": 1106494}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_8"}}}],
+          "match": {"license_id": 1106495}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_9"}}}],
+          "match": {"license_id": 1106465}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_10"}}}],
+          "match": {"license_id": 1106496}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_11"}}}],
+          "match": {"license_id": 1106497}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_12"}}}],
+          "match": {"license_id": 1106498}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_13"}}}],
+          "match": {"license_id": 1106466}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_14"}}}],
+          "match": {"license_id": 1106499}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_15"}}}],
+          "match": {"license_id": 1106467}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_16"}}}],
+          "match": {"license_id": 1106500}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_17"}}}],
+          "match": {"license_id": 1106501}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_18"}}}],
+          "match": {"license_id": 1106468}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_19"}}}],
+          "match": {"license_id": 1106502}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_20"}}}],
+          "match": {"license_id": 1106503}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_21"}}}],
+          "match": {"license_id": 1106469}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_22"}}}],
+          "match": {"license_id": 1106470}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_23"}}}],
+          "match": {"license_id": 1106471}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_24"}}}],
+          "match": {"license_id": 1106504}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_25"}}}],
+          "match": {"license_id": 1106512}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_26"}}}],
+          "match": {"license_id": 1106513}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_27"}}}],
+          "match": {"license_id": 1106514}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_28"}}}],
+          "match": {"license_id": 1106515}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_29"}}}],
+          "match": {"license_id": 1106516}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "CORN", "type": "vendor_30"}}}],
+          "match": {"license_id": 1106505}
+        }
+      ]
+    }
+  },
+  "strings": {"default": {"corn#CORN_NAME": "Corn"}},
+  "version": 30
+}

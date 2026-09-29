@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "warcraft_iii_forsaken_kingdom_logo#W3_LOGO_FORSAKEN_KINGDOM": {
+        "hash": "c71c7d7f918908922193e1e09176a126",
+        "name": "resources/warcraft3/logo_warcraft3_forsaken_kingdom.png"
+      }
+    }
+  },
+  "fragment_id": "warcraft_iii_forsaken_kingdom_logo",
+  "products": [{"base": {"logo": "warcraft_iii_forsaken_kingdom_logo#W3_LOGO_FORSAKEN_KINGDOM"}, "id": "W3"}],
+  "version": 30
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "odin_legacyplaypanel#ODIN_BACKGROUND_OLD_PANEL": {
+        "hash": "2d94b6b509c6e6069b5d55d78d7958a8",
+        "name": "resources/odin/background_codmw_v2.png"
+      }
+    }
+  },
+  "fragment_id": "odin_legacyplaypanel",
+  "products": [{"base": {"background": "odin_legacyplaypanel#ODIN_BACKGROUND_OLD_PANEL"}, "id": "ODIN"}],
+  "version": 30
+}

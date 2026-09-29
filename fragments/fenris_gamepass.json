@@ -1,0 +1,32 @@
+{
+  "fragment_id": "fenris_gamepass",
+  "products": [
+    {
+      "base": {
+        "starter_items": [
+          {"hidden": true, "id": "website", "type": "button"},
+          {
+            "action": {"type": "install"},
+            "id": "gp_install",
+            "label": "default#STARTER_ITEM_INSTALL_LABEL",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/diablo-iv"},
+            "id": "shop_all_editions",
+            "label": "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL",
+            "rank": 2,
+            "style": "secondary",
+            "type": "button"
+          }
+        ],
+        "supports_starter_mode": true
+      },
+      "id": "Fen"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

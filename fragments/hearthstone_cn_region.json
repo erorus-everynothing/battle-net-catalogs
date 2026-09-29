@@ -1,0 +1,77 @@
+{
+  "files": {
+    "default": {
+      "hearthstone_cn_region#HS_QR_CODE_CN": {
+        "hash": "f23b30c137160f672f7d9bd7839a9f10",
+        "name": "resources/hearthstone/qr_code_hs_CN.png"
+      }
+    }
+  },
+  "fragment_id": "hearthstone_cn_region",
+  "products": [
+    {
+      "base": {
+        "mobile_qr_code": "hearthstone_cn_region#HS_QR_CODE_CN",
+        "starter_items": [
+          {
+            "id": "play_on_mobile_starter",
+            "qr_body": "default#MOBILE_QR_CODE_DOWNLOAD",
+            "qr_image": "hearthstone_cn_region#HS_QR_CODE_CN",
+            "qr_title": "default#QUICK_LINK_MOBILE",
+            "rank": 2,
+            "type": "qr_code"
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://hs.blizzard.cn/"},
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 3,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "types": {
+          "retail": {
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://hs.blizzard.cn/news/patchnotes/"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              },
+              {"hidden": true, "id": "forums"},
+              {
+                "action": {"external": true, "target": "external", "type": "url", "url": "https://hs.blizzard.cn/"},
+                "icon": "default#QUICK_LINK_ICON_WEBSITE",
+                "id": "website",
+                "label": "default#QUICK_LINK_WEBSITE",
+                "rank": 306
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://support.battlenet.com.cn/ld2/"
+                },
+                "icon": "default#QUICK_LINK_ICON_SUPPORT",
+                "id": "support",
+                "label": "default#QUICK_LINK_SUPPORT",
+                "rank": 305
+              }
+            ]
+          }
+        }
+      },
+      "id": "WTCG"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

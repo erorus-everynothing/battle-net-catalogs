@@ -1,0 +1,5 @@
+{
+  "fragment_id": "warcraft_iii_hide_battle_chest",
+  "products": [{"base": {"quick_links": [{"hidden": true, "id": "battle_chest_upgrade"}]}, "id": "W3"}],
+  "version": 30
+}

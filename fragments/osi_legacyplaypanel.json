@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "osi_legacyplaypanel#OSI_BACKGROUND_OLD_PANEL": {
+        "hash": "0a4addcfd7212075016733050940a290",
+        "name": "resources/osi/background_osi_v2.png"
+      }
+    }
+  },
+  "fragment_id": "osi_legacyplaypanel",
+  "products": [{"base": {"background": "osi_legacyplaypanel#OSI_BACKGROUND_OLD_PANEL"}, "id": "OSI"}],
+  "version": 30
+}

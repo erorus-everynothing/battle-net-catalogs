@@ -1,0 +1,5 @@
+{
+  "fragment_id": "libra_hideupgrade",
+  "products": [{"base": {"quick_links": [{"hidden": true, "id": "upgrade"}]}, "id": "LBRA"}],
+  "version": 30
+}

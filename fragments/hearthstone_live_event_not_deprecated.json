@@ -1,0 +1,5 @@
+{
+  "fragment_id": "hearthstone_live_event_not_deprecated",
+  "products": [{"base": {"types": {"hs_event_1": {"deprecated": false}}}, "id": "WTCG"}],
+  "version": 30
+}

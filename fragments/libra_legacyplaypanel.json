@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "libra_legacyplaypanel#LBRA_BACKGROUND_OLD_PANEL": {
+        "hash": "a07e1d16c0da717be08ad2cf36c46330",
+        "name": "resources/libra/background_libra.png"
+      }
+    }
+  },
+  "fragment_id": "libra_legacyplaypanel",
+  "products": [{"base": {"background": "libra_legacyplaypanel#LBRA_BACKGROUND_OLD_PANEL"}, "id": "LBRA"}],
+  "version": 30
+}

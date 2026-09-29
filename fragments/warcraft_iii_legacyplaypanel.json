@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "warcraft_iii_legacyplaypanel#W3_BACKGROUND_OLD_PANEL": {
+        "hash": "bcbe33450e9a9e7c80d7940a77e096d0",
+        "name": "resources/warcraft3/background_warcraft3_v2.png"
+      }
+    }
+  },
+  "fragment_id": "warcraft_iii_legacyplaypanel",
+  "products": [{"base": {"background": "warcraft_iii_legacyplaypanel#W3_BACKGROUND_OLD_PANEL"}, "id": "W3"}],
+  "version": 30
+}

@@ -1,0 +1,18 @@
+{
+  "fragment_id": "nina_disablemac",
+  "products": [
+    {
+      "base": {
+        "starter_items": [
+          {"hidden": true, "id": "play_for_free", "type": "button"},
+          {"hidden": true, "id": "play_for_free_label", "type": "label"},
+          {"hidden": true, "id": "purchase_now", "type": "button"}
+        ],
+        "supported_platforms": ["mobile"],
+        "types": {"retail": {"quick_links": [{"hidden": true, "id": "buy_mwii"}]}}
+      },
+      "id": "NINA"
+    }
+  ],
+  "version": 30
+}

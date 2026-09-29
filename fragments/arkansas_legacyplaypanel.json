@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "arkansas_legacyplaypanel#ARK_BACKGROUND_OLD_PANEL": {
+        "hash": "037adc8b82b0b73f7f584fa44f503b66",
+        "name": "resources/ark/background_ark.png"
+      }
+    }
+  },
+  "fragment_id": "arkansas_legacyplaypanel",
+  "products": [{"base": {"background": "arkansas_legacyplaypanel#ARK_BACKGROUND_OLD_PANEL"}, "id": "ARK"}],
+  "version": 30
+}

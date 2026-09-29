@@ -1,0 +1,23 @@
+{
+  "files": {},
+  "fragment_id": "fenris_upgradequicklink",
+  "products": [
+    {
+      "base": {
+        "quick_links": [
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/diablo-iv-lord-of-hatred"},
+            "color": "#6cdb00",
+            "icon": "default#QUICK_LINK_ICON_UPGRADE",
+            "id": "upgrade",
+            "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+            "rank": 100
+          }
+        ]
+      },
+      "id": "Fen"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

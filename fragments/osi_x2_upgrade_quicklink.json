@@ -1,0 +1,27 @@
+{
+  "files": {},
+  "fragment_id": "osi_x2_upgrade_quicklink",
+  "products": [
+    {
+      "base": {
+        "quick_links": [
+          {
+            "action": {
+              "target": "shop",
+              "type": "url",
+              "url": "nydus://client/shop/product/diablo_ii_resurrected_reign_of_the_warlock"
+            },
+            "color": "#6cdb00",
+            "icon": "default#QUICK_LINK_ICON_UPGRADE",
+            "id": "upgrade",
+            "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+            "rank": 100
+          }
+        ]
+      },
+      "id": "OSI"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

@@ -1,0 +1,36 @@
+{
+  "fragment_id": "libra_gamepass",
+  "products": [
+    {
+      "base": {
+        "misc_flags": ["xbox_app_enabled", "game_pass_pc", "game_pass_ultimate"],
+        "starter_items": [
+          {"hidden": true, "id": "website", "type": "button"},
+          {
+            "action": {"type": "install"},
+            "id": "gp_install",
+            "label": "default#STARTER_ITEM_INSTALL_LABEL",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/tony-hawks-pro-skater-3-4"},
+            "id": "shop_all_editions",
+            "label": "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL",
+            "rank": 2,
+            "style": "secondary",
+            "type": "button"
+          }
+        ],
+        "types": {
+          "demo": {"badges": [{"hidden": false, "id": "game_pass"}]},
+          "retail": {"badges": [{"hidden": false, "id": "game_pass"}]}
+        }
+      },
+      "id": "LBRA"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

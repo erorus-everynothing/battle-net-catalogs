@@ -1,0 +1,178 @@
+{
+  "files": {
+    "default": {
+      "diablo_iii_china#D3_BACKGROUND_ROS": {
+        "hash": "a9964ad2d589baf46e25772b1bb26427",
+        "name": "resources/diablo3/background_diablo3_ros_new_panel.webp"
+      },
+      "diablo_iii_china#D3_ICON_MEDIUM": {
+        "hash": "19514726f1f787d264d46e8e32586a05",
+        "name": "resources/diablo3/icon_game_d3_medium.png"
+      },
+      "diablo_iii_china#D3_ICON_SMALL": {
+        "hash": "084d941417ea2ea317ce190360550fea",
+        "name": "resources/diablo3/icon_game_d3_small.png"
+      },
+      "diablo_iii_china#D3_ICON_SVG": {
+        "hash": "538d6a570c717d48c96567877630720e",
+        "name": "resources/diablo3/icon_diablo3.svg"
+      },
+      "diablo_iii_china#D3_ICON_TINY": {
+        "hash": "ef8ce4315e8a022d6edcb9ade510354c",
+        "name": "resources/diablo3/icon_game_d3_tiny.png"
+      },
+      "diablo_iii_china#D3_KEY_ART": {
+        "hash": "75a8ed7e23f37a7a9f42aebd5a334011",
+        "name": "resources/diablo3/key_art_diablo3_enUS.jpg"
+      },
+      "diablo_iii_china#D3_ROS_INSTALL_BACKGROUND": {
+        "hash": "a2c901c2a98609aacc001179b7ad044d",
+        "name": "resources/diablo3/install_background_d3_ros_v2_2x.jpg"
+      },
+      "diablo_iii_china#D3_ROS_LOGO": {
+        "hash": "8d95237a090deaf5fa25937958da680c",
+        "name": "resources/diablo3/logo_diablo3_ros_v2.png"
+      }
+    },
+    "koKR": {
+      "diablo_iii_china#D3_ROS_INSTALL_BACKGROUND": {
+        "hash": "3d74dc2ddd903992e6feb5595b387c31",
+        "name": "resources/diablo3/install_background_d3_ros_koKR_v2_2x.jpg"
+      },
+      "diablo_iii_china#D3_ROS_LOGO": {
+        "hash": "5bc45bcce54e270caf19fb82f458aabf",
+        "name": "resources/diablo3/logo_diablo3_ros_koKR_v2.png"
+      }
+    },
+    "zhCN": {
+      "diablo_iii_china#D3_KEY_ART": {
+        "hash": "3ca4cef22aa88ce4e362fc952e4b7bd7",
+        "name": "resources/diablo3/key_art_diablo3_zhCN.jpg"
+      },
+      "diablo_iii_china#D3_ROS_INSTALL_BACKGROUND": {
+        "hash": "a0d9d3eaa3b29adcb8981628a96578c2",
+        "name": "resources/diablo3/install_background_d3_ros_zhCN_v2_2x.jpg"
+      },
+      "diablo_iii_china#D3_ROS_LOGO": {
+        "hash": "668a2ff097b0dfa8340eea4c33ce7a3d",
+        "name": "resources/diablo3/logo_diablo3_ros_zhCN_v2.png"
+      }
+    },
+    "zhTW": {
+      "diablo_iii_china#D3_KEY_ART": {
+        "hash": "25b71bd9f685ae3805aa42aab5ecbc12",
+        "name": "resources/diablo3/key_art_diablo3_zhTW.jpg"
+      },
+      "diablo_iii_china#D3_ROS_INSTALL_BACKGROUND": {
+        "hash": "c1b1b3566bfe5db5783aa62470a20fc3",
+        "name": "resources/diablo3/install_background_d3_ros_zhTW_v2_2x.jpg"
+      },
+      "diablo_iii_china#D3_ROS_LOGO": {
+        "hash": "cbea58cb4d67ad6673cd808d9f1b27ff",
+        "name": "resources/diablo3/logo_diablo3_ros_zhTW_v2.png"
+      }
+    }
+  },
+  "fragment_id": "diablo_iii_china",
+  "installs": {
+    "d3cn": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "d3cn"
+    },
+    "d3vcn": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "d3vcn"
+    }
+  },
+  "products": [
+    {
+      "base": {
+        "auto_favorite_on_grant": true,
+        "background": "diablo_iii_china#D3_BACKGROUND_ROS",
+        "badges": [
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/diablo3/alert",
+        "content_id": "diablo-3",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_ACTION_RPG",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "diablo_iii_china#D3_ICON_MEDIUM",
+        "icon_small": "diablo_iii_china#D3_ICON_SMALL",
+        "icon_svg": "diablo_iii_china#D3_ICON_SVG",
+        "icon_tiny": "diablo_iii_china#D3_ICON_TINY",
+        "install_background": "diablo_iii_china#D3_ROS_INSTALL_BACKGROUND",
+        "key_art": "diablo_iii_china#D3_KEY_ART",
+        "locale_support_flag": "primary_locale",
+        "logo": "diablo_iii_china#D3_ROS_LOGO",
+        "name": "diablo_iii_china#D3_NAME",
+        "program_id": "D3CN",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.battlenet.com.cn/ld10"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 301
+          }
+        ],
+        "region_permission_flags": {"default": "unrestricted"},
+        "supported_regions": ["CN"],
+        "supports_starter_mode": false,
+        "tab_order": 9,
+        "title_id": 17459,
+        "types": {"vendor_5": {"auto_favorite_on_grant": true, "uid": "d3vcn"}},
+        "uid": "d3cn"
+      },
+      "id": "D3CN"
+    }
+  ],
+  "program_configuration": {
+    "D3CN": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "D3CN", "type": "vendor_5"}}}],
+          "match": {"license_id": 1080046}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "default": {"diablo_iii_china#D3_NAME": "Diablo III"},
+    "koKR": {"diablo_iii_china#D3_NAME": "디아블로 III"},
+    "zhCN": {"diablo_iii_china#D3_NAME": "暗黑破坏神III"},
+    "zhTW": {"diablo_iii_china#D3_NAME": "《暗黑破壞神III》"}
+  },
+  "version": 30
+}

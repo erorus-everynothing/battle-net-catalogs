@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "warcraft_i_legacyplaypanel#W1_BACKGROUND_OLD_PANEL": {
+        "hash": "bb1f810eadfbdfafb743ce884757d0ca",
+        "name": "resources/warcraft1/background_warcraft1.png"
+      }
+    }
+  },
+  "fragment_id": "warcraft_i_legacyplaypanel",
+  "products": [{"base": {"background": "warcraft_i_legacyplaypanel#W1_BACKGROUND_OLD_PANEL"}, "id": "W1"}],
+  "version": 30
+}

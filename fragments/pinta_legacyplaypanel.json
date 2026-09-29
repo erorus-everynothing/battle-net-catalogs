@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "pinta_legacyplaypanel#PNTA_BACKGROUND_OLD_PANEL": {
+        "hash": "090471b950d0d9ba878c300a33db13b1",
+        "name": "resources/pinta/background_pinta.png"
+      }
+    }
+  },
+  "fragment_id": "pinta_legacyplaypanel",
+  "products": [{"base": {"background": "pinta_legacyplaypanel#PNTA_BACKGROUND_OLD_PANEL"}, "id": "PNTA"}],
+  "version": 30
+}

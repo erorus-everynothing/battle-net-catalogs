@@ -1,0 +1,3362 @@
+{
+  "categories": {
+    "definitions": [
+      {"id": "cat_unknown", "name": "default#CATEGORIES_UNKNOWN_NAME", "rank": 0},
+      {"id": "cat_event", "name": "default#CATEGORIES_EVENT_NAME", "rank": 40},
+      {"id": "cat_in_development", "name": "default#CATEGORIES_INDEVELOPMENT_NAME", "rank": 50},
+      {"id": "cat_vendor", "name": "default#CATEGORIES_VENDOR_NAME", "rank": 55},
+      {"id": "cat_professional", "name": "default#CATEGORIES_PROFESSIONAL_NAME", "rank": 70},
+      {"id": "cat_tournament", "name": "default#CATEGORIES_TOURNAMENT_NAME", "rank": 71},
+      {"id": "cat_live", "name": "default#CATEGORIES_LIVE_NAME", "rank": 100}
+    ]
+  },
+  "connection_strings": [
+    {
+      "global": [
+        {"bgs": "us.actual.battle.net", "id": "US"},
+        {"bgs": "eu.actual.battle.net", "id": "EU"},
+        {"bgs": "kr.actual.battle.net", "id": "KR"},
+        {"bgs": "cn.actual.battlenet.com.cn", "id": "CN"},
+        {"bgs": "test.actual.battle.net", "id": "XX"},
+        {"bgs": "cn-ptr.actual.battle.net", "id": "CXX"}
+      ]
+    }
+  ],
+  "environments": [
+    {
+      "bgs": "us.actual.battle.net",
+      "id": "US",
+      "login_server": "account.battle.net",
+      "name": "default#ENVIRONMENTS_US_NAME",
+      "oauth_server": "oauth.battle.net",
+      "short_name": "default#ENVIRONMENTS_US_SHORT_NAME",
+      "tag": "1"
+    },
+    {
+      "bgs": "eu.actual.battle.net",
+      "id": "EU",
+      "login_server": "account.battle.net",
+      "name": "default#ENVIRONMENTS_EU_NAME",
+      "oauth_server": "oauth.battle.net",
+      "short_name": "default#ENVIRONMENTS_EU_SHORT_NAME",
+      "tag": "1"
+    },
+    {
+      "bgs": "kr.actual.battle.net",
+      "id": "KR",
+      "login_server": "account.battle.net",
+      "name": "default#ENVIRONMENTS_KR_NAME",
+      "oauth_server": "oauth.battle.net",
+      "short_name": "default#ENVIRONMENTS_KR_SHORT_NAME",
+      "tag": "1"
+    },
+    {
+      "bgs": "test.actual.battle.net",
+      "hidden": true,
+      "id": "XX",
+      "login_server": "account.battle.net",
+      "name": "default#ENVIRONMENTS_XX_NAME",
+      "oauth_server": "oauth.battle.net",
+      "short_name": "default#ENVIRONMENTS_XX_SHORT_NAME",
+      "tag": "1"
+    },
+    {
+      "bgs": "prod.actual.battle.net",
+      "hidden": true,
+      "id": "GLOBAL",
+      "login_server": "account.battle.net",
+      "name": "default#ENVIRONMENTS_GLOBAL_NAME",
+      "oauth_server": "oauth.battle.net",
+      "short_name": "default#ENVIRONMENTS_GLOBAL_SHORT_NAME",
+      "tag": "1"
+    },
+    {
+      "bgs": "cn.actual.battlenet.com.cn",
+      "id": "CN",
+      "login_server": "account.battlenet.com.cn",
+      "name": "default#ENVIRONMENTS_CN_NAME",
+      "oauth_server": "oauth.battlenet.com.cn",
+      "short_name": "default#ENVIRONMENTS_CN_SHORT_NAME",
+      "tag": "2"
+    },
+    {
+      "bgs": "cn.actual.battle.net",
+      "hidden": true,
+      "id": "CXX",
+      "login_server": "account.battlenet.com.cn",
+      "name": "default#ENVIRONMENTS_CXX_NAME",
+      "oauth_server": "oauth.battlenet.com.cn",
+      "short_name": "default#ENVIRONMENTS_CXX_SHORT_NAME",
+      "tag": "2"
+    }
+  ],
+  "files": {
+    "default": {
+      "default#BACKGROUND_DEFAULT": {
+        "hash": "66fb5ddbc01b395d21a3862efc7760f5",
+        "name": "resources/shared/background_default_v2.png"
+      },
+      "default#DEV_BACKGROUND": {
+        "hash": "919069e0a7aea5de3ff7e72ca4a08729",
+        "name": "resources/shared/background_dev.png"
+      },
+      "default#DEV_ICON_SVG": {"hash": "489a89a8d72d0bb0e3efc6e4fb7eba43", "name": "resources/shared/icon_dev.svg"},
+      "default#DEV_INSTALL_BACKGROUND": {
+        "hash": "fb23368113a796e79d8464e6fa7be385",
+        "name": "resources/shared/install_background_dev.jpg"
+      },
+      "default#LOGO_HH_COMPATIBLE": {
+        "hash": "f4ec42615b80912083bb12cc35bd5f73",
+        "name": "resources/shared/logo_hh_compatible.svg"
+      },
+      "default#LOGO_HH_OPTIMIZED": {
+        "hash": "b93219859fff4ea0d86b9cdc0bd7204a",
+        "name": "resources/shared/logo_hh_optimized.svg"
+      },
+      "default#LOGO_HH_UNSUPPORTED": {
+        "hash": "c5cfd696430be5f0d216e09996a5758c",
+        "name": "resources/shared/logo_hh_unsupported.svg"
+      },
+      "default#LOGO_XBOX_GAME_PASS": {
+        "hash": "bf1147925cba5982babb697c9eb90cff",
+        "name": "resources/shared/logo_xbox_game_pass.svg"
+      },
+      "default#PRODUCTS_APP_ICON_MASSIVE": {
+        "hash": "2f8cfc20638a8976640b35e512316de0",
+        "name": "resources/shared/icon_social_massive.png"
+      },
+      "default#QUICK_LINK_ICON_DOWNLOAD_AVAILABLE": {
+        "hash": "2d8c78341d23d32244fabce2c7854328",
+        "name": "resources/shared/icon_download_available.svg"
+      },
+      "default#QUICK_LINK_ICON_EDITOR": {
+        "hash": "f75e3887c4d5a3e685dd5ca3b5e8838d",
+        "name": "resources/shared/icon_editor.svg"
+      },
+      "default#QUICK_LINK_ICON_FORUMS": {
+        "hash": "786f7dc7fbd65535dd8795edf5439b83",
+        "name": "resources/shared/icon_forums.svg"
+      },
+      "default#QUICK_LINK_ICON_INFO": {
+        "hash": "cc308a861042003185c021b48a3b8926",
+        "name": "resources/shared/icon_info.svg"
+      },
+      "default#QUICK_LINK_ICON_MOBILE": {
+        "hash": "905da8c0d050b85c9a9fb33df6f9c36c",
+        "name": "resources/shared/icon_play_on_mobile-1.svg"
+      },
+      "default#QUICK_LINK_ICON_PATCH_NOTES": {
+        "hash": "9494cc98b9926a8abe5379de3e078bb4",
+        "name": "resources/shared/icon_new.svg"
+      },
+      "default#QUICK_LINK_ICON_SHOP": {
+        "hash": "31cef4cc301c62d1a7af35b9820b803e",
+        "name": "resources/shared/icon_shop.svg"
+      },
+      "default#QUICK_LINK_ICON_SPECIAL": {
+        "hash": "6dfcc179fac8f41926129de134a649e2",
+        "name": "resources/shared/icon_special.svg"
+      },
+      "default#QUICK_LINK_ICON_STAR": {
+        "hash": "dc23145b49234241df511b703c2261ee",
+        "name": "resources/shared/icon_star.svg"
+      },
+      "default#QUICK_LINK_ICON_SUPPORT": {
+        "hash": "2751a8f03abcf6ca7102b1725fafd9d3",
+        "name": "resources/shared/icon_support.svg"
+      },
+      "default#QUICK_LINK_ICON_UPGRADE": {
+        "hash": "d535dcac9698234a382a107d7b93e42b",
+        "name": "resources/shared/icon_upgrade.svg"
+      },
+      "default#QUICK_LINK_ICON_WEBSITE": {
+        "hash": "fcce5df11e8727060f255c1015b83ec1",
+        "name": "resources/shared/icon_website-1.svg"
+      }
+    }
+  },
+  "fragment_id": "default",
+  "fragments": [
+    {"hash": "1bc60c045ae33c5ceeda604f2c8fcdd2", "name": "anbs"},
+    {
+      "hash": "70070f0c3c7dc34de83a7788a10c2a56",
+      "name": "anbs_cndefault",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "a40b7e34afc51fae7045acb0c888b316",
+      "name": "anbs_disable",
+      "requires": {"include": ["RU", "BY"], "type": "geoip_country"}
+    },
+    {
+      "hash": "d8da49c7fc09f7f26b90eb58ea9c258b",
+      "name": "anbs_disablemac",
+      "requires": {"platform": "mac", "type": "platform"}
+    },
+    {
+      "hash": "52353640125423ab71ef11d51f2c3e75",
+      "name": "anbs_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "04faa8b9cc261afab68d04dd822e8cf9",
+      "name": "anbs_limitedinfo",
+      "requires": {
+        "any_of": [
+          {"include": ["BEL", "NLD"], "type": "account_country"},
+          {"include": ["BE", "NL"], "type": "geoip_country"}
+        ]
+      }
+    },
+    {
+      "hash": "cd7761ea717d2794c925067f01c3d0aa",
+      "name": "anbs_limitedwin",
+      "requires": {
+        "any_of": [{"include": ["VNM"], "type": "account_country"}, {"include": ["VN"], "type": "geoip_country"}]
+      }
+    },
+    {
+      "hash": "3d2c8959aa212a2c1ae417c2e750ebbf",
+      "name": "anbs_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {"hash": "da808f893d04760be58f4444a8e9c092", "name": "aqua"},
+    {
+      "hash": "187af4f572f2f05882454116aa8d15ff",
+      "name": "aqua_gamepass",
+      "requires": {
+        "all_of": [{"licenses": [959845], "type": "licenses"}, {"none_of": [{"include": "CN", "type": "login_region"}]}]
+      }
+    },
+    {
+      "hash": "9e516ee8c2f6317652af9977bd4bb600",
+      "name": "aqua_ifartbookhideupgrade",
+      "requires": {"licenses": [1057937], "type": "licenses"}
+    },
+    {
+      "hash": "dcf22f7685912ba5091089feaa346b18",
+      "name": "aqua_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "336f710d1df12600768f22f0c5a34e28",
+      "name": "aqua_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {"hash": "32ba516157fd97aebc4d9356b3a2040b", "name": "aris"},
+    {
+      "hash": "c386d78e536558bf843f25f6360090dd",
+      "name": "aris_clientversionplaydisabled",
+      "requires": {"not": {"type": "client_version", "version": "2.41.0"}}
+    },
+    {
+      "hash": "f9401396421163dde8b13351983e3234",
+      "name": "aris_gamepass",
+      "requires": {
+        "all_of": [{"licenses": [959845], "type": "licenses"}, {"none_of": [{"include": "CN", "type": "login_region"}]}]
+      }
+    },
+    {
+      "hash": "29cdea0a4bb96d6440e55ab86d1fc35f",
+      "name": "aris_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "bfeb5ba638dee7b5f4fb3319b1f47303",
+      "name": "aris_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {"hash": "2f336e78353afdf16513b21aed9d7b0b", "name": "arkansas"},
+    {
+      "hash": "2b2b3c90e7114fcf03b63616fd2dfe73",
+      "name": "arkansas_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [959845, 1043666], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "98b32afd4bd9d462e40e93ba9ffa044d",
+      "name": "arkansas_ifpremiumhideupgrade",
+      "requires": {"licenses": [1105062], "type": "licenses"}
+    },
+    {
+      "hash": "2deb7d754fb4ca57655ffa12399b7638",
+      "name": "arkansas_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {"hash": "3ff333e5dfad9a86230f6c5709e15aed", "name": "auks"},
+    {
+      "hash": "09efdd127784946cfd597b2f029aecf9",
+      "name": "auks_alphadeprecationoverride",
+      "requires": {"licenses": [1176991], "type": "licenses"}
+    },
+    {
+      "hash": "cfaa2edf7dee4dbf582c495ed0da594a",
+      "name": "auks_cib2_alpha_deprecationoverride",
+      "requires": {"licenses": [1215656], "type": "licenses"}
+    },
+    {
+      "hash": "6e34ee8cac0051291324485afae68c75",
+      "name": "auks_cn_deprecation_override",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "43ccca77e129c838aa99264ca8a69fcc",
+      "name": "auks_disable_starter_mode_licensed",
+      "requires": {
+        "$comment": "BO7 Base, BO7 Vault, Rex Base, Rex Vault",
+        "licenses": [880549, 1101743, 881555, 1172868],
+        "type": "licenses"
+      }
+    },
+    {
+      "hash": "435f262e18f4f773f313f0f1fedc2e59",
+      "name": "auks_disablemac",
+      "requires": {"platform": "mac", "type": "platform"}
+    },
+    {
+      "hash": "ca263605b0011013fefee0421cb6aba1",
+      "name": "auks_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "0725ddedf48ebf6aa45065f59e80b04e",
+      "name": "auks_live_alpha_deprecationoverride",
+      "requires": {"licenses": [1208677], "type": "licenses"}
+    },
+    {
+      "hash": "2385d49f079e5ae2f61bdfbb5adc5dcc",
+      "name": "auks_mw4_base_and_not_vault",
+      "requires": {
+        "all_of": [
+          {"$comment": "Rex Base", "licenses": [881555], "type": "licenses"},
+          {"not": {"$comment": "Rex Vault", "licenses": [1172868], "type": "licenses"}}
+        ]
+      }
+    },
+    {
+      "hash": "ee6616771c32edf56f18036a5ba01ad8",
+      "name": "auks_mw4_vault",
+      "requires": {"all_of": [{"$comment": "Rex Vault", "licenses": [1172868], "type": "licenses"}]}
+    },
+    {"hash": "9e2547d49697a86588198ac12b94ba31", "name": "battle.net"},
+    {"hash": "66fa87a135861bb6fc0cb7192523f460", "name": "btlr"},
+    {"hash": "f8dc12685fe55de340b8c36c6b5914da", "name": "corn"},
+    {"hash": "2837e1253e50ecdc71a96e479b3620b7", "name": "diablo_i"},
+    {
+      "hash": "308ff3b6c45774ad1f60b1abdac5470b",
+      "name": "diablo_i_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "a7ce1d5bbe6f4fa22405493eeab2651f",
+      "name": "diablo_i_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {"hash": "8522a3a08583756cdc4ab11719e27842", "name": "diablo_iii"},
+    {"hash": "a6f4c4d4edec1e2eb99202713fc369e1", "name": "diablo_iii_china"},
+    {
+      "hash": "b0870ae59c487f8b4bfc8fb088a77474",
+      "name": "diablo_iii_china_devearlyacces",
+      "requires": {"licenses": [1080046], "type": "licenses"}
+    },
+    {
+      "hash": "05ab9592ccaa706f6f00028562b39a93",
+      "name": "diablo_iii_china_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "7e0199c7e845e0ab218eb9c2da2d4b6b",
+      "name": "diablo_iii_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "5e9e62cbea9617bd2029a5b9beaa4564",
+      "name": "diablo_iii_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "969b6a91f31122594e1e6f56fb338150",
+      "name": "diablo_iii_noaltcontent",
+      "requires": {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+    },
+    {"hash": "fee6e6a32a3fb2ebd40b10271f8c8a15", "name": "fenris"},
+    {
+      "hash": "b75a4322767eb659832ab6650aecb284",
+      "name": "fenris_cn",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "74101c1549d0dcea042292bd4bc23fe5",
+      "name": "fenris_cnupgradequicklink",
+      "requires": {
+        "all_of": [
+          {"include": "CN", "type": "login_region"},
+          {"licenses": [615331], "type": "licenses"},
+          {"none_of": [{"licenses": [1032989], "type": "licenses"}]}
+        ]
+      }
+    },
+    {
+      "hash": "04ed2ad2bc33f3f0dd6a536cc18ac5a0",
+      "name": "fenris_devdeprecatedwitholdlicense",
+      "requires": {
+        "all_of": [
+          {"licenses": [1012022], "type": "licenses"},
+          {"licenses": [1164910], "op": "none_of", "type": "licenses"}
+        ]
+      }
+    },
+    {"hash": "764b44f693d3fd5effe00d42938f977d", "name": "fenris_enable_trial", "requires": true},
+    {
+      "hash": "bcfaef357b539f08bb9f510f15ffe9ad",
+      "name": "fenris_event2deprecatedwitholdlicense",
+      "requires": {
+        "all_of": [
+          {"licenses": [1136467, 1153744, 1169550], "type": "licenses"},
+          {"licenses": [1190834], "op": "none_of", "type": "licenses"}
+        ]
+      }
+    },
+    {
+      "hash": "850d9e60c7f48153b87e202aed057274",
+      "name": "fenris_eventdeprecatedwitholdlicense",
+      "requires": {
+        "all_of": [
+          {"licenses": [1153744, 1169551], "type": "licenses"},
+          {"licenses": [1190597], "op": "none_of", "type": "licenses"}
+        ]
+      }
+    },
+    {
+      "hash": "c1e6e2dd1f2e6384c2cf8dc3f27dd137",
+      "name": "fenris_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "f1a18cf6157d0f5fb0b03c1f6547be87",
+      "name": "fenris_legacyplaypanel",
+      "requires": {
+        "all_of": [
+          {"not": {"include": "CN", "type": "login_region"}},
+          {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+        ]
+      }
+    },
+    {
+      "hash": "2222979019f4897e57fe327dada57a0c",
+      "name": "fenris_legacyplaypanelcn",
+      "requires": {
+        "all_of": [
+          {"include": "CN", "type": "login_region"},
+          {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+        ]
+      }
+    },
+    {
+      "hash": "38157ccdf550cccfc8cf9b45a939505b",
+      "name": "fenris_newplaypanelcn",
+      "requires": {
+        "all_of": [
+          {"include": "CN", "type": "login_region"},
+          {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}
+        ]
+      }
+    },
+    {
+      "hash": "9c8f090fa4e1d59793ecd4b6a68bf1d3",
+      "name": "fenris_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [615331], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {
+      "hash": "7218750504afb7a245ab81a0a7d049fb",
+      "name": "fenris_upgradequicklink",
+      "requires": {
+        "all_of": [
+          {"licenses": [615331], "type": "licenses"},
+          {"none_of": [{"licenses": [1111537], "type": "licenses"}]},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "f95a1daee515d832df7ef42af989c785",
+      "name": "fenris_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {"hash": "a6f0295b649272b8f3bc8ea874a9da0c", "name": "fore"},
+    {
+      "hash": "2c43b9467a053b73d37e612239642370",
+      "name": "fore_cn_deprecation_override",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "a3400df99e91d52b03830b5a13cefc70",
+      "name": "fore_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "28cb3c16a8f665ea358b744c0f54ef3e",
+      "name": "fore_limited_alpha",
+      "requires": {"licenses": [53636, 184070], "op": "none_of", "type": "licenses"}
+    },
+    {
+      "hash": "577686f988bde574e76a3668fdca3493",
+      "name": "fore_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [53638], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {"hash": "ddf3a5405d7b926fc816b2f207092bc0", "name": "gdt"},
+    {
+      "hash": "1d96ee6a75976c7b7c9b06f0fe5cc620",
+      "name": "gdt_tact_branch_country_override",
+      "requires": {"include": ["KOR"], "type": "account_country"}
+    },
+    {"hash": "f08cc84c782ae5045ef1cd00a91e3120", "name": "gryphon"},
+    {
+      "hash": "61373b80b66a99cd4fdabd390e6638bc",
+      "name": "gryphon_disable",
+      "requires": {"include": ["RU", "BY"], "type": "geoip_country"}
+    },
+    {
+      "hash": "965229f592052f7af25918fa1d797d63",
+      "name": "gryphon_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "918f62d60c2f07b31dd39fcc465571b8",
+      "name": "gryphon_limitedinfo",
+      "requires": {
+        "any_of": [
+          {"include": ["BEL", "VNM"], "type": "account_country"},
+          {"include": ["BE", "VN"], "type": "geoip_country"}
+        ]
+      }
+    },
+    {"hash": "5290112be064724d519b7cf60ae51dc2", "name": "hearthstone"},
+    {
+      "hash": "db0d26cbcfe11adc28d452d42972bfe3",
+      "name": "hearthstone_cn_region",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "7d095e029ddb8934470b0384c5e9a8bb",
+      "name": "hearthstone_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "ffb7805ec3be31b627c473500cb776cd",
+      "name": "hearthstone_limited_event",
+      "requires": {"licenses": [50216], "op": "none_of", "type": "licenses"}
+    },
+    {
+      "hash": "4f9c7b3cea497d8553d82ba533909015",
+      "name": "hearthstone_live_event_not_deprecated",
+      "requires": {"licenses": [1209990], "type": "licenses"}
+    },
+    {
+      "hash": "64d55490f9536050ac47197d7bfb0b9e",
+      "name": "hearthstone_noaltcontent",
+      "requires": {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+    },
+    {
+      "hash": "c57ef4fa47ce593a5ba570355c210d40",
+      "name": "hearthstone_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {"hash": "f431db117e84bfd519fc7f23d40d4e36", "name": "heroes"},
+    {
+      "hash": "6710d95df3d923e777df8f4cd966976b",
+      "name": "heroes_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043667, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "5dfa5788a500d8d1f3c9bba98cfd57b9",
+      "name": "heroes_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "51a9d71ff7ef7076bca082d6b4252924",
+      "name": "heroes_noaltcontent",
+      "requires": {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+    },
+    {"hash": "a51da3dbb12f0c45cf1d6b8ec21e8ac4", "name": "kelp"},
+    {"hash": "5899059d613c3080927a8f0b9c30c329", "name": "lazarus"},
+    {
+      "hash": "35e819abf118840a4062ca2970e30349",
+      "name": "lazarus_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "dfdd59d6209235065d9009d0b9fca51c",
+      "name": "lazarus_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [52663], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {"hash": "384471bfe0be7e16f38ed61c0ec4def0", "name": "libra"},
+    {
+      "hash": "f6836b3d9d7c86dcfa6de06eba859d87",
+      "name": "libra_gamepass",
+      "requires": {
+        "all_of": [{"licenses": [959845], "type": "licenses"}, {"none_of": [{"include": "CN", "type": "login_region"}]}]
+      }
+    },
+    {
+      "hash": "fc181c44debc6c04bfde38f96a7855c0",
+      "name": "libra_hideupgrade",
+      "requires": {
+        "all_of": [
+          {"licenses": [1083211], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "70c6adf2590c8c32f672da3604dace75",
+      "name": "libra_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {"hash": "b0d768dffd57a45ddacd934287fa7501", "name": "lyra"},
+    {
+      "decryption_key_id": "catalog-decryption-key-moon2",
+      "encrypted_hash": "a7d95119ec527424ff50b06cd3e3c66d",
+      "hash": "f85eff23e38cacb87a72f35208908cf4",
+      "name": "moon"
+    },
+    {"hash": "bf670a0715f3bda36a40e4ccd9dca311", "name": "nina"},
+    {
+      "hash": "d22315094d81f9eadb98c9a90c0439f3",
+      "name": "nina_disablemac",
+      "requires": {"platform": "mac", "type": "platform"}
+    },
+    {
+      "hash": "c676fbff212d777c51e8b2596a6fdfd1",
+      "name": "nina_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "eaa9197d5dc7d6d8e7216ee8e63ee19a",
+      "name": "nina_removemwiibuylink",
+      "requires": {"licenses": [92204], "type": "licenses"}
+    },
+    {"hash": "4051d0c5dc3d21474e138258bbe33b62", "name": "odin"},
+    {
+      "hash": "7995ac08f0eb5ccc8a454d7b41546f24",
+      "name": "odin_cn_deprecation_override",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "71bdfdcd28c5499657f72b93ab16e3f2",
+      "name": "odin_deprecate_event",
+      "requires": {"licenses": [42676, 184706], "op": "none_of", "type": "licenses"}
+    },
+    {
+      "hash": "df1f20ca08155d96ebe25ae5e4baf70f",
+      "name": "odin_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "7d464cbd28b43fce67acd33abce93f61",
+      "name": "odin_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [29256], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {"hash": "be7b35260e632224c9c72c2650a4925d", "name": "osi"},
+    {
+      "hash": "6e6d9113ab81c0ded6a679f4e4ff2446",
+      "name": "osi_cn",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "800fb6b17403546af6a46fef96a2a639",
+      "name": "osi_cnretailplaydisabledwithoutlicense",
+      "requires": {
+        "all_of": [{"include": "CN", "type": "login_region"}, {"none_of": [{"licenses": [288946], "type": "licenses"}]}]
+      }
+    },
+    {
+      "hash": "b2b75037a372f1d2736062be446defd4",
+      "name": "osi_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "a8687e30038516073e6531ecf7746eda",
+      "name": "osi_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "7b4f7651b7e73a1ec5c622495fafb1ff",
+      "name": "osi_row_x2_art_override",
+      "requires": {
+        "all_of": [{"not": {"include": "CN", "type": "login_region"}}, {"licenses": [1143093], "type": "licenses"}]
+      }
+    },
+    {
+      "hash": "b469be8121ce013319872db7642ab43c",
+      "name": "osi_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {
+      "hash": "593e829dfb144322529c6c9ee09482ad",
+      "name": "osi_x2_upgrade_quicklink",
+      "requires": {
+        "any_of": [
+          {
+            "all_of": [
+              {"not": {"include": "CN", "type": "login_region"}},
+              {"licenses": [53736], "type": "licenses"},
+              {"not": {"licenses": [1143093], "type": "licenses"}}
+            ]
+          },
+          {
+            "all_of": [
+              {"include": "CN", "type": "login_region"},
+              {"licenses": [288946], "type": "licenses"},
+              {"not": {"licenses": [1143093], "type": "licenses"}}
+            ]
+          }
+        ]
+      }
+    },
+    {"hash": "450e0e7e8f8c2b5ba0974c042731b424", "name": "overwatch"},
+    {
+      "hash": "d5a8ca3c879997ca4b90440f64109d57",
+      "name": "overwatch_cn_assets_links_overrides",
+      "requires": {"any_of": [{"include": "CN", "type": "login_region"}]}
+    },
+    {
+      "hash": "2652975b6c45d0aeef615c90fe6e4a82",
+      "name": "overwatch_cn_deprecation_override",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "8d4e021191524bb25a450c9edf1a1344",
+      "name": "overwatch_disablemac",
+      "requires": {"platform": "mac", "type": "platform"}
+    },
+    {
+      "hash": "768717ad8e38e193d5ca429990ff303d",
+      "name": "overwatch_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043667, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "14e67aab2a11ce36ec1f17abf270c5f2",
+      "name": "overwatch_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "8e7ad6a0ee9b6f268510d79f613af6fa",
+      "name": "overwatch_limited_access",
+      "requires": {"licenses": [461390, 461389], "type": "licenses"}
+    },
+    {
+      "hash": "29c22adc71032e464689740ea3e9dafe",
+      "name": "overwatch_prodemo4notdeprecatedwithnewlicense",
+      "requires": {"licenses": [1091184], "type": "licenses"}
+    },
+    {
+      "hash": "883081361bf0f74b01abc65e892d0a40",
+      "name": "overwatch_prodemo5notdeprecatedwithnewlicense",
+      "requires": {"licenses": [1091173], "type": "licenses"}
+    },
+    {
+      "hash": "cf0aac1ed4acb1d82c39094669bcc944",
+      "name": "overwatch_ruby_without_original_license",
+      "requires": {
+        "all_of": [
+          {"licenses": [16332], "op": "none_of", "type": "licenses"},
+          {"include": ["RUS", "BLR"], "type": "account_country"}
+        ]
+      }
+    },
+    {
+      "hash": "970af5e5558526fb8d9f4af01b82b995",
+      "name": "overwatch_tact_branch_country_override",
+      "requires": {"include": ["KOR"], "type": "account_country"}
+    },
+    {
+      "hash": "31d96b41c03861ad623dc5878768650c",
+      "name": "overwatch_win7and8deprecation",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {"hash": "bd520d3558301e5e46bcc40ffc65d2ee", "name": "pinta"},
+    {
+      "hash": "01c7a0557f013f9a29f2e4ceb724c9a4",
+      "name": "pinta_disablemac",
+      "requires": {"platform": "mac", "type": "platform"}
+    },
+    {
+      "hash": "57436c1f502ec9f995328c9101f395b0",
+      "name": "pinta_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "decryption_key_id": "catalog-decryption-key-rose",
+      "encrypted_hash": "d6ab83d530daa70e70788bb33a34a1f0",
+      "hash": "92388e7b4e0cff96813d7c218ecb79c8",
+      "name": "rose"
+    },
+    {"hash": "5b0829fdce7d0e1e02bec5a49d4d7de0", "name": "rtro"},
+    {
+      "hash": "7211b629403c787e60e82dc11e430405",
+      "name": "rtro_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "35b1f79591cbfdba203615b3a811f5e7",
+      "name": "rtro_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "f06e7b9c70089a9a82fc23217d44ed85",
+      "name": "rtro_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [107743], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {
+      "decryption_key_id": "catalog-decryption-key-sage",
+      "encrypted_hash": "1af73ab00053e2a2abc0c7ff7e518f57",
+      "hash": "a67612c58f8335c59359c6fbb8a7271b",
+      "name": "sage"
+    },
+    {"hash": "8d10685696611793996c59a45fd2bd56", "name": "scorpio"},
+    {
+      "hash": "e9a5f7614e0d947b34ef99701e89921f",
+      "name": "scorpio_gamepass",
+      "requires": {
+        "all_of": [{"licenses": [959845], "type": "licenses"}, {"none_of": [{"include": "CN", "type": "login_region"}]}]
+      }
+    },
+    {
+      "hash": "a00d11e935b2de9f10e5c4c2fb3c8f96",
+      "name": "scorpio_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "f115ffe57b18f508568f8cd0da71cdf9",
+      "name": "scorpio_premiumordeluxe_showbonuses",
+      "requires": {"licenses": [1079130, 1079132], "type": "licenses"}
+    },
+    {
+      "hash": "907c0fd4ed6d059ea8763aa4260048cf",
+      "name": "scorpio_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {"hash": "00e1e21fc3f225dc2ae868719bc63f37", "name": "spot"},
+    {"hash": "c7f4198b24adf3aef93f03edc2f03321", "name": "starcraft_ii"},
+    {
+      "hash": "a9380a1aba355557a5035be1b7fbc434",
+      "name": "starcraft_ii_cnmacdisabled",
+      "requires": {"all_of": [{"include": "CN", "type": "login_region"}, {"platform": "mac", "type": "platform"}]}
+    },
+    {
+      "hash": "207082f32e207c4e0e8f7644327e34e2",
+      "name": "starcraft_ii_cnoverride",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "46d1a6c190c52d3a8205ab121511f1e4",
+      "name": "starcraft_ii_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043667, 959845], "type": "licenses"},
+          {"not": {"include": "CN", "type": "login_region"}}
+        ]
+      }
+    },
+    {
+      "hash": "c61a3d291046a4105daa6c2ad719231d",
+      "name": "starcraft_ii_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "bee55241e26cde18d9ddc79884211f5f",
+      "name": "starcraft_ii_noaltcontent",
+      "requires": {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+    },
+    {"hash": "f093e1b7306ec3d7caf1e8f510677634", "name": "starcraft_remastered"},
+    {
+      "hash": "08d9eaac2ede7b7dc01371ac39f480e7",
+      "name": "starcraft_remastered_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043667, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "a9758e873f52b6b8c63d43899b8c0c21",
+      "name": "starcraft_remastered_hide_tw_forum_link",
+      "requires": {"include": "TWN", "type": "account_country"}
+    },
+    {
+      "hash": "ccf175df3e85e6b9bf56fa6e1672d264",
+      "name": "starcraft_remastered_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "eb5e2190e76c271c272abe9dc81af23e",
+      "name": "starcraft_remastered_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [17019], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {"hash": "7d2b11eff2d9439e5d832536435af74c", "name": "viper"},
+    {
+      "hash": "4b820a3f68ea4a47f7e1ae734237d290",
+      "name": "viper_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "8308dac55a91669533eea74c4a04f121",
+      "name": "viper_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [26931, 36377], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {"hash": "2183b54f9d61cf47aee9ba20b9759fe8", "name": "warcraft_i"},
+    {
+      "hash": "61c5110ac52da677d2311309e7b786a9",
+      "name": "warcraft_i_hide_battle_chest",
+      "requires": {"licenses": [34998, 931927, 931928, 1042650, 1042668], "op": "all_of", "type": "licenses"}
+    },
+    {
+      "hash": "624afcd90881fa19b81edec54fee78dd",
+      "name": "warcraft_i_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {"hash": "c82e696ddc77134ca26c641e8437a4ed", "name": "warcraft_i_remastered"},
+    {
+      "hash": "40be400890cb463fde86f41ef88cd586",
+      "name": "warcraft_i_remastered_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "61ffc10dc689233f25990b6e65f39e2f",
+      "name": "warcraft_i_remastered_hide_battle_chest",
+      "requires": {"licenses": [34998, 931927, 931928, 1042650, 1042668], "op": "all_of", "type": "licenses"}
+    },
+    {
+      "hash": "6fc84efd87e140fd81ec65ffc25316e1",
+      "name": "warcraft_i_remastered_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {"hash": "b2d613fe971fdcf3371bb9dc3cac2033", "name": "warcraft_ii"},
+    {
+      "hash": "63fca63a1309e7278cff5361a9c74a67",
+      "name": "warcraft_ii_hide_battle_chest",
+      "requires": {"licenses": [34998, 931927, 931928, 1042650, 1042668], "op": "all_of", "type": "licenses"}
+    },
+    {
+      "hash": "fe818625e76389e1d4d981a569a05bee",
+      "name": "warcraft_ii_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {"hash": "a957201520fbb3010d0ff187f7f06a60", "name": "warcraft_ii_remastered"},
+    {
+      "hash": "611bb44bedf7dd38a7e8d2da02fa965c",
+      "name": "warcraft_ii_remastered_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "fa6dcd5c5a6777096079d36e9cc74244",
+      "name": "warcraft_ii_remastered_hide_battle_chest",
+      "requires": {"licenses": [34998, 931927, 931928, 1042650, 1042668], "op": "all_of", "type": "licenses"}
+    },
+    {
+      "hash": "8ef7d13db843392502e117bf3c3d45b1",
+      "name": "warcraft_ii_remastered_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {"hash": "158a715700550338f272c9fd849e4833", "name": "warcraft_iii"},
+    {
+      "hash": "f07521a05c103f4ea7c622fcd5f4598f",
+      "name": "warcraft_iii_cn_login",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "c0f5d1fdd9075f4afa3eacbb119d7cbb",
+      "name": "warcraft_iii_forsaken_kingdom_logo",
+      "requires": {"licenses": [1191800], "op": "all_of", "type": "licenses"}
+    },
+    {
+      "hash": "d73a46cc347b15101b91624e25129130",
+      "name": "warcraft_iii_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "e564e13afb929f6ee86bd2401f0a74a4",
+      "name": "warcraft_iii_hide_battle_chest",
+      "requires": {"licenses": [34998, 931927, 931928, 1042650, 1042668], "op": "all_of", "type": "licenses"}
+    },
+    {
+      "hash": "90ea3a6904841260e6661a513d3db77e",
+      "name": "warcraft_iii_hide_tw_forum_link",
+      "requires": {"include": "TWN", "type": "account_country"}
+    },
+    {
+      "hash": "42dd7a259a8c902ca8c537000426fb5d",
+      "name": "warcraft_iii_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "33cf944c86caebb83004058fa66dcb2b",
+      "name": "warcraft_iii_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [34998], "op": "none_of", "type": "licenses"},
+          {"exclude": "CN", "type": "login_region"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {
+      "hash": "2efc9eca27c2c3d9e7b545dfa39176a4",
+      "name": "warcraft_iii_rebirth_upgrade",
+      "requires": {
+        "all_of": [
+          {"licenses": [34998], "op": "all_of", "type": "licenses"},
+          {"licenses": [1191800], "op": "none_of", "type": "licenses"}
+        ]
+      }
+    },
+    {"hash": "5c1d38200d5ffe4528f0e25ff96f163c", "name": "wlby"},
+    {
+      "hash": "df1ea4d6fe00d3fa47a15b0385dc4e01",
+      "name": "wlby_cn_deprecation_override",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "193a5003d4983a628e829c2e3e00cfb5",
+      "name": "wlby_gamepass",
+      "requires": {
+        "all_of": [
+          {"licenses": [1043668, 959845], "type": "licenses"},
+          {"none_of": [{"include": "CN", "type": "login_region"}]}
+        ]
+      }
+    },
+    {
+      "hash": "21750246ac430095de3ef223718d8bbf",
+      "name": "wlby_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "16f93fe9fcca2a278ad50e4613330ef2",
+      "name": "wlby_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [107572], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {"hash": "036b1a1c4555d5fed54729d655c2c5f6", "name": "world_of_warcraft"},
+    {
+      "hash": "31100b5169ffc17150911f406b82cd91",
+      "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
+      "requires": {"licenses": [1134620], "type": "licenses"}
+    },
+    {
+      "hash": "13da70063bb47376dc31e1e5b51c50ed",
+      "name": "world_of_warcraft_cn",
+      "requires": {"any_of": [{"include": "CN", "type": "login_region"}]}
+    },
+    {
+      "hash": "8d7a6277bba99746170f887e9b01a252",
+      "name": "world_of_warcraft_dev3notdeprecatedwithnewlicense",
+      "requires": {"licenses": [1134621], "type": "licenses"}
+    },
+    {
+      "hash": "7322efa7d636e07a761a258895b790e7",
+      "name": "world_of_warcraft_dev5notdeprecatedwithnewlicense",
+      "requires": {"all_of": [{"licenses": [1134620], "type": "licenses"}, {"licenses": [1144770], "type": "licenses"}]}
+    },
+    {
+      "hash": "6e303361575beb4fb216c330895940ef",
+      "name": "world_of_warcraft_hide_home_viewer",
+      "requires": {"not": {"type": "client_version", "version": "2.46.1"}}
+    },
+    {
+      "hash": "1616abec75706b11b9bb572b00b8e2e4",
+      "name": "world_of_warcraft_krtw_alt_content",
+      "requires": {"include": ["KOR", "TWN"], "type": "account_country"}
+    },
+    {
+      "hash": "896a72b0cb906a3bd7dcebfd8c0fd9ab",
+      "name": "world_of_warcraft_min_spec_mac",
+      "requires": {
+        "none_of": [
+          {"platform": "mac", "type": "platform", "version": "10.15"},
+          {"platform": "win", "type": "platform"}
+        ]
+      }
+    },
+    {
+      "hash": "05220a804dd7bd7721abf3dc553da56e",
+      "name": "world_of_warcraft_ruru_patch_notes",
+      "requires": {"include": "ruRU", "type": "locale"}
+    },
+    {
+      "hash": "31e6850dcc19f04beb009b8a5d7baa39",
+      "name": "world_of_warcraft_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {
+      "hash": "02e3d12f1ef2033ad0928370d90222cf",
+      "name": "world_of_warcraft_win10_classic",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {
+      "hash": "c2553f72b8d8b7bdf5a0dc86b0498e4e",
+      "name": "world_of_warcraft_wow_forever_access_restriction",
+      "requires": {
+        "all_of": [
+          {"not": {"include": "CN", "type": "login_region"}},
+          {"licenses": [1190895, 1190896], "op": "none_of", "type": "licenses"}
+        ]
+      }
+    },
+    {
+      "hash": "f7ce941e4441df207d26500e8de8bad1",
+      "name": "world_of_warcraft_wow_forever_access_restriction_cn",
+      "requires": {
+        "all_of": [
+          {"include": "CN", "type": "login_region"},
+          {"licenses": [1190895, 1191799], "op": "none_of", "type": "licenses"}
+        ]
+      }
+    },
+    {
+      "hash": "0dc6a45ce029e1b8912d459afe9302bf",
+      "name": "world_of_warcraft_wow_forever_beta_cn",
+      "requires": {
+        "all_of": [
+          {"include": "CN", "type": "login_region"},
+          {"licenses": [1190895], "op": "any_of", "type": "licenses"}
+        ]
+      }
+    },
+    {"hash": "79339a5fc048b620a36cc9233de2cc03", "name": "zeus"},
+    {
+      "hash": "7be226bee401803bca6197d6be3c2634",
+      "name": "zeus_cn_deprecation_override",
+      "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "36482bb34839d430a3e2960168cc7236",
+      "name": "zeus_legacyplaypanel",
+      "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "8a86656ba7df9cdd6c73dbfb874afe73",
+      "name": "zeus_noaltcontent",
+      "requires": {
+        "all_of": [
+          {"licenses": [52713], "op": "none_of", "type": "licenses"},
+          {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {
+      "hash": "b1d7acfb101b25e12e124e8fefc3c688",
+      "name": "zeus_zeus_alpha_license",
+      "requires": {
+        "all_of": [
+          {"licenses": [52736], "op": "none_of", "type": "licenses"},
+          {"licenses": [52715], "type": "licenses"}
+        ]
+      }
+    }
+  ],
+  "locales": [
+    "deDE",
+    "enGB",
+    "enUS",
+    "esES",
+    "esMX",
+    "frFR",
+    "itIT",
+    "jaJP",
+    "koKR",
+    "plPL",
+    "ptBR",
+    "ptPT",
+    "ruRU",
+    "thTH",
+    "zhCN",
+    "zhTW"
+  ],
+  "strings": {
+    "deDE": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} Größtenteils kompatibel",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Handheld-optimiert",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} Nicht unterstützt",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Im {image} enthalten",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Im Xbox Game Pass enthalten",
+      "default#CATEGORIES_EVENT_NAME": "Ereignis",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "IN ENTWICKLUNG",
+      "default#CATEGORIES_TOURNAMENT_NAME": "TURNIERE",
+      "default#CATEGORIES_UNKNOWN_NAME": "UNBEKANNT",
+      "default#CATEGORIES_VENDOR_NAME": "Dienstleister",
+      "default#ENVIRONMENTS_CXX_NAME": "Öffentliche Testregion",
+      "default#ENVIRONMENTS_EU_NAME": "Europa",
+      "default#ENVIRONMENTS_KR_NAME": "Asien",
+      "default#ENVIRONMENTS_US_NAME": "Amerika",
+      "default#ENVIRONMENTS_XX_NAME": "Öffentliche Testregion",
+      "default#GAME_PASS_DISCLAIMER": "Die Standard Edition ist im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben. Für den Zugriff auf die zusätzlichen Inhalte der Premium Edition ist ein separater Kauf erforderlich.",
+      "default#GENRE_ACTION_ADVENTURE": "Action und Abenteuer",
+      "default#GENRE_ACTION_RPG": "Action-RPG",
+      "default#GENRE_ACTION_SHOOTER": "Action-Shooter",
+      "default#GENRE_ACTION_STRATEGY": "Action-Strategie",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Extremsport-Action",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "Fantasy-RPG",
+      "default#GENRE_MMRPG": "Massively Multiplayer RPG (MMORPG)",
+      "default#GENRE_PLATFORMER": "Jump ’n’ Run",
+      "default#GENRE_REAL_TIME_STRATEGY": "Echtzeitstrategie",
+      "default#GENRE_STRATEGY_CARD_GAME": "Strategisches Kartenspiel",
+      "default#GENRE_TEAM_BASED_ACTION": "Teambasierte Action",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Einige Einstellungen auf dem Handheld müssen geändert werden, um das Spiel zu spielen.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "Die Spielfunktionalität funktioniert korrekt mit der Standardcontrollerkonfiguration.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Einige oder alle Bereiche des Spiels sind mit dem Handheld-Controller nicht spielbar.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "Die Spieleinstellungen müssen möglicherweise angepasst werden, um eine vom Gerät nativ unterstützte Auflösung zu ermöglichen.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "Die Standardkonfiguration des Spiels unterstützt Auflösungen, die vom Gerät unterstützt werden.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Zum Eingeben von Text muss die Bildschirmtastatur manuell aufgerufen werden.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Zur Texteingabe bietet das Spiel eine Bildschirmtastatur oder eine controllerfreundliche benutzerdefinierte Texteingabemethode.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Einige Texte sind klein und möglicherweise schwer zu lesen oder erfordern Änderungen der Spieleinstellungen, um die Textgröße anzupassen.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Wichtige Texte und UI-Elemente sind standardmäßig auf dem Gerät lesbar.",
+      "default#INSTALL_DISABLED_MESSAGE": "Dieses Spiel kann noch nicht installiert werden.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Scann den QR-Code mit deinem Mobilgerät, um das Spiel herunterzuladen.",
+      "default#PLAY_DISABLED_MESSAGE": "Dieses Spiel kann noch nicht gespielt werden.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Zum Spielen ist ein Kauf notwendig.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Benötigtes Update für Battle.net",
+      "default#PREPURCHASED_MESSAGE": "Du hast dieses Spiel erworben.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Beta verfügbar",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Digitale Boni",
+      "default#QUICK_LINK_FAVORITE": "Zu Favoriten hinzufügen",
+      "default#QUICK_LINK_FORUMS": "Foren",
+      "default#QUICK_LINK_HELP_SUPPORT": "Hilfe/Kundendienst",
+      "default#QUICK_LINK_LEARN_MORE": "Mehr erfahren",
+      "default#QUICK_LINK_MOBILE": "Handyspiel",
+      "default#QUICK_LINK_PATCH_NOTES": "Patchnotes",
+      "default#QUICK_LINK_SHOP": "Shop",
+      "default#QUICK_LINK_SUPPORT": "Kundendienst",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Upgrade verfügbar",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Aufwerten zur Battle Chest",
+      "default#QUICK_LINK_WEBSITE": "Website",
+      "default#STARTER_ITEM_BUY_NOW": "Zum Shop",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Installieren",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Kostenlos spielen",
+      "default#STARTER_ITEM_PLAY_NOW": "Jetzt spielen",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Alle Editionen anzeigen",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Kostenlos testen",
+      "default#STARTER_ITEM_WEBSITE": "Website besuchen",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Artbook und Soundtrack",
+      "default#TYPES_LOCALIZATION_1_NAME": "Lokalisierung 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Lokalisierung 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Lokalisierung 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Lokalisierung 4",
+      "default#TYPES_RETAIL_NAME": "Live",
+      "default#TYPES_SUBMISSION_NAME": "Antrag",
+      "default#TYPES_TOURNAMENT_NAME": "Turniere",
+      "default#TYPES_VENDOR_10_NAME": "Dienstleister 10",
+      "default#TYPES_VENDOR_11_NAME": "Dienstleister 11",
+      "default#TYPES_VENDOR_12_NAME": "Dienstleister 12",
+      "default#TYPES_VENDOR_13_NAME": "Dienstleister 13",
+      "default#TYPES_VENDOR_14_NAME": "Dienstleister 14",
+      "default#TYPES_VENDOR_15_NAME": "Dienstleister 15",
+      "default#TYPES_VENDOR_16_NAME": "Dienstleister 16",
+      "default#TYPES_VENDOR_17_NAME": "Dienstleister 17",
+      "default#TYPES_VENDOR_18_NAME": "Dienstleister 18",
+      "default#TYPES_VENDOR_19_NAME": "Dienstleister 19",
+      "default#TYPES_VENDOR_1_NAME": "Dienstleister 1",
+      "default#TYPES_VENDOR_20_NAME": "Dienstleister 20",
+      "default#TYPES_VENDOR_21_NAME": "Dienstleister 21",
+      "default#TYPES_VENDOR_22_NAME": "Dienstleister 22",
+      "default#TYPES_VENDOR_23_NAME": "Dienstleister 23",
+      "default#TYPES_VENDOR_24_NAME": "Dienstleister 24",
+      "default#TYPES_VENDOR_25_NAME": "Dienstleister 25",
+      "default#TYPES_VENDOR_26_NAME": "Dienstleister 26",
+      "default#TYPES_VENDOR_27_NAME": "Dienstleister 27",
+      "default#TYPES_VENDOR_28_NAME": "Dienstleister 28",
+      "default#TYPES_VENDOR_29_NAME": "Dienstleister 29",
+      "default#TYPES_VENDOR_2_NAME": "Dienstleister 2",
+      "default#TYPES_VENDOR_30_NAME": "Dienstleister 30",
+      "default#TYPES_VENDOR_31_NAME": "Dienstleister 31",
+      "default#TYPES_VENDOR_32_NAME": "Dienstleister 32",
+      "default#TYPES_VENDOR_33_NAME": "Dienstleister 33",
+      "default#TYPES_VENDOR_34_NAME": "Dienstleister 34",
+      "default#TYPES_VENDOR_35_NAME": "Dienstleister 35",
+      "default#TYPES_VENDOR_3_NAME": "Dienstleister 3",
+      "default#TYPES_VENDOR_4_NAME": "Dienstleister 4",
+      "default#TYPES_VENDOR_5_NAME": "Dienstleister 5",
+      "default#TYPES_VENDOR_6_NAME": "Dienstleister 6",
+      "default#TYPES_VENDOR_7_NAME": "Dienstleister 7",
+      "default#TYPES_VENDOR_8_NAME": "Dienstleister 8",
+      "default#TYPES_VENDOR_9_NAME": "Dienstleister 9",
+      "default#TYPES_VENDOR_NAME": "Dienstleister",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Dein Betriebssystem wird nicht unterstützt."
+    },
+    "default": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} Mostly Compatible",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Handheld Optimized",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} Unsupported",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Included with {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Included with Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "Event",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "IN DEVELOPMENT",
+      "default#CATEGORIES_LIVE_NAME": "LIVE",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "PROFESSIONAL",
+      "default#CATEGORIES_TOURNAMENT_NAME": "TOURNAMENT",
+      "default#CATEGORIES_UNKNOWN_NAME": "UNKNOWN",
+      "default#CATEGORIES_VENDOR_NAME": "Vendor",
+      "default#EMPTY_STRING": "",
+      "default#ENVIRONMENTS_CN_NAME": "China",
+      "default#ENVIRONMENTS_CN_SHORT_NAME": "CN",
+      "default#ENVIRONMENTS_CXX_NAME": "Public Test Region",
+      "default#ENVIRONMENTS_CXX_SHORT_NAME": "PTR",
+      "default#ENVIRONMENTS_EU_NAME": "Europe",
+      "default#ENVIRONMENTS_EU_SHORT_NAME": "EU",
+      "default#ENVIRONMENTS_GLOBAL_NAME": "Global",
+      "default#ENVIRONMENTS_GLOBAL_SHORT_NAME": "GL",
+      "default#ENVIRONMENTS_KR_NAME": "Asia",
+      "default#ENVIRONMENTS_KR_SHORT_NAME": "KR",
+      "default#ENVIRONMENTS_US_NAME": "Americas",
+      "default#ENVIRONMENTS_US_SHORT_NAME": "US",
+      "default#ENVIRONMENTS_XX_NAME": "Public Test Region",
+      "default#ENVIRONMENTS_XX_SHORT_NAME": "PTR",
+      "default#GAME_PASS_DISCLAIMER": "Standard Edition is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account. Access to Premium Edition items requires a separate purchase.",
+      "default#GENRE_ACTION_ADVENTURE": "Action & Adventure",
+      "default#GENRE_ACTION_RPG": "Action RPG",
+      "default#GENRE_ACTION_SHOOTER": "Action Shooter",
+      "default#GENRE_ACTION_STRATEGY": "Action Strategy",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Extreme Action Sports",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "First-person Fantasy RPG",
+      "default#GENRE_MMRPG": "Massively Multiplayer RPG",
+      "default#GENRE_MOBA": "MOBA",
+      "default#GENRE_PLATFORMER": "Platformer",
+      "default#GENRE_REAL_TIME_STRATEGY": "Real-Time Strategy",
+      "default#GENRE_STRATEGY_CARD_GAME": "Strategy Card Game",
+      "default#GENRE_TEAM_BASED_ACTION": "Team-Based Action",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Some of the settings on the handheld need to be modified to play the game.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "Game functionality works correctly using the default controller configuration.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Some or all areas of the game are not playable with the handheld controller.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "Game settings may require adjustments to support a resolution natively supported by the device.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "The game's default configuration supports resolutions supported by the device.",
+      "default#HH_COMPATIBILITY_ICONOGRAPHY_COMPATIBLE": "The game has some inaccurate or non-controller icons.",
+      "default#HH_COMPATIBILITY_ICONOGRAPHY_OPTIMIZED": "The game consistently shows handheld specific controller icons.",
+      "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED": "The game displays non-controller icons.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Entering text requires manually invoking the on-screen keyboard.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "For text input, the game provides an on-screen keyboard or a controller-friendly custom text entry method.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Some text is small and may be difficult to read, or may require game settings changes to adjust text size.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Key text and UI elements are legible on the device by default.",
+      "default#INSTALL_DISABLED_MESSAGE": "This game cannot be installed yet.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Scan the QR code with your mobile device to download the game.",
+      "default#PLAY_DISABLED_MESSAGE": "This game cannot be played yet.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Purchase required to play this game.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Battle.net Required Update",
+      "default#PREPURCHASED_MESSAGE": "You have purchased this game.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Beta Available",
+      "default#QUICK_LINK_BLIZZARD_SUPPORT": "Blizzard Support",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Digital Bonuses",
+      "default#QUICK_LINK_FAVORITE": "Add to Favorites",
+      "default#QUICK_LINK_FORUMS": "Forums",
+      "default#QUICK_LINK_HELP_SUPPORT": "Get Help/Support",
+      "default#QUICK_LINK_LEARN_MORE": "Learn More",
+      "default#QUICK_LINK_MOBILE": "Mobile Game",
+      "default#QUICK_LINK_PATCH_NOTES": "Patch Notes",
+      "default#QUICK_LINK_SHOP": "Shop",
+      "default#QUICK_LINK_SUPPORT": "Support",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Upgrade Available",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Upgrade to Battle Chest",
+      "default#QUICK_LINK_WEBSITE": "Website",
+      "default#RIBBON_TEXT_ALPHA": "Alpha",
+      "default#RIBBON_TEXT_BETA": "Beta",
+      "default#RIBBON_TEXT_DEV": "Dev",
+      "default#RIBBON_TEXT_PTR": "PTR",
+      "default#STARTER_ITEM_BUY_NOW": "Buy Now",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Install",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Play For Free",
+      "default#STARTER_ITEM_PLAY_NOW": "Play Now",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Shop All Editions",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Try For Free",
+      "default#STARTER_ITEM_WEBSITE": "Visit Website",
+      "default#TYPES_ALPHA_NAME": "Alpha",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Artbook & Soundtrack",
+      "default#TYPES_BETA_DEV_1_NAME": "Beta Dev 1",
+      "default#TYPES_BETA_NAME": "Beta",
+      "default#TYPES_BETA_RC_NAME": "Beta RC",
+      "default#TYPES_DEVELOPER_1_NAME": "Developer 1",
+      "default#TYPES_DEVELOPER_2_NAME": "Developer 2",
+      "default#TYPES_DEV_NAME": "Dev",
+      "default#TYPES_EMPTY_NAME": "",
+      "default#TYPES_EVENT_1_NAME": "Event 1",
+      "default#TYPES_EVENT_2_NAME": "Event 2",
+      "default#TYPES_EVENT_NAME": "Event",
+      "default#TYPES_LOCALIZATION_1_NAME": "Localization 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Localization 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Localization 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Localization 4",
+      "default#TYPES_PTR_NAME": "PTR",
+      "default#TYPES_RC_NAME": "RC",
+      "default#TYPES_RETAIL_DEV_1_NAME": "Retail Dev 1",
+      "default#TYPES_RETAIL_NAME": "Retail",
+      "default#TYPES_RETAIL_RC_NAME": "Retail RC",
+      "default#TYPES_STAGING_NAME": "Staging",
+      "default#TYPES_SUBMISSION_NAME": "Submission",
+      "default#TYPES_TOURNAMENT_NAME": "Tournament",
+      "default#TYPES_VENDOR_10_NAME": "Vendor 10",
+      "default#TYPES_VENDOR_11_NAME": "Vendor 11",
+      "default#TYPES_VENDOR_12_NAME": "Vendor 12",
+      "default#TYPES_VENDOR_13_NAME": "Vendor 13",
+      "default#TYPES_VENDOR_14_NAME": "Vendor 14",
+      "default#TYPES_VENDOR_15_NAME": "Vendor 15",
+      "default#TYPES_VENDOR_16_NAME": "Vendor 16",
+      "default#TYPES_VENDOR_17_NAME": "Vendor 17",
+      "default#TYPES_VENDOR_18_NAME": "Vendor 18",
+      "default#TYPES_VENDOR_19_NAME": "Vendor 19",
+      "default#TYPES_VENDOR_1_NAME": "Vendor 1",
+      "default#TYPES_VENDOR_20_NAME": "Vendor 20",
+      "default#TYPES_VENDOR_21_NAME": "Vendor 21",
+      "default#TYPES_VENDOR_22_NAME": "Vendor 22",
+      "default#TYPES_VENDOR_23_NAME": "Vendor 23",
+      "default#TYPES_VENDOR_24_NAME": "Vendor 24",
+      "default#TYPES_VENDOR_25_NAME": "Vendor 25",
+      "default#TYPES_VENDOR_26_NAME": "Vendor 26",
+      "default#TYPES_VENDOR_27_NAME": "Vendor 27",
+      "default#TYPES_VENDOR_28_NAME": "Vendor 28",
+      "default#TYPES_VENDOR_29_NAME": "Vendor 29",
+      "default#TYPES_VENDOR_2_NAME": "Vendor 2",
+      "default#TYPES_VENDOR_30_NAME": "Vendor 30",
+      "default#TYPES_VENDOR_31_NAME": "Vendor 31",
+      "default#TYPES_VENDOR_32_NAME": "Vendor 32",
+      "default#TYPES_VENDOR_33_NAME": "Vendor 33",
+      "default#TYPES_VENDOR_34_NAME": "Vendor 34",
+      "default#TYPES_VENDOR_35_NAME": "Vendor 35",
+      "default#TYPES_VENDOR_3_NAME": "Vendor 3",
+      "default#TYPES_VENDOR_4_NAME": "Vendor 4",
+      "default#TYPES_VENDOR_5_NAME": "Vendor 5",
+      "default#TYPES_VENDOR_6_NAME": "Vendor 6",
+      "default#TYPES_VENDOR_7_NAME": "Vendor 7",
+      "default#TYPES_VENDOR_8_NAME": "Vendor 8",
+      "default#TYPES_VENDOR_9_NAME": "Vendor 9",
+      "default#TYPES_VENDOR_NAME": "Vendor",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Your OS is unsupported."
+    },
+    "enGB": {
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Some of the settings on the handheld need to be modified to play the game.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "Game functionality works correctly using the default controller configuration.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Some or all areas of the game are not playable with the handheld controller.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "Game settings may require adjustments to support a resolution natively supported by the device.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "The game's default configuration supports resolutions supported by the device.",
+      "default#HH_COMPATIBILITY_ICONOGRAPHY_COMPATIBLE": "The game has some inaccurate or non-controller icons.",
+      "default#HH_COMPATIBILITY_ICONOGRAPHY_OPTIMIZED": "The game consistently shows handheld specific controller icons.",
+      "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED": "The game displays non-controller icons.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Entering text requires manually invoking the on-screen keyboard.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "For text input, the game provides an on-screen keyboard or a controller-friendly custom text entry method.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Some text is small and may be difficult to read, or may require game settings changes to adjust text size.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Key text and UI elements are legible on the device by default."
+    },
+    "esES": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} Mayormente compatible",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Optimizado para dispositivos portátiles",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} No compatibles",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Incluido con {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Incluido con Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "Evento",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "EN DESARROLLO",
+      "default#CATEGORIES_LIVE_NAME": "DISPONIBLE",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "PROFESIONAL",
+      "default#CATEGORIES_TOURNAMENT_NAME": "TORNEO",
+      "default#CATEGORIES_UNKNOWN_NAME": "DESCONOCIDO",
+      "default#CATEGORIES_VENDOR_NAME": "Vendedor",
+      "default#ENVIRONMENTS_CXX_NAME": "Región pública de pruebas",
+      "default#ENVIRONMENTS_CXX_SHORT_NAME": "RPP",
+      "default#ENVIRONMENTS_EU_NAME": "Europa",
+      "default#ENVIRONMENTS_US_NAME": "América",
+      "default#ENVIRONMENTS_XX_NAME": "Región pública de pruebas",
+      "default#ENVIRONMENTS_XX_SHORT_NAME": "RPP",
+      "default#GAME_PASS_DISCLAIMER": "La Edición Estándar se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox. El acceso a los artículos de la Edición Prémium se vende por separado.",
+      "default#GENRE_ACTION_ADVENTURE": "Acción y aventura",
+      "default#GENRE_ACTION_RPG": "Rol y acción",
+      "default#GENRE_ACTION_SHOOTER": "Shooter de acción",
+      "default#GENRE_ACTION_STRATEGY": "Acción estratégica",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Deportes de acción extremos",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "RPG de fantasía",
+      "default#GENRE_MMRPG": "Rol multijugador masivo",
+      "default#GENRE_PLATFORMER": "Plataforma",
+      "default#GENRE_REAL_TIME_STRATEGY": "Estrategia en tiempo real",
+      "default#GENRE_STRATEGY_CARD_GAME": "Juego de cartas de estrategia",
+      "default#GENRE_TEAM_BASED_ACTION": "Acción por equipos",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Es necesario modificar algunas configuraciones del dispositivo portátil para poder jugar al juego.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "La funcionalidad del juego es correcta con la configuración predeterminada del mando.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Algunas o todas las áreas del juego no son jugables con el mando del dispositivo portátil.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "La configuración del juego podría requerir ajustes para admitir una resolución que el dispositivo admita nativamente.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "La configuración predeterminada del juego admite resoluciones que son compatibles con el dispositivo.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Para introducir texto, es necesario invocar manualmente el teclado en pantalla.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Para la entrada de texto, el juego proporciona un teclado en pantalla o un método de entrada de texto personalizado que es compatible con el mando.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Parte del texto es pequeño y puede ser difícil de leer, o puede requerir cambios en la configuración del juego para ajustar el tamaño del texto.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "El texto clave y los elementos de la interfaz de usuario son legibles en el dispositivo de forma predeterminada.",
+      "default#INSTALL_DISABLED_MESSAGE": "Aún no se puede instalar este juego.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Escanea el código QR con el móvil para descargar el juego.",
+      "default#PLAY_DISABLED_MESSAGE": "Aún no se puede jugar a este juego.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Hay que comprar para jugar a este juego.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Actualización necesaria de Battle.net",
+      "default#PREPURCHASED_MESSAGE": "Has comprado este juego.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Beta disponible",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Bonificaciones digitales",
+      "default#QUICK_LINK_FAVORITE": "Añadir a favoritos",
+      "default#QUICK_LINK_FORUMS": "Foros",
+      "default#QUICK_LINK_HELP_SUPPORT": "Ayuda/Asistencia",
+      "default#QUICK_LINK_LEARN_MORE": "Más información",
+      "default#QUICK_LINK_MOBILE": "Juego para móviles",
+      "default#QUICK_LINK_PATCH_NOTES": "Notas de parche",
+      "default#QUICK_LINK_SHOP": "Tienda",
+      "default#QUICK_LINK_SUPPORT": "Asistencia",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Mejora disponible",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Mejorar a cofre de batalla",
+      "default#QUICK_LINK_WEBSITE": "Sitio web",
+      "default#RIBBON_TEXT_ALPHA": "Alfa",
+      "default#RIBBON_TEXT_DEV": "Desarrollo",
+      "default#RIBBON_TEXT_PTR": "RPP",
+      "default#STARTER_ITEM_BUY_NOW": "Comprar",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Instalar",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Juega gratis",
+      "default#STARTER_ITEM_PLAY_NOW": "Jugar ahora",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Ver todas las ediciones",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Probar gratis",
+      "default#STARTER_ITEM_WEBSITE": "Visitar el sitio web",
+      "default#TYPES_ALPHA_NAME": "Alfa",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Libro de ilustraciones y banda sonora",
+      "default#TYPES_EVENT_1_NAME": "Evento 1",
+      "default#TYPES_EVENT_2_NAME": "Evento 2",
+      "default#TYPES_EVENT_NAME": "Evento",
+      "default#TYPES_LOCALIZATION_1_NAME": "Localización 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Localización 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Localización 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Localización 4",
+      "default#TYPES_PTR_NAME": "RPP",
+      "default#TYPES_RETAIL_NAME": "Comercial",
+      "default#TYPES_SUBMISSION_NAME": "Entrega",
+      "default#TYPES_TOURNAMENT_NAME": "Torneo",
+      "default#TYPES_VENDOR_10_NAME": "Proveedor 10",
+      "default#TYPES_VENDOR_11_NAME": "Proveedor 11",
+      "default#TYPES_VENDOR_12_NAME": "Proveedor 12",
+      "default#TYPES_VENDOR_13_NAME": "Proveedor 13",
+      "default#TYPES_VENDOR_14_NAME": "Proveedor 14",
+      "default#TYPES_VENDOR_15_NAME": "Proveedor 15",
+      "default#TYPES_VENDOR_16_NAME": "Proveedor 16",
+      "default#TYPES_VENDOR_17_NAME": "Proveedor 17",
+      "default#TYPES_VENDOR_18_NAME": "Proveedor 18",
+      "default#TYPES_VENDOR_19_NAME": "Proveedor 19",
+      "default#TYPES_VENDOR_1_NAME": "Proveedor 1",
+      "default#TYPES_VENDOR_20_NAME": "Proveedor 20",
+      "default#TYPES_VENDOR_21_NAME": "Proveedor 21",
+      "default#TYPES_VENDOR_22_NAME": "Proveedor 22",
+      "default#TYPES_VENDOR_23_NAME": "Proveedor 23",
+      "default#TYPES_VENDOR_24_NAME": "Proveedor 24",
+      "default#TYPES_VENDOR_25_NAME": "Proveedor 25",
+      "default#TYPES_VENDOR_26_NAME": "Proveedor 26",
+      "default#TYPES_VENDOR_27_NAME": "Proveedor 27",
+      "default#TYPES_VENDOR_28_NAME": "Proveedor 28",
+      "default#TYPES_VENDOR_29_NAME": "Proveedor 29",
+      "default#TYPES_VENDOR_2_NAME": "Proveedor 2",
+      "default#TYPES_VENDOR_30_NAME": "Proveedor 30",
+      "default#TYPES_VENDOR_31_NAME": "Proveedor 31",
+      "default#TYPES_VENDOR_32_NAME": "Proveedor 32",
+      "default#TYPES_VENDOR_33_NAME": "Proveedor 33",
+      "default#TYPES_VENDOR_34_NAME": "Proveedor 34",
+      "default#TYPES_VENDOR_35_NAME": "Proveedor 35",
+      "default#TYPES_VENDOR_3_NAME": "Proveedor 3",
+      "default#TYPES_VENDOR_4_NAME": "Proveedor 4",
+      "default#TYPES_VENDOR_5_NAME": "Proveedor 5",
+      "default#TYPES_VENDOR_6_NAME": "Proveedor 6",
+      "default#TYPES_VENDOR_7_NAME": "Proveedor 7",
+      "default#TYPES_VENDOR_8_NAME": "Proveedor 8",
+      "default#TYPES_VENDOR_9_NAME": "Proveedor 9",
+      "default#TYPES_VENDOR_NAME": "Vendedor",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Tu sistema operativo no es compatible."
+    },
+    "esMX": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} Mayormente compatible",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Optimizado para dispositivos portátiles",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} No compatible",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Se incluye con {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Se incluye con Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "Evento",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "EN DESARROLLO",
+      "default#CATEGORIES_LIVE_NAME": "DISPONIBLE",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "PROFESIONAL",
+      "default#CATEGORIES_TOURNAMENT_NAME": "TORNEO",
+      "default#CATEGORIES_UNKNOWN_NAME": "DESCONOCIDA",
+      "default#CATEGORIES_VENDOR_NAME": "Proveedor",
+      "default#ENVIRONMENTS_CXX_NAME": "Región pública de pruebas",
+      "default#ENVIRONMENTS_CXX_SHORT_NAME": "RPP",
+      "default#ENVIRONMENTS_EU_NAME": "Europa",
+      "default#ENVIRONMENTS_US_NAME": "Américas",
+      "default#ENVIRONMENTS_XX_NAME": "Región pública de pruebas",
+      "default#ENVIRONMENTS_XX_SHORT_NAME": "RPP",
+      "default#GAME_PASS_DISCLAIMER": "La Edición Estándar se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox. El acceso a los elementos de la Edición Prémium requiere una compra por separado.",
+      "default#GENRE_ACTION_ADVENTURE": "Acción y aventura",
+      "default#GENRE_ACTION_RPG": "RPG de acción",
+      "default#GENRE_ACTION_SHOOTER": "Juego de disparos de acción",
+      "default#GENRE_ACTION_STRATEGY": "Acción y estrategia",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Deportes extremos",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "RPG de fantasía",
+      "default#GENRE_MMRPG": "RPG multijugador masivo",
+      "default#GENRE_PLATFORMER": "Plataformas",
+      "default#GENRE_REAL_TIME_STRATEGY": "Estrategia en tiempo real",
+      "default#GENRE_STRATEGY_CARD_GAME": "Juego de cartas de estrategia",
+      "default#GENRE_TEAM_BASED_ACTION": "Acción con base en equipos",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Para poder jugar, es necesario modificar algunos de los ajustes de la consola portátil.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "La funcionalidad del juego funciona correctamente usando la configuración predeterminada del control.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "No se puede jugar a algunas o todas las áreas del juego con el control portátil.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "La configuración del juego puede requerir ajustes para admitir una resolución compatible de forma nativa con el dispositivo.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "La configuración predeterminada del juego es compatible con las resoluciones admitidas por el dispositivo.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Para escribir texto, es necesario invocar manualmente el teclado en pantalla.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Para la entrada de texto, el juego proporciona un teclado en pantalla o un método de entrada de texto personalizado compatible con el control.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Parte del texto es pequeño y puede ser difícil de leer, o puede requerir cambios en la configuración del juego para ajustar el tamaño del texto.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "El texto clave y los elementos de la interfaz de usuario son legibles en el dispositivo de forma predeterminada.",
+      "default#INSTALL_DISABLED_MESSAGE": "Este juego no se puede instalar todavía.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Escanea el código QR con tu dispositivo móvil para descargar el juego.",
+      "default#PLAY_DISABLED_MESSAGE": "Este juego todavía no se puede jugar.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Es necesaria la compra para jugar este juego.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Actualización obligatoria de Battle.net",
+      "default#PREPURCHASED_MESSAGE": "Ya has comprado este juego.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Beta disponible",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Bonificaciones digitales",
+      "default#QUICK_LINK_FAVORITE": "Agregar a favoritos",
+      "default#QUICK_LINK_FORUMS": "Foros",
+      "default#QUICK_LINK_HELP_SUPPORT": "Obtener ayuda/asistencia",
+      "default#QUICK_LINK_LEARN_MORE": "Más información",
+      "default#QUICK_LINK_MOBILE": "Juego móvil",
+      "default#QUICK_LINK_PATCH_NOTES": "Notas del parche",
+      "default#QUICK_LINK_SHOP": "Tienda",
+      "default#QUICK_LINK_SUPPORT": "Asistencia técnica",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Mejora disponible",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Actualizar a Cofre de batalla",
+      "default#QUICK_LINK_WEBSITE": "Sitio Web",
+      "default#RIBBON_TEXT_ALPHA": "Alfa",
+      "default#RIBBON_TEXT_PTR": "RPP",
+      "default#STARTER_ITEM_BUY_NOW": "Comprar ahora",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Instalar",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Juégalo Gratis",
+      "default#STARTER_ITEM_PLAY_NOW": "Jugar ahora",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Ver todas las ediciones",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Pruébalo gratis",
+      "default#STARTER_ITEM_WEBSITE": "Visitar el sitio web",
+      "default#TYPES_ALPHA_NAME": "Alfa",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Libro de arte y banda sonora",
+      "default#TYPES_EVENT_1_NAME": "Evento 1",
+      "default#TYPES_EVENT_2_NAME": "Evento 2",
+      "default#TYPES_EVENT_NAME": "Evento",
+      "default#TYPES_LOCALIZATION_1_NAME": "Localización 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Localización 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Localización 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Localización 4",
+      "default#TYPES_PTR_NAME": "RPP",
+      "default#TYPES_RETAIL_NAME": "Venta al público",
+      "default#TYPES_SUBMISSION_NAME": "Envío",
+      "default#TYPES_TOURNAMENT_NAME": "Torneo",
+      "default#TYPES_VENDOR_10_NAME": "Proveedor 10",
+      "default#TYPES_VENDOR_11_NAME": "Proveedor 11",
+      "default#TYPES_VENDOR_12_NAME": "Proveedor 12",
+      "default#TYPES_VENDOR_13_NAME": "Proveedor 13",
+      "default#TYPES_VENDOR_14_NAME": "Proveedor 14",
+      "default#TYPES_VENDOR_15_NAME": "Proveedor 15",
+      "default#TYPES_VENDOR_16_NAME": "Proveedor 16",
+      "default#TYPES_VENDOR_17_NAME": "Proveedor 17",
+      "default#TYPES_VENDOR_18_NAME": "Proveedor 18",
+      "default#TYPES_VENDOR_19_NAME": "Proveedor 19",
+      "default#TYPES_VENDOR_1_NAME": "Proveedor 1",
+      "default#TYPES_VENDOR_20_NAME": "Proveedor 20",
+      "default#TYPES_VENDOR_21_NAME": "Proveedor 21",
+      "default#TYPES_VENDOR_22_NAME": "Proveedor 22",
+      "default#TYPES_VENDOR_23_NAME": "Proveedor 23",
+      "default#TYPES_VENDOR_24_NAME": "Proveedor 24",
+      "default#TYPES_VENDOR_25_NAME": "Proveedor 25",
+      "default#TYPES_VENDOR_26_NAME": "Proveedor 26",
+      "default#TYPES_VENDOR_27_NAME": "Proveedor 27",
+      "default#TYPES_VENDOR_28_NAME": "Proveedor 28",
+      "default#TYPES_VENDOR_29_NAME": "Proveedor 29",
+      "default#TYPES_VENDOR_2_NAME": "Proveedor 2",
+      "default#TYPES_VENDOR_30_NAME": "Proveedor 30",
+      "default#TYPES_VENDOR_31_NAME": "Proveedor 31",
+      "default#TYPES_VENDOR_32_NAME": "Proveedor 32",
+      "default#TYPES_VENDOR_33_NAME": "Proveedor 33",
+      "default#TYPES_VENDOR_34_NAME": "Proveedor 34",
+      "default#TYPES_VENDOR_35_NAME": "Proveedor 35",
+      "default#TYPES_VENDOR_3_NAME": "Proveedor 3",
+      "default#TYPES_VENDOR_4_NAME": "Proveedor 4",
+      "default#TYPES_VENDOR_5_NAME": "Proveedor 5",
+      "default#TYPES_VENDOR_6_NAME": "Proveedor 6",
+      "default#TYPES_VENDOR_7_NAME": "Proveedor 7",
+      "default#TYPES_VENDOR_8_NAME": "Proveedor 8",
+      "default#TYPES_VENDOR_9_NAME": "Proveedor 9",
+      "default#TYPES_VENDOR_NAME": "Proveedor",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Tu SO no es compatible."
+    },
+    "frFR": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} Largement compatible",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Optimisé pour les consoles portables",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} Non pris en charge",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Inclus dans le {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Inclus dans le Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "Évènement",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "EN DÉVELOPPEMENT",
+      "default#CATEGORIES_LIVE_NAME": "DISPONIBLES",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "PRO",
+      "default#CATEGORIES_TOURNAMENT_NAME": "TOURNOI",
+      "default#CATEGORIES_UNKNOWN_NAME": "INCONNU",
+      "default#CATEGORIES_VENDOR_NAME": "Marchand",
+      "default#ENVIRONMENTS_CN_NAME": "Chine",
+      "default#ENVIRONMENTS_CXX_NAME": "Région publique de test",
+      "default#ENVIRONMENTS_CXX_SHORT_NAME": "RPT",
+      "default#ENVIRONMENTS_KR_NAME": "Asie",
+      "default#ENVIRONMENTS_US_NAME": "Amériques",
+      "default#ENVIRONMENTS_XX_NAME": "Région publique de test",
+      "default#ENVIRONMENTS_XX_SHORT_NAME": "RPT",
+      "default#GAME_PASS_DISCLAIMER": "L’Édition Standard est incluse dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox. Les éléments de l’Édition Premium devront être achetés séparément.",
+      "default#GENRE_ACTION_ADVENTURE": "Action et adventure",
+      "default#GENRE_ACTION_RPG": "JDR d’action",
+      "default#GENRE_ACTION_SHOOTER": "Jeu de tir et d’action",
+      "default#GENRE_ACTION_STRATEGY": "Jeu d’action et de stratégie",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Sport-action extrême",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "RPG",
+      "default#GENRE_MMRPG": "JdR massivement multijoueur",
+      "default#GENRE_PLATFORMER": "Jeu de plateformes",
+      "default#GENRE_REAL_TIME_STRATEGY": "Jeu de stratégie en temps réel",
+      "default#GENRE_STRATEGY_CARD_GAME": "Jeu de cartes stratégique",
+      "default#GENRE_TEAM_BASED_ACTION": "Jeu d’action en équipe",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Certains paramètres de la console portable doivent être modifiés pour pouvoir jouer à ce jeu.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "La fonctionnalité de jeu fonctionne correctement à l’aide de la configuration de contrôleur par défaut.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Certaines zones du jeu, voire l’ensemble, ne sont pas jouables avec la manette de la console portable.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "Les paramètres du jeu peuvent nécessiter des ajustements pour prendre en charge une résolution nativement prise en charge par l'appareil.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "La configuration par défaut du jeu prend en charge les résolutions prises en charge par l’appareil.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Pour entrer du texte, vous devez appeler manuellement le clavier visuel.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Pour l’entrée de texte, le jeu fournit un clavier visuel ou une méthode d’entrée de texte personnalisée adaptée à la manette.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Certains textes sont petits et peuvent être difficiles à lire, ou peuvent nécessiter des modifications des paramètres du jeu pour ajuster la taille du texte.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Le texte clé et les éléments de l'interface utilisateur sont lisibles sur l'appareil par défaut.",
+      "default#INSTALL_DISABLED_MESSAGE": "Ce jeu ne peut pas encore être installé.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Scannez le code QR avec votre appareil mobile pour télécharger le jeu.",
+      "default#PLAY_DISABLED_MESSAGE": "Il n’est pas encore possible de jouer à ce jeu.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "L’achat du jeu est requis pour jouer.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Mise à jour de Battle.net requise",
+      "default#PREPURCHASED_MESSAGE": "Vous avez acheté ce jeu.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Bêta disponible",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Bonus numériques",
+      "default#QUICK_LINK_FAVORITE": "Ajouter aux favoris",
+      "default#QUICK_LINK_HELP_SUPPORT": "Obtenir de l’aide/de l’assistance",
+      "default#QUICK_LINK_LEARN_MORE": "En savoir plus",
+      "default#QUICK_LINK_MOBILE": "Jeu mobile",
+      "default#QUICK_LINK_PATCH_NOTES": "Notes de mise à jour",
+      "default#QUICK_LINK_SHOP": "Boutique",
+      "default#QUICK_LINK_SUPPORT": "Assistance",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Mise à niveau disponible",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Mise à jour vers Battle Chest",
+      "default#QUICK_LINK_WEBSITE": "Site Internet",
+      "default#RIBBON_TEXT_BETA": "Bêta",
+      "default#RIBBON_TEXT_PTR": "RPT",
+      "default#STARTER_ITEM_BUY_NOW": "J’achète",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Installer",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Jouez gratuitement",
+      "default#STARTER_ITEM_PLAY_NOW": "Jouer maintenant",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Consulter toutes les éditions",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Essai gratuit",
+      "default#STARTER_ITEM_WEBSITE": "Consulter le site",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Artbook et bande-son",
+      "default#TYPES_BETA_NAME": "Bêta",
+      "default#TYPES_EVENT_1_NAME": "Évènement 1",
+      "default#TYPES_EVENT_2_NAME": "Évènement 2",
+      "default#TYPES_EVENT_NAME": "Évènement",
+      "default#TYPES_LOCALIZATION_1_NAME": "Localisation 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Localisation 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Localisation 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Localisation 4",
+      "default#TYPES_PTR_NAME": "RPT",
+      "default#TYPES_RETAIL_NAME": "Standard",
+      "default#TYPES_SUBMISSION_NAME": "Contribution",
+      "default#TYPES_TOURNAMENT_NAME": "Tournoi",
+      "default#TYPES_VENDOR_10_NAME": "Vendeur 10",
+      "default#TYPES_VENDOR_11_NAME": "Vendeur 11",
+      "default#TYPES_VENDOR_12_NAME": "Vendeur 12",
+      "default#TYPES_VENDOR_13_NAME": "Vendeur 13",
+      "default#TYPES_VENDOR_14_NAME": "Vendeur 14",
+      "default#TYPES_VENDOR_15_NAME": "Vendeur 15",
+      "default#TYPES_VENDOR_16_NAME": "Vendeur 16",
+      "default#TYPES_VENDOR_17_NAME": "Vendeur 17",
+      "default#TYPES_VENDOR_18_NAME": "Vendeur 18",
+      "default#TYPES_VENDOR_19_NAME": "Vendeur 19",
+      "default#TYPES_VENDOR_1_NAME": "Vendeur 1",
+      "default#TYPES_VENDOR_20_NAME": "Vendeur 20",
+      "default#TYPES_VENDOR_21_NAME": "Vendeur 21",
+      "default#TYPES_VENDOR_22_NAME": "Vendeur 22",
+      "default#TYPES_VENDOR_23_NAME": "Vendeur 23",
+      "default#TYPES_VENDOR_24_NAME": "Vendeur 24",
+      "default#TYPES_VENDOR_25_NAME": "Vendeur 25",
+      "default#TYPES_VENDOR_26_NAME": "Vendeur 26",
+      "default#TYPES_VENDOR_27_NAME": "Vendeur 27",
+      "default#TYPES_VENDOR_28_NAME": "Vendeur 28",
+      "default#TYPES_VENDOR_29_NAME": "Vendeur 29",
+      "default#TYPES_VENDOR_2_NAME": "Vendeur 2",
+      "default#TYPES_VENDOR_30_NAME": "Vendeur 30",
+      "default#TYPES_VENDOR_31_NAME": "Vendeur 31",
+      "default#TYPES_VENDOR_32_NAME": "Vendeur 32",
+      "default#TYPES_VENDOR_33_NAME": "Vendeur 33",
+      "default#TYPES_VENDOR_34_NAME": "Vendeur 34",
+      "default#TYPES_VENDOR_35_NAME": "Vendeur 35",
+      "default#TYPES_VENDOR_3_NAME": "Vendeur 3",
+      "default#TYPES_VENDOR_4_NAME": "Vendeur 4",
+      "default#TYPES_VENDOR_5_NAME": "Vendeur 5",
+      "default#TYPES_VENDOR_6_NAME": "Vendeur 6",
+      "default#TYPES_VENDOR_7_NAME": "Vendeur 7",
+      "default#TYPES_VENDOR_8_NAME": "Vendeur 8",
+      "default#TYPES_VENDOR_9_NAME": "Vendeur 9",
+      "default#TYPES_VENDOR_NAME": "Marchand",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Votre système d’exploitation n’est pas pris en charge."
+    },
+    "itIT": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} In gran parte compatibile",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Ottimizzato per palmare",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} Non supportato",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Incluso con {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Incluso con Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "Evento",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "IN SVILUPPO",
+      "default#CATEGORIES_LIVE_NAME": "DISPONIBILE",
+      "default#CATEGORIES_TOURNAMENT_NAME": "TORNEO",
+      "default#CATEGORIES_UNKNOWN_NAME": "SCONOSCIUTO",
+      "default#CATEGORIES_VENDOR_NAME": "Fornitori",
+      "default#ENVIRONMENTS_CN_NAME": "Cina",
+      "default#ENVIRONMENTS_CXX_NAME": "Regione di test pubblico",
+      "default#ENVIRONMENTS_EU_NAME": "Europa",
+      "default#ENVIRONMENTS_US_NAME": "Americhe",
+      "default#ENVIRONMENTS_XX_NAME": "Regione di test pubblico",
+      "default#GAME_PASS_DISCLAIMER": "La Standard Edition è inclusa in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox. L'accesso agli oggetti della Premium Edition richiede un acquisto separato.",
+      "default#GENRE_ACTION_ADVENTURE": "Azione e avventura",
+      "default#GENRE_ACTION_RPG": "GdR d'azione",
+      "default#GENRE_ACTION_SHOOTER": "Sparatutto d'azione",
+      "default#GENRE_ACTION_STRATEGY": "Strategia d'azione",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Sport di azione estrema",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "GDR fantasy",
+      "default#GENRE_MMRPG": "GdR multigiocatore di massa",
+      "default#GENRE_PLATFORMER": "Platform",
+      "default#GENRE_REAL_TIME_STRATEGY": "Strategico in tempo reale",
+      "default#GENRE_STRATEGY_CARD_GAME": "Gioco di carte strategico",
+      "default#GENRE_TEAM_BASED_ACTION": "Azione a squadre",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Alcune delle impostazioni sul palmare devono essere modificate per riprodurre il gioco.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "La funzionalità del gioco funziona correttamente usando la configurazione predefinita del controller.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Alcune o tutte le aree del gioco non sono riproducibili con il controller palmare.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "Potrebbe essere necessario modificare le impostazioni del gioco affinché siano compatibili con una risoluzione supportata in modo nativo dal dispositivo.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "La configurazione predefinita del gioco supporta le risoluzioni supportate dal dispositivo.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "L'immissione di testo richiede la chiamata manuale della tastiera su schermo.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Per l'input di testo, il gioco fornisce una tastiera su schermo o un metodo di immissione di testo personalizzato compatibile con il controller.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Parte del testo è di piccole dimensioni e potrebbe essere difficile da leggere oppure potrebbe essere necessario modificare le impostazioni del gioco per cambiare le dimensioni del testo.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Il testo chiave e gli elementi dell'interfaccia utente sono leggibili nel dispositivo per impostazione predefinita.",
+      "default#INSTALL_DISABLED_MESSAGE": "Questo gioco non può ancora essere installato.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Scansiona il codice QR con il tuo dispositivo mobile per scaricare il gioco.",
+      "default#PLAY_DISABLED_MESSAGE": "Questo gioco non può ancora essere lanciato.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Acquisto necessario per giocare al gioco.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Aggiornamento necessario Battle.net",
+      "default#PREPURCHASED_MESSAGE": "Hai acquistato questo gioco.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Beta disponibile",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Bonus digitali",
+      "default#QUICK_LINK_FAVORITE": "Aggiungi ai preferiti",
+      "default#QUICK_LINK_FORUMS": "Forum",
+      "default#QUICK_LINK_HELP_SUPPORT": "Aiuto/Assistenza",
+      "default#QUICK_LINK_LEARN_MORE": "Maggiori informazioni",
+      "default#QUICK_LINK_MOBILE": "Gioco per dispositivi mobili",
+      "default#QUICK_LINK_PATCH_NOTES": "Note della patch",
+      "default#QUICK_LINK_SHOP": "Negozio",
+      "default#QUICK_LINK_SUPPORT": "Assistenza",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Aggiornamento disponibile",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Trasforma in Cassa da Battaglia",
+      "default#QUICK_LINK_WEBSITE": "Sito web",
+      "default#RIBBON_TEXT_ALPHA": "Alfa",
+      "default#RIBBON_TEXT_DEV": "Sviluppo",
+      "default#STARTER_ITEM_BUY_NOW": "Acquista",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Installa",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Inizia a giocare ora",
+      "default#STARTER_ITEM_PLAY_NOW": "Gioca",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Scopri tutte le edizioni",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Inizia a giocare ora",
+      "default#STARTER_ITEM_WEBSITE": "Visita il sito web",
+      "default#TYPES_ALPHA_NAME": "Alfa",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Artbook e colonna sonora",
+      "default#TYPES_DEV_NAME": "Sviluppo",
+      "default#TYPES_EVENT_1_NAME": "Evento 1",
+      "default#TYPES_EVENT_2_NAME": "Evento 2",
+      "default#TYPES_EVENT_NAME": "Evento",
+      "default#TYPES_LOCALIZATION_1_NAME": "Localizzazione 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Localizzazione 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Localizzazione 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Localizzazione 4",
+      "default#TYPES_RETAIL_NAME": "Pubblicata",
+      "default#TYPES_SUBMISSION_NAME": "Presentazione",
+      "default#TYPES_TOURNAMENT_NAME": "Torneo",
+      "default#TYPES_VENDOR_10_NAME": "Fornitore 10",
+      "default#TYPES_VENDOR_11_NAME": "Fornitore 11",
+      "default#TYPES_VENDOR_12_NAME": "Fornitore 12",
+      "default#TYPES_VENDOR_13_NAME": "Fornitore 13",
+      "default#TYPES_VENDOR_14_NAME": "Fornitore 14",
+      "default#TYPES_VENDOR_15_NAME": "Fornitore 15",
+      "default#TYPES_VENDOR_16_NAME": "Fornitore 16",
+      "default#TYPES_VENDOR_17_NAME": "Fornitore 17",
+      "default#TYPES_VENDOR_18_NAME": "Fornitore 18",
+      "default#TYPES_VENDOR_19_NAME": "Fornitore 19",
+      "default#TYPES_VENDOR_1_NAME": "Fornitore 1",
+      "default#TYPES_VENDOR_20_NAME": "Fornitore 20",
+      "default#TYPES_VENDOR_21_NAME": "Fornitore 21",
+      "default#TYPES_VENDOR_22_NAME": "Fornitore 22",
+      "default#TYPES_VENDOR_23_NAME": "Fornitore 23",
+      "default#TYPES_VENDOR_24_NAME": "Fornitore 24",
+      "default#TYPES_VENDOR_25_NAME": "Fornitore 25",
+      "default#TYPES_VENDOR_26_NAME": "Fornitore 26",
+      "default#TYPES_VENDOR_27_NAME": "Fornitore 27",
+      "default#TYPES_VENDOR_28_NAME": "Fornitore 28",
+      "default#TYPES_VENDOR_29_NAME": "Fornitore 29",
+      "default#TYPES_VENDOR_2_NAME": "Fornitore 2",
+      "default#TYPES_VENDOR_30_NAME": "Fornitore 30",
+      "default#TYPES_VENDOR_31_NAME": "Fornitore 31",
+      "default#TYPES_VENDOR_32_NAME": "Fornitore 32",
+      "default#TYPES_VENDOR_33_NAME": "Fornitore 33",
+      "default#TYPES_VENDOR_34_NAME": "Fornitore 34",
+      "default#TYPES_VENDOR_35_NAME": "Fornitore 35",
+      "default#TYPES_VENDOR_3_NAME": "Fornitore 3",
+      "default#TYPES_VENDOR_4_NAME": "Fornitore 4",
+      "default#TYPES_VENDOR_5_NAME": "Fornitore 5",
+      "default#TYPES_VENDOR_6_NAME": "Fornitore 6",
+      "default#TYPES_VENDOR_7_NAME": "Fornitore 7",
+      "default#TYPES_VENDOR_8_NAME": "Fornitore 8",
+      "default#TYPES_VENDOR_9_NAME": "Fornitore 9",
+      "default#TYPES_VENDOR_NAME": "Fornitori",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Sistema operativo non supportato"
+    },
+    "jaJP": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} ほとんど互換性あり",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} ハンドヘルドに最適化済み",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} 非対応",
+      "default#BADGE_TEXT_INCLUDED_WITH": "{image}に含まれています",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Xbox Game Passに含まれています",
+      "default#CATEGORIES_EVENT_NAME": "イベント",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "開発中",
+      "default#CATEGORIES_LIVE_NAME": "ライブ",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "プロフェッショナル",
+      "default#CATEGORIES_TOURNAMENT_NAME": "トーナメント",
+      "default#CATEGORIES_UNKNOWN_NAME": "不明",
+      "default#CATEGORIES_VENDOR_NAME": "ベンダー",
+      "default#ENVIRONMENTS_CN_NAME": "中国",
+      "default#ENVIRONMENTS_CXX_NAME": "パブリックテストリージョン（PTR）",
+      "default#ENVIRONMENTS_CXX_SHORT_NAME": "公開テスト",
+      "default#ENVIRONMENTS_EU_NAME": "ヨーロッパ",
+      "default#ENVIRONMENTS_KR_NAME": "アジア",
+      "default#ENVIRONMENTS_US_NAME": "南北アメリカ",
+      "default#ENVIRONMENTS_XX_NAME": "パブリックテストリージョン（PTR）",
+      "default#ENVIRONMENTS_XX_SHORT_NAME": "公開テスト",
+      "default#GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、スタンダードエディションをXbox Game Passでお楽しみいただけます。なお、プレミアムエディションのアイテムをご利用いただくには、別途購入が必要です。",
+      "default#GENRE_ACTION_ADVENTURE": "アクション＆アドベンチャー",
+      "default#GENRE_ACTION_RPG": "アクションRPG",
+      "default#GENRE_ACTION_SHOOTER": "アクションFPS",
+      "default#GENRE_ACTION_STRATEGY": "アクションストラテジー",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "エクストリームアクションスポーツ",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "ファンタジーRPG",
+      "default#GENRE_MMRPG": "MMORPG",
+      "default#GENRE_PLATFORMER": "プラットフォーマー",
+      "default#GENRE_REAL_TIME_STRATEGY": "リアルタイムストラテジー",
+      "default#GENRE_STRATEGY_CARD_GAME": "ストラテジーカードゲーム",
+      "default#GENRE_TEAM_BASED_ACTION": "チームベースアクション",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "ゲームをプレイするには、ハンドヘルドの設定の一部を変更する必要があります。",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "ゲームの機能は、既定のコントローラー構成を使用して正しく動作します。",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "ゲームの一部またはすべての領域は、ハンドヘルド コントローラーでプレイできません。",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "ゲームの設定では、デバイスでネイティブにサポートされている解像度をサポートするために調整が必要になる場合があります。",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "ゲームの既定の構成では、デバイスでサポートされている解像度がサポートされます。",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "テキストを入力するには、オンスクリーン キーボードを手動で呼び出す必要があります。",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "ゲームでは、テキスト入力用にオンスクリーンキーボードまたはコントローラーフレンドリーなカスタム テキスト入力方法を提供しています。",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "一部のテキストが小さく、読みにくい場合や、テキスト サイズを調整するためにゲーム設定の変更が必要になる場合があります。",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "既定では、重要なテキストと UI 要素をデバイスで読み取ることができます。",
+      "default#INSTALL_DISABLED_MESSAGE": "このゲームはまだインストールできません。",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "モバイル端末でQRコードをスキャンしてゲームをダウンロードできます。",
+      "default#PLAY_DISABLED_MESSAGE": "このゲームはまだプレイできません",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "このゲームをプレイするには購入が必要です。",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Battle.netをアップデートしてください",
+      "default#PREPURCHASED_MESSAGE": "購入済みのゲームです",
+      "default#QUICK_LINK_AVAILABLE_BETA": "ベータが利用可能",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "デジタル特典",
+      "default#QUICK_LINK_FAVORITE": "お気に入りに追加",
+      "default#QUICK_LINK_FORUMS": "フォーラム",
+      "default#QUICK_LINK_HELP_SUPPORT": "サポートに連絡",
+      "default#QUICK_LINK_LEARN_MORE": "もっと詳しく",
+      "default#QUICK_LINK_MOBILE": "モバイルゲーム",
+      "default#QUICK_LINK_PATCH_NOTES": "パッチノート",
+      "default#QUICK_LINK_SHOP": "ショップ",
+      "default#QUICK_LINK_SUPPORT": "サポート",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "アップグレードが利用可能です",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "「バトルチェスト」にアップグレード",
+      "default#QUICK_LINK_WEBSITE": "ウェブサイト",
+      "default#RIBBON_TEXT_ALPHA": "アルファ",
+      "default#RIBBON_TEXT_BETA": "ベータ",
+      "default#RIBBON_TEXT_DEV": "開発",
+      "default#RIBBON_TEXT_PTR": "公開テスト",
+      "default#STARTER_ITEM_BUY_NOW": "今すぐ購入",
+      "default#STARTER_ITEM_INSTALL_LABEL": "インストール",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "無料でプレイ",
+      "default#STARTER_ITEM_PLAY_NOW": "今すぐプレイ",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "全てのエディションを見る",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "無料体験に参加",
+      "default#STARTER_ITEM_WEBSITE": "ウェブサイトを見る",
+      "default#TYPES_BETA_NAME": "ベータ",
+      "default#TYPES_DEV_NAME": "開発",
+      "default#TYPES_EVENT_1_NAME": "イベント1",
+      "default#TYPES_EVENT_2_NAME": "イベント2",
+      "default#TYPES_EVENT_NAME": "イベント",
+      "default#TYPES_LOCALIZATION_1_NAME": "ローカライズ 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "ローカライズ 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "ローカライズ 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "ローカライズ 4",
+      "default#TYPES_PTR_NAME": "公開テスト",
+      "default#TYPES_RETAIL_NAME": "パッケージ",
+      "default#TYPES_SUBMISSION_NAME": "申請",
+      "default#TYPES_TOURNAMENT_NAME": "トーナメント",
+      "default#TYPES_VENDOR_10_NAME": "ベンダー10",
+      "default#TYPES_VENDOR_11_NAME": "ベンダー11",
+      "default#TYPES_VENDOR_12_NAME": "ベンダー12",
+      "default#TYPES_VENDOR_13_NAME": "ベンダー13",
+      "default#TYPES_VENDOR_14_NAME": "ベンダー14",
+      "default#TYPES_VENDOR_15_NAME": "ベンダー15",
+      "default#TYPES_VENDOR_16_NAME": "ベンダー16",
+      "default#TYPES_VENDOR_17_NAME": "ベンダー17",
+      "default#TYPES_VENDOR_18_NAME": "ベンダー18",
+      "default#TYPES_VENDOR_19_NAME": "ベンダー19",
+      "default#TYPES_VENDOR_1_NAME": "ベンダー1",
+      "default#TYPES_VENDOR_20_NAME": "ベンダー20",
+      "default#TYPES_VENDOR_21_NAME": "ベンダー21",
+      "default#TYPES_VENDOR_22_NAME": "ベンダー22",
+      "default#TYPES_VENDOR_23_NAME": "ベンダー23",
+      "default#TYPES_VENDOR_24_NAME": "ベンダー24",
+      "default#TYPES_VENDOR_25_NAME": "ベンダー25",
+      "default#TYPES_VENDOR_26_NAME": "ベンダー26",
+      "default#TYPES_VENDOR_27_NAME": "ベンダー27",
+      "default#TYPES_VENDOR_28_NAME": "ベンダー28",
+      "default#TYPES_VENDOR_29_NAME": "ベンダー29",
+      "default#TYPES_VENDOR_2_NAME": "ベンダー2",
+      "default#TYPES_VENDOR_30_NAME": "ベンダー30",
+      "default#TYPES_VENDOR_31_NAME": "ベンダー31",
+      "default#TYPES_VENDOR_32_NAME": "ベンダー32",
+      "default#TYPES_VENDOR_33_NAME": "ベンダー33",
+      "default#TYPES_VENDOR_34_NAME": "ベンダー34",
+      "default#TYPES_VENDOR_35_NAME": "ベンダー35",
+      "default#TYPES_VENDOR_3_NAME": "ベンダー3",
+      "default#TYPES_VENDOR_4_NAME": "ベンダー4",
+      "default#TYPES_VENDOR_5_NAME": "ベンダー5",
+      "default#TYPES_VENDOR_6_NAME": "ベンダー6",
+      "default#TYPES_VENDOR_7_NAME": "ベンダー7",
+      "default#TYPES_VENDOR_8_NAME": "ベンダー8",
+      "default#TYPES_VENDOR_9_NAME": "ベンダー9",
+      "default#TYPES_VENDOR_NAME": "ベンダー",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "あなたのOSはサポート対象外です。"
+    },
+    "koKR": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} 대부분 호환 가능",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} 휴대 장치 최적화",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} 지원하지 않음",
+      "default#BADGE_TEXT_INCLUDED_WITH": "{image}에 포함",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Xbox Game Pass에 포함",
+      "default#CATEGORIES_EVENT_NAME": "이벤트",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "개발 중",
+      "default#CATEGORIES_LIVE_NAME": "라이브",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "프로",
+      "default#CATEGORIES_TOURNAMENT_NAME": "토너먼트",
+      "default#CATEGORIES_UNKNOWN_NAME": "알 수 없음",
+      "default#CATEGORIES_VENDOR_NAME": "외부 업체",
+      "default#ENVIRONMENTS_CN_NAME": "중국",
+      "default#ENVIRONMENTS_CXX_NAME": "공개 테스트 지역",
+      "default#ENVIRONMENTS_CXX_SHORT_NAME": "공개 테스트",
+      "default#ENVIRONMENTS_EU_NAME": "유럽",
+      "default#ENVIRONMENTS_KR_NAME": "아시아",
+      "default#ENVIRONMENTS_US_NAME": "아메리카",
+      "default#ENVIRONMENTS_XX_NAME": "공개 테스트 지역",
+      "default#ENVIRONMENTS_XX_SHORT_NAME": "공개 테스트",
+      "default#GAME_PASS_DISCLAIMER": "스탠다드 에디션은 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다. 프리미엄 에디션 아이템을 이용하려면 별도 구매가 필요합니다.",
+      "default#GENRE_ACTION_ADVENTURE": "액션 & 어드벤처",
+      "default#GENRE_ACTION_RPG": "액션 RPG",
+      "default#GENRE_ACTION_SHOOTER": "액션 슈팅",
+      "default#GENRE_ACTION_STRATEGY": "액션 전략",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "익스트림 액션 스포츠",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "판타지 RPG",
+      "default#GENRE_MMRPG": "MMORPG",
+      "default#GENRE_REAL_TIME_STRATEGY": "실시간 전략",
+      "default#GENRE_STRATEGY_CARD_GAME": "전략 카드 게임",
+      "default#GENRE_TEAM_BASED_ACTION": "팀 기반 액션",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "게임을 플레이하려면 휴대 장치의 일부 설정을 수정해야 합니다.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "게임 기능은 기본 컨트롤러 구성을 사용하여 올바르게 작동합니다.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "게임의 일부 또는 모든 영역은 휴대 장치 컨트롤러로 플레이할 수 없습니다.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "장치에서 기본적으로 지원하는 해상도를 지원하려면 게임 설정을 조정해야 할 수 있습니다.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "게임의 기본 구성은 장치에서 지원하는 해상도를 지원합니다.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "텍스트를 입력하려면 화상 키보드를 수동으로 호출해야 합니다.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "텍스트 입력을 위해 게임은 화상 키보드 또는 컨트롤러 친화적인 사용자 지정 텍스트 입력 방법을 제공합니다.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "일부 텍스트는 작아서 읽기 어려울 수 있으며, 텍스트 크기를 조정하기 위해 게임 설정을 변경해야 할 수도 있습니다.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "키 텍스트 및 UI 요소는 기본적으로 디바이스에서 읽을 수 있습니다.",
+      "default#INSTALL_DISABLED_MESSAGE": "이 게임은 아직 설치할 수 없습니다.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "모바일 기기로 QR 코드를 스캔하면 게임을 다운로드할 수 있습니다.",
+      "default#PLAY_DISABLED_MESSAGE": "이 게임은 아직 플레이할 수 없습니다.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "구매 시 플레이할 수 있습니다.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Battle.net 필수 업데이트",
+      "default#PREPURCHASED_MESSAGE": "이 게임을 구입하셨습니다.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "베타 이용 가능",
+      "default#QUICK_LINK_BLIZZARD_SUPPORT": "블리자드 고객지원",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "디지털 보너스",
+      "default#QUICK_LINK_FAVORITE": "즐겨찾기에 추가",
+      "default#QUICK_LINK_FORUMS": "토론장",
+      "default#QUICK_LINK_HELP_SUPPORT": "고객지원",
+      "default#QUICK_LINK_LEARN_MORE": "자세히 보기",
+      "default#QUICK_LINK_MOBILE": "모바일 게임",
+      "default#QUICK_LINK_PATCH_NOTES": "패치 노트",
+      "default#QUICK_LINK_SHOP": "샵",
+      "default#QUICK_LINK_SUPPORT": "고객지원",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "업그레이드 가능",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "배틀 체스트로 업그레이드",
+      "default#QUICK_LINK_WEBSITE": "웹사이트",
+      "default#RIBBON_TEXT_ALPHA": "알파",
+      "default#RIBBON_TEXT_BETA": "베타",
+      "default#RIBBON_TEXT_DEV": "개발",
+      "default#RIBBON_TEXT_PTR": "공개 테스트",
+      "default#STARTER_ITEM_BUY_NOW": "지금 구매",
+      "default#STARTER_ITEM_INSTALL_LABEL": "설치",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "무료로 플레이하기",
+      "default#STARTER_ITEM_PLAY_NOW": "게임 실행",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "모든 에디션 구매",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "무료 체험하기",
+      "default#STARTER_ITEM_WEBSITE": "웹사이트 방문",
+      "default#TYPES_ALPHA_NAME": "알파",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "아트북 및 사운드트랙",
+      "default#TYPES_BETA_NAME": "베타",
+      "default#TYPES_DEV_NAME": "개발",
+      "default#TYPES_EVENT_1_NAME": "이벤트 1",
+      "default#TYPES_EVENT_2_NAME": "이벤트 2",
+      "default#TYPES_EVENT_NAME": "이벤트",
+      "default#TYPES_LOCALIZATION_1_NAME": "현지화 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "현지화 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "현지화 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "현지화 4",
+      "default#TYPES_PTR_NAME": "공개 테스트 서버",
+      "default#TYPES_RETAIL_NAME": "정식 버전",
+      "default#TYPES_SUBMISSION_NAME": "심의",
+      "default#TYPES_TOURNAMENT_NAME": "토너먼트",
+      "default#TYPES_VENDOR_10_NAME": "외부 업체 10",
+      "default#TYPES_VENDOR_11_NAME": "외부 업체 11",
+      "default#TYPES_VENDOR_12_NAME": "외부 업체 12",
+      "default#TYPES_VENDOR_13_NAME": "외부 업체 13",
+      "default#TYPES_VENDOR_14_NAME": "외부 업체 14",
+      "default#TYPES_VENDOR_15_NAME": "외부 업체 15",
+      "default#TYPES_VENDOR_16_NAME": "외부 업체 16",
+      "default#TYPES_VENDOR_17_NAME": "외부 업체 17",
+      "default#TYPES_VENDOR_18_NAME": "외부 업체 18",
+      "default#TYPES_VENDOR_19_NAME": "외부 업체 19",
+      "default#TYPES_VENDOR_1_NAME": "외부 업체 1",
+      "default#TYPES_VENDOR_20_NAME": "외부 업체 20",
+      "default#TYPES_VENDOR_21_NAME": "외부 업체 21",
+      "default#TYPES_VENDOR_22_NAME": "외부 업체 22",
+      "default#TYPES_VENDOR_23_NAME": "외부 업체 23",
+      "default#TYPES_VENDOR_24_NAME": "외부 업체 24",
+      "default#TYPES_VENDOR_25_NAME": "외부 업체 25",
+      "default#TYPES_VENDOR_26_NAME": "외부 업체 26",
+      "default#TYPES_VENDOR_27_NAME": "외부 업체 27",
+      "default#TYPES_VENDOR_28_NAME": "외부 업체 28",
+      "default#TYPES_VENDOR_29_NAME": "외부 업체 29",
+      "default#TYPES_VENDOR_2_NAME": "외부 업체 2",
+      "default#TYPES_VENDOR_30_NAME": "외부 업체 30",
+      "default#TYPES_VENDOR_31_NAME": "외부 업체 31",
+      "default#TYPES_VENDOR_32_NAME": "외부 업체 32",
+      "default#TYPES_VENDOR_33_NAME": "외부 업체 33",
+      "default#TYPES_VENDOR_34_NAME": "외부 업체 34",
+      "default#TYPES_VENDOR_35_NAME": "외부 업체 35",
+      "default#TYPES_VENDOR_3_NAME": "외부 업체 3",
+      "default#TYPES_VENDOR_4_NAME": "외부 업체 4",
+      "default#TYPES_VENDOR_5_NAME": "외부 업체 5",
+      "default#TYPES_VENDOR_6_NAME": "외부 업체 6",
+      "default#TYPES_VENDOR_7_NAME": "외부 업체 7",
+      "default#TYPES_VENDOR_8_NAME": "외부 업체 8",
+      "default#TYPES_VENDOR_9_NAME": "외부 업체 9",
+      "default#TYPES_VENDOR_NAME": "외부 업체",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "현재 OS는 지원되지 않습니다."
+    },
+    "plPL": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} W większości zgodne",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Zoptymalizowane pod kątem urządzeń przenośnych",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} Brak obsługi",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Zawarte w {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Zawarte w Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "Wydarzenie",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "W PRODUKCJI",
+      "default#CATEGORIES_LIVE_NAME": "AKTUALNA WERSJA",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "PRO",
+      "default#CATEGORIES_TOURNAMENT_NAME": "TURNIEJ",
+      "default#CATEGORIES_UNKNOWN_NAME": "NIEZNANE",
+      "default#CATEGORIES_VENDOR_NAME": "Sprzedawca",
+      "default#ENVIRONMENTS_CN_NAME": "Chiny",
+      "default#ENVIRONMENTS_CXX_NAME": "Publiczny Serwer Testowy",
+      "default#ENVIRONMENTS_CXX_SHORT_NAME": "PST",
+      "default#ENVIRONMENTS_EU_NAME": "Europa",
+      "default#ENVIRONMENTS_KR_NAME": "Azja",
+      "default#ENVIRONMENTS_US_NAME": "Ameryki",
+      "default#ENVIRONMENTS_XX_NAME": "Publiczny Serwer Testowy",
+      "default#ENVIRONMENTS_XX_SHORT_NAME": "PST",
+      "default#GAME_PASS_DISCLAIMER": "Edycja Standardowa jest dostępna w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox. Dostęp do przedmiotów z Edycji Premium wymaga osobnego zakupu.",
+      "default#GENRE_ACTION_ADVENTURE": "Przygodowa gra akcji",
+      "default#GENRE_ACTION_RPG": "Fabularna gra akcji",
+      "default#GENRE_ACTION_SHOOTER": "Strzelanka",
+      "default#GENRE_ACTION_STRATEGY": "Strategiczna gra akcji",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Sport ekstremalny",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "Fantasy RPG",
+      "default#GENRE_MMRPG": "MMORPG",
+      "default#GENRE_PLATFORMER": "Platformówka",
+      "default#GENRE_REAL_TIME_STRATEGY": "Strategia czasu rzeczywistego",
+      "default#GENRE_STRATEGY_CARD_GAME": "Strategiczna gra karciana",
+      "default#GENRE_TEAM_BASED_ACTION": "Drużynowa gra akcji",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Aby uruchomić grę, należy zmodyfikować niektóre ustawienia urządzenia przenośnego.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "Funkcje gry działają poprawnie przy użyciu domyślnej konfiguracji kontrolera.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Niektóre lub wszystkie obszary gry nie są dostępne za pomocą kontrolera przenośnego.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "Ustawienia gry mogą wymagać dostosowania w celu obsługi rozdzielczości natywnie obsługiwanej przez urządzenie.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "Domyślna konfiguracja gry obsługuje rozdzielczości obsługiwane przez urządzenie.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Wprowadzanie tekstu wymaga ręcznego wywołania klawiatury ekranowej.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Do wprowadzania tekstu gra udostępnia klawiaturę ekranową lub dostosowaną do kontrolera metodę wprowadzania tekstu.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Niektóre fragmenty tekstu są małe i mogą być trudne do odczytania lub mogą wymagać zmiany ustawień gry w celu dostosowania rozmiaru tekstu.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Kluczowe teksty i elementy interfejsu użytkownika są domyślnie czytelne na urządzeniu.",
+      "default#INSTALL_DISABLED_MESSAGE": "Ta gra nie może być jeszcze zainstalowana.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Zeskanuj kod QR urządzeniem mobilnym, aby pobrać grę.",
+      "default#PLAY_DISABLED_MESSAGE": "W tę grę nie można jeszcze zagrać.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Do gry wymagany jest zakup.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Wymagana aktualizacja Battle.netu",
+      "default#PREPURCHASED_MESSAGE": "Gra została już zakupiona.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Dostępna beta",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Bonusy cyfrowe",
+      "default#QUICK_LINK_FAVORITE": "Dodaj do ulubionych",
+      "default#QUICK_LINK_FORUMS": "Fora",
+      "default#QUICK_LINK_HELP_SUPPORT": "Uzyskaj pomoc/wsparcie",
+      "default#QUICK_LINK_LEARN_MORE": "Więcej informacji",
+      "default#QUICK_LINK_MOBILE": "Gra mobilna",
+      "default#QUICK_LINK_PATCH_NOTES": "Informacje o aktualizacji",
+      "default#QUICK_LINK_SHOP": "Sklep",
+      "default#QUICK_LINK_SUPPORT": "Pomoc",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Dostępne ulepszenie",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Ulepszenie do wersji Battle Chest",
+      "default#QUICK_LINK_WEBSITE": "Strona internetowa",
+      "default#RIBBON_TEXT_ALPHA": "Alfa",
+      "default#RIBBON_TEXT_PTR": "PST",
+      "default#STARTER_ITEM_BUY_NOW": "Kup teraz",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Instaluj",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Graj za darmo",
+      "default#STARTER_ITEM_PLAY_NOW": "Zagraj teraz",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Sklep: wszystkie edycje",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Wypróbuj za darmo",
+      "default#STARTER_ITEM_WEBSITE": "Odwiedź stronę",
+      "default#TYPES_ALPHA_NAME": "Alfa",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Artbook i ścieżka dźwiękowa",
+      "default#TYPES_EVENT_1_NAME": "Wydarzenie 1",
+      "default#TYPES_EVENT_2_NAME": "Wydarzenie 2",
+      "default#TYPES_EVENT_NAME": "Wydarzenie",
+      "default#TYPES_LOCALIZATION_1_NAME": "Lokalizacja 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Lokalizacja 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Lokalizacja 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Lokalizacja 4",
+      "default#TYPES_PTR_NAME": "PST",
+      "default#TYPES_RETAIL_NAME": "Wersja ogólnodostępna",
+      "default#TYPES_SUBMISSION_NAME": "Zgłoszenie",
+      "default#TYPES_TOURNAMENT_NAME": "Turniej",
+      "default#TYPES_VENDOR_10_NAME": "Sprzedawca 10",
+      "default#TYPES_VENDOR_11_NAME": "Sprzedawca 11",
+      "default#TYPES_VENDOR_12_NAME": "Sprzedawca 12",
+      "default#TYPES_VENDOR_13_NAME": "Sprzedawca 13",
+      "default#TYPES_VENDOR_14_NAME": "Sprzedawca 14",
+      "default#TYPES_VENDOR_15_NAME": "Sprzedawca 15",
+      "default#TYPES_VENDOR_16_NAME": "Sprzedawca 16",
+      "default#TYPES_VENDOR_17_NAME": "Sprzedawca 17",
+      "default#TYPES_VENDOR_18_NAME": "Sprzedawca 18",
+      "default#TYPES_VENDOR_19_NAME": "Sprzedawca 19",
+      "default#TYPES_VENDOR_1_NAME": "Sprzedawca 1",
+      "default#TYPES_VENDOR_20_NAME": "Sprzedawca 20",
+      "default#TYPES_VENDOR_21_NAME": "Sprzedawca 21",
+      "default#TYPES_VENDOR_22_NAME": "Sprzedawca 22",
+      "default#TYPES_VENDOR_23_NAME": "Sprzedawca 23",
+      "default#TYPES_VENDOR_24_NAME": "Sprzedawca 24",
+      "default#TYPES_VENDOR_25_NAME": "Sprzedawca 25",
+      "default#TYPES_VENDOR_26_NAME": "Sprzedawca 26",
+      "default#TYPES_VENDOR_27_NAME": "Sprzedawca 27",
+      "default#TYPES_VENDOR_28_NAME": "Sprzedawca 28",
+      "default#TYPES_VENDOR_29_NAME": "Sprzedawca 29",
+      "default#TYPES_VENDOR_2_NAME": "Sprzedawca 2",
+      "default#TYPES_VENDOR_30_NAME": "Sprzedawca 30",
+      "default#TYPES_VENDOR_31_NAME": "Sprzedawca 31",
+      "default#TYPES_VENDOR_32_NAME": "Sprzedawca 32",
+      "default#TYPES_VENDOR_33_NAME": "Sprzedawca 33",
+      "default#TYPES_VENDOR_34_NAME": "Sprzedawca 34",
+      "default#TYPES_VENDOR_35_NAME": "Sprzedawca 35",
+      "default#TYPES_VENDOR_3_NAME": "Sprzedawca 3",
+      "default#TYPES_VENDOR_4_NAME": "Sprzedawca 4",
+      "default#TYPES_VENDOR_5_NAME": "Sprzedawca 5",
+      "default#TYPES_VENDOR_6_NAME": "Sprzedawca 6",
+      "default#TYPES_VENDOR_7_NAME": "Sprzedawca 7",
+      "default#TYPES_VENDOR_8_NAME": "Sprzedawca 8",
+      "default#TYPES_VENDOR_9_NAME": "Sprzedawca 9",
+      "default#TYPES_VENDOR_NAME": "Sprzedawca",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Twój system operacyjny nie jest obsługiwany."
+    },
+    "ptBR": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} Principalmente Compatível",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Otimizado para dispositivo portátil",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} Sem suporte",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Incluído com {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Incluído com Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "Evento",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "EM DESENVOLVIMENTO",
+      "default#CATEGORIES_LIVE_NAME": "NO AR",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "PROFISSIONAL",
+      "default#CATEGORIES_TOURNAMENT_NAME": "TORNEIO",
+      "default#CATEGORIES_UNKNOWN_NAME": "DESCONHECIDO",
+      "default#CATEGORIES_VENDOR_NAME": "Vendedor",
+      "default#ENVIRONMENTS_CXX_NAME": "Região de Teste Público",
+      "default#ENVIRONMENTS_CXX_SHORT_NAME": "RTP",
+      "default#ENVIRONMENTS_EU_NAME": "Europa",
+      "default#ENVIRONMENTS_KR_NAME": "Ásia",
+      "default#ENVIRONMENTS_US_NAME": "Américas",
+      "default#ENVIRONMENTS_XX_NAME": "Região de Teste Público",
+      "default#ENVIRONMENTS_XX_SHORT_NAME": "RTP",
+      "default#GAME_PASS_DISCLAIMER": "A Edição Padrão está inclusa no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox. O acesso aos itens da Edição Premium exige uma compra separada.",
+      "default#GENRE_ACTION_ADVENTURE": "Ação e Aventura",
+      "default#GENRE_ACTION_RPG": "RPG de Ação",
+      "default#GENRE_ACTION_SHOOTER": "Tiro",
+      "default#GENRE_ACTION_STRATEGY": "Ação e estratégia",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Esportes de Ação Radical",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "RPG de Fantasia",
+      "default#GENRE_MMRPG": "RPG Multijogador em Massa",
+      "default#GENRE_PLATFORMER": "Jogo de Plataforma",
+      "default#GENRE_REAL_TIME_STRATEGY": "Estratégia em Tempo Real",
+      "default#GENRE_STRATEGY_CARD_GAME": "Jogo de Cards Estratégico",
+      "default#GENRE_TEAM_BASED_ACTION": "Ação em equipe",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Algumas das configurações do dispositivo portátil precisam ser modificadas para jogar.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "A funcionalidade do jogo funciona corretamente usando a configuração padrão do controle.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Algumas ou todas as áreas do jogo não são jogáveis com o controle do dispositivo portátil.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "As configurações do jogo podem exigir ajustes para dar suporte a uma resolução com suporte nativo do dispositivo.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "A configuração padrão do jogo dá suporte a resoluções compatíveis com o dispositivo.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Inserir texto exige a ativação manual do teclado na tela.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Para entrada de texto, o jogo fornece um teclado na tela ou um método de entrada de texto personalizado compatível com controle.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Alguns textos são pequenos e podem ser difíceis de ler ou exigir alterações nas configurações do jogo para ajustar o tamanho do texto.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Elementos de texto e IU principais são legíveis no dispositivo por padrão.",
+      "default#INSTALL_DISABLED_MESSAGE": "Este jogo ainda não pode ser instalado.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Escaneie o código QR com seu dispositivo móvel para baixar o jogo.",
+      "default#PLAY_DISABLED_MESSAGE": "Este jogo ainda não está disponível.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Compra necessária para jogar este jogo.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Atualização do Battle.net necessária",
+      "default#PREPURCHASED_MESSAGE": "Você comprou este jogo.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Beta disponível",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Bônus Digitais",
+      "default#QUICK_LINK_FAVORITE": "Adicionar aos Favoritos",
+      "default#QUICK_LINK_FORUMS": "Fóruns",
+      "default#QUICK_LINK_HELP_SUPPORT": "Obter ajuda/suporte",
+      "default#QUICK_LINK_LEARN_MORE": "Saiba mais",
+      "default#QUICK_LINK_MOBILE": "Jogo para Dispositivos Móveis",
+      "default#QUICK_LINK_PATCH_NOTES": "Notas do Patch",
+      "default#QUICK_LINK_SHOP": "Loja",
+      "default#QUICK_LINK_SUPPORT": "Suporte",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Upgrade Disponível",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Aprimorar para o Baú de Batalha",
+      "default#QUICK_LINK_WEBSITE": "Site",
+      "default#RIBBON_TEXT_ALPHA": "Alfa",
+      "default#RIBBON_TEXT_PTR": "RTP",
+      "default#STARTER_ITEM_BUY_NOW": "Compre Já",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Instalar",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Jogue grátis",
+      "default#STARTER_ITEM_PLAY_NOW": "Jogar agora",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Comprar todas as edições",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Experimente de Graça",
+      "default#STARTER_ITEM_WEBSITE": "Visite o Site",
+      "default#TYPES_ALPHA_NAME": "Alfa",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Livro de Artes e Trilha Sonora",
+      "default#TYPES_EVENT_1_NAME": "Evento 1",
+      "default#TYPES_EVENT_2_NAME": "Evento 2",
+      "default#TYPES_EVENT_NAME": "Evento",
+      "default#TYPES_LOCALIZATION_1_NAME": "Localização 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Localização 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Localização 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Localização 4",
+      "default#TYPES_PTR_NAME": "RTP",
+      "default#TYPES_RETAIL_NAME": "Lojas",
+      "default#TYPES_SUBMISSION_NAME": "Envio",
+      "default#TYPES_TOURNAMENT_NAME": "Torneio",
+      "default#TYPES_VENDOR_10_NAME": "Comerciante 10",
+      "default#TYPES_VENDOR_11_NAME": "Comerciante 11",
+      "default#TYPES_VENDOR_12_NAME": "Comerciante 12",
+      "default#TYPES_VENDOR_13_NAME": "Comerciante 13",
+      "default#TYPES_VENDOR_14_NAME": "Comerciante 14",
+      "default#TYPES_VENDOR_15_NAME": "Comerciante 15",
+      "default#TYPES_VENDOR_16_NAME": "Comerciante 16",
+      "default#TYPES_VENDOR_17_NAME": "Comerciante 17",
+      "default#TYPES_VENDOR_18_NAME": "Comerciante 18",
+      "default#TYPES_VENDOR_19_NAME": "Comerciante 19",
+      "default#TYPES_VENDOR_1_NAME": "Comerciante 1",
+      "default#TYPES_VENDOR_20_NAME": "Comerciante 20",
+      "default#TYPES_VENDOR_21_NAME": "Comerciante 21",
+      "default#TYPES_VENDOR_22_NAME": "Comerciante 22",
+      "default#TYPES_VENDOR_23_NAME": "Comerciante 23",
+      "default#TYPES_VENDOR_24_NAME": "Comerciante 24",
+      "default#TYPES_VENDOR_25_NAME": "Comerciante 25",
+      "default#TYPES_VENDOR_26_NAME": "Comerciante 26",
+      "default#TYPES_VENDOR_27_NAME": "Comerciante 27",
+      "default#TYPES_VENDOR_28_NAME": "Comerciante 28",
+      "default#TYPES_VENDOR_29_NAME": "Comerciante 29",
+      "default#TYPES_VENDOR_2_NAME": "Comerciante 2",
+      "default#TYPES_VENDOR_30_NAME": "Comerciante 30",
+      "default#TYPES_VENDOR_31_NAME": "Comerciante 31",
+      "default#TYPES_VENDOR_32_NAME": "Comerciante 32",
+      "default#TYPES_VENDOR_33_NAME": "Comerciante 33",
+      "default#TYPES_VENDOR_34_NAME": "Comerciante 34",
+      "default#TYPES_VENDOR_35_NAME": "Comerciante 35",
+      "default#TYPES_VENDOR_3_NAME": "Comerciante 3",
+      "default#TYPES_VENDOR_4_NAME": "Comerciante 4",
+      "default#TYPES_VENDOR_5_NAME": "Comerciante 5",
+      "default#TYPES_VENDOR_6_NAME": "Comerciante 6",
+      "default#TYPES_VENDOR_7_NAME": "Comerciante 7",
+      "default#TYPES_VENDOR_8_NAME": "Comerciante 8",
+      "default#TYPES_VENDOR_9_NAME": "Comerciante 9",
+      "default#TYPES_VENDOR_NAME": "Fornecedor",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Seu OS não tem suporte."
+    },
+    "ptPT": {
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "EM DESENVOLVIMENTO",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Algumas das definições no portátil têm de ser modificadas para reproduzir o jogo.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "A funcionalidade do jogo funciona corretamente utilizando a configuração do comando predefinida.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Algumas ou todas as áreas do jogo não são jogáveis com o comando portátil.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "As definições do jogo podem exigir ajustes para suportar uma resolução suportada nativamente pelo dispositivo.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "A configuração predefinida do jogo suporta resoluções suportadas pelo dispositivo.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Introduzir texto requer a ativação manual do teclado virtual.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Para a entrada de texto, o jogo fornece um teclado virtual ou um método personalizado de entrada de texto compatível com o comando.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Algum texto é pequeno e pode ser difícil de ler ou pode exigir alterações às definições do jogo para ajustar o tamanho do texto.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Por predefinição, o texto essencial e os elementos da IU são legíveis no dispositivo.",
+      "default#RIBBON_TEXT_ALPHA": "Alfa"
+    },
+    "ruRU": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} В основном совместимо",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} Оптимизировано для наладонных устройств",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} Не поддерживается",
+      "default#BADGE_TEXT_INCLUDED_WITH": "Входит в подписку {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Входит в подписку Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "Событие",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "В РАЗРАБОТКЕ",
+      "default#CATEGORIES_LIVE_NAME": "СОВРЕМЕННАЯ ВЕРСИЯ",
+      "default#CATEGORIES_TOURNAMENT_NAME": "ТУРНИР",
+      "default#CATEGORIES_UNKNOWN_NAME": "НЕИЗВЕСТНО",
+      "default#CATEGORIES_VENDOR_NAME": "Партнер",
+      "default#ENVIRONMENTS_CN_NAME": "Китай",
+      "default#ENVIRONMENTS_CXX_NAME": "Тестовый игровой регион",
+      "default#ENVIRONMENTS_EU_NAME": "Европа",
+      "default#ENVIRONMENTS_KR_NAME": "Азия",
+      "default#ENVIRONMENTS_US_NAME": "Америка",
+      "default#ENVIRONMENTS_XX_NAME": "Тестовый игровой регион",
+      "default#GAME_PASS_DISCLAIMER": "Стандартное издание доступно активным пользователям Xbox Game Pass с действующей подпиской, связавшим Battle.net с учетной записью сети Xbox. Доступ к предметам премиум-издания приобретается отдельно.",
+      "default#GENRE_ACTION_ADVENTURE": "Приключенческий экшен",
+      "default#GENRE_ACTION_RPG": "Action-RPG (ролевая игра в жанре «экшен»)",
+      "default#GENRE_ACTION_SHOOTER": "Экшен/Шутер",
+      "default#GENRE_ACTION_STRATEGY": "Экшен-стратегия",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "Экстремальные виды спорта",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "Фэнтезийная ролевая игра",
+      "default#GENRE_MMRPG": "MMORPG (многопользовательская сетевая ролевая игра)",
+      "default#GENRE_PLATFORMER": "Платформер",
+      "default#GENRE_REAL_TIME_STRATEGY": "Стратегия в реальном времени",
+      "default#GENRE_STRATEGY_CARD_GAME": "Карточная стратегия",
+      "default#GENRE_TEAM_BASED_ACTION": "Командная игра",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "Некоторые настройки на наладонном устройстве необходимо изменить для игры.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "Игровые функции работают корректно с использованием конфигурации геймпада по умолчанию.",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "Некоторые или все области игры недоступны для игрового процесса с помощью наладонного геймпада.",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "Настройки игры могут требовать корректировок для поддержки разрешения, которое по умолчанию поддерживается устройством.",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "Конфигурация игры по умолчанию поддерживает разрешения, поддерживаемые устройством.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "Для ввода текста необходимо вручную вызвать экранную клавиатуру.",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "Для ввода текста игра предоставляет экранную клавиатуру или настраиваемый метод ввода текста, удобный для геймпада.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "Некоторые тексты слишком мелкие и могут быть трудны для чтения или могут требовать изменения настроек игры для корректировки размера текста.",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "Ключевой текст и элементы пользовательского интерфейса по умолчанию читаемы на устройстве.",
+      "default#INSTALL_DISABLED_MESSAGE": "Установка игры пока невозможна.",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "Отсканируйте QR-код с помощью своего мобильного устройства, чтобы загрузить игру.",
+      "default#PLAY_DISABLED_MESSAGE": "Запуск этой игры пока невозможен.",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Необходимо приобрести игру.",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Критическое обновление Battle.net",
+      "default#PREPURCHASED_MESSAGE": "Вы приобрели эту игру.",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Бета началась",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "Цифровые дополнения",
+      "default#QUICK_LINK_FAVORITE": "Добавить в избранное",
+      "default#QUICK_LINK_FORUMS": "Форумы",
+      "default#QUICK_LINK_HELP_SUPPORT": "Помощь/техническая поддержка",
+      "default#QUICK_LINK_LEARN_MORE": "Подробнее",
+      "default#QUICK_LINK_MOBILE": "Мобильная игра",
+      "default#QUICK_LINK_PATCH_NOTES": "Описание обновления",
+      "default#QUICK_LINK_SHOP": "Магазин",
+      "default#QUICK_LINK_SUPPORT": "Служба поддержки",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "Можно конвертировать",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "Улучшить до издания Battle Chest",
+      "default#QUICK_LINK_WEBSITE": "Сайт",
+      "default#RIBBON_TEXT_ALPHA": "Альфа",
+      "default#RIBBON_TEXT_BETA": "Бета",
+      "default#STARTER_ITEM_BUY_NOW": "Приобрести",
+      "default#STARTER_ITEM_INSTALL_LABEL": "Установить",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "Играть бесплатно",
+      "default#STARTER_ITEM_PLAY_NOW": "Играть",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Просмотреть все издания",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "Бесплатная версия",
+      "default#STARTER_ITEM_WEBSITE": "Посетить веб-сайт",
+      "default#TYPES_ALPHA_NAME": "Альфа",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "Альбом с иллюстрациями и набор музыки",
+      "default#TYPES_BETA_NAME": "Бета",
+      "default#TYPES_EVENT_1_NAME": "Событие 1",
+      "default#TYPES_EVENT_2_NAME": "Событие 2",
+      "default#TYPES_EVENT_NAME": "Событие",
+      "default#TYPES_LOCALIZATION_1_NAME": "Локализация 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "Локализация 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "Локализация 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "Локализация 4",
+      "default#TYPES_RETAIL_NAME": "Розничная",
+      "default#TYPES_SUBMISSION_NAME": "Заявка",
+      "default#TYPES_TOURNAMENT_NAME": "Турнир",
+      "default#TYPES_VENDOR_10_NAME": "Партнер 10",
+      "default#TYPES_VENDOR_11_NAME": "Партнер 11",
+      "default#TYPES_VENDOR_12_NAME": "Партнер 12",
+      "default#TYPES_VENDOR_13_NAME": "Партнер 13",
+      "default#TYPES_VENDOR_14_NAME": "Партнер 14",
+      "default#TYPES_VENDOR_15_NAME": "Партнер 15",
+      "default#TYPES_VENDOR_16_NAME": "Партнер 16",
+      "default#TYPES_VENDOR_17_NAME": "Партнер 17",
+      "default#TYPES_VENDOR_18_NAME": "Партнер 18",
+      "default#TYPES_VENDOR_19_NAME": "Партнер 19",
+      "default#TYPES_VENDOR_1_NAME": "Партнер 1",
+      "default#TYPES_VENDOR_20_NAME": "Партнер 20",
+      "default#TYPES_VENDOR_21_NAME": "Партнер 21",
+      "default#TYPES_VENDOR_22_NAME": "Партнер 22",
+      "default#TYPES_VENDOR_23_NAME": "Партнер 23",
+      "default#TYPES_VENDOR_24_NAME": "Партнер 24",
+      "default#TYPES_VENDOR_25_NAME": "Партнер 25",
+      "default#TYPES_VENDOR_26_NAME": "Партнер 26",
+      "default#TYPES_VENDOR_27_NAME": "Партнер 27",
+      "default#TYPES_VENDOR_28_NAME": "Партнер 28",
+      "default#TYPES_VENDOR_29_NAME": "Партнер 29",
+      "default#TYPES_VENDOR_2_NAME": "Партнер 2",
+      "default#TYPES_VENDOR_30_NAME": "Партнер 30",
+      "default#TYPES_VENDOR_31_NAME": "Партнер 31",
+      "default#TYPES_VENDOR_32_NAME": "Партнер 32",
+      "default#TYPES_VENDOR_33_NAME": "Партнер 33",
+      "default#TYPES_VENDOR_34_NAME": "Партнер 34",
+      "default#TYPES_VENDOR_35_NAME": "Партнер 35",
+      "default#TYPES_VENDOR_3_NAME": "Партнер 3",
+      "default#TYPES_VENDOR_4_NAME": "Партнер 4",
+      "default#TYPES_VENDOR_5_NAME": "Партнер 5",
+      "default#TYPES_VENDOR_6_NAME": "Партнер 6",
+      "default#TYPES_VENDOR_7_NAME": "Партнер 7",
+      "default#TYPES_VENDOR_8_NAME": "Партнер 8",
+      "default#TYPES_VENDOR_9_NAME": "Партнер 9",
+      "default#TYPES_VENDOR_NAME": "Партнер",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "Ваша операционная система не поддерживается."
+    },
+    "thTH": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} เข้ากันได้ส่วนใหญ่",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} ปรับอุปกรณ์พกพาให้เหมาะสมแล้ว",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} ไม่ได้รับการสนับสนุน",
+      "default#BADGE_TEXT_INCLUDED_WITH": "รวมอยู่ใน {image}",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "รวมอยู่ใน Xbox Game Pass",
+      "default#CATEGORIES_EVENT_NAME": "กิจกรรม",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "กำลังพัฒนา",
+      "default#CATEGORIES_LIVE_NAME": "เซิร์ฟเวอร์หลัก",
+      "default#CATEGORIES_TOURNAMENT_NAME": "ทัวร์นาเมนท์",
+      "default#CATEGORIES_UNKNOWN_NAME": "ไม่รู้จัก",
+      "default#ENVIRONMENTS_CN_NAME": "จีน",
+      "default#ENVIRONMENTS_CXX_NAME": "เซิร์ฟเวอร์ทดสอบสาธารณะ (PTR)",
+      "default#ENVIRONMENTS_EU_NAME": "ยุโรป",
+      "default#ENVIRONMENTS_KR_NAME": "เอเชีย",
+      "default#ENVIRONMENTS_US_NAME": "อเมริกา",
+      "default#ENVIRONMENTS_XX_NAME": "เซิร์ฟเวอร์ทดสอบสาธารณะ (PTR)",
+      "default#GAME_PASS_DISCLAIMER": "Standard Edition จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox สิทธิ์รับรายการต่างๆ ใน Premium Edition ต้องซื้อแยกต่างหาก",
+      "default#GENRE_ACTION_ADVENTURE": "แอ็คชันและผจญภัย",
+      "default#GENRE_ACTION_RPG": "เกมแอคชั่น RPG",
+      "default#GENRE_ACTION_SHOOTER": "เกมยิงแอคชั่น",
+      "default#GENRE_ACTION_STRATEGY": "กลยุทธ์แอคชัน",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "กีฬาแอ็กชันแบบเอ็กซตรีม",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "RPG แฟนตาซี",
+      "default#GENRE_MMRPG": "เกม RPG แบบเล่นพร้อมกันหลายคน",
+      "default#GENRE_REAL_TIME_STRATEGY": "วางแผนแบบเรียลไทม์",
+      "default#GENRE_STRATEGY_CARD_GAME": "เกมการ์ดเชิงกลยุทธ์",
+      "default#GENRE_TEAM_BASED_ACTION": "แอคชันแบบเล่นเป็นทีม",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "การตั้งค่าบางอย่างในอุปกรณ์พกพาจำเป็นต้องได้รับการแก้ไขเพื่อเล่นเกม",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "ฟังก์ชันการทำงานของเกมทำงานได้อย่างถูกต้องโดยใช้การกำหนดค่าคอนโทรลเลอร์เริ่มต้น",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "บางพื้นที่หรือทุกพื้นที่ของเกมไม่สามารถเล่นได้ด้วยคอนโทรลเลอร์อุปกรณ์พกพา",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "การตั้งค่าเกมอาจจำเป็นต้องปรับเพื่อสนับสนุนความละเอียดที่อุปกรณ์รองรับแบบดั้งเดิม",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "การกำหนดค่าเริ่มต้นของเกมสนับสนุนความละเอียดที่อุปกรณ์รองรับ",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "การใส่ข้อความจำเป็นต้องเรียกใช้แป้นพิมพ์บนหน้าจอด้วยตนเอง",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "สำหรับการป้อนข้อมูล เกมจะมีแป้นพิมพ์บนหน้าจอหรือวิธีการป้อนข้อความแบบกำหนดเองที่เหมาะกับคอนโทรลเลอร์",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "ข้อความบางส่วนมีขนาดเล็กและอาจอ่านได้ยาก หรืออาจจำเป็นต้องเปลี่ยนการตั้งค่าเกมเพื่อปรับขนาดข้อความ",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "ข้อความและองค์ประกอบส่วนติดต่อผู้ใช้ที่สำคัญสามารถอ่านได้ในอุปกรณ์ตามค่าเริ่มต้น",
+      "default#INSTALL_DISABLED_MESSAGE": "ยังไม่สามารถติดตั้งเกมนี้ได้",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "สแกนรหัส QR ด้วยอุปกรณ์มือถือของคุณเพื่อดาวน์โหลดเกม",
+      "default#PLAY_DISABLED_MESSAGE": "คุณยังไม่สามารถเล่นเกมนี้ได้",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "ต้องมีการซื้อเพื่อเล่นเกม",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Battle.net จำเป็นต้องอัพเดต",
+      "default#PREPURCHASED_MESSAGE": "คุณซื้อเกมนี้แล้ว",
+      "default#QUICK_LINK_AVAILABLE_BETA": "มีเบต้า",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "โบนัสดิจิทัล",
+      "default#QUICK_LINK_FAVORITE": "เพิ่มไปยังรายการโปรด",
+      "default#QUICK_LINK_FORUMS": "ฟอรัม",
+      "default#QUICK_LINK_HELP_SUPPORT": "ขอความช่วยเหลือ/การสนับสนุน",
+      "default#QUICK_LINK_LEARN_MORE": "เรียนรู้เพิ่มเติม",
+      "default#QUICK_LINK_MOBILE": "เกมมือถือ",
+      "default#QUICK_LINK_PATCH_NOTES": "แพตช์โน้ต",
+      "default#QUICK_LINK_SHOP": "ร้านค้า",
+      "default#QUICK_LINK_SUPPORT": "สนับสนุน",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "สามารถอัพเกรดได้",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "อัพเกรดเป็น Battle Chest",
+      "default#QUICK_LINK_WEBSITE": "เว็บไซต์",
+      "default#RIBBON_TEXT_ALPHA": "อัลฟา",
+      "default#RIBBON_TEXT_BETA": "เบต้า",
+      "default#RIBBON_TEXT_DEV": "พัฒนา",
+      "default#STARTER_ITEM_BUY_NOW": "ซื้อเลย",
+      "default#STARTER_ITEM_INSTALL_LABEL": "ติดตั้ง",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "เล่นฟรี",
+      "default#STARTER_ITEM_PLAY_NOW": "เล่นตอนนี้",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "เลือกซื้อทุก Edition",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "ลองฟรี",
+      "default#STARTER_ITEM_WEBSITE": "เยี่ยมชมเว็บไซต์",
+      "default#TYPES_ALPHA_NAME": "อัลฟา",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "หนังสือรวมงานภาพและซาวด์แทร็ก",
+      "default#TYPES_BETA_NAME": "เบต้า",
+      "default#TYPES_DEV_NAME": "พัฒนา",
+      "default#TYPES_EVENT_1_NAME": "กิจกรรม 1",
+      "default#TYPES_EVENT_2_NAME": "กิจกรรม 2",
+      "default#TYPES_EVENT_NAME": "กิจกรรม",
+      "default#TYPES_RETAIL_NAME": "ขายปลีก",
+      "default#TYPES_SUBMISSION_NAME": "เนื้อหาที่ส่ง",
+      "default#TYPES_TOURNAMENT_NAME": "ทัวร์นาเมนท์",
+      "default#TYPES_VENDOR_10_NAME": "เวนเดอร์ 10",
+      "default#TYPES_VENDOR_11_NAME": "เวนเดอร์ 11",
+      "default#TYPES_VENDOR_12_NAME": "เวนเดอร์ 12",
+      "default#TYPES_VENDOR_13_NAME": "เวนเดอร์ 13",
+      "default#TYPES_VENDOR_14_NAME": "เวนเดอร์ 14",
+      "default#TYPES_VENDOR_15_NAME": "เวนเดอร์ 15",
+      "default#TYPES_VENDOR_16_NAME": "เวนเดอร์ 16",
+      "default#TYPES_VENDOR_17_NAME": "เวนเดอร์ 17",
+      "default#TYPES_VENDOR_18_NAME": "เวนเดอร์ 18",
+      "default#TYPES_VENDOR_19_NAME": "เวนเดอร์ 19",
+      "default#TYPES_VENDOR_1_NAME": "เวนเดอร์ 1",
+      "default#TYPES_VENDOR_20_NAME": "เวนเดอร์ 20",
+      "default#TYPES_VENDOR_21_NAME": "เวนเดอร์ 21",
+      "default#TYPES_VENDOR_22_NAME": "เวนเดอร์ 22",
+      "default#TYPES_VENDOR_23_NAME": "เวนเดอร์ 23",
+      "default#TYPES_VENDOR_24_NAME": "เวนเดอร์ 24",
+      "default#TYPES_VENDOR_25_NAME": "เวนเดอร์ 25",
+      "default#TYPES_VENDOR_26_NAME": "เวนเดอร์ 26",
+      "default#TYPES_VENDOR_27_NAME": "เวนเดอร์ 27",
+      "default#TYPES_VENDOR_28_NAME": "เวนเดอร์ 28",
+      "default#TYPES_VENDOR_29_NAME": "เวนเดอร์ 29",
+      "default#TYPES_VENDOR_2_NAME": "เวนเดอร์ 2",
+      "default#TYPES_VENDOR_30_NAME": "เวนเดอร์ 30",
+      "default#TYPES_VENDOR_31_NAME": "เวนเดอร์ 31",
+      "default#TYPES_VENDOR_32_NAME": "เวนเดอร์ 32",
+      "default#TYPES_VENDOR_33_NAME": "เวนเดอร์ 33",
+      "default#TYPES_VENDOR_34_NAME": "เวนเดอร์ 34",
+      "default#TYPES_VENDOR_35_NAME": "เวนเดอร์ 35",
+      "default#TYPES_VENDOR_3_NAME": "เวนเดอร์ 3",
+      "default#TYPES_VENDOR_4_NAME": "เวนเดอร์ 4",
+      "default#TYPES_VENDOR_5_NAME": "เวนเดอร์ 5",
+      "default#TYPES_VENDOR_6_NAME": "เวนเดอร์ 6",
+      "default#TYPES_VENDOR_7_NAME": "เวนเดอร์ 7",
+      "default#TYPES_VENDOR_8_NAME": "เวนเดอร์ 8",
+      "default#TYPES_VENDOR_9_NAME": "เวนเดอร์ 9",
+      "default#TYPES_VENDOR_NAME": "ผู้ขาย",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "ไม่สนับสนุนระบบปฏิบัติการของคุณ"
+    },
+    "zhCN": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} 大部分兼容",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} 已优化手持设备",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} 不受支持",
+      "default#BADGE_TEXT_INCLUDED_WITH": "随{image}提供",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "随Xbox Game Pass提供",
+      "default#CATEGORIES_EVENT_NAME": "活动",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "开发",
+      "default#CATEGORIES_LIVE_NAME": "正式",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "职业比赛",
+      "default#CATEGORIES_TOURNAMENT_NAME": "职业比赛",
+      "default#CATEGORIES_UNKNOWN_NAME": "未知",
+      "default#CATEGORIES_VENDOR_NAME": "发行版本",
+      "default#ENVIRONMENTS_CN_NAME": "中国",
+      "default#ENVIRONMENTS_CXX_NAME": "公共测试服",
+      "default#ENVIRONMENTS_EU_NAME": "欧洲",
+      "default#ENVIRONMENTS_KR_NAME": "亚洲",
+      "default#ENVIRONMENTS_US_NAME": "美洲",
+      "default#ENVIRONMENTS_XX_NAME": "公共测试服",
+      "default#GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩标准版。高级版物品需另行购买才能解锁。",
+      "default#GENRE_ACTION_ADVENTURE": "动作与冒险",
+      "default#GENRE_ACTION_RPG": "动作角色扮演游戏",
+      "default#GENRE_ACTION_SHOOTER": "动作射击游戏",
+      "default#GENRE_ACTION_STRATEGY": "动作策略游戏",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "极限运动",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "奇幻角色扮演游戏",
+      "default#GENRE_MMRPG": "大型多人角色扮演游戏",
+      "default#GENRE_MOBA": "多人在线战术竞技游戏",
+      "default#GENRE_REAL_TIME_STRATEGY": "即时策略游戏",
+      "default#GENRE_STRATEGY_CARD_GAME": "策略类卡牌游戏",
+      "default#GENRE_TEAM_BASED_ACTION": "团队动作游戏",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "需要修改手持设备上的某些设置才能玩游戏。",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "游戏功能使用默认控制器配置正常工作。",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "使用手持设备控制器无法玩游戏的部分或所有区域。",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "游戏设置可能需要调整才能支持设备本机支持的分辨率。",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "游戏的默认配置支持设备支持的分辨率。",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "输入文本需要手动调用屏幕键盘。",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "对于文本输入，游戏提供屏幕键盘或控制器友好的自定义文本输入方法。",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "某些文本很小，可能难以阅读，或者可能需要更改游戏设置来调整文本大小。",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "默认情况下，关键文本和 UI 元素在设备上不易辨认。",
+      "default#INSTALL_DISABLED_MESSAGE": "暂时无法安装游戏。",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "使用您的移动设备扫描二维码下载游戏。",
+      "default#PLAY_DISABLED_MESSAGE": "暂时无法进行游戏。",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "需要购买才能游玩。",
+      "default#PLAY_DISABLED_UPDATE_BNET": "战网所需更新",
+      "default#PREPURCHASED_MESSAGE": "您已购买该游戏。",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Beta测试服已开放",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "数字奖励",
+      "default#QUICK_LINK_FAVORITE": "添加至偏好",
+      "default#QUICK_LINK_FORUMS": "论坛",
+      "default#QUICK_LINK_HELP_SUPPORT": "获取帮助/支持",
+      "default#QUICK_LINK_LEARN_MORE": "了解详情",
+      "default#QUICK_LINK_MOBILE": "移动游戏",
+      "default#QUICK_LINK_PATCH_NOTES": "补丁说明",
+      "default#QUICK_LINK_SHOP": "商城",
+      "default#QUICK_LINK_SUPPORT": "支持",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "游戏可升级",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "升级到战斗合集",
+      "default#QUICK_LINK_WEBSITE": "游戏官网",
+      "default#RIBBON_TEXT_ALPHA": "Alpha测试",
+      "default#RIBBON_TEXT_BETA": "测试",
+      "default#STARTER_ITEM_BUY_NOW": "立即购买",
+      "default#STARTER_ITEM_INSTALL_LABEL": "安装",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "免费游戏",
+      "default#STARTER_ITEM_PLAY_NOW": "立即体验",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "选购所有版本",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "免费试玩",
+      "default#STARTER_ITEM_WEBSITE": "访问网站",
+      "default#TYPES_ALPHA_NAME": "Alpha测试",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "美术设定集与原声带",
+      "default#TYPES_BETA_NAME": "Beta测试",
+      "default#TYPES_DEV_NAME": "开发",
+      "default#TYPES_EVENT_1_NAME": "活动1",
+      "default#TYPES_EVENT_2_NAME": "活动2",
+      "default#TYPES_EVENT_NAME": "活动",
+      "default#TYPES_LOCALIZATION_1_NAME": "本地化 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "本地化 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "本地化 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "本地化 4",
+      "default#TYPES_RETAIL_NAME": "正式发售",
+      "default#TYPES_SUBMISSION_NAME": "提交",
+      "default#TYPES_TOURNAMENT_NAME": "职业比赛",
+      "default#TYPES_VENDOR_10_NAME": "发行版本10",
+      "default#TYPES_VENDOR_11_NAME": "发行版本11",
+      "default#TYPES_VENDOR_12_NAME": "发行版本12",
+      "default#TYPES_VENDOR_13_NAME": "发行版本13",
+      "default#TYPES_VENDOR_14_NAME": "发行版本14",
+      "default#TYPES_VENDOR_15_NAME": "发行版本15",
+      "default#TYPES_VENDOR_16_NAME": "发行版本16",
+      "default#TYPES_VENDOR_17_NAME": "发行版本17",
+      "default#TYPES_VENDOR_18_NAME": "发行版本18",
+      "default#TYPES_VENDOR_19_NAME": "发行版本19",
+      "default#TYPES_VENDOR_1_NAME": "发行版本1",
+      "default#TYPES_VENDOR_20_NAME": "发行版本20",
+      "default#TYPES_VENDOR_21_NAME": "发行版本21",
+      "default#TYPES_VENDOR_22_NAME": "发行版本22",
+      "default#TYPES_VENDOR_23_NAME": "发行版本23",
+      "default#TYPES_VENDOR_24_NAME": "发行版本24",
+      "default#TYPES_VENDOR_25_NAME": "发行版本25",
+      "default#TYPES_VENDOR_26_NAME": "发行版本26",
+      "default#TYPES_VENDOR_27_NAME": "发行版本27",
+      "default#TYPES_VENDOR_28_NAME": "发行版本28",
+      "default#TYPES_VENDOR_29_NAME": "发行版本29",
+      "default#TYPES_VENDOR_2_NAME": "发行版本2",
+      "default#TYPES_VENDOR_30_NAME": "发行版本30",
+      "default#TYPES_VENDOR_31_NAME": "发行版本31",
+      "default#TYPES_VENDOR_32_NAME": "发行版本32",
+      "default#TYPES_VENDOR_33_NAME": "发行版本33",
+      "default#TYPES_VENDOR_34_NAME": "发行版本34",
+      "default#TYPES_VENDOR_35_NAME": "发行版本35",
+      "default#TYPES_VENDOR_3_NAME": "发行版本3",
+      "default#TYPES_VENDOR_4_NAME": "发行版本4",
+      "default#TYPES_VENDOR_5_NAME": "发行版本5",
+      "default#TYPES_VENDOR_6_NAME": "发行版本6",
+      "default#TYPES_VENDOR_7_NAME": "发行版本7",
+      "default#TYPES_VENDOR_8_NAME": "发行版本8",
+      "default#TYPES_VENDOR_9_NAME": "发行版本9",
+      "default#TYPES_VENDOR_NAME": "发行版本",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "不支持你使用的操作系统。"
+    },
+    "zhTW": {
+      "default#BADGE_TEXT_HH_COMPATIBLE": "{image} 大部分相容",
+      "default#BADGE_TEXT_HH_OPTIMIZED": "{image} 手持裝置最佳化",
+      "default#BADGE_TEXT_HH_UNSUPPORTED": "{image} 不支援",
+      "default#BADGE_TEXT_INCLUDED_WITH": "{image} 內容",
+      "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS": "Xbox Game Pass 內容",
+      "default#CATEGORIES_EVENT_NAME": "活動",
+      "default#CATEGORIES_INDEVELOPMENT_NAME": "開發中",
+      "default#CATEGORIES_LIVE_NAME": "正式版",
+      "default#CATEGORIES_PROFESSIONAL_NAME": "職業賽",
+      "default#CATEGORIES_TOURNAMENT_NAME": "錦標賽",
+      "default#CATEGORIES_UNKNOWN_NAME": "未知",
+      "default#CATEGORIES_VENDOR_NAME": "發行版本",
+      "default#ENVIRONMENTS_CN_NAME": "中國",
+      "default#ENVIRONMENTS_CXX_NAME": "測試伺服器",
+      "default#ENVIRONMENTS_EU_NAME": "歐洲",
+      "default#ENVIRONMENTS_KR_NAME": "亞洲",
+      "default#ENVIRONMENTS_US_NAME": "美洲",
+      "default#ENVIRONMENTS_XX_NAME": "測試伺服器",
+      "default#GAME_PASS_DISCLAIMER": "只要玩家有將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩標準版遊戲。高級版物品需要另行購買。",
+      "default#GENRE_ACTION_ADVENTURE": "動作與冒險",
+      "default#GENRE_ACTION_RPG": "動作角色扮演遊戲",
+      "default#GENRE_ACTION_SHOOTER": "動作射擊類",
+      "default#GENRE_ACTION_STRATEGY": "動作策略遊戲",
+      "default#GENRE_EXTREME_ACTION_SPORTS": "極限動作運動",
+      "default#GENRE_FIRST_PERSON_FANTASY_RPG": "奇幻角色扮演遊戲",
+      "default#GENRE_MMRPG": "大型多人角色扮演遊戲",
+      "default#GENRE_PLATFORMER": "平台",
+      "default#GENRE_REAL_TIME_STRATEGY": "即時戰略",
+      "default#GENRE_STRATEGY_CARD_GAME": "戰略卡牌遊戲",
+      "default#GENRE_TEAM_BASED_ACTION": "團隊取向動作遊戲",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE": "必須修改手持裝置上的某些設定才能遊玩這款遊戲。",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED": "遊戲功能使用預設控制器設定正確運作。",
+      "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED": "遊戲的某些或所有區域無法使用手持裝置控制器進行遊玩。",
+      "default#HH_COMPATIBILITY_DISPLAY_COMPATIBLE": "遊戲設定可能需要調整，以支援裝置原生支援的解析度。",
+      "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED": "遊戲的預設設定支援裝置所支援的解析度。",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE": "輸入文字需要手動叫用螢幕小鍵盤。",
+      "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED": "針對文字輸入，遊戲提供螢幕小鍵盤或控制器友善的自訂文字輸入方法。",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE": "部分文字過小，可能難以閱讀，或可能需要變更遊戲設定以調整文字大小。",
+      "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED": "關鍵文字和 UI 元素在裝置上預設為清晰。",
+      "default#INSTALL_DISABLED_MESSAGE": "還不能安裝此遊戲。",
+      "default#MOBILE_QR_CODE_DOWNLOAD": "使用行動裝置掃描 QR 碼以下載遊戲。",
+      "default#PLAY_DISABLED_MESSAGE": "還無法執行這個遊戲。",
+      "default#PLAY_DISABLED_MESSAGE_PURCHASE": "需要購買遊戲才可遊玩。",
+      "default#PLAY_DISABLED_UPDATE_BNET": "Battle.net 需要更新",
+      "default#PREPURCHASED_MESSAGE": "你已購買此遊戲。",
+      "default#QUICK_LINK_AVAILABLE_BETA": "Beta 測試已正式推出",
+      "default#QUICK_LINK_DIGITAL_BONUSES": "數位特典",
+      "default#QUICK_LINK_FAVORITE": "加入至最愛",
+      "default#QUICK_LINK_FORUMS": "討論區",
+      "default#QUICK_LINK_HELP_SUPPORT": "獲得幫助/支援",
+      "default#QUICK_LINK_LEARN_MORE": "瞭解詳情",
+      "default#QUICK_LINK_MOBILE": "行動裝置遊戲",
+      "default#QUICK_LINK_PATCH_NOTES": "更新說明",
+      "default#QUICK_LINK_SHOP": "商店",
+      "default#QUICK_LINK_SUPPORT": "支援",
+      "default#QUICK_LINK_UPGRADE_AVAILABLE": "遊戲版本可升級",
+      "default#QUICK_LINK_UPGRADE_BATTLE_CHEST": "升級至戰鬥合輯",
+      "default#QUICK_LINK_WEBSITE": "網站",
+      "default#RIBBON_TEXT_ALPHA": "Alpha測試",
+      "default#RIBBON_TEXT_BETA": "Beta 測試",
+      "default#RIBBON_TEXT_DEV": "開發版本",
+      "default#STARTER_ITEM_BUY_NOW": "立即購買",
+      "default#STARTER_ITEM_INSTALL_LABEL": "安裝",
+      "default#STARTER_ITEM_PLAY_FOR_FREE": "免費暢玩",
+      "default#STARTER_ITEM_PLAY_NOW": "開始遊戲",
+      "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "購買所有版本",
+      "default#STARTER_ITEM_TRY_FOR_FREE": "免費試玩",
+      "default#STARTER_ITEM_WEBSITE": "造訪網站",
+      "default#TYPES_ALPHA_NAME": "Alpha測試",
+      "default#TYPES_ARTBOOK_AND_SOUNDTRACK_NAME": "美術設定集與原聲帶",
+      "default#TYPES_BETA_NAME": "Beta 測試",
+      "default#TYPES_DEV_NAME": "開發版本",
+      "default#TYPES_EVENT_1_NAME": "活動1",
+      "default#TYPES_EVENT_2_NAME": "活動2",
+      "default#TYPES_EVENT_NAME": "活動",
+      "default#TYPES_LOCALIZATION_1_NAME": "在地化 1",
+      "default#TYPES_LOCALIZATION_2_NAME": "在地化 2",
+      "default#TYPES_LOCALIZATION_3_NAME": "在地化 3",
+      "default#TYPES_LOCALIZATION_4_NAME": "在地化 4",
+      "default#TYPES_RETAIL_NAME": "已發售",
+      "default#TYPES_SUBMISSION_NAME": "提交",
+      "default#TYPES_TOURNAMENT_NAME": "錦標賽",
+      "default#TYPES_VENDOR_10_NAME": "供應商10",
+      "default#TYPES_VENDOR_11_NAME": "供應商11",
+      "default#TYPES_VENDOR_12_NAME": "供應商12",
+      "default#TYPES_VENDOR_13_NAME": "供應商13",
+      "default#TYPES_VENDOR_14_NAME": "供應商14",
+      "default#TYPES_VENDOR_15_NAME": "供應商15",
+      "default#TYPES_VENDOR_16_NAME": "供應商16",
+      "default#TYPES_VENDOR_17_NAME": "供應商17",
+      "default#TYPES_VENDOR_18_NAME": "供應商18",
+      "default#TYPES_VENDOR_19_NAME": "供應商19",
+      "default#TYPES_VENDOR_1_NAME": "供應商1",
+      "default#TYPES_VENDOR_20_NAME": "供應商20",
+      "default#TYPES_VENDOR_21_NAME": "供應商21",
+      "default#TYPES_VENDOR_22_NAME": "供應商22",
+      "default#TYPES_VENDOR_23_NAME": "供應商23",
+      "default#TYPES_VENDOR_24_NAME": "供應商24",
+      "default#TYPES_VENDOR_25_NAME": "供應商25",
+      "default#TYPES_VENDOR_26_NAME": "供應商26",
+      "default#TYPES_VENDOR_27_NAME": "供應商27",
+      "default#TYPES_VENDOR_28_NAME": "供應商28",
+      "default#TYPES_VENDOR_29_NAME": "供應商29",
+      "default#TYPES_VENDOR_2_NAME": "供應商2",
+      "default#TYPES_VENDOR_30_NAME": "供應商30",
+      "default#TYPES_VENDOR_31_NAME": "供應商31",
+      "default#TYPES_VENDOR_32_NAME": "供應商32",
+      "default#TYPES_VENDOR_33_NAME": "供應商33",
+      "default#TYPES_VENDOR_34_NAME": "供應商34",
+      "default#TYPES_VENDOR_35_NAME": "供應商35",
+      "default#TYPES_VENDOR_3_NAME": "供應商3",
+      "default#TYPES_VENDOR_4_NAME": "供應商4",
+      "default#TYPES_VENDOR_5_NAME": "供應商5",
+      "default#TYPES_VENDOR_6_NAME": "供應商6",
+      "default#TYPES_VENDOR_7_NAME": "供應商7",
+      "default#TYPES_VENDOR_8_NAME": "供應商8",
+      "default#TYPES_VENDOR_9_NAME": "供應商9",
+      "default#TYPES_VENDOR_NAME": "發行版本",
+      "default#UNSUPPORTED_OS_DISABLED_MESSAGE": "不支援你使用的作業系統。"
+    }
+  },
+  "types": {
+    "definitions": [
+      {"category": "cat_unknown", "id": "", "product_defaults": {"name_style": "default"}},
+      {
+        "category": "cat_in_development",
+        "id": "dev",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 1,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "alpha",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 10,
+          "ribbon_text": "default#RIBBON_TEXT_ALPHA",
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_ALPHA_NAME"
+        }
+      },
+      {
+        "category": "cat_live",
+        "id": "artbook",
+        "product_defaults": {"name_style": "default", "rank": 2, "type_name": "default#TYPES_RETAIL_NAME"}
+      },
+      {
+        "category": "cat_in_development",
+        "id": "artbook_dev",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 3,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "rc",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 4,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "rc_2",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 5,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "artbook_rc",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 6,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_DEV_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "beta",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 20,
+          "ribbon_text": "default#RIBBON_TEXT_BETA",
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_BETA_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "ptr",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 30,
+          "ribbon_text": "default#RIBBON_TEXT_PTR",
+          "type_name": "default#TYPES_PTR_NAME"
+        }
+      },
+      {
+        "category": "cat_event",
+        "id": "event",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 1, "type_name": "default#TYPES_EVENT_NAME"}
+      },
+      {
+        "category": "cat_event",
+        "id": "event_2",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 1, "type_name": "default#TYPES_EVENT_2_NAME"}
+      },
+      {
+        "category": "cat_professional",
+        "id": "tournament",
+        "product_defaults": {"name_style": "type_name_suffix", "type_name": "default#TYPES_TOURNAMENT_NAME"}
+      },
+      {
+        "category": "cat_live",
+        "id": "retail",
+        "product_defaults": {"name_style": "default", "type_name": "default#TYPES_RETAIL_NAME"}
+      },
+      {
+        "category": "cat_live",
+        "id": "demo",
+        "product_defaults": {"name_style": "default", "type_name": "default#TYPES_RETAIL_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 0, "type_name": "default#TYPES_VENDOR_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_1",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 1, "type_name": "default#TYPES_VENDOR_1_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_2",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 2, "type_name": "default#TYPES_VENDOR_2_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_3",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 3, "type_name": "default#TYPES_VENDOR_3_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_4",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 4, "type_name": "default#TYPES_VENDOR_4_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_5",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 5, "type_name": "default#TYPES_VENDOR_5_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_6",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 6, "type_name": "default#TYPES_VENDOR_6_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_7",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 7, "type_name": "default#TYPES_VENDOR_7_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_8",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 8, "type_name": "default#TYPES_VENDOR_8_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_9",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 9, "type_name": "default#TYPES_VENDOR_9_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_10",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 10, "type_name": "default#TYPES_VENDOR_10_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_11",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 11, "type_name": "default#TYPES_VENDOR_11_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_12",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 12, "type_name": "default#TYPES_VENDOR_12_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_13",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 13, "type_name": "default#TYPES_VENDOR_13_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_14",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 14, "type_name": "default#TYPES_VENDOR_14_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_15",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 15, "type_name": "default#TYPES_VENDOR_15_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_16",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 16, "type_name": "default#TYPES_VENDOR_16_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_17",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 17, "type_name": "default#TYPES_VENDOR_17_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_18",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 18, "type_name": "default#TYPES_VENDOR_18_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_19",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 19, "type_name": "default#TYPES_VENDOR_19_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_20",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 20, "type_name": "default#TYPES_VENDOR_20_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_21",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 21, "type_name": "default#TYPES_VENDOR_21_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_22",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 22, "type_name": "default#TYPES_VENDOR_22_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_23",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 23, "type_name": "default#TYPES_VENDOR_23_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_24",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 24, "type_name": "default#TYPES_VENDOR_24_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_25",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 25, "type_name": "default#TYPES_VENDOR_25_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_26",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 26, "type_name": "default#TYPES_VENDOR_26_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_27",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 27, "type_name": "default#TYPES_VENDOR_27_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_28",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 28, "type_name": "default#TYPES_VENDOR_28_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_29",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 29, "type_name": "default#TYPES_VENDOR_29_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_30",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 30, "type_name": "default#TYPES_VENDOR_30_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_31",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 31, "type_name": "default#TYPES_VENDOR_31_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_32",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 32, "type_name": "default#TYPES_VENDOR_32_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_33",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 33, "type_name": "default#TYPES_VENDOR_33_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_34",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 34, "type_name": "default#TYPES_VENDOR_34_NAME"}
+      },
+      {
+        "category": "cat_vendor",
+        "id": "vendor_35",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 35, "type_name": "default#TYPES_VENDOR_35_NAME"}
+      }
+    ]
+  },
+  "vars": {
+    "Client.AccountHintRequiredProgramIds": "ANBS,GRY",
+    "Client.Browser.LoadSequenceStatsBrowserNameRegex": "^(content_browser|shop|home_page_content|alt_content|web_window)(.*)",
+    "Client.DisableLoginCredentialUIRegionList": "CN",
+    "Client.PromotedScreenVersion": "3",
+    "Client.Shop.SaleNotificationEnabled": "false",
+    "Client.Shop.SaleNotificationVersion": "6",
+    "Client.TakeoverDisplayCooldownMS": "9295",
+    "Client.Version.BetaAccessOverride": "enabled",
+    "Client.Version.BetaBranchOverride": "beta",
+    "Client.WelcomeArticle.ArticleId": "lb-blt836df63107fb9281",
+    "Client.WelcomeArticle.CurrentSequenceId": "1",
+    "Services.Account.WoWClassicAccountEnabledV2": "true",
+    "Services.Account.WoWClassicAccountRegions": "US,EU,KR,CN,TW",
+    "Services.Account.WoWClassicLicense": "-1",
+    "Services.Account.WoWClassicProductType": "wow_classic",
+    "Services.Account.WoWClassicSupported": "true",
+    "Services.Catalog.UpdateInterval": "1200000",
+    "Services.Channels.PublicChannelHost": "https://distribution.version.battle.net",
+    "Services.Channels.PublicPollInterval": "1200000",
+    "Services.GameTimePollIntervalNoSubscriptionInSeconds": "7200"
+  },
+  "version": 30
+}

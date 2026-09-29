@@ -1,0 +1,7 @@
+{
+  "fragment_id": "world_of_warcraft_krtw_alt_content",
+  "products": [
+    {"base": {"alt_content_url": "nydus://client/shop/embedded/product/world-of-warcraft-subscription"}, "id": "WoW"}
+  ],
+  "version": 30
+}

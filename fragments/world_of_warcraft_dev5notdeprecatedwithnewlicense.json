@@ -1,0 +1,5 @@
+{
+  "fragment_id": "world_of_warcraft_dev5notdeprecatedwithnewlicense",
+  "products": [{"base": {"types": {"wow_dev_5": {"deprecated": false}}}, "id": "WoW"}],
+  "version": 30
+}

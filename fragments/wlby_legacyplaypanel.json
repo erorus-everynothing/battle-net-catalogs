@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "wlby_legacyplaypanel#WLBY_BACKGROUND_OLD_PANEL": {
+        "hash": "397f803df6fd43b69ce5327813ee1dbd",
+        "name": "resources/wallaby/background_wallaby_v2.png"
+      }
+    }
+  },
+  "fragment_id": "wlby_legacyplaypanel",
+  "products": [{"base": {"background": "wlby_legacyplaypanel#WLBY_BACKGROUND_OLD_PANEL"}, "id": "WLBY"}],
+  "version": 30
+}

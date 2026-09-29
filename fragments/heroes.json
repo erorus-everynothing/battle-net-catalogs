@@ -1,0 +1,329 @@
+{
+  "files": {
+    "default": {
+      "heroes#HEROES_BACKGROUND": {
+        "hash": "eb4239fb91d77c6587f7d7c1d6a6fa1c",
+        "name": "resources/heroes/background_heroes_new_panel.webp"
+      },
+      "heroes#HEROES_ICON_MASSIVE": {
+        "hash": "36b2eb680951c3a37c5dc3107007a9e9",
+        "name": "resources/heroes/icon_game_heroes_massive.png"
+      },
+      "heroes#HEROES_ICON_MEDIUM": {
+        "hash": "8e2957493ac39a13a4b24c888f969123",
+        "name": "resources/heroes/icon_game_heroes_medium.png"
+      },
+      "heroes#HEROES_ICON_SMALL": {
+        "hash": "214ceeee6383e99b32640cf7fc7a44a8",
+        "name": "resources/heroes/icon_game_heroes_small.png"
+      },
+      "heroes#HEROES_ICON_SVG": {
+        "hash": "981d46bc07ad0a0539d2b082f673dbc7",
+        "name": "resources/heroes/icon_heroes.svg"
+      },
+      "heroes#HEROES_ICON_TINY": {
+        "hash": "3b6cb113a3be20b815fd3cd92afe3e60",
+        "name": "resources/heroes/icon_game_heroes_tiny.png"
+      },
+      "heroes#HEROES_INSTALL_BACKGROUND": {
+        "hash": "e83be72dda20bcc527de8cfb1b0fcc5a",
+        "name": "resources/heroes/install_background_heroes_v2_2x.jpg"
+      },
+      "heroes#HEROES_KEY_ART": {
+        "hash": "8852e1fb1880dfe59291771291bd5d0c",
+        "name": "resources/heroes/key_art_heroes_enUS.jpg"
+      },
+      "heroes#HEROES_LOGO": {"hash": "4232e120405dc5a3c6028b2c5016c0b8", "name": "resources/heroes/logo_heroes_v2.png"}
+    },
+    "zhCN": {
+      "heroes#HEROES_INSTALL_BACKGROUND": {
+        "hash": "eb7d8c5081034fe6d0af249eaf10a41a",
+        "name": "resources/heroes/install_background_heroes_zhCN_v2_2x.jpg"
+      },
+      "heroes#HEROES_KEY_ART": {
+        "hash": "b387a7f1f09e40a8c440c5174e1e83bb",
+        "name": "resources/heroes/key_art_heroes_zhCN.jpg"
+      },
+      "heroes#HEROES_LOGO": {
+        "hash": "967f837fd32128b292dd522e6cc07b77",
+        "name": "resources/heroes/logo_heroes_zhCN_v2.png"
+      }
+    },
+    "zhTW": {
+      "heroes#HEROES_INSTALL_BACKGROUND": {
+        "hash": "8b522aee9b032e40f00dc7fa65e6096c",
+        "name": "resources/heroes/install_background_heroes_zhTW_v2_2x.jpg"
+      },
+      "heroes#HEROES_KEY_ART": {
+        "hash": "8ea88de1ad8bd17b148f9fa1f95f65ee",
+        "name": "resources/heroes/key_art_heroes_zhTW.jpg"
+      },
+      "heroes#HEROES_LOGO": {
+        "hash": "573ab85dc4c6f7a46a736cecccfbb9f3",
+        "name": "resources/heroes/logo_heroes_zhTW_v2.png"
+      }
+    }
+  },
+  "fragment_id": "heroes",
+  "installs": {
+    "heroes": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "run_64_bit_default": true,
+      "tact_product": "hero",
+      "uses_web_credentials": false
+    },
+    "heroes_ptr": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "run_64_bit_default": true,
+      "tact_product": "herot",
+      "uses_web_credentials": false
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "heroes#HEROES_NAME",
+      "icon_16": "heroes#HEROES_ICON_TINY",
+      "icon_275": "heroes#HEROES_ICON_MASSIVE",
+      "icon_32": "heroes#HEROES_ICON_SMALL",
+      "icon_56": "heroes#HEROES_ICON_MEDIUM",
+      "icon_svg": "heroes#HEROES_ICON_SVG",
+      "program_id": "Hero"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/heroes-of-the-storm",
+        "background": "heroes#HEROES_BACKGROUND",
+        "badges": [
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/heroes/alert",
+        "content_id": "heroes-of-the-storm",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_MOBA",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "heroes#HEROES_ICON_MEDIUM",
+        "icon_small": "heroes#HEROES_ICON_SMALL",
+        "icon_svg": "heroes#HEROES_ICON_SVG",
+        "icon_tiny": "heroes#HEROES_ICON_TINY",
+        "install_background": "heroes#HEROES_INSTALL_BACKGROUND",
+        "key_art": "heroes#HEROES_KEY_ART",
+        "locale_support_flag": "text_audio",
+        "logo": "heroes#HEROES_LOGO",
+        "misc_flags": ["play_for_free"],
+        "name": "heroes#HEROES_NAME",
+        "program_id": "Hero",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/heroes-of-the-storm"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"external": true, "target": "external-sso", "type": "url", "url": "nydus://client/forum/Hero"},
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 303
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/heroes"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 304
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [{"CN": "disabled_invisible", "override_type": "region"}]
+        },
+        "starter_items": [
+          {
+            "action": {"type": "install"},
+            "id": "play_for_free",
+            "label": "default#STARTER_ITEM_PLAY_FOR_FREE",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://heroesofthestorm.com/?utm_source=app-battlenetdesktop&utm_content=starter-screen"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "tab_order": 8,
+        "title_id": 1214607983,
+        "types": {
+          "ptr": {
+            "breaking_news_url": "nydus://client/heroes/ptr/alert",
+            "quick_links": [
+              {
+                "action": {"cms_id": "heroes", "cms_type": "PTR", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "region_permission_flags": {
+              "default": "requires_account_visible",
+              "overrides": [{"CN": "disabled_invisible", "override_type": "region"}]
+            },
+            "selector_display_name": "heroes#HEROES_PTR_DISPLAY_NAME",
+            "supported_regions": ["XX"],
+            "uid": "heroes_ptr"
+          },
+          "retail": {
+            "badges": [
+              {
+                "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+                "hidden": true,
+                "id": "game_pass",
+                "image": "default#LOGO_XBOX_GAME_PASS",
+                "label": "default#BADGE_TEXT_INCLUDED_WITH",
+                "rank": 1,
+                "tooltip": "heroes#HEROES_GAME_PASS_DISCLAIMER"
+              }
+            ],
+            "post_launch_actions": ["overlay"],
+            "quick_links": [
+              {
+                "action": {"cms_id": "heroes", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 302
+              }
+            ],
+            "show_region_switch_warning": true,
+            "supported_regions": ["US", "EU", "KR", "CN"],
+            "uid": "heroes",
+            "xbox_uid": "9PBRN7JS4XPC"
+          }
+        }
+      },
+      "id": "Hero"
+    }
+  ],
+  "program_configuration": {
+    "Hero": {
+      "run_each_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "Hero", "type": "retail"}}},
+            {"add_tag": {"name": "play_for_free"}}
+          ],
+          "match": {"game_account": {"program_id": "Hero"}}
+        },
+        {"actions": [{"add_product": {"product_id": {"id": "Hero", "type": "ptr"}}}]}
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "Das Sparpaket: Heldenhafte Verstärkung ist im Xbox Game Pass für aktive Mitglieder mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben.",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Öffentlicher Testrealm (PTR)"
+    },
+    "default": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "The Heroic Reinforcement Bundle is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account.",
+      "heroes#HEROES_NAME": "Heroes of the Storm",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Public Test Realm"
+    },
+    "esES": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "El pack de refuerzo heroico se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox.",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Reino público de pruebas"
+    },
+    "esMX": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "El Paquete heroico Refuerzos se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox.",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Reino público de pruebas"
+    },
+    "frFR": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "Le pack Renforts héroïques est inclus dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox.",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Royaume public de test"
+    },
+    "itIT": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "Il Pacchetto Rinforzi Eroici è incluso in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox.",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Reame pubblico di prova"
+    },
+    "jaJP": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、「Heroic Reinforcement Bundle」をXbox Game Passでお楽しみいただけます。",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "パブリックテストサーバー"
+    },
+    "koKR": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "지원군 묶음 상품은 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다.",
+      "heroes#HEROES_NAME": "히어로즈 오브 더 스톰",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "공개 테스트 서버"
+    },
+    "plPL": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "Zestaw: Heroiczne posiłki jest dostępny w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox.",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Publiczny Serwer Testowy"
+    },
+    "ptBR": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "O Pacote Reforço Heroico está incluso no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox.",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Reino de Teste Público"
+    },
+    "ruRU": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "Комплект «Героическое подкрепление» доступен активным пользователям Xbox Game Pass с действующей подпиской, связавшим Battle.net с учетной записью сети Xbox.",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "Тестовый игровой мир (PTR)"
+    },
+    "thTH": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "บันเดิล Heroic Reinforcement จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "เซิร์ฟเวอร์ทดสอบสาธารณะ (PTR)"
+    },
+    "zhCN": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费开启英雄增援包。",
+      "heroes#HEROES_NAME": "风暴英雄",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "公共测试服"
+    },
+    "zhTW": {
+      "heroes#HEROES_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 取得英雄援軍組合包。",
+      "heroes#HEROES_NAME": "《暴雪英霸》",
+      "heroes#HEROES_PTR_DISPLAY_NAME": "測試伺服器"
+    }
+  },
+  "version": 30
+}

@@ -1,0 +1,25 @@
+{
+  "files": {},
+  "fragment_id": "fenris_cnupgradequicklink",
+  "products": [
+    {
+      "base": {
+        "quick_links": [
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/diablo-iv-lord-of-hatred"},
+            "icon": "default#QUICK_LINK_ICON_UPGRADE",
+            "id": "upgrade_now_cn",
+            "label": "fenris_cnupgradequicklink#FENRIS_QUICK_LINK_UPGRADE_NOW_CN",
+            "rank": 307
+          }
+        ]
+      },
+      "id": "Fen"
+    }
+  ],
+  "strings": {
+    "default": {"fenris_cnupgradequicklink#FENRIS_QUICK_LINK_UPGRADE_NOW_CN": "购买《暗黑破坏神® IV》商品"},
+    "zhCN": {"fenris_cnupgradequicklink#FENRIS_QUICK_LINK_UPGRADE_NOW_CN": "购买《暗黑破坏神® IV》商品"}
+  },
+  "version": 30
+}

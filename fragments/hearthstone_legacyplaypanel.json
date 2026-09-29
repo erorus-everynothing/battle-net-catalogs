@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "hearthstone_legacyplaypanel#HS_BACKGROUND_OLD_PANEL": {
+        "hash": "77ab59ab258ee83ae4abf4530c2a8fdb",
+        "name": "resources/hearthstone/background_hearthstone_v2.png"
+      }
+    }
+  },
+  "fragment_id": "hearthstone_legacyplaypanel",
+  "products": [{"base": {"background": "hearthstone_legacyplaypanel#HS_BACKGROUND_OLD_PANEL"}, "id": "WTCG"}],
+  "version": 30
+}

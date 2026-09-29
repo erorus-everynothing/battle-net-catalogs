@@ -1,0 +1,5 @@
+{
+  "fragment_id": "auks_live_alpha_deprecationoverride",
+  "products": [{"base": {"types": {"alpha": {"deprecated": false}}}, "id": "AUKS"}],
+  "version": 30
+}

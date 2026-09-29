@@ -1,0 +1,5 @@
+{
+  "fragment_id": "nina_removemwiibuylink",
+  "products": [{"base": {"types": {"retail": {"quick_links": [{"hidden": true, "id": "buy_mwii"}]}}}, "id": "NINA"}],
+  "version": 30
+}

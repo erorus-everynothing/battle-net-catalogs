@@ -1,0 +1,49 @@
+{
+  "files": {},
+  "fragment_id": "gryphon_limitedinfo",
+  "products": [
+    {
+      "base": {
+        "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
+        "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
+        "quick_links": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.blizzard.com/article/000310785?blzcmp=app"
+            },
+            "icon": "default#QUICK_LINK_ICON_INFO",
+            "id": "support",
+            "label": "default#QUICK_LINK_HELP_SUPPORT",
+            "rank": 302
+          },
+          {"hidden": true, "id": "shop"},
+          {"hidden": true, "id": "play_on_mobile"}
+        ],
+        "starter_items": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.blizzard.com/article/000310785?blzcmp=app"
+            },
+            "id": "learn_more",
+            "label": "default#QUICK_LINK_LEARN_MORE",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {"hidden": true, "id": "play_for_free", "type": "button"},
+          {"hidden": true, "id": "play_on_mobile", "type": "qr_code"}
+        ],
+        "supported_platforms": ["win"]
+      },
+      "id": "GRY"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

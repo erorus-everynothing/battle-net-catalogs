@@ -1,0 +1,58 @@
+{
+  "fragment_id": "world_of_warcraft_wow_forever_beta_cn",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "wow_cn_beta": {
+            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
+            "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
+            "prepurchased_message": "default#PREPURCHASED_MESSAGE",
+            "prerelease_license_id": 1190895,
+            "release_date_message": "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN"
+          }
+        }
+      },
+      "id": "WoW"
+    }
+  ],
+  "strings": {
+    "deDE": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta ab 6. Oktober 2026"
+    },
+    "default": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta available October 6, 2026"
+    },
+    "esES": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta disponible el 6 de octubre de 2026"
+    },
+    "esMX": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta disponible el 6 de octubre de 2026"
+    },
+    "frFR": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Bêta disponible le 6 octobre 2026"
+    },
+    "itIT": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta disponibile dal 6 ottobre 2026"
+    },
+    "jaJP": {"world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "ベータは2026年10月6日開始"},
+    "koKR": {"world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "2026년 10월 6일 베타 출시"},
+    "plPL": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta dostępna od 6 października 2026"
+    },
+    "ptBR": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta disponível em 6 de outubro de 2026"
+    },
+    "ruRU": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Бета-тестирование с 6 октября 2026 г."
+    },
+    "thTH": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "เบต้าเปิดให้เล่นวันที่ 6 ต.ค. (ตามเวลาประเทศไทย)"
+    },
+    "zhCN": {"world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta测试将于2026年10月6日开放"},
+    "zhTW": {
+      "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN": "Beta 測試將於 2026 年 10 月 6 日開放"
+    }
+  },
+  "version": 30
+}

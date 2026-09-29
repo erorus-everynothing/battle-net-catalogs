@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "starcraft_ii_legacyplaypanel#S2_BACKGROUND_OLD_PANEL": {
+        "hash": "065d176a8001e2e2b95aa7feb43cbfb2",
+        "name": "resources/starcraft2/background_sc2_v2.png"
+      }
+    }
+  },
+  "fragment_id": "starcraft_ii_legacyplaypanel",
+  "products": [{"base": {"background": "starcraft_ii_legacyplaypanel#S2_BACKGROUND_OLD_PANEL"}, "id": "S2"}],
+  "version": 30
+}

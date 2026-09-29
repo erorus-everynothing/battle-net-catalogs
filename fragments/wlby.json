@@ -1,0 +1,377 @@
+{
+  "files": {
+    "default": {
+      "wlby#WLBY_BACKGROUND": {
+        "hash": "5412269ba63401ad7be03b83670129ec",
+        "name": "resources/wallaby/background_wallaby_new_panel.webp"
+      },
+      "wlby#WLBY_ICON_MASSIVE": {
+        "hash": "3e131f3967f5f0a283d80083f043432b",
+        "name": "resources/wallaby/icon_game_wallaby_massive.png"
+      },
+      "wlby#WLBY_ICON_MEDIUM": {
+        "hash": "06557596f06731a93a96fe0c95b9d147",
+        "name": "resources/wallaby/icon_game_wallaby_medium.png"
+      },
+      "wlby#WLBY_ICON_SMALL": {
+        "hash": "5de41fb0dcdc55abf9b543d8aefe6f13",
+        "name": "resources/wallaby/icon_game_wallaby_small.png"
+      },
+      "wlby#WLBY_ICON_SVG": {"hash": "524bd1764b81b4f4e7ac777b82592202", "name": "resources/wallaby/icon_wallaby.svg"},
+      "wlby#WLBY_ICON_TINY": {
+        "hash": "1d34d42cf8826b750bf468b0a747abf0",
+        "name": "resources/wallaby/icon_game_wallaby_tiny.png"
+      },
+      "wlby#WLBY_INSTALL_BACKGROUND": {
+        "hash": "c4f2220d8fc15d4f06b52560612474b3",
+        "name": "resources/wallaby/install_background_wallaby_v2_2x.jpg"
+      },
+      "wlby#WLBY_KEY_ART": {
+        "hash": "fcd91b99b67842cb74465b16d4c4bef0",
+        "name": "resources/wallaby/key_art_wallaby.jpg"
+      },
+      "wlby#WLBY_LOGO": {"hash": "c5937aa8f1615bb528492e237ceddd97", "name": "resources/wallaby/logo_wallaby_v2.png"}
+    },
+    "jaJP": {
+      "wlby#WLBY_INSTALL_BACKGROUND": {
+        "hash": "dde52e73628a773ea8f5f1ad8253ff67",
+        "name": "resources/wallaby/install_background_wallaby_jaJP_v2_2x.jpg"
+      },
+      "wlby#WLBY_KEY_ART": {
+        "hash": "2a5e1b7aeeed87c52ea1cc945f5b4963",
+        "name": "resources/wallaby/key_art_wallaby_jaJP.jpg"
+      },
+      "wlby#WLBY_LOGO": {
+        "hash": "61032aa49c23d24b96bbd185365a04ca",
+        "name": "resources/wallaby/logo_wallaby_jaJP_v2.png"
+      }
+    },
+    "plPL": {
+      "wlby#WLBY_INSTALL_BACKGROUND": {
+        "hash": "b35ee96610f9915a527364528831edd3",
+        "name": "resources/wallaby/install_background_wallaby_plPL_v2_2x.jpg"
+      },
+      "wlby#WLBY_KEY_ART": {
+        "hash": "2f7123dd9c0526c50e40e8b6711246bb",
+        "name": "resources/wallaby/key_art_wallaby_plPL.jpg"
+      },
+      "wlby#WLBY_LOGO": {
+        "hash": "f52e53d9a4236cff571ab0e547ec5ccb",
+        "name": "resources/wallaby/logo_wallaby_plPL_v2.png"
+      }
+    },
+    "ruRU": {
+      "wlby#WLBY_INSTALL_BACKGROUND": {
+        "hash": "027bfafd30a51978c6d4bdb8d542517f",
+        "name": "resources/wallaby/install_background_wallaby_ruRU_v2_2x.jpg"
+      },
+      "wlby#WLBY_KEY_ART": {
+        "hash": "5f84f12faa7ee10a877360801ba5afd7",
+        "name": "resources/wallaby/key_art_wallaby_ruRU.jpg"
+      },
+      "wlby#WLBY_LOGO": {
+        "hash": "80450d1a72246c338b359affa05e81bb",
+        "name": "resources/wallaby/logo_wallaby_ruRU_v2.png"
+      }
+    }
+  },
+  "fragment_id": "wlby",
+  "installs": {
+    "wlby": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "requires_sso_token": true,
+      "tact_product": "wlby"
+    },
+    "wlby_dev": {"deprecated": true, "requires_sso_token": true, "tact_product": "wlbydev"},
+    "wlby_vendor_1": {"requires_sso_token": true, "tact_product": "wlbyv1"},
+    "wlby_vendor_2": {"requires_sso_token": true, "tact_product": "wlbyv2"},
+    "wlby_vendor_3": {"requires_sso_token": true, "tact_product": "wlbyv3"},
+    "wlby_vendor_4": {"requires_sso_token": true, "tact_product": "wlbyv4"},
+    "wlby_vendor_5": {"requires_sso_token": true, "tact_product": "wlbyv5"},
+    "wlby_vendor_6": {"requires_sso_token": true, "tact_product": "wlbyv6"}
+  },
+  "presence_resources": [
+    {
+      "display_name": "wlby#WLBY_NAME",
+      "icon_16": "wlby#WLBY_ICON_TINY",
+      "icon_275": "wlby#WLBY_ICON_MASSIVE",
+      "icon_32": "wlby#WLBY_ICON_SMALL",
+      "icon_56": "wlby#WLBY_ICON_MEDIUM",
+      "icon_svg": "wlby#WLBY_ICON_SVG",
+      "program_id": "WLBY"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/crash-bandicoot-4",
+        "background": "wlby#WLBY_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+            "hidden": true,
+            "id": "game_pass",
+            "image": "default#LOGO_XBOX_GAME_PASS",
+            "label": "default#BADGE_TEXT_INCLUDED_WITH",
+            "rank": 1,
+            "tooltip": "wlby#WLBY_GAME_PASS_DISCLAIMER"
+          },
+          {
+            "description": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "hidden": false,
+            "id": "hh_optimized",
+            "image": "default#LOGO_HH_OPTIMIZED",
+            "label": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/crash4/alert",
+        "content_id": "crash-bandicoot-4",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_PLATFORMER",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_optimized"],
+        "icon_medium": "wlby#WLBY_ICON_MEDIUM",
+        "icon_small": "wlby#WLBY_ICON_SMALL",
+        "icon_svg": "wlby#WLBY_ICON_SVG",
+        "icon_tiny": "wlby#WLBY_ICON_TINY",
+        "install_background": "wlby#WLBY_INSTALL_BACKGROUND",
+        "is_activision_game": true,
+        "key_art": "wlby#WLBY_KEY_ART",
+        "logo": "wlby#WLBY_LOGO",
+        "name": "wlby#WLBY_NAME",
+        "program_id": "WLBY",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/crash-bandicoot-4"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://support.activision.com"},
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 302
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [
+            {"KOR": "disabled_invisible", "override_type": "country"},
+            {"CN": "disabled_invisible", "override_type": "region"}
+          ]
+        },
+        "short_name": "wlby#WLBY_NAME_SHORT",
+        "starter_items": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://www.crashbandicoot.com/?utm_source=app-battlenetdesktop&utm_content=starter-screen"
+            },
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": true,
+        "supported_platforms": ["win"],
+        "supported_regions": ["US", "EU", "KR"],
+        "supports_starter_mode": false,
+        "tab_order": 35,
+        "title_id": 1464615513,
+        "types": {
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "region_permission_flags": {
+              "default": "requires_account_visible",
+              "overrides": [{"CN": "disabled_invisible", "override_type": "region"}]
+            },
+            "supports_starter_mode": true,
+            "uid": "wlby",
+            "xbox_uid": "9NMW7RJ8FP94"
+          },
+          "vendor_1": {
+            "name": "wlby#WLBY_NAME_SHORT",
+            "region_permission_flags": {"default": "requires_account"},
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "wlby_vendor_1"
+          },
+          "vendor_2": {
+            "name": "wlby#WLBY_NAME_SHORT",
+            "region_permission_flags": {"default": "requires_account"},
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "wlby_vendor_2"
+          },
+          "vendor_3": {
+            "name": "wlby#WLBY_NAME_SHORT",
+            "region_permission_flags": {"default": "requires_account"},
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "wlby_vendor_3"
+          },
+          "vendor_4": {
+            "name": "wlby#WLBY_NAME_SHORT",
+            "region_permission_flags": {"default": "requires_account"},
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "wlby_vendor_4"
+          },
+          "vendor_5": {
+            "name": "wlby#WLBY_NAME_SHORT",
+            "region_permission_flags": {"default": "requires_account"},
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "wlby_vendor_5"
+          },
+          "vendor_6": {
+            "name": "wlby#WLBY_NAME_SHORT",
+            "region_permission_flags": {"default": "requires_account"},
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "wlby_vendor_6"
+          },
+          "wlby_dev": {
+            "auto_favorite_on_grant": true,
+            "deprecated": true,
+            "name": "wlby#WLBY_NAME_SHORT",
+            "region_permission_flags": {
+              "default": "requires_account_visible",
+              "overrides": [{"CN": "disabled_invisible", "override_type": "region"}]
+            },
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "uid": "wlby_dev"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "WLBY"
+    }
+  ],
+  "program_configuration": {
+    "WLBY": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WLBY", "type": "retail"}}}],
+          "match": {"license_id": [107572]}
+        },
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "WLBY", "type": "wlby_dev"}}},
+            {"add_product": {"product_id": {"id": "WLBY", "type": "vendor_1"}}},
+            {"add_product": {"product_id": {"id": "WLBY", "type": "vendor_2"}}},
+            {"add_product": {"product_id": {"id": "WLBY", "type": "vendor_3"}}},
+            {"add_product": {"product_id": {"id": "WLBY", "type": "vendor_4"}}},
+            {"add_product": {"product_id": {"id": "WLBY", "type": "vendor_5"}}},
+            {"add_product": {"product_id": {"id": "WLBY", "type": "vendor_6"}}}
+          ],
+          "match": {"license_id": 107570}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WLBY", "type": "wlby_dev"}}}],
+          "match": {"license_id": 107571}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WLBY", "type": "vendor_1"}}}],
+          "match": {"license_id": 107573}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WLBY", "type": "vendor_2"}}}],
+          "match": {"license_id": 107574}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WLBY", "type": "vendor_3"}}}],
+          "match": {"license_id": 107575}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WLBY", "type": "vendor_4"}}}],
+          "match": {"license_id": 107576}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WLBY", "type": "vendor_5"}}}],
+          "match": {"license_id": 107577}
+        },
+        {
+          "actions": [{"add_product": {"product_id": {"id": "WLBY", "type": "vendor_6"}}}],
+          "match": {"license_id": 107578}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It's About Time ist im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben."
+    },
+    "default": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It’s About Time is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account.",
+      "wlby#WLBY_NAME": "Crash Bandicoot 4: It's About Time",
+      "wlby#WLBY_NAME_SHORT": "Crash Bandicoot 4"
+    },
+    "esES": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It's About Time se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox."
+    },
+    "esMX": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It's About Time se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox."
+    },
+    "frFR": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It’s About Time est inclus dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox."
+    },
+    "itIT": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It's About Time è incluso in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox."
+    },
+    "jaJP": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、「クラッシュ・バンディクー4 とんでもマルチバース」をXbox Game Passでお楽しみいただけます。",
+      "wlby#WLBY_NAME": "クラッシュ・バンディクー4:とんでもマルチバース"
+    },
+    "koKR": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It's About Time은 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다."
+    },
+    "plPL": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It’s About Time jest dostępny w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox.",
+      "wlby#WLBY_NAME": "Crash Bandicoot 4: Najwyższy Czas"
+    },
+    "ptBR": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It’s About Time está incluso no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox."
+    },
+    "ruRU": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Игра «Crash Bandicoot 4: Это вопрос времени» доступна активным пользователям Xbox Game Pass с действующей подпиской, связавшим Battle.net с учетной записью сети Xbox.",
+      "wlby#WLBY_NAME": "Crash Bandicoot 4: Это вопрос времени"
+    },
+    "thTH": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "Crash Bandicoot 4: It's About Time จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox"
+    },
+    "zhCN": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩《Crash Bandicoot 4: It’s About Time》。"
+    },
+    "zhTW": {
+      "wlby#WLBY_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩《Crash Bandicoot 4: It's About Time》。"
+    }
+  },
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_event",
+        "id": "wlby_dev",
+        "product_defaults": {"name_style": "type_name_suffix", "rank": 1, "type_name": "default#TYPES_EVENT_NAME"}
+      }
+    ]
+  },
+  "version": 30
+}

@@ -1,0 +1,5 @@
+{
+  "fragment_id": "world_of_warcraft_hide_home_viewer",
+  "products": [{"base": {"types": {"retail": {"quick_links": [{"hidden": true, "id": "web_window"}]}}}, "id": "WoW"}],
+  "version": 30
+}

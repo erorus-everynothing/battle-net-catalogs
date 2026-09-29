@@ -1,0 +1,6 @@
+{
+  "fragment_id": "aris_clientversionplaydisabled",
+  "products": [{"base": {"play_disabled_message": "default#PLAY_DISABLED_UPDATE_BNET"}, "id": "ARIS"}],
+  "strings": {},
+  "version": 30
+}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "gryphon_legacyplaypanel#GRYPHON_BACKGROUND_OLD_PANEL": {
+        "hash": "edbf1f95d3f975523ebc84ae297ae90a",
+        "name": "resources/gryphon/background_gryphon.png"
+      }
+    }
+  },
+  "fragment_id": "gryphon_legacyplaypanel",
+  "products": [{"base": {"background": "gryphon_legacyplaypanel#GRYPHON_BACKGROUND_OLD_PANEL"}, "id": "GRY"}],
+  "version": 30
+}

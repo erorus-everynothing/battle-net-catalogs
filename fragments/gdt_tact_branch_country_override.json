@@ -1,0 +1,5 @@
+{
+  "fragment_id": "gdt_tact_branch_country_override",
+  "installs": {"gdt_retail_dev_2": {"tact_branch": "beta", "tact_product": "gdt-retail-dev-2"}},
+  "version": 30
+}

@@ -1,0 +1,13 @@
+{
+  "fragment_id": "auks_disablemac",
+  "products": [
+    {
+      "base": {
+        "quick_links": [{"hidden": true, "id": "buy_mwiii"}, {"hidden": true, "id": "buy_bo6"}],
+        "supported_platforms": ["mobile"]
+      },
+      "id": "AUKS"
+    }
+  ],
+  "version": 30
+}

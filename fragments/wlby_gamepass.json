@@ -1,0 +1,33 @@
+{
+  "fragment_id": "wlby_gamepass",
+  "products": [
+    {
+      "base": {
+        "badges": [{"hidden": false, "id": "game_pass"}],
+        "misc_flags": ["xbox_app_enabled", "game_pass_pc", "game_pass_ultimate"],
+        "starter_items": [
+          {"hidden": true, "id": "website", "type": "button"},
+          {
+            "action": {"type": "install"},
+            "id": "gp_install",
+            "label": "default#STARTER_ITEM_INSTALL_LABEL",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/crash-bandicoot-4"},
+            "id": "buy_now",
+            "label": "default#STARTER_ITEM_BUY_NOW",
+            "rank": 2,
+            "style": "secondary",
+            "type": "button"
+          }
+        ]
+      },
+      "id": "WLBY"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

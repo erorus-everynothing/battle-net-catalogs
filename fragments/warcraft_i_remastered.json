@@ -1,0 +1,276 @@
+{
+  "files": {
+    "default": {
+      "warcraft_i_remastered#W1R_BACKGROUND": {
+        "hash": "3adc0f5d6c6f1a46273b047315017792",
+        "name": "resources/w1r/background_w1r_new_panel.webp"
+      },
+      "warcraft_i_remastered#W1R_ICON_MASSIVE": {
+        "hash": "2b87b30510c08735b5cd1915deb28a7f",
+        "name": "resources/w1r/icon_game_w1r_massive.png"
+      },
+      "warcraft_i_remastered#W1R_ICON_MEDIUM": {
+        "hash": "cca0eda7b54237db11bd5f35ece9365c",
+        "name": "resources/w1r/icon_game_w1r_medium.png"
+      },
+      "warcraft_i_remastered#W1R_ICON_SMALL": {
+        "hash": "cd58327de74db0117afd2d9c02f89cb0",
+        "name": "resources/w1r/icon_game_w1r_small.png"
+      },
+      "warcraft_i_remastered#W1R_ICON_SVG": {
+        "hash": "6f86028658e7f59920966aba47374c03",
+        "name": "resources/w1r/icon_w1r.svg"
+      },
+      "warcraft_i_remastered#W1R_ICON_TINY": {
+        "hash": "13f5dba7106961ff79714bbc8514bc9e",
+        "name": "resources/w1r/icon_game_w1r_tiny.png"
+      },
+      "warcraft_i_remastered#W1R_INSTALL_BACKGROUND": {
+        "hash": "4efaa28fad3a63e6f342bafc14662218",
+        "name": "resources/w1r/install_background_w1r_enUS.jpg"
+      },
+      "warcraft_i_remastered#W1R_KEY_ART": {
+        "hash": "e71d06075a1cae01fdb8dbfff7511b9f",
+        "name": "resources/w1r/key_art_w1r_enUS.jpg"
+      },
+      "warcraft_i_remastered#W1R_LOGO": {
+        "hash": "8c12d4254bec066f06490c274c04095c",
+        "name": "resources/w1r/logo_w1r_enUS.png"
+      }
+    }
+  },
+  "fragment_id": "warcraft_i_remastered",
+  "installs": {
+    "w1r": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "w1r"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "warcraft_i_remastered#W1R_NAME",
+      "icon_16": "warcraft_i_remastered#W1R_ICON_TINY",
+      "icon_275": "warcraft_i_remastered#W1R_ICON_MASSIVE",
+      "icon_32": "warcraft_i_remastered#W1R_ICON_SMALL",
+      "icon_56": "warcraft_i_remastered#W1R_ICON_MEDIUM",
+      "icon_svg": "warcraft_i_remastered#W1R_ICON_SVG",
+      "program_id": "W1R"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/warcraft-1-remastered",
+        "background": "warcraft_i_remastered#W1R_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+            "hidden": true,
+            "id": "game_pass",
+            "image": "default#LOGO_XBOX_GAME_PASS",
+            "label": "default#BADGE_TEXT_INCLUDED_WITH",
+            "rank": 1,
+            "tooltip": "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER"
+          },
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "breaking_news_url": "nydus://client/warcraftstrategy-war1r/alert",
+        "content_id": "warcraft-1-remastered",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_REAL_TIME_STRATEGY",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "warcraft_i_remastered#W1R_ICON_MEDIUM",
+        "icon_small": "warcraft_i_remastered#W1R_ICON_SMALL",
+        "icon_svg": "warcraft_i_remastered#W1R_ICON_SVG",
+        "install_background": "warcraft_i_remastered#W1R_INSTALL_BACKGROUND",
+        "key_art": "warcraft_i_remastered#W1R_KEY_ART",
+        "logo": "warcraft_i_remastered#W1R_LOGO",
+        "name": "warcraft_i_remastered#W1R_NAME",
+        "program_id": "W1R",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/warcraft-rts"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://us.forums.blizzard.com/en/blizzard/c/warcraft-ii/31?utm_source=app-battlenetdesktop&utm_medium=internal"
+            },
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 302
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/war3r"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 303
+          },
+          {
+            "action": {
+              "target": "shop",
+              "type": "url",
+              "url": "nydus://client/shop/product/warcraft-remastered-battle-chest"
+            },
+            "color": "#6cdb00",
+            "icon": "default#QUICK_LINK_ICON_UPGRADE",
+            "id": "upgrade",
+            "label": "default#QUICK_LINK_UPGRADE_BATTLE_CHEST",
+            "rank": 100
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {"BLR": "disabled_invisible", "RUS": "disabled_invisible", "override_type": "country"}
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {"product_id": "W1", "type": "select_product"},
+            "id": "looking_for",
+            "label": "warcraft_i_remastered#W1R_LOOKING_FOR_W1",
+            "rank": 2,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": false,
+        "supported_platforms": ["win"],
+        "supported_regions": ["GLOBAL"],
+        "supports_starter_mode": false,
+        "tab_order": 15,
+        "title_id": 5714258,
+        "types": {
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "region_permission_flags": {
+              "default": "requires_account_visible",
+              "overrides": [
+                {"CN": "disabled_invisible", "override_type": "region"},
+                {"BLR": "disabled_invisible", "RUS": "disabled_invisible", "override_type": "country"}
+              ]
+            },
+            "supports_starter_mode": true,
+            "uid": "w1r",
+            "xbox_uid": "9PK7TLLPD7GV"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "W1R"
+    }
+  ],
+  "program_configuration": {
+    "W1R": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "W1R", "type": "retail"}}}],
+          "match": {"license_id": [1042668]}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered ist im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "Suchst du nach Warcraft: Orcs & Humans?"
+    },
+    "default": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "Looking for Warcraft: Orcs & Humans?",
+      "warcraft_i_remastered#W1R_NAME": "Warcraft I: Remastered"
+    },
+    "esES": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "¿Buscas Warcraft: Orcs & Humans?"
+    },
+    "esMX": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "WWarcraft I: Remastered se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "¿Buscas Warcraft: Orcs & Humans?"
+    },
+    "frFR": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered est inclus dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "À la recherche de Warcraft: Orcs & Humans ?"
+    },
+    "itIT": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered è incluso in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "Cerchi Warcraft: Orcs & Humans?"
+    },
+    "jaJP": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、「Warcraft I: Remastered」をXbox Game Passでお楽しみいただけます。",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "「Warcraft: Orcs & Humans」をお探しですか？",
+      "warcraft_i_remastered#W1R_NAME": "ウォークラフト I: リマスタード"
+    },
+    "koKR": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "워크래프트 I: 리마스터는 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "워크래프트: 오크와 인간을 찾고 계신가요?",
+      "warcraft_i_remastered#W1R_NAME": "워크래프트 I: 리마스터"
+    },
+    "plPL": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered jest dostępny w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "Szukasz Warcraft: Orcs & Humans?"
+    },
+    "ptBR": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered está incluso no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "Procurando Warcraft: Orcs & Humans?"
+    },
+    "ruRU": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered доступна обладателям подписки Xbox Game Pass, связавшим учетные записи Battle.net и Xbox.",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "Ищете Warcraft: Orcs & Humans?"
+    },
+    "thTH": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "Warcraft I: Remastered จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "มองหา Warcraft: Orcs & Humans อยู่ใช่ไหม"
+    },
+    "zhCN": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩《魔兽争霸I：重制版》。",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "在找《魔兽争霸：兽人与人类》吗？",
+      "warcraft_i_remastered#W1R_NAME": "魔兽争霸 I：重制版"
+    },
+    "zhTW": {
+      "warcraft_i_remastered#W1R_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩《魔獸​爭霸​I：​​重製版》。",
+      "warcraft_i_remastered#W1R_LOOKING_FOR_W1": "你在找《魔獸爭霸：獸人與人類》嗎？",
+      "warcraft_i_remastered#W1R_NAME": "《魔獸爭霸 I：重製版》"
+    }
+  },
+  "version": 30
+}

@@ -1,0 +1,254 @@
+{
+  "files": {
+    "default": {
+      "diablo_i#D1_BACKGROUND": {
+        "hash": "3c285f2027a85d670282fbd4f2a82ed3",
+        "name": "resources/diablo1/background_diablo1_new_panel.webp"
+      },
+      "diablo_i#D1_ICON_MASSIVE": {
+        "hash": "cbd35404e87c4e4a28172a867712fcac",
+        "name": "resources/diablo1/icon_game_diablo1_massive.png"
+      },
+      "diablo_i#D1_ICON_MEDIUM": {
+        "hash": "de4aa960b9b62136a410276dc0db3f30",
+        "name": "resources/diablo1/icon_game_diablo1_medium.png"
+      },
+      "diablo_i#D1_ICON_SMALL": {
+        "hash": "61418e689819f88a2f0c67b3973263c3",
+        "name": "resources/diablo1/icon_game_diablo1_small.png"
+      },
+      "diablo_i#D1_ICON_SVG": {
+        "hash": "bc66c915fcc569ba3819b75d3a18c3ee",
+        "name": "resources/diablo1/icon_diablo1.svg"
+      },
+      "diablo_i#D1_ICON_TINY": {
+        "hash": "81e8e213a9a921c0928eb0f4c2af3809",
+        "name": "resources/diablo1/icon_game_diablo1_tiny.png"
+      },
+      "diablo_i#D1_INSTALL_BACKGROUND": {
+        "hash": "4ac009f5e146afdde4586fd846c57d9e",
+        "name": "resources/diablo1/install_background_diablo1_enUS.jpg"
+      },
+      "diablo_i#D1_KEY_ART": {
+        "hash": "8d7a5896202ec9d09336b42ce3a19e2f",
+        "name": "resources/diablo1/key_art_diablo1_enUS.jpg"
+      },
+      "diablo_i#D1_LOGO": {
+        "hash": "cf82c32aea2af60da0d6260aac64a0fb",
+        "name": "resources/diablo1/logo_diablo1_enUS.png"
+      }
+    }
+  },
+  "fragment_id": "diablo_i",
+  "installs": {
+    "d1": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "drtl"
+    },
+    "d1h": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "tact_product": "drtl2"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "diablo_i#D1_NAME",
+      "icon_16": "diablo_i#D1_ICON_TINY",
+      "icon_275": "diablo_i#D1_ICON_MASSIVE",
+      "icon_32": "diablo_i#D1_ICON_SMALL",
+      "icon_56": "diablo_i#D1_ICON_MEDIUM",
+      "icon_svg": "diablo_i#D1_ICON_SVG",
+      "program_id": "DRTL"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/diablo",
+        "background": "diablo_i#D1_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_INCLUDED_WITH_GAME_PASS",
+            "hidden": true,
+            "id": "game_pass",
+            "image": "default#LOGO_XBOX_GAME_PASS",
+            "label": "default#BADGE_TEXT_INCLUDED_WITH",
+            "rank": 1,
+            "tooltip": "diablo_i#D1_GAME_PASS_DISCLAIMER"
+          },
+          {
+            "color": "#FFB400",
+            "description": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "hidden": false,
+            "id": "hh_unsupported",
+            "image": "default#LOGO_HH_UNSUPPORTED",
+            "label": "default#BADGE_TEXT_HH_UNSUPPORTED",
+            "rank": 0
+          }
+        ],
+        "content_id": "diablo",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_ACTION_RPG",
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
+          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_unsupported"],
+        "icon_medium": "diablo_i#D1_ICON_MEDIUM",
+        "icon_small": "diablo_i#D1_ICON_SMALL",
+        "icon_svg": "diablo_i#D1_ICON_SVG",
+        "icon_tiny": "diablo_i#D1_ICON_TINY",
+        "install_background": "diablo_i#D1_INSTALL_BACKGROUND",
+        "install_requires_login": true,
+        "key_art": "diablo_i#D1_KEY_ART",
+        "locale_support_flag": "primary_locale",
+        "logo": "diablo_i#D1_LOGO",
+        "name": "diablo_i#D1_NAME",
+        "post_launch_actions": ["game_session_monitor"],
+        "program_id": "DRTL",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://us.forums.blizzard.com/en/blizzard/c/general-discussion/16?utm_source=app-battlenetdesktop&utm_medium=internal"
+            },
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "nydus://client/support/game/legacy"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 302
+          }
+        ],
+        "region_permission_flags": {
+          "default": "unrestricted",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {
+              "BLR": "disabled_invisible",
+              "KOR": "disabled_invisible",
+              "RUS": "disabled_invisible",
+              "override_type": "country"
+            }
+          ]
+        },
+        "supported_platforms": ["win"],
+        "supported_regions": ["GLOBAL"],
+        "supports_starter_mode": true,
+        "tab_order": 34,
+        "title_id": 1146246220,
+        "types": {
+          "d1_hellfire": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "diablo_i#D1_NAME_HELLFIRE",
+            "uid": "D1H"
+          },
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "region_permission_flags": {
+              "default": "requires_account_visible",
+              "overrides": [
+                {"CN": "disabled_invisible", "override_type": "region"},
+                {
+                  "BLR": "disabled_invisible",
+                  "KOR": "disabled_invisible",
+                  "RUS": "disabled_invisible",
+                  "override_type": "country"
+                }
+              ]
+            },
+            "uid": "D1",
+            "xbox_uid": "9N16SLB6FB96"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "D1"
+    }
+  ],
+  "program_configuration": {
+    "D1": {
+      "run_each_rule": [
+        {
+          "actions": [
+            {"add_product": {"product_id": {"id": "D1", "type": "retail"}}},
+            {"add_product": {"product_id": {"id": "D1", "type": "d1_hellfire"}}}
+          ],
+          "match": {"license_id": 931050}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "deDE": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo ist im Xbox Game Pass für aktive Benutzer mit einem gültigen Abonnement enthalten, die ihren Battle.net-Account mit ihrem Xbox-Konto verknüpft haben."
+    },
+    "default": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo is included with Xbox Game Pass for active users with an eligible subscription who have linked their Battle.net account to their Xbox account.",
+      "diablo_i#D1_NAME": "Diablo",
+      "diablo_i#D1_NAME_HELLFIRE": "Hellfire"
+    },
+    "esES": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo se incluye en Xbox Game Pass para los usuarios activos que tengan una suscripción válida y hayan vinculado su cuenta de Battle.net a la de Xbox."
+    },
+    "esMX": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo se incluye en el Xbox Game Pass de los usuarios activos con una suscripción válida que hayan vinculado su cuenta de Battle.net con su cuenta de Xbox."
+    },
+    "frFR": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo est inclus dans le Xbox Game Pass pour les comptes actifs disposant d’un abonnement éligible et ayant associé leur compte Battle.net à leur compte Xbox."
+    },
+    "itIT": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo è incluso in Xbox Game Pass per gli utenti attivi con un abbonamento idoneo e un account Battle.net collegato all'account Xbox."
+    },
+    "jaJP": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Xbox Game Passに加入中で、対象となるサブスクリプションが有効であり、かつBattle.netとXboxのアカウントを連携している方は、「ディアブロ」をXbox Game Passでお楽しみいただけます。"
+    },
+    "koKR": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "디아블로는 유효한 구독권을 보유하고 Battle.net 계정을 Xbox 계정에 연동한 활성 사용자의 Xbox Game Pass에 포함됩니다"
+    },
+    "plPL": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo jest dostępne w ramach Xbox Game Pass dla wszystkich aktywnych użytkowników z odpowiednią subskrypcją, którzy połączyli swoje konto Battle.net z kontem Xbox."
+    },
+    "ptBR": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo está incluso no Xbox Game Pass para usuários ativos com uma assinatura elegível que tenham vinculado sua Conta Battle.net à conta Xbox."
+    },
+    "ruRU": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Игра Diablo доступна активным пользователям Xbox Game Pass с действующей подпиской, связавшим Battle.net с учетной записью сети Xbox."
+    },
+    "thTH": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "Diablo จะรวมอยู่ใน Xbox Game Pass สำหรับผู้ใช้ที่ใช้งานอยู่และมีการสมัครสมาชิกที่เป็นไปตามเงื่อนไขซึ่งได้เชื่อมโยงบัญชี Battle.net ไว้กับบัญชี Xbox"
+    },
+    "zhCN": {"diablo_i#D1_GAME_PASS_DISCLAIMER": "拥有有效Xbox Game Pass订阅并将战网通行证与Xbox账号绑定的活跃用户可免费游玩《暗黑破坏神》。"},
+    "zhTW": {
+      "diablo_i#D1_GAME_PASS_DISCLAIMER": "玩家只需要擁有符合條件的訂閱，再將 Battle.net 帳號連結至 Xbox 帳戶，即可藉由有效的 Xbox Game Pass 暢玩《暗黑破壞神》"
+    }
+  },
+  "types": {"definitions": [{"category": "cat_live", "id": "d1_hellfire"}]},
+  "version": 30
+}

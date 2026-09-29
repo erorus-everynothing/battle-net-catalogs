@@ -1,0 +1,5 @@
+{
+  "fragment_id": "fenris_event2deprecatedwitholdlicense",
+  "products": [{"base": {"types": {"event_2": {"deprecated": true}}}, "id": "Fen"}],
+  "version": 30
+}

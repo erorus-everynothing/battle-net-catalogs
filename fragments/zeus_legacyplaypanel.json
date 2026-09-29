@@ -1,0 +1,13 @@
+{
+  "files": {
+    "default": {
+      "zeus_legacyplaypanel#ZEUS_BACKGROUND_OLD_PANEL": {
+        "hash": "cb0d63e38ad8246765e76dbd8d1a8a28",
+        "name": "resources/zeus/background_codbocw_v2.png"
+      }
+    }
+  },
+  "fragment_id": "zeus_legacyplaypanel",
+  "products": [{"base": {"background": "zeus_legacyplaypanel#ZEUS_BACKGROUND_OLD_PANEL"}, "id": "ZEUS"}],
+  "version": 30
+}

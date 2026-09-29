@@ -1,0 +1,27 @@
+{
+  "files": {},
+  "fragment_id": "scorpio_premiumordeluxe_showbonuses",
+  "products": [
+    {
+      "base": {
+        "quick_links": [
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://www.seaofthieves.com/bonuses"
+            },
+            "icon": "default#QUICK_LINK_ICON_SPECIAL",
+            "id": "digital_bonuses",
+            "label": "default#QUICK_LINK_DIGITAL_BONUSES",
+            "rank": 304
+          }
+        ]
+      },
+      "id": "SCOR"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}
