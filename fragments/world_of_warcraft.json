@@ -1123,6 +1123,7 @@
             "uid": "wow_ne_vendor11"
           },
           "wow_ne_vendor_12": {
+            "post_launch_actions": ["overlay"],
             "selector_display_name": "world_of_warcraft#WOW_NE_VENDOR_12_NAME",
             "uid": "wow_ne_vendor12"
           },

@@ -1172,14 +1172,14 @@
         ]
       }
     },
-    {"hash": "036b1a1c4555d5fed54729d655c2c5f6", "name": "world_of_warcraft"},
+    {"hash": "23fe827bca5197a9154a04ad122ebcd2", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
       "requires": {"licenses": [1134620], "type": "licenses"}
     },
     {
-      "hash": "13da70063bb47376dc31e1e5b51c50ed",
+      "hash": "33350dc9af45abf5e2ce914aa18d86f3",
       "name": "world_of_warcraft_cn",
       "requires": {"any_of": [{"include": "CN", "type": "login_region"}]}
     },
