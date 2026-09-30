@@ -222,8 +222,9 @@
               {"hidden": true, "id": "forums"},
               {
                 "action": {
+                  "external": true,
                   "query_params": {"bnet_id": "bnetid"},
-                  "target": "web_window external-sso",
+                  "target": "external",
                   "type": "url",
                   "url": "https://wow.blizzard.cn/midnight/housing/"
                 },

@@ -5,9 +5,8 @@
       "base": {
         "types": {
           "wow_cn_beta": {
-            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
             "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
-            "prepurchased_message": "default#PREPURCHASED_MESSAGE",
+            "preinstalled_message": "default#PREINSTALLED_MESSAGE",
             "prerelease_license_id": 1190895,
             "release_date_message": "world_of_warcraft_wow_forever_beta_cn#WOW_FOREVER_BETA_RELEASE_DATE_MESSAGE_CN"
           }
