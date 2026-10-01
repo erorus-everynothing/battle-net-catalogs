@@ -1,0 +1,156 @@
+{
+  "fragment_id": "world_of_warcraft_starteritems_hubpanel_row",
+  "products": [
+    {
+      "base": {
+        "starter_items": [
+          {
+            "action": {
+              "target": "shop",
+              "type": "url",
+              "url": "nydus://client/shop/product/world-of-warcraft-midnight"
+            },
+            "id": "purchase",
+            "label": "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {
+            "action": {"type": "install"},
+            "id": "try_for_free",
+            "label": "default#STARTER_ITEM_TRY_FOR_FREE",
+            "rank": 3,
+            "style": "secondary",
+            "tooltip": "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP",
+            "tooltip_remarks": "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS",
+            "type": "button"
+          },
+          {"hidden": true, "id": "website", "type": "button"},
+          {"hidden": true, "id": "select_wowc", "type": "button"}
+        ]
+      },
+      "id": "WoW"
+    },
+    {
+      "base": {
+        "starter_items": [
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/gametime/WoW"},
+            "id": "subscribe",
+            "label": "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {"hidden": true, "id": "website", "type": "button"},
+          {"hidden": true, "id": "select_wow", "type": "button"}
+        ]
+      },
+      "id": "WoWC"
+    },
+    {
+      "base": {
+        "starter_items": [
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/world-of-warcraft-forever"},
+            "id": "prepurchase",
+            "label": "default#STARTER_ITEM_PREPURCHASE",
+            "rank": 1,
+            "style": "primary",
+            "type": "button"
+          },
+          {"hidden": true, "id": "website", "type": "button"}
+        ]
+      },
+      "id": "WoWF"
+    }
+  ],
+  "strings": {
+    "deDE": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "Zum Shop",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Abonnieren",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "Spielt World of Warcraft kostenlos bis Stufe 20!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "Die kostenlose Testversion beinhaltet weder WoW Classic noch Burning Crusade Classic."
+    },
+    "default": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "Buy Now",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Subscribe",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "Play World of Warcraft free to level 20!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "The free trial does not include WoW Classic or Burning Crusade Classic."
+    },
+    "esES": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "Comprar",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Suscribirse",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "¡Juega gratis a World of Warcraft hasta el nivel 20!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "La prueba gratuita no incluye WoW Classic ni Burning Crusade Classic."
+    },
+    "esMX": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "Comprar ahora",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Suscribirse",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "¡Juega gratis a World of Warcraft hasta el nivel 20!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "La prueba gratuita no incluye WoW Classic ni Burning Crusade Classic."
+    },
+    "frFR": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "J’achète",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Je m’abonne !",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "Jouez à World of Warcraft gratuitement jusqu’au niveau 20 !",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "L’essai gratuit n’inclut pas WoW Classic ou Burning Crusade Classic."
+    },
+    "itIT": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "Acquista",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Abbonati",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "Gioca gratis a World of Warcraft fino al livello 20!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "Gli account di prova gratuita non includono WoW Classic e Burning Crusade Classic."
+    },
+    "jaJP": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "今すぐ購入",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "サブスクリプション",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "「World of Warcraft」をレベル20まで無料でプレイ！",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "無料トライアルには「WoW Classic」と「Burning Crusade Classic」は含まれません。"
+    },
+    "koKR": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "지금 구매",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "이용권 구매하기",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "20 레벨까지 월드 오브 워크래프트를 무료로 플레이해 보세요!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "본 무료 체험에는 WoW 클래식이나 불타는 성전 클래식이 포함되어 있지 않습니다."
+    },
+    "plPL": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "Kup teraz",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Kup abonament",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "Graj w World of Warcraft za darmo do 20 poziomu!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "Darmowa wersja próbna nie zawiera dostępu do WoW Classic oraz Burning Crusade Classic."
+    },
+    "ptBR": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "Compre Já",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Assinar",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "Jogue World of Warcraft gratuitamente até o nível 20!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "Esse teste grátis não inclui WoW Classic nem Burning Crusade Classic."
+    },
+    "ruRU": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "Приобрести",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "Подписаться",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "Играйте в World of Warcraft бесплатно, развивая персонажей до 20-го уровня!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "WoW Classic и Burning Crusade Classic не включены в бесплатную пробную версию.."
+    },
+    "thTH": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "ซื้อเลย",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "สมัครใช้งาน",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "เล่น World of Warcraft ฟรีถึงเลเวล 20!",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "ช่วงทดลองเล่นฟรีนั้นไม่รวม WoW Classic หรือ Burning Crusade Classic"
+    },
+    "zhCN": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "立即购买",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "订阅",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "进入《魔兽世界》，免费玩到20级！",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "免费试玩不适用于《魔兽世界》经典怀旧服和“燃烧的远征”。"
+    },
+    "zhTW": {
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_PURCHASE": "立即購買",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_HUB_BUTTON_LABEL_SUBSCRIBE": "購買遊戲時間",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "免費暢玩《魔獸世界》並升至 20 級！",
+      "world_of_warcraft_starteritems_hubpanel_row#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "免費試玩內容不包括《魔獸世界》經典版或《燃燒的遠征》經典版。"
+    }
+  },
+  "version": 30
+}

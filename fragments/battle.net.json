@@ -126,6 +126,38 @@
     {"id": "global_legendary_promos", "requires": true},
     {"id": "group_privacy_settings", "requires": true},
     {"id": "high_dpi", "requires": true},
+    {
+      "disabled_tag": "hub_groups_disabled",
+      "id": "hub_groups_enabled",
+      "requires": {
+        "all_of": [
+          {"op": "greater_equal", "type": "client_version", "version": "2.53.4"},
+          {"exclude": "CN", "type": "login_region"}
+        ]
+      },
+      "tag": "hub_groups_enabled",
+      "toggle_default": false,
+      "toggle_revision": 1,
+      "toggleable": true
+    },
+    {
+      "id": "hub_toggle",
+      "requires": {
+        "all_of": [
+          {"op": "greater_equal", "type": "client_version", "version": "2.53.4"},
+          {"exclude": "CN", "type": "login_region"}
+        ]
+      }
+    },
+    {
+      "id": "hub_toggle_nfe",
+      "requires": {
+        "all_of": [
+          {"op": "greater_equal", "type": "client_version", "version": "2.53.4"},
+          {"exclude": "CN", "type": "login_region"}
+        ]
+      }
+    },
     {"id": "install_packages", "requires": {"type": "agent_version", "version": "2.22.3"}},
     {
       "id": "last_played",
@@ -159,6 +191,10 @@
       "id": "per_account_browser_cache",
       "requires": true,
       "tag": "per_account_browser_cache_variant"
+    },
+    {
+      "id": "play_selector_button_nfe",
+      "requires": {"op": "greater_equal", "type": "client_version", "version": "2.53.4"}
     },
     {"id": "quick_action", "requires": true},
     {"id": "refresh_friend_tooltip", "requires": true},

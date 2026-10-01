@@ -127,6 +127,82 @@
         "hash": "c2efea56ca50f413826634e7ba31c2bc",
         "name": "resources/wow/logo_wow_forever_enUS.png"
       },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_BC_ANNIVERSARY": {
+        "hash": "4667b34bc31fc2939fa6d710e1b75f5f",
+        "name": "resources/wow/hub_icon_tbc_classic.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA": {
+        "hash": "7ff1e7a7f48f299dfdbb7109484f1313",
+        "name": "resources/wow/hub_icon_classic_era.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA_BASE": {
+        "hash": "7ff1e7a7f48f299dfdbb7109484f1313",
+        "name": "resources/wow/hub_icon_classic_era.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA_HARDCORE": {
+        "hash": "7ff1e7a7f48f299dfdbb7109484f1313",
+        "name": "resources/wow/hub_icon_classic_era.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA_SOD": {
+        "hash": "7ff1e7a7f48f299dfdbb7109484f1313",
+        "name": "resources/wow/hub_icon_classic_era.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_MOP": {
+        "hash": "d3a1ae499478f6ed96a8e2309e8e43ff",
+        "name": "resources/wow/icon_wow_classic_mop_enUS.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_TITAN": {
+        "hash": "7ff1e7a7f48f299dfdbb7109484f1313",
+        "name": "resources/wow/hub_icon_classic_era.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_FOREVER": {
+        "hash": "6e0011a1e2431f748878674524cec034",
+        "name": "resources/wow/icon_wow_forever.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_MAINLINE": {
+        "hash": "ae219f72dd18ce5917c261cbe449d3aa",
+        "name": "resources/wow/hub_icon_midnight.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_BC_ANNIVERSARY": {
+        "hash": "3c00709f3fa3207227a61bda3cd87df0",
+        "name": "resources/wow/hub_thumbnail_bc_enUS.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA": {
+        "hash": "a3b28f27831f1943323907068aef60df",
+        "name": "resources/wow/hub_thumbnail_classic_enUS.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_BASE": {
+        "hash": "a3b28f27831f1943323907068aef60df",
+        "name": "resources/wow/hub_thumbnail_classic_enUS.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_HARDCORE": {
+        "hash": "2cecb7693ff3c69bff4ad73ef000ad5f",
+        "name": "resources/wow/hub_thumbnail_hardcore_enUS.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_SOD": {
+        "hash": "a97da4435b14bbac4bcc1b731d1c1162",
+        "name": "resources/wow/hub_thumbnail_sod_enUS.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_MOP": {
+        "hash": "24a80fd4432ab153ee18668c5e3586a7",
+        "name": "resources/wow/hub_thumbnail_mop_enUS.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_TITAN": {
+        "hash": "1e690e3c427c86ca9f9152e73d6bb611",
+        "name": "resources/wow/hub_thumbnail_classic_titan_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER": {
+        "hash": "f21531fd00f5de54c49b5fe436c508e1",
+        "name": "resources/wow/hub_thumbnail_forever_enUS.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_MAINLINE": {
+        "hash": "2b817a3eafb28c01fd4f7dae15944a51",
+        "name": "resources/wow/hub_thumbnail_midnight_enUS.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_STARTER_EDITION": {
+        "hash": "81086d0bdeffc63b5dd38bc84a7bc05b",
+        "name": "resources/wow/hub_thumbnail_starter_enUS.webp"
+      },
       "world_of_warcraft#WOW_ICON_MASSIVE": {
         "hash": "4db8441b6d5a71d7e763164763e7c9d6",
         "name": "resources/wow/icon_game_wow_massive.png"
@@ -229,6 +305,46 @@
         "hash": "ee0083a5ce70e74a31fd8f4555c15b69",
         "name": "resources/wow/logo_wow_forever_zhCN.png"
       },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_MOP": {
+        "hash": "5ddcf92d572576e15008da8b12854fa9",
+        "name": "resources/wow/icon_wow_classic_mop_zhCN.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_BC_ANNIVERSARY": {
+        "hash": "95540ebbc4bcdc3dddcdb90564fa6173",
+        "name": "resources/wow/hub_thumbnail_bc_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA": {
+        "hash": "f6277c358bc4daac479a0df0b45f583f",
+        "name": "resources/wow/hub_thumbnail_classic_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_BASE": {
+        "hash": "f6277c358bc4daac479a0df0b45f583f",
+        "name": "resources/wow/hub_thumbnail_classic_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_HARDCORE": {
+        "hash": "521ce413304ace8b3b6c7acf3d2738c7",
+        "name": "resources/wow/hub_thumbnail_hardcore_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_SOD": {
+        "hash": "a6c4a31173aa14fa46257c1a18fe117a",
+        "name": "resources/wow/hub_thumbnail_sod_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_MOP": {
+        "hash": "d1095a42d077b9803bba808c6059c8cd",
+        "name": "resources/wow/hub_thumbnail_mop_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER": {
+        "hash": "2aaedfab974458fc658bc30fb1bf20dd",
+        "name": "resources/wow/hub_thumbnail_forever_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_MAINLINE": {
+        "hash": "e6c31d96fd220437b89a72ffd86d531c",
+        "name": "resources/wow/hub_thumbnail_midnight_znCN.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_STARTER_EDITION": {
+        "hash": "9208392dfcacdda35ae32aec650389db",
+        "name": "resources/wow/hub_thumbnail_starter_znCN.webp"
+      },
       "world_of_warcraft#WOW_INSTALL_BACKGROUND_MIDNIGHT": {
         "hash": "a9c3d09bf415436d3509dbc2a53bdacb",
         "name": "resources/wow/install_background_midnight_zhCN.jpg"
@@ -310,6 +426,46 @@
       "world_of_warcraft#WOW_FOREVER_LOGO": {
         "hash": "9184ee72591ff2a226dfd15037251f29",
         "name": "resources/wow/logo_wow_forever_zhTW.png"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_MOP": {
+        "hash": "35d87bf852b81ff0c35bf3425aea6034",
+        "name": "resources/wow/icon_wow_classic_mop_zhTW.svg"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_BC_ANNIVERSARY": {
+        "hash": "4fc196ae5871ddda1038fb755f679e7e",
+        "name": "resources/wow/hub_thumbnail_bc_znTW.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA": {
+        "hash": "e35a08f6cf125f5122dfaca67d03184e",
+        "name": "resources/wow/hub_thumbnail_classic_znTW.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_BASE": {
+        "hash": "e35a08f6cf125f5122dfaca67d03184e",
+        "name": "resources/wow/hub_thumbnail_classic_znTW.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_HARDCORE": {
+        "hash": "406a1bf715b900f37e6f01ad5dca6a47",
+        "name": "resources/wow/hub_thumbnail_hardcore_znTW.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_SOD": {
+        "hash": "b6c1950d68efc0f5ede848de64667302",
+        "name": "resources/wow/hub_thumbnail_sod_znTW.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_MOP": {
+        "hash": "90e8380f3534fec80e5bb7479bee512f",
+        "name": "resources/wow/hub_thumbnail_mop_znTW.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER": {
+        "hash": "e391eb0c0fd283cec579a4a245e400ec",
+        "name": "resources/wow/hub_thumbnail_forever_znTW.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_MAINLINE": {
+        "hash": "5a7013616b2ad111c3a5ab37d909ab26",
+        "name": "resources/wow/hub_thumbnail_midnight_znTW.webp"
+      },
+      "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_STARTER_EDITION": {
+        "hash": "e726dc29ab738b8c3dcc9b0e31c05a38",
+        "name": "resources/wow/hub_thumbnail_starter_znTW.webp"
       },
       "world_of_warcraft#WOW_INSTALL_BACKGROUND_MIDNIGHT": {
         "hash": "4d0d28cd9989fffc215289c8027d1f07",
@@ -529,6 +685,7 @@
             "rank": 0
           }
         ],
+        "content_id": "world-of-warcraft-classic",
         "default_product_type": "wow_classic",
         "handheld_feature_compatibility": [
           {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
@@ -538,11 +695,31 @@
           {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
         ],
         "handheld_status": ["handheld_unsupported"],
+        "hub_group_id": "wow",
         "icon_svg": "world_of_warcraft#WOW_CLASSIC_MOP_ICON_SVG",
         "key_art": "world_of_warcraft#WOW_CLASSIC_MOP_KEY_ART",
         "logo": "world_of_warcraft#WOW_CLASSIC_LOGO",
         "name": "world_of_warcraft#WOW_CLASSIC_NAME",
+        "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_MOP",
+        "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_MOP",
+        "play_state_config": {
+          "default_state": "unowned",
+          "states": [
+            {
+              "id": "owned",
+              "rank": 100,
+              "requires": {
+                "all_of": [
+                  {"type": "has_account"},
+                  {"type": "has_subscription"},
+                  {"not": {"type": "is_virtual_license_only"}}
+                ]
+              }
+            }
+          ]
+        },
         "real_product_id": "WoW",
+        "shop_url": "nydus://client/shop/family/world-of-warcraft-classic",
         "starter_background": "world_of_warcraft#WOW_BACKGROUND_CLASSIC_MOP",
         "starter_items": [
           {
@@ -587,6 +764,7 @@
             "rank": 0
           }
         ],
+        "content_id": "world-of-warcraft-forever",
         "default_product_type": "wow_classic_beta",
         "handheld_feature_compatibility": [
           {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
@@ -596,20 +774,28 @@
           {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
         ],
         "handheld_status": ["handheld_unsupported"],
+        "hub_group_id": "wow",
         "icon_svg": "world_of_warcraft#WOW_FOREVER_ICON_SVG",
         "key_art": "world_of_warcraft#WOW_FOREVER_KEY_ART",
         "logo": "world_of_warcraft#WOW_FOREVER_LOGO",
         "milestone": {"state": "open_beta"},
         "name": "world_of_warcraft#WOW_FOREVER_NAME",
+        "play_state_config": {
+          "default_state": "unowned",
+          "states": [
+            {
+              "id": "owned",
+              "rank": 100,
+              "requires": {"licenses": [1190895, 1190896, 1191799], "op": "any_of", "type": "licenses"}
+            }
+          ]
+        },
         "real_product_id": "WoW",
+        "shop_url": "nydus://client/shop/family/world-of-warcraft-forever",
         "starter_background": "world_of_warcraft#WOW_BACKGROUND_FOREVER",
         "starter_items": [
           {
-            "action": {
-              "target": "shop",
-              "type": "url",
-              "url": "https://shop.battle.net/product/world-of-warcraft-forever"
-            },
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/world-of-warcraft-forever"},
             "id": "website",
             "label": "default#STARTER_ITEM_WEBSITE",
             "rank": 1,
@@ -650,6 +836,7 @@
           {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
         ],
         "handheld_status": ["handheld_unsupported"],
+        "hub_group_id": "wow",
         "icon_medium": "world_of_warcraft#WOW_ICON_MEDIUM",
         "icon_small": "world_of_warcraft#WOW_ICON_SMALL",
         "icon_svg": "world_of_warcraft#WOW_ICON_SVG",
@@ -661,6 +848,23 @@
         "misc_flags": ["try_for_free"],
         "name": "world_of_warcraft#WOW_NAME",
         "override_product_id": "WoW",
+        "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_MAINLINE",
+        "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_MAINLINE",
+        "play_state_config": {
+          "default_state": "unowned",
+          "states": [
+            {
+              "id": "owned",
+              "rank": 100,
+              "requires": {
+                "any_of": [
+                  {"all_of": [{"type": "has_account"}, {"not": {"type": "is_virtual_license_only"}}]},
+                  {"type": "is_managed_locally"}
+                ]
+              }
+            }
+          ]
+        },
         "program_id": "WoW",
         "quick_links": [
           {
@@ -692,6 +896,7 @@
             "rank": 305
           }
         ],
+        "shop_url": "nydus://client/shop/family/world-of-warcraft",
         "starter_background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
         "starter_items": [
           {
@@ -729,6 +934,9 @@
         "starter_logo": "world_of_warcraft#WOW_LOGO_MIDNIGHT",
         "tab_order": 4,
         "title_id": 5730135,
+        "trial_display_name": "world_of_warcraft#WOW_NAME",
+        "trial_icon": "world_of_warcraft#WOW_ICON_SVG",
+        "trial_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_STARTER_EDITION",
         "types": {
           "alpha": {
             "background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
@@ -762,6 +970,8 @@
           "retail": {
             "auto_favorite_on_grant": true,
             "background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_MAINLINE",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_MAINLINE",
             "quick_links": [
               {
                 "action": {"cms_id": "wow", "cms_type": "retail", "type": "patch_notes"},
@@ -823,6 +1033,8 @@
             "logo": "world_of_warcraft#WOW_CLASSIC_MOP_LOGO",
             "name": "world_of_warcraft#WOW_MOP_NAME_FULL",
             "override_product_id": "WoWC",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_MOP",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_MOP",
             "quick_links": [
               {
                 "action": {
@@ -857,6 +1069,8 @@
             "logo": "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_LOGO",
             "name": "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME",
             "override_product_id": "WoWC",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_BC_ANNIVERSARY",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_BC_ANNIVERSARY",
             "quick_links": [
               {
                 "action": {
@@ -903,6 +1117,8 @@
             "logo": "world_of_warcraft#WOW_FOREVER_LOGO",
             "name": "world_of_warcraft#WOW_FOREVER_NAME",
             "override_product_id": "WoWF",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_FOREVER",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER",
             "quick_links": [
               {
                 "action": {
@@ -950,6 +1166,8 @@
                 "label": "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE",
                 "launch_arguments": ["-initialgamemode=cera"],
                 "launchable": true,
+                "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA_BASE",
+                "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_BASE",
                 "rank": 1
               },
               {
@@ -959,6 +1177,8 @@
                 "launch_arguments": ["-initialgamemode=chc"],
                 "launchable": true,
                 "logo": "world_of_warcraft#WOW_CLASSIC_ERA_HARDCORE_LOGO",
+                "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA_HARDCORE",
+                "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_HARDCORE",
                 "rank": 2
               },
               {
@@ -968,6 +1188,8 @@
                 "launch_arguments": ["-initialgamemode=csod"],
                 "launchable": true,
                 "logo": "world_of_warcraft#WOW_CLASSIC_ERA_SOD_LOGO",
+                "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA_SOD",
+                "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA_SOD",
                 "rank": 3
               }
             ],
@@ -975,6 +1197,8 @@
             "logo": "world_of_warcraft#WOW_CLASSIC_LOGO",
             "name": "world_of_warcraft#WOW_CLASSIC_NAME",
             "override_product_id": "WoWC",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA",
             "quick_links": [
               {
                 "action": {
@@ -1009,6 +1233,8 @@
             "logo": "world_of_warcraft#WOW_CLASSIC_LOGO",
             "name": "world_of_warcraft#WOW_PTR_VERSION_TYPE_NAME",
             "override_product_id": "WoWC",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_ERA",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_ERA",
             "type_name": "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT",
             "uid": "wow_classic_era_ptr"
           },
@@ -1020,6 +1246,8 @@
             "logo": "world_of_warcraft#WOW_CLASSIC_MOP_LOGO",
             "name": "world_of_warcraft#WOW_PTR_VERSION_TYPE_NAME",
             "override_product_id": "WoWC",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_MOP",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_MOP",
             "type_name": "world_of_warcraft#WOW_PTR_VERSION_MOP_CLASSIC_NAME",
             "uid": "wow_classic_ptr"
           },
@@ -1031,6 +1259,8 @@
             "logo": "world_of_warcraft#WOW_CLASSIC_TITAN_LOGO",
             "name": "world_of_warcraft#WOW_CLASSIC_TITAN_DISPLAY_NAME",
             "override_product_id": "WoWC",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_CLASSIC_TITAN",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_CLASSIC_TITAN",
             "post_launch_actions": ["overlay"],
             "quick_links": [
               {
@@ -1064,6 +1294,8 @@
             "install_background": "world_of_warcraft#WOW_FOREVER_INSTALL_BACKGROUND",
             "logo": "world_of_warcraft#WOW_FOREVER_LOGO",
             "override_product_id": "WoWF",
+            "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_FOREVER",
+            "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER",
             "region_permission_flags": {"default": "requires_account_visible"},
             "selector_display_name": "world_of_warcraft#WOW_FOREVER_NAME",
             "supported_regions": ["CN"],
@@ -1444,7 +1676,7 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta von Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW-Event 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Eventrealm",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever – Beta",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Beta",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Classic-Ära",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Saison der Entdeckungen",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Interner Test der Hauptversion",
@@ -1489,8 +1721,8 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_SUBTITLE": "Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW Event 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Event Realm",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever - Beta",
-      "world_of_warcraft#WOW_FOREVER_NAME": "World of Warcraft: Forever",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever - Beta",
+      "world_of_warcraft#WOW_FOREVER_NAME": "WoW: Forever",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Classic Era",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "Hardcore",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Season of Discovery",
@@ -1542,7 +1774,6 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento de WoW 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Reino del evento",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever - Beta",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Temporada del Descubrimiento",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Prueba interna principal",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW": "¿Buscas World of Warcraft?",
@@ -1573,7 +1804,7 @@
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "Era clásica",
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento 2 de WoW",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever (beta)",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever (beta)",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Era de Classic",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "Extremo",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Temporada de descubrimiento",
@@ -1606,7 +1837,7 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Bêta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Évènement World of Warcraft 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Royaume d’évènement",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever – Bêta",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Bêta",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "Extrême",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Saison de la découverte",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Test interne de l’intrigue principale",
@@ -1639,7 +1870,7 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta di Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento WoW 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Reame evento",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "Stress Test della beta di World of Warcraft: Forever",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "Beta di WoW: Forever",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Era Classic",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Test interno della linea principale",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW": "Stai cercando World of Warcraft?",
@@ -1667,7 +1898,7 @@
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "「Burning Crusade」 Anniversary",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW イベント2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "イベント用サーバー",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever - ベータ",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever - ベータ",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "メインライン内部テスト",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW": "「World of Warcraft」をお探しですか？",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW_CLASSIC": "「WoW Classic」をお探しですか？",
@@ -1699,8 +1930,8 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_SUBTITLE": "용군단",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW 이벤트 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "이벤트 서버",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "월드 오브 워크래프트: 포에버 - 베타",
-      "world_of_warcraft#WOW_FOREVER_NAME": "월드 오브 워크래프트: 포에버",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: 포에버 - 베타",
+      "world_of_warcraft#WOW_FOREVER_NAME": "WoW: 포에버",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "클래식 시대",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "하드코어",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "디스커버리 시즌",
@@ -1740,7 +1971,7 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW: wydarzenie 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Serwer wydarzeń",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever – Beta",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Beta",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Test wewnętrzny linii głównej",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW": "Szukasz World of Warcraft?",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW_CLASSIC": "Szukasz WoW Classic?",
@@ -1772,7 +2003,6 @@
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "Era Classic",
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento do WoW 2",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever - Beta",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Era Classic",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Temporada da Descoberta",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Teste Interno Principal",
@@ -1804,7 +2034,7 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Бета Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW: событие 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Игровой мир мероприятия",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever — бета-версия",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever — бета-версия",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Классическая эпоха",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "Героический режим",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Сезон открытий",
@@ -1833,7 +2063,7 @@
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Burning Crusade Anniversary",
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "เบต้า Dragonflight",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "อาณาจักรสำหรับกิจกรรม",
-      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "World of Warcraft: Forever - เบต้า",
+      "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever - เบต้า",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "ยุคคลาสสิค",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "ฮาร์ดคอร์",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "ฤดูกาลแห่งการค้นพบ",

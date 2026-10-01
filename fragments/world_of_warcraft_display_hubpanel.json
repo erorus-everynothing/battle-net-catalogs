@@ -1,0 +1,335 @@
+{
+  "files": {
+    "default": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_BC_ANNIVERSARY": {
+        "hash": "e66e3d61c62761dab0bf3fe95b7b7d28",
+        "name": "resources/wow/hub_background_bc.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA": {
+        "hash": "fc906b87d620854609ca26f191c5b109",
+        "name": "resources/wow/hub_background_classic.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA_BASE": {
+        "hash": "fc906b87d620854609ca26f191c5b109",
+        "name": "resources/wow/hub_background_classic.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA_HARDCORE": {
+        "hash": "590b6e4961bfd72ebb373743667f75a3",
+        "name": "resources/wow/hub_background_hardcore.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA_SOD": {
+        "hash": "f3a5e78e2f8aea64795c5d16955e2e19",
+        "name": "resources/wow/hub_background_sod.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_MOP": {
+        "hash": "0f237f3a10de99ba1158112f32490c23",
+        "name": "resources/wow/hub_background_mop.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_TITAN": {
+        "hash": "44dae3b27da6bce304ecf3af3099d2d0",
+        "name": "resources/wow/hub_background_clasic_titan.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_FOREVER": {
+        "hash": "e56ddbe8ec4513595b2c8aa8b94f5adf",
+        "name": "resources/wow/hub_background_forever.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE": {
+        "hash": "67874f4d10ebb612f3f61d378882b8cb",
+        "name": "resources/wow/hub_background_midnight.webp"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_BC_ANNIVERSARY": {
+        "hash": "7c86a8a91a83c01644954689b1634747",
+        "name": "resources/wow/logo_wow_classic_bc_anniversary.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA": {
+        "hash": "b40a2bdbc4cf91e111e0a52a47c7bde1",
+        "name": "resources/wow/logo_wow_classic_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_BASE": {
+        "hash": "a0359a96450afbb73de8b5288700d1ef",
+        "name": "resources/wow/logo_wow_classic_era_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_HARDCORE": {
+        "hash": "a19f3e3cd53d74b3cc35e8898aacc415",
+        "name": "resources/wow/logo_wow_classic_hc_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_SOD": {
+        "hash": "052c1ce732f4d6c9db7b950c28c61654",
+        "name": "resources/wow/logo_wow_classic_sod_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_MOP": {
+        "hash": "30eb31ad493d66b4038dd9383c01a58c",
+        "name": "resources/wow/logo_wow_classic_mop.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_TITAN": {
+        "hash": "53e3f67ba25ae48649d1bb4546b71228",
+        "name": "resources/wow/logo_wow_classic_titan_zhCN.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_FOREVER": {
+        "hash": "b1cab85c53501b089e8e98e48770ce45",
+        "name": "resources/wow/hub_logo_forever_enUS.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE": {
+        "hash": "dfa4111d7a726b947eb95bffd835ac1d",
+        "name": "resources/wow/logo_midnight_enUS.png"
+      }
+    },
+    "zhCN": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_BC_ANNIVERSARY": {
+        "hash": "16b8bcfe26a7bedd4d761a85be302adf",
+        "name": "resources/wow/logo_wow_classic_bc_anniversary_zhCN.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA": {
+        "hash": "6e5f3933e6212e795fb19754d14408b7",
+        "name": "resources/wow/logo_wow_classic_zhCN_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_BASE": {
+        "hash": "fb289877ddce88e0ed25d345053fe16f",
+        "name": "resources/wow/logo_wow_classic_era_zhCN_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_HARDCORE": {
+        "hash": "615cfac22f8344543795f1afadad20bf",
+        "name": "resources/wow/logo_wow_classic_hc_zhCN_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_SOD": {
+        "hash": "5419134cd84d496cfed33c2779addd6a",
+        "name": "resources/wow/logo_wow_classic_sod_zhCN_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_MOP": {
+        "hash": "0d4c85dec0c1fb24b08e5701c85a3cde",
+        "name": "resources/wow/logo_wow_classic_mop_zhCN.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_FOREVER": {
+        "hash": "3731e3fd33f0ae99194e41238b205dc7",
+        "name": "resources/wow/hub_logo_forever_zhCN.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE": {
+        "hash": "6fcc1440829a9d4ece50efedf4c0c7a9",
+        "name": "resources/wow/logo_midnight_zhCN.png"
+      }
+    },
+    "zhTW": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_BC_ANNIVERSARY": {
+        "hash": "84eba0b461a15f83747ea82417b1d3d6",
+        "name": "resources/wow/logo_wow_classic_bc_anniversary_zhTW.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA": {
+        "hash": "455af0b180b360a08e552d2d7f24a41a",
+        "name": "resources/wow/logo_wow_classic_zhTW_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_BASE": {
+        "hash": "c79371d340bbff3b8f071d079af4a1e3",
+        "name": "resources/wow/logo_wow_classic_era_zhTW_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_HARDCORE": {
+        "hash": "978ec1c2e50276342baec818bd14262a",
+        "name": "resources/wow/logo_wow_classic_hc_zhTW_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_SOD": {
+        "hash": "da13ee28c8d32a97e4e4777e61768d47",
+        "name": "resources/wow/logo_wow_classic_sod_zhTW_v2.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_MOP": {
+        "hash": "74a767d5d8bc4d4484657c37681d7609",
+        "name": "resources/wow/logo_wow_classic_mop_zhTW.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_FOREVER": {
+        "hash": "9f21e4786804e8ad1293909ec31f40ca",
+        "name": "resources/wow/hub_logo_forever_zhTW.png"
+      },
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE": {
+        "hash": "e3173238c25e33718b27355c06199313",
+        "name": "resources/wow/logo_midnight_zhTW.png"
+      }
+    }
+  },
+  "fragment_id": "world_of_warcraft_display_hubpanel",
+  "products": [
+    {
+      "base": {
+        "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
+        "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE",
+        "types": {
+          "alpha": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE"
+          },
+          "beta": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE"
+          },
+          "ptr": {"background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE"},
+          "retail": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE",
+            "selector_display_name": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE"
+          },
+          "wow_classic": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_MOP",
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_MOP",
+            "selector_display_name": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP"
+          },
+          "wow_classic_anniversary": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_BC_ANNIVERSARY",
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_BC_ANNIVERSARY",
+            "selector_display_name": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY"
+          },
+          "wow_classic_beta": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_FOREVER",
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_FOREVER"
+          },
+          "wow_classic_era": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA",
+            "game_packages": [
+              {
+                "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA_BASE",
+                "id": "wow_classic_era_base",
+                "label": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE",
+                "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_BASE",
+                "rank": 1
+              },
+              {
+                "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA_HARDCORE",
+                "id": "wow_classic_era_hardcore",
+                "label": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE",
+                "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_HARDCORE",
+                "rank": 2
+              },
+              {
+                "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA_SOD",
+                "id": "wow_classic_era_sod",
+                "label": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD",
+                "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA_SOD",
+                "rank": 3
+              }
+            ],
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_ERA",
+            "selector_display_name": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA"
+          },
+          "wow_classic_era_ptr": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_ERA"
+          },
+          "wow_classic_ptr": {"background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_MOP"},
+          "wow_classic_titan": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_CLASSIC_TITAN",
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_CLASSIC_TITAN",
+            "selector_display_name": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_TITAN"
+          },
+          "wow_cn_beta": {
+            "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_FOREVER",
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_FOREVER"
+          },
+          "wow_ptr_x": {"background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE"}
+        }
+      },
+      "id": "WoW",
+      "variants": {
+        "WoWAsia": {
+          "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
+          "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE"
+        },
+        "WoWX10": {
+          "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
+          "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE"
+        },
+        "WoWX12": {
+          "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
+          "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE"
+        }
+      }
+    }
+  ],
+  "strings": {
+    "deDE": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Jubiläum von Burning Crusade",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Classic-Ära",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Classic-Ära",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Saison der Entdeckungen"
+    },
+    "default": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Burning Crusade Anniversary",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Classic Era",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Classic Era",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "Hardcore",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Season of Discovery",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP": "Mists of Pandaria Classic",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_TITAN": "Titan Reforged Classic",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE": "Midnight"
+    },
+    "esES": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Aniversario de Burning Crusade",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada del Descubrimiento"
+    },
+    "esMX": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Aniversario de Burning Crusade",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Era clásica",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Era de Classic",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "Extremo",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada de descubrimiento"
+    },
+    "frFR": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Anniversaire de Burning Crusade",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "Extrême",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Saison de la découverte"
+    },
+    "itIT": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Anniversary di Burning Crusade",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Era Classic",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Era Classic"
+    },
+    "jaJP": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "「Burning Crusade」 Anniversary"
+    },
+    "koKR": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "불타는 성전 기념 서버",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "클래식 시대",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "클래식 시대",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "하드코어",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "디스커버리 시즌",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP": "판다리아의 안개 클래식",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE": "한밤"
+    },
+    "plPL": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Burning Crusade Anniversary",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "wersja klasyczna"
+    },
+    "ptBR": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Aniversário de Burning Crusade",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Era Classic",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Era Classic",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada da Descoberta"
+    },
+    "ruRU": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Годовщина Burning Crusade",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Классическая эпоха",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "Героический режим",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Сезон открытий"
+    },
+    "thTH": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Burning Crusade Anniversary",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "ยุคคลาสสิค",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "ฮาร์ดคอร์",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "ฤดูกาลแห่งการค้นพบ"
+    },
+    "zhCN": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "\"燃烧的远征\"周年纪念",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "旧世经典服务器",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "旧世经典服务器",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "专家模式",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "探索赛季",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP": "\"熊猫人之谜\"",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_TITAN": "泰坦重铸",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE": "至暗之夜"
+    },
+    "zhTW": {
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "《燃燒的遠征》週年紀念",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "經典時期",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "經典時期",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "專家模式",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "探索賽季",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP": "《潘達利亞之謎》經典版",
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE": "《至暗之夜》"
+    }
+  },
+  "version": 30
+}

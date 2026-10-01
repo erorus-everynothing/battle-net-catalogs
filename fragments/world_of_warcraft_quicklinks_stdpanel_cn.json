@@ -1,0 +1,254 @@
+{
+  "files": {
+    "default": {
+      "world_of_warcraft_quicklinks_stdpanel_cn#WOW_QUICK_LINK_ICON_HOME_VIEWER": {
+        "hash": "e6f881386b67defb2b9384ebbc056618",
+        "name": "resources/shared/icon_home.svg"
+      }
+    }
+  },
+  "fragment_id": "world_of_warcraft_quicklinks_stdpanel_cn",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "retail": {
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://wow.blizzard.cn/content-update-notes/"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_PATCH_NOTES_CN",
+                "rank": 307
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://support.battlenet.com.cn/w"
+                },
+                "icon": "default#QUICK_LINK_ICON_SUPPORT",
+                "id": "support",
+                "label": "default#QUICK_LINK_SUPPORT",
+                "rank": 305
+              },
+              {"hidden": true, "id": "upgrade"},
+              {"hidden": true, "id": "forums"},
+              {
+                "action": {
+                  "external": true,
+                  "query_params": {"bnet_id": "bnetid"},
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://wow.blizzard.cn/midnight/housing/"
+                },
+                "icon": "world_of_warcraft_quicklinks_stdpanel_cn#WOW_QUICK_LINK_ICON_HOME_VIEWER",
+                "id": "web_window",
+                "label": "world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER",
+                "rank": 304
+              }
+            ]
+          },
+          "wow_classic": {
+            "quick_links": [
+              {
+                "action": {"external": true, "target": "external", "type": "url", "url": "https://wow.blizzard.cn/"},
+                "icon": "default#QUICK_LINK_ICON_WEBSITE",
+                "id": "website",
+                "label": "default#QUICK_LINK_WEBSITE",
+                "rank": 306
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://support.battlenet.com.cn/w"
+                },
+                "icon": "default#QUICK_LINK_ICON_SUPPORT",
+                "id": "support",
+                "label": "default#QUICK_LINK_SUPPORT",
+                "rank": 305
+              },
+              {"hidden": true, "id": "patch_notes"},
+              {"hidden": true, "id": "forums"}
+            ]
+          },
+          "wow_classic_anniversary": {
+            "quick_links": [
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://wow.blizzard.cn/?blzcmp=app"
+                },
+                "icon": "default#QUICK_LINK_ICON_WEBSITE",
+                "id": "website",
+                "label": "default#QUICK_LINK_WEBSITE",
+                "rank": 306
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://support.battlenet.com.cn/w/"
+                },
+                "icon": "default#QUICK_LINK_ICON_SUPPORT",
+                "id": "support",
+                "label": "default#QUICK_LINK_SUPPORT",
+                "rank": 305
+              },
+              {"hidden": true, "id": "forums"}
+            ]
+          },
+          "wow_classic_era": {
+            "quick_links": [
+              {
+                "action": {"external": true, "target": "external", "type": "url", "url": "https://wow.blizzard.cn/"},
+                "icon": "default#QUICK_LINK_ICON_WEBSITE",
+                "id": "website",
+                "label": "default#QUICK_LINK_WEBSITE",
+                "rank": 306
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://support.battlenet.com.cn/w"
+                },
+                "icon": "default#QUICK_LINK_ICON_SUPPORT",
+                "id": "support",
+                "label": "default#QUICK_LINK_SUPPORT",
+                "rank": 305
+              },
+              {"hidden": true, "id": "patch_notes"},
+              {"hidden": true, "id": "forums"}
+            ]
+          },
+          "wow_classic_titan": {
+            "quick_links": [
+              {
+                "action": {"external": true, "target": "external", "type": "url", "url": "https://wow.blizzard.cn/"},
+                "icon": "default#QUICK_LINK_ICON_WEBSITE",
+                "id": "website",
+                "label": "default#QUICK_LINK_WEBSITE",
+                "rank": 306
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://support.battlenet.com.cn/w"
+                },
+                "icon": "default#QUICK_LINK_ICON_SUPPORT",
+                "id": "support",
+                "label": "default#QUICK_LINK_SUPPORT",
+                "rank": 305
+              },
+              {"hidden": true, "id": "patch_notes"},
+              {"hidden": true, "id": "forums"}
+            ]
+          },
+          "wow_cn_beta": {
+            "quick_links": [
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "url",
+                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
+                },
+                "color": "#6cdb00",
+                "icon": "default#QUICK_LINK_ICON_UPGRADE",
+                "id": "upgrade",
+                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+                "rank": 100
+              },
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "url",
+                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
+                },
+                "icon": "default#QUICK_LINK_ICON_SHOP",
+                "id": "shop",
+                "label": "default#QUICK_LINK_SHOP",
+                "rank": 302
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://wow.blizzard.cn/#forever"
+                },
+                "icon": "default#QUICK_LINK_ICON_WEBSITE",
+                "id": "website",
+                "label": "default#QUICK_LINK_WEBSITE",
+                "rank": 303
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://support.battlenet.com.cn/w"
+                },
+                "icon": "default#QUICK_LINK_ICON_SUPPORT",
+                "id": "support",
+                "label": "default#QUICK_LINK_SUPPORT",
+                "rank": 305
+              },
+              {
+                "action": {
+                  "external": true,
+                  "target": "external",
+                  "type": "url",
+                  "url": "https://wow.blizzard.cn/classic/content-update-notes/"
+                },
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 307
+              },
+              {"hidden": true, "id": "forums"}
+            ]
+          }
+        }
+      },
+      "id": "WoW",
+      "variants": {
+        "WoWFUpgrade": {"types": {"wow_cn_beta": {"quick_links": [{"hidden": true, "id": "upgrade", "rank": 100}]}}}
+      }
+    }
+  ],
+  "strings": {
+    "deDE": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Virtuelle Tour für Behausungen"},
+    "default": {
+      "world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Housing Virtual Tour",
+      "world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_PATCH_NOTES_CN": "补丁说明"
+    },
+    "esES": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Recorrido virtual de hogares"},
+    "esMX": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Recorrido virtual de viviendas"},
+    "frFR": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Visite virtuelle du logis"},
+    "itIT": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Tour virtuale degli Alloggi"},
+    "jaJP": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "ハウジングバーチャルツアー"},
+    "koKR": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "하우징 가상 투어"},
+    "plPL": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Domy – Wirtualny przewodnik"},
+    "ptBR": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Tour virtual das moradias"},
+    "ruRU": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "Виртуальный тур по домам игроков"},
+    "thTH": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "พาทัวร์ระบบบ้านพัก"},
+    "zhCN": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "住宅虚拟游览"},
+    "zhTW": {"world_of_warcraft_quicklinks_stdpanel_cn#QUICK_LINK_WOW_HOME_VIEWER": "房屋虛擬導覽"}
+  },
+  "version": 30
+}

@@ -1,0 +1,144 @@
+{
+  "files": {},
+  "fragment_id": "world_of_warcraft_quicklinks_hubpanel_row",
+  "products": [
+    {
+      "base": {
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 102
+          },
+          {
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/family/world-of-warcraft"},
+            "icon": "default#QUICK_LINK_ICON_SHOP",
+            "id": "shop",
+            "label": "default#QUICK_LINK_SHOP",
+            "rank": 103
+          }
+        ],
+        "types": {
+          "retail": {
+            "quick_links": [
+              {
+                "action": {"cms_id": "wow", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 101
+              },
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "upgrade",
+                  "url": "nydus://client/shop/product/world-of-warcraft-midnight"
+                },
+                "color": "#6cdb00",
+                "icon": "default#QUICK_LINK_ICON_UPGRADE",
+                "id": "upgrade",
+                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+                "rank": 100
+              }
+            ]
+          },
+          "wow_classic": {
+            "quick_links": [
+              {
+                "action": {"cms_id": "wow-classic", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 101
+              }
+            ]
+          },
+          "wow_classic_anniversary": {
+            "quick_links": [
+              {
+                "action": {"cms_id": "wow-classic", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 101
+              },
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "upgrade",
+                  "url": "nydus://client/shop/product/world-of-warcraft-burning-crusade-classic-anniversary-edition-upgrades"
+                },
+                "color": "#6cdb00",
+                "icon": "default#QUICK_LINK_ICON_UPGRADE",
+                "id": "upgrade_available",
+                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+                "rank": 100
+              }
+            ]
+          },
+          "wow_classic_beta": {
+            "quick_links": [
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "url",
+                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
+                },
+                "color": "#6cdb00",
+                "icon": "default#QUICK_LINK_ICON_UPGRADE",
+                "id": "upgrade",
+                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+                "rank": 100
+              },
+              {
+                "action": {"cms_id": "wow-classic", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 101
+              },
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "url",
+                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
+                },
+                "icon": "default#QUICK_LINK_ICON_SHOP",
+                "id": "shop",
+                "label": "default#QUICK_LINK_SHOP",
+                "rank": 103
+              }
+            ]
+          },
+          "wow_classic_era": {
+            "quick_links": [
+              {
+                "action": {"cms_id": "wow-classic", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 101
+              }
+            ]
+          },
+          "wow_classic_titan": {
+            "quick_links": [
+              {
+                "action": {"cms_id": "wow-classic", "cms_type": "retail", "type": "patch_notes"},
+                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
+                "id": "patch_notes",
+                "label": "default#QUICK_LINK_PATCH_NOTES",
+                "rank": 101
+              }
+            ]
+          }
+        }
+      },
+      "id": "WoW"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}
