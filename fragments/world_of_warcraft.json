@@ -1297,7 +1297,7 @@
             "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_FOREVER",
             "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER",
             "region_permission_flags": {"default": "requires_account_visible"},
-            "selector_display_name": "world_of_warcraft#WOW_FOREVER_NAME",
+            "selector_display_name": "world_of_warcraft#WOW_FOREVER_BETA_NAME",
             "supported_regions": ["CN"],
             "uid": "wow_cn_beta"
           },

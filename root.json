@@ -1172,14 +1172,14 @@
         ]
       }
     },
-    {"hash": "f22d294494ffd806b44d9bfa498946c1", "name": "world_of_warcraft"},
+    {"hash": "4778896c1234d22c92ac3a68476f496c", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
       "requires": {"licenses": [1134620], "type": "licenses"}
     },
     {
-      "hash": "26e0d637cfc7a358d4ae055b9287cbf1",
+      "hash": "9194953a8ed650d18641860e890ca2a8",
       "name": "world_of_warcraft_cn",
       "requires": {"any_of": [{"include": "CN", "type": "login_region"}]}
     },
@@ -1306,16 +1306,6 @@
         ]
       }
     },
-    {
-      "hash": "87583ccdbdfa444572225fa27f1eb87d",
-      "name": "world_of_warcraft_wow_forever_beta_cn",
-      "requires": {
-        "all_of": [
-          {"include": "CN", "type": "login_region"},
-          {"licenses": [1190895], "op": "any_of", "type": "licenses"}
-        ]
-      }
-    },
     {"hash": "79339a5fc048b620a36cc9233de2cc03", "name": "zeus"},
     {
       "hash": "7be226bee401803bca6197d6be3c2634",
@@ -1409,7 +1399,6 @@
       "default#PLAY_DISABLED_MESSAGE": "Dieses Spiel kann noch nicht gespielt werden.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Zum Spielen ist ein Kauf notwendig.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Benötigtes Update für Battle.net",
-      "default#PREINSTALLED_MESSAGE": "Du hast dieses Spiel vorinstalliert.",
       "default#QUICK_LINK_AVAILABLE_BETA": "Beta verfügbar",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Digitale Boni",
       "default#QUICK_LINK_FAVORITE": "Zu Favoriten hinzufügen",
@@ -1535,7 +1524,6 @@
       "default#PLAY_DISABLED_MESSAGE": "This game cannot be played yet.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Purchase required to play this game.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Battle.net Required Update",
-      "default#PREINSTALLED_MESSAGE": "You have pre-installed this game.",
       "default#QUICK_LINK_AVAILABLE_BETA": "Beta Available",
       "default#QUICK_LINK_BLIZZARD_SUPPORT": "Blizzard Support",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Digital Bonuses",
@@ -1683,7 +1671,6 @@
       "default#PLAY_DISABLED_MESSAGE": "Aún no se puede jugar a este juego.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Hay que comprar para jugar a este juego.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Actualización necesaria de Battle.net",
-      "default#PREINSTALLED_MESSAGE": "Has preinstalado este juego",
       "default#QUICK_LINK_AVAILABLE_BETA": "Beta disponible",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Bonificaciones digitales",
       "default#QUICK_LINK_FAVORITE": "Añadir a favoritos",
@@ -1804,7 +1791,6 @@
       "default#PLAY_DISABLED_MESSAGE": "Este juego todavía no se puede jugar.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Es necesaria la compra para jugar este juego.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Actualización obligatoria de Battle.net",
-      "default#PREINSTALLED_MESSAGE": "Has preinstalado este juego",
       "default#QUICK_LINK_AVAILABLE_BETA": "Beta disponible",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Bonificaciones digitales",
       "default#QUICK_LINK_FAVORITE": "Agregar a favoritos",
@@ -1925,7 +1911,6 @@
       "default#PLAY_DISABLED_MESSAGE": "Il n’est pas encore possible de jouer à ce jeu.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "L’achat du jeu est requis pour jouer.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Mise à jour de Battle.net requise",
-      "default#PREINSTALLED_MESSAGE": "Vous avez préinstallé ce jeu.",
       "default#QUICK_LINK_AVAILABLE_BETA": "Bêta disponible",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Bonus numériques",
       "default#QUICK_LINK_FAVORITE": "Ajouter aux favoris",
@@ -2042,7 +2027,6 @@
       "default#PLAY_DISABLED_MESSAGE": "Questo gioco non può ancora essere lanciato.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Acquisto necessario per giocare al gioco.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Aggiornamento necessario Battle.net",
-      "default#PREINSTALLED_MESSAGE": "Hai preinstallato questo gioco",
       "default#QUICK_LINK_AVAILABLE_BETA": "Beta disponibile",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Bonus digitali",
       "default#QUICK_LINK_FAVORITE": "Aggiungi ai preferiti",
@@ -2164,7 +2148,6 @@
       "default#PLAY_DISABLED_MESSAGE": "このゲームはまだプレイできません",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "このゲームをプレイするには購入が必要です。",
       "default#PLAY_DISABLED_UPDATE_BNET": "Battle.netをアップデートしてください",
-      "default#PREINSTALLED_MESSAGE": "あなたはこのゲームを事前インストールしています",
       "default#QUICK_LINK_AVAILABLE_BETA": "ベータが利用可能",
       "default#QUICK_LINK_DIGITAL_BONUSES": "デジタル特典",
       "default#QUICK_LINK_FAVORITE": "お気に入りに追加",
@@ -2287,7 +2270,6 @@
       "default#PLAY_DISABLED_MESSAGE": "이 게임은 아직 플레이할 수 없습니다.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "구매 시 플레이할 수 있습니다.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Battle.net 필수 업데이트",
-      "default#PREINSTALLED_MESSAGE": "사전 설치한 게임입니다",
       "default#QUICK_LINK_AVAILABLE_BETA": "베타 이용 가능",
       "default#QUICK_LINK_BLIZZARD_SUPPORT": "블리자드 고객지원",
       "default#QUICK_LINK_DIGITAL_BONUSES": "디지털 보너스",
@@ -2414,7 +2396,6 @@
       "default#PLAY_DISABLED_MESSAGE": "W tę grę nie można jeszcze zagrać.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Do gry wymagany jest zakup.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Wymagana aktualizacja Battle.netu",
-      "default#PREINSTALLED_MESSAGE": "Dokonano preinstalacji gry",
       "default#QUICK_LINK_AVAILABLE_BETA": "Dostępna beta",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Bonusy cyfrowe",
       "default#QUICK_LINK_FAVORITE": "Dodaj do ulubionych",
@@ -2535,7 +2516,6 @@
       "default#PLAY_DISABLED_MESSAGE": "Este jogo ainda não está disponível.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Compra necessária para jogar este jogo.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Atualização do Battle.net necessária",
-      "default#PREINSTALLED_MESSAGE": "Você instalou este jogo antecipadamente",
       "default#QUICK_LINK_AVAILABLE_BETA": "Beta disponível",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Bônus Digitais",
       "default#QUICK_LINK_FAVORITE": "Adicionar aos Favoritos",
@@ -2667,7 +2647,6 @@
       "default#PLAY_DISABLED_MESSAGE": "Запуск этой игры пока невозможен.",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "Необходимо приобрести игру.",
       "default#PLAY_DISABLED_UPDATE_BNET": "Критическое обновление Battle.net",
-      "default#PREINSTALLED_MESSAGE": "Вы установили игру предварительно",
       "default#QUICK_LINK_AVAILABLE_BETA": "Бета началась",
       "default#QUICK_LINK_DIGITAL_BONUSES": "Цифровые дополнения",
       "default#QUICK_LINK_FAVORITE": "Добавить в избранное",
@@ -2901,7 +2880,6 @@
       "default#PLAY_DISABLED_MESSAGE": "暂时无法进行游戏。",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "需要购买才能游玩。",
       "default#PLAY_DISABLED_UPDATE_BNET": "战网所需更新",
-      "default#PREINSTALLED_MESSAGE": "您已经预载了该游戏",
       "default#QUICK_LINK_AVAILABLE_BETA": "Beta测试服已开放",
       "default#QUICK_LINK_DIGITAL_BONUSES": "数字奖励",
       "default#QUICK_LINK_FAVORITE": "添加至偏好",
@@ -3022,7 +3000,6 @@
       "default#PLAY_DISABLED_MESSAGE": "還無法執行這個遊戲。",
       "default#PLAY_DISABLED_MESSAGE_PURCHASE": "需要購買遊戲才可遊玩。",
       "default#PLAY_DISABLED_UPDATE_BNET": "Battle.net 需要更新",
-      "default#PREINSTALLED_MESSAGE": "你已預先安裝此遊戲",
       "default#QUICK_LINK_AVAILABLE_BETA": "Beta 測試已正式推出",
       "default#QUICK_LINK_DIGITAL_BONUSES": "數位特典",
       "default#QUICK_LINK_FAVORITE": "加入至最愛",

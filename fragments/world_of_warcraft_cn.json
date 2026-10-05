@@ -35,8 +35,7 @@
     {
       "base": {
         "alt_content_url": "https://shop.battlenet.com.cn/zh-cn/product/world-of-warcraft-forever",
-        "default_product_type": "wow_cn_beta",
-        "milestone": {"state": "new"}
+        "default_product_type": "wow_cn_beta"
       },
       "id": "WoWF"
     },

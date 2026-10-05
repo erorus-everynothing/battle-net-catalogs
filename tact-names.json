@@ -378,7 +378,7 @@
   "wow_classic_era_ptr": {"base": "World of Warcraft", "type": "PTR (Classic Era)"},
   "wow_classic_ptr": {"base": "World of Warcraft", "type": "PTR (MoP Classic)"},
   "wow_classic_titan": {"base": "World of Warcraft", "type": "Titan Reforged Classic"},
-  "wow_cn_beta": {"base": "World of Warcraft", "type": "WoW: Forever"},
+  "wow_cn_beta": {"base": "World of Warcraft", "type": "WoW: Forever - Beta"},
   "wowdev": {"base": "World of Warcraft", "type": "Mainline Internal Test"},
   "wowdev2": {"base": "World of Warcraft", "type": "Classic Internal Alpha"},
   "wowdev3": {"base": "World of Warcraft", "type": "Development 3"},
