@@ -1179,7 +1179,7 @@
       "requires": {"licenses": [1134620], "type": "licenses"}
     },
     {
-      "hash": "41f1145a2a0698cd22529fb2cbcda6d9",
+      "hash": "26e0d637cfc7a358d4ae055b9287cbf1",
       "name": "world_of_warcraft_cn",
       "requires": {"any_of": [{"include": "CN", "type": "login_region"}]}
     },

@@ -70,7 +70,6 @@
           "wow_classic_era_ptr": {"post_launch_actions": []},
           "wow_classic_ptr": {"post_launch_actions": []},
           "wow_classic_titan": {"install_background": "world_of_warcraft_cn#WOW_CLASSIC_INSTALL_BACKGROUND"},
-          "wow_cn_beta": {"post_launch_actions": []},
           "wow_dev": {"post_launch_actions": []},
           "wow_dev_3": {"post_launch_actions": []},
           "wow_dev_4": {"post_launch_actions": []},
