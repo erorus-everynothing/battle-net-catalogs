@@ -3,7 +3,7 @@
   "files": {
     "default": {
       "overwatch#OVERWATCH_BACKGROUND": {
-        "hash": "1df432aaf2344204c3767b5f6b760479",
+        "hash": "eff7bc6c137ac8823884abf88e5d5f72",
         "name": "resources/overwatch/background_ow_beta.png"
       },
       "overwatch#OVERWATCH_ICON_MASSIVE": {
@@ -27,11 +27,11 @@
         "name": "resources/overwatch/icon_game_ow_tiny.png"
       },
       "overwatch#OVERWATCH_INSTALL_BACKGROUND": {
-        "hash": "b6071d9f556f605deaf8859afce02b11",
+        "hash": "546983ee7cfb016370a5431a98bfad09",
         "name": "resources/overwatch/install_background_ow_enUS.png"
       },
       "overwatch#OVERWATCH_KEY_ART": {
-        "hash": "da1a0c8fb7137b1e6e32a4942c951377",
+        "hash": "3de42dc60c8d033e879e348c6ee39910",
         "name": "resources/overwatch/key_art_ow_enUS.png"
       },
       "overwatch#OVERWATCH_LOGO": {
@@ -41,11 +41,11 @@
     },
     "zhCN": {
       "overwatch#OVERWATCH_INSTALL_BACKGROUND": {
-        "hash": "d5052a7226549b99241457c30fbdb2ba",
+        "hash": "69b80a0d3c5192fe33876375691ce830",
         "name": "resources/overwatch/install_background_ow_zhCN.png"
       },
       "overwatch#OVERWATCH_KEY_ART": {
-        "hash": "5cab3870f7db19421810d193a481d29d",
+        "hash": "85046432f523a4b062ed6df5c6c57fd8",
         "name": "resources/overwatch/key_art_ow_zhCN.png"
       },
       "overwatch#OVERWATCH_LOGO": {
@@ -55,11 +55,11 @@
     },
     "zhTW": {
       "overwatch#OVERWATCH_INSTALL_BACKGROUND": {
-        "hash": "900eda6423e39e7d2f8765e51a590cae",
+        "hash": "8e01bb112e4389386d09f0cc667bd958",
         "name": "resources/overwatch/install_background_ow_zhTW.png"
       },
       "overwatch#OVERWATCH_KEY_ART": {
-        "hash": "87bb1523a29c5d6b501df0304822264f",
+        "hash": "1180ffd78c4382c4a0ffdb24ebe6f4ed",
         "name": "resources/overwatch/key_art_ow_zhTW.png"
       },
       "overwatch#OVERWATCH_LOGO": {

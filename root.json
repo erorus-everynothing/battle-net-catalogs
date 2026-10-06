@@ -793,7 +793,7 @@
         ]
       }
     },
-    {"hash": "450e0e7e8f8c2b5ba0974c042731b424", "name": "overwatch"},
+    {"hash": "24b0e8406c429ac1c777e196ab60be6a", "name": "overwatch"},
     {
       "hash": "d5a8ca3c879997ca4b90440f64109d57",
       "name": "overwatch_cn_assets_links_overrides",
@@ -820,7 +820,7 @@
       }
     },
     {
-      "hash": "14e67aab2a11ce36ec1f17abf270c5f2",
+      "hash": "006afe97e2d10d36f3be1ff332f08f4e",
       "name": "overwatch_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
