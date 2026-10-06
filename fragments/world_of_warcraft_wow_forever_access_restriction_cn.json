@@ -5,7 +5,7 @@
       "base": {
         "types": {
           "wow_cn_beta": {
-            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
+            "install_disabled_message": "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_INSTALL_DISABLED_MESSAGE",
             "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
             "release_date_message": "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_RELEASE_DATE_MESSAGE_CN"
           }
@@ -19,6 +19,7 @@
       "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_RELEASE_DATE_MESSAGE_CN": "Verfügbar ab 5. November 2026"
     },
     "default": {
+      "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_INSTALL_DISABLED_MESSAGE": "Please purchase the Skyborne Epic Pack first.",
       "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_RELEASE_DATE_MESSAGE_CN": "Available November 5, 2026"
     },
     "esES": {
@@ -52,6 +53,7 @@
       "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_RELEASE_DATE_MESSAGE_CN": "เปิดให้เล่นวันที่ 5 พ.ย. 2026 (ตามเวลาประเทศไทย)"
     },
     "zhCN": {
+      "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_INSTALL_DISABLED_MESSAGE": "请先购买天裔史诗礼包",
       "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_RELEASE_DATE_MESSAGE_CN": "将于2026年11月5日上线"
     },
     "zhTW": {
