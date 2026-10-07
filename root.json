@@ -357,7 +357,7 @@
       "name": "auks_mw4_vault",
       "requires": {"all_of": [{"$comment": "Rex Vault", "licenses": [1172868], "type": "licenses"}]}
     },
-    {"hash": "0756d5b5f16d36cf17743818bc4bbe51", "name": "battle.net"},
+    {"hash": "d240f906594e5e1c2fe13fe5b8058462", "name": "battle.net"},
     {"hash": "66fa87a135861bb6fc0cb7192523f460", "name": "btlr"},
     {"hash": "f8dc12685fe55de340b8c36c6b5914da", "name": "corn"},
     {"hash": "2837e1253e50ecdc71a96e479b3620b7", "name": "diablo_i"},
@@ -677,7 +677,7 @@
       "name": "libra_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
-    {"hash": "b0d768dffd57a45ddacd934287fa7501", "name": "lyra"},
+    {"hash": "19852a52d9d33cfb139904c10e7ba705", "name": "lyra"},
     {
       "decryption_key_id": "catalog-decryption-key-moon2",
       "encrypted_hash": "a7d95119ec527424ff50b06cd3e3c66d",

@@ -120,11 +120,28 @@
       "base": {
         "alt_content_url": "nydus://client/shop/embedded/product/the-witcher-3-wild-hunt-remastered",
         "background": "lyra#LYRA_BACKGROUND",
+        "badges": [
+          {
+            "description": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "hidden": false,
+            "id": "hh_optimized",
+            "image": "default#LOGO_HH_OPTIMIZED",
+            "label": "default#BADGE_TEXT_HH_OPTIMIZED",
+            "rank": 0
+          }
+        ],
         "breaking_news_url": "nydus://client/witcher3/alert",
         "content_id": "the-witcher-3-wild-hunt-remastered",
         "default_product_type": "retail",
         "genre": "default#GENRE_ACTION_RPG",
-        "handheld_status": ["handheld_unsupported"],
+        "handheld_feature_compatibility": [
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
+        ],
+        "handheld_status": ["handheld_optimized"],
         "icon_medium": "lyra#LYRA_ICON_MEDIUM",
         "icon_small": "lyra#LYRA_ICON_SMALL",
         "icon_svg": "lyra#LYRA_ICON_SVG",
