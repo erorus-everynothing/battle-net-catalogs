@@ -1,0 +1,62 @@
+{
+  "fragment_id": "world_of_warcraft_wow_forever_stress_test_preload",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "wowf": {
+            "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
+            "preinstalled_message": "default#PREINSTALLED_MESSAGE",
+            "release_date_message": "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE"
+          }
+        }
+      },
+      "id": "WoW"
+    }
+  ],
+  "strings": {
+    "deDE": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Verfügbar ab 19. Oktober 2026"
+    },
+    "default": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Available October 19, 2026"
+    },
+    "esES": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Disponible el 19 de octubre de 2026"
+    },
+    "esMX": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Disponible el 19 de octubre de 2026"
+    },
+    "frFR": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Disponible le 19 octobre 2026"
+    },
+    "itIT": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Disponibile dal 19 ottobre 2026"
+    },
+    "jaJP": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "2026年10月19日より利用可能"
+    },
+    "koKR": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "2026년 10월 6일 이용 가능"
+    },
+    "plPL": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Dostępne od 19 października 2026"
+    },
+    "ptBR": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Disponível em 19 de outubro de 2026"
+    },
+    "ruRU": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "Доступно с 19 октября 2026 г."
+    },
+    "thTH": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "ต้าพร้อมให้ใช้งาน 19 ตุลาคม 2026"
+    },
+    "zhCN": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "将于 2026 年 10 月 19 日开放"
+    },
+    "zhTW": {
+      "world_of_warcraft_wow_forever_stress_test_preload#WOW_FOREVER_STRESS_TEST_PLAY_DISABLED_MESSAGE": "將於 2026 年 10 月 19 日開放"
+    }
+  },
+  "version": 30
+}
