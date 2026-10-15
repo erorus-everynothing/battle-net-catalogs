@@ -2,8 +2,8 @@
   "files": {
     "default": {
       "auks#AUKS_BACKGROUND_COD": {
-        "hash": "db2378279fd76c7bc4ccb8cb2c9b71c7",
-        "name": "resources/auks/background_cod_new_panel.webp"
+        "hash": "d450d7b2a16da849ba543e2f8b592d16",
+        "name": "resources/auks/background_cod_mw4.png"
       },
       "auks#AUKS_BACKGROUND_MW4_BETA": {
         "hash": "1b65e5b2df5fb03621affb06958ff20a",
@@ -23,8 +23,8 @@
         "name": "resources/auks/icon_game_cod_tiny.png"
       },
       "auks#AUKS_INSTALL_BACKGROUND_COD": {
-        "hash": "80e1d608ba10288d9fc0690deed39fb6",
-        "name": "resources/auks/install_background_cod.jpg"
+        "hash": "543ab5af1d9594177d6e3c2bf65cca9d",
+        "name": "resources/auks/install_background_mw4_enUS.jpg"
       },
       "auks#AUKS_INSTALL_BACKGROUND_MW4_BETA": {
         "hash": "a6ce09d8e8afbd8b5416190e217f37c4",
@@ -38,6 +38,18 @@
       "auks#AUKS_LOGO_MW4_BETA": {
         "hash": "c94f9cc23405df655a3a52524ab17a90",
         "name": "resources/auks/logo_cod_mw4b.png"
+      }
+    },
+    "jaJP": {
+      "auks#AUKS_INSTALL_BACKGROUND_COD": {
+        "hash": "ffdecbb836b649b35c206ad8e4a5ff23",
+        "name": "resources/auks/install_background_mw4_jaJP.jpg"
+      }
+    },
+    "koKR": {
+      "auks#AUKS_INSTALL_BACKGROUND_COD": {
+        "hash": "36ec2b6b784e2598ef2d52e213571a4c",
+        "name": "resources/auks/install_background_mw4_koKR.jpg"
       }
     }
   },

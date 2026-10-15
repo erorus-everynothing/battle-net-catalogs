@@ -175,13 +175,13 @@
   "auks": {
     "base": "Call of Duty",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksa": {
     "base": "Call of Duty",
     "type": "Closed Internal Beta 2",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksb": {
     "base": "Call of Duty",
@@ -199,181 +199,181 @@
     "base": "Call of Duty",
     "type": "Event",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "aukse2": {
     "base": "Call of Duty",
     "type": "Event 2",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksese": {
     "base": "Call of Duty",
     "type": "eSports Event",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksesp": {
     "base": "Call of Duty",
     "type": "eSports Player",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksess": {
     "base": "Call of Duty",
     "type": "eSports Staff",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksrc": {
     "base": "Call of Duty",
     "type": "Cortez RC",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksrc2": {
     "base": "Call of Duty",
     "type": "Cortez RC 2",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv1": {
     "base": "Call of Duty",
     "type": "Vendor 1",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv2": {
     "base": "Call of Duty",
     "type": "Vendor 2",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv3": {
     "base": "Call of Duty",
     "type": "Vendor 3",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv4": {
     "base": "Call of Duty",
     "type": "Vendor 4",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv5": {
     "base": "Call of Duty",
     "type": "Vendor 5",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv6": {
     "base": "Call of Duty",
     "type": "Vendor 6",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv7": {
     "base": "Call of Duty",
     "type": "Vendor 7",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv8": {
     "base": "Call of Duty",
     "type": "Vendor 8",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv9": {
     "base": "Call of Duty",
     "type": "Vendor 9",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv10": {
     "base": "Call of Duty",
     "type": "Vendor 10",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv11": {
     "base": "Call of Duty",
     "type": "Vendor 11",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv12": {
     "base": "Call of Duty",
     "type": "Vendor 12",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv13": {
     "base": "Call of Duty",
     "type": "Vendor 13",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv14": {
     "base": "Call of Duty",
     "type": "Vendor 14",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv15": {
     "base": "Call of Duty",
     "type": "Vendor 15",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv16": {
     "base": "Call of Duty",
     "type": "Vendor 16",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv17": {
     "base": "Call of Duty",
     "type": "Vendor 17",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv18": {
     "base": "Call of Duty",
     "type": "Vendor 18",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv19": {
     "base": "Call of Duty",
     "type": "Vendor 19",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv20": {
     "base": "Call of Duty",
     "type": "Vendor 20",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv21": {
     "base": "Call of Duty",
     "type": "Vendor 21",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv22": {
     "base": "Call of Duty",
     "type": "Vendor 22",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv23": {
     "base": "Call of Duty",
     "type": "Vendor 23",
     "logo": "resources/auks/logo_cod_v2.png",
-    "background": "resources/auks/background_cod_new_panel.webp"
+    "background": "resources/auks/background_cod_mw4.png"
   },
   "btlr": {
     "base": "Call of Duty: Black Ops 6",
