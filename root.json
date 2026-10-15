@@ -357,7 +357,7 @@
       "name": "auks_mw4_vault",
       "requires": {"all_of": [{"$comment": "Rex Vault", "licenses": [1172868], "type": "licenses"}]}
     },
-    {"hash": "d240f906594e5e1c2fe13fe5b8058462", "name": "battle.net"},
+    {"hash": "2b43ebe18156943f71f670a18045a414", "name": "battle.net"},
     {"hash": "66fa87a135861bb6fc0cb7192523f460", "name": "btlr"},
     {"hash": "f8dc12685fe55de340b8c36c6b5914da", "name": "corn"},
     {"hash": "2837e1253e50ecdc71a96e479b3620b7", "name": "diablo_i"},
@@ -1214,7 +1214,7 @@
       }
     },
     {
-      "hash": "7dc5143636f9f42fd186dfa9c12606f9",
+      "hash": "c7dcd3b930fd5e8a49fc0adf11446750",
       "name": "world_of_warcraft_quicklinks_hubpanel_cn",
       "requires": {
         "all_of": [{"id": "hub_groups_enabled", "type": "feature"}, {"include": "CN", "type": "login_region"}]
@@ -1231,7 +1231,7 @@
       }
     },
     {
-      "hash": "77ffb2d47dddc1c7a5e3ee914872a4c1",
+      "hash": "3f6929ee26aaddfac5894b4332ee248f",
       "name": "world_of_warcraft_quicklinks_stdpanel_cn",
       "requires": {
         "all_of": [{"not": {"id": "hub_groups_enabled", "type": "feature"}}, {"include": "CN", "type": "login_region"}]
@@ -3400,6 +3400,7 @@
     "Client.Shop.SaleNotificationEnabled": "false",
     "Client.Shop.SaleNotificationVersion": "6",
     "Client.TakeoverDisplayCooldownMS": "9295",
+    "Client.Telemetry.IngestUrl": "https://ingest.gdp.blizzard.com/data",
     "Client.Version.BetaAccessOverride": "enabled",
     "Client.Version.BetaBranchOverride": "beta",
     "Client.WelcomeArticle.ArticleId": "lb-blt836df63107fb9281",

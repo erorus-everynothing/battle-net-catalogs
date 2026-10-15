@@ -97,6 +97,7 @@
           },
           "wow_classic_anniversary": {
             "quick_links": [
+              {"hidden": true, "id": "patch_notes"},
               {
                 "action": {
                   "external": true,
