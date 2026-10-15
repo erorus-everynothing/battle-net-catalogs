@@ -1908,7 +1908,7 @@
   },
   "wowt": {
     "base": "World of Warcraft",
-    "type": "PTR (Midnight 12.1.0)",
+    "type": "PTR (Midnight 12.1.7)",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
