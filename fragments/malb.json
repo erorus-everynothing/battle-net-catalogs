@@ -1,0 +1,289 @@
+{
+  "files": {
+    "default": {
+      "malb#MALBORK_BACKGROUND": {
+        "hash": "c91e0eaf62c4a48c5aab855fc05294e4",
+        "name": "resources/malbork/phx_game_app_background_malbork.png"
+      },
+      "malb#MALBORK_ICON_MASSIVE": {
+        "hash": "857f0768e0655a48640e77774ff972a3",
+        "name": "resources/malbork/presence-icon-malbork-512.png"
+      },
+      "malb#MALBORK_ICON_MEDIUM": {
+        "hash": "ea47e6ac1254c8c055b14f0219cf8ad8",
+        "name": "resources/malbork/presence-icon-malbork-256.png"
+      },
+      "malb#MALBORK_ICON_SMALL": {
+        "hash": "2910b2ae9c16d094aca9dc2759b7ffbf",
+        "name": "resources/malbork/presence-icon-malbork-64.png"
+      },
+      "malb#MALBORK_ICON_SVG": {
+        "hash": "8b15aaf80985460356c575d77770fd99",
+        "name": "resources/malbork/game_icon_malbork.svg"
+      },
+      "malb#MALBORK_ICON_TINY": {
+        "hash": "f3bf9d20fa6aa01c062d9f0b5798f2ef",
+        "name": "resources/malbork/presence-icon-malbork-32.png"
+      },
+      "malb#MALBORK_INSTALL_BACKGROUND": {
+        "hash": "aa508de62fe6beb9f36b70d68b5c4d28",
+        "name": "resources/malbork/install_background_malbork.jpg"
+      },
+      "malb#MALBORK_KEY_ART": {
+        "hash": "ef3bfa69b9656c3d5616381eae48b07f",
+        "name": "resources/malbork/phx_game_card_malbork.jpg"
+      },
+      "malb#MALBORK_LOGO": {
+        "hash": "95ed6b7de6fab163afa0ffa8ee860cee",
+        "name": "resources/malbork/phx_game_tab_logo_malbork.png"
+      }
+    },
+    "koKR": {
+      "malb#MALBORK_INSTALL_BACKGROUND": {
+        "hash": "ac74f93d336f66e1456eb25a24a9fbf0",
+        "name": "resources/malbork/install_background_malbork_kokr.jpg"
+      },
+      "malb#MALBORK_KEY_ART": {
+        "hash": "05fe56d1f1c402f1029091eb417c18af",
+        "name": "resources/malbork/phx_game_card_malbork_kokr.jpg"
+      },
+      "malb#MALBORK_LOGO": {
+        "hash": "f7c29587aefd1fcef11f13b04eb648fb",
+        "name": "resources/malbork/phx_game_tab_logo_malbork_kokr.png"
+      }
+    },
+    "zhTW": {
+      "malb#MALBORK_INSTALL_BACKGROUND": {
+        "hash": "3154e65c5eb0a06872216e14bf03e745",
+        "name": "resources/malbork/install_background_malbork_zhtw.jpg"
+      },
+      "malb#MALBORK_KEY_ART": {
+        "hash": "807d7d680971ade98bf7dd2fe1e33feb",
+        "name": "resources/malbork/phx_game_card_malbork_zhtw.jpg"
+      },
+      "malb#MALBORK_LOGO": {
+        "hash": "6b4697a0de74e7ff7dd31409b5889d78",
+        "name": "resources/malbork/phx_game_tab_logo_malbork_zhtw.png"
+      }
+    }
+  },
+  "fragment_id": "malb",
+  "installs": {
+    "malb": {
+      "auto_update_policy": {
+        "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000}
+      },
+      "requires_sso_token": true,
+      "sso_launch_argument": "-launcherlogin",
+      "tact_product": "malb"
+    },
+    "malb_retail_dev_1": {
+      "requires_sso_token": true,
+      "sso_launch_argument": "-launcherlogin",
+      "tact_product": "malb-retail-dev-1"
+    },
+    "malb_retail_rc": {
+      "requires_sso_token": true,
+      "sso_launch_argument": "-launcherlogin",
+      "tact_product": "malb-retail-rc"
+    },
+    "malb_vendor_dev_1": {
+      "requires_sso_token": true,
+      "sso_launch_argument": "-launcherlogin",
+      "tact_product": "malb-vendor-dev-1"
+    }
+  },
+  "presence_resources": [
+    {
+      "display_name": "malb#MALBORK_NAME",
+      "icon_16": "malb#MALBORK_ICON_TINY",
+      "icon_275": "malb#MALBORK_ICON_MASSIVE",
+      "icon_32": "malb#MALBORK_ICON_SMALL",
+      "icon_56": "malb#MALBORK_ICON_MEDIUM",
+      "icon_svg": "malb#MALBORK_ICON_SVG",
+      "program_id": "PERS"
+    }
+  ],
+  "products": [
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/embedded/product/malbork",
+        "background": "malb#MALBORK_BACKGROUND",
+        "breaking_news_url": "nydus://client/malbork/alert",
+        "content_id": "malbork",
+        "default_product_type": "retail",
+        "genre": "default#GENRE_REAL_TIME_STRATEGY",
+        "handheld_status": ["handheld_unsupported"],
+        "heading_text": "default#QUICK_LINK_MOBILE",
+        "icon_svg": "malb#MALBORK_ICON_SVG",
+        "install_background": "malb#MALBORK_INSTALL_BACKGROUND",
+        "key_art": "malb#MALBORK_KEY_ART",
+        "locale_support_flag": "text_audio",
+        "logo": "malb#MALBORK_LOGO",
+        "misc_flags": [],
+        "mobile_qr_code_text": "default#MOBILE_QR_CODE_DOWNLOAD",
+        "name": "malb#MALBORK_NAME",
+        "post_launch_actions": ["game_session_monitor", "overlay"],
+        "program_id": "PERS",
+        "quick_links": [
+          {
+            "action": {"type": "add_to_favorites"},
+            "icon": "default#QUICK_LINK_ICON_STAR",
+            "id": "add_to_favorites",
+            "label": "default#QUICK_LINK_FAVORITE",
+            "rank": 300
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://support.cdprojektred.com/en/cyberpunk/pc/sp-technical/issue/1568/contact-to-support"
+            },
+            "icon": "default#QUICK_LINK_ICON_SUPPORT",
+            "id": "support",
+            "label": "default#QUICK_LINK_SUPPORT",
+            "rank": 301
+          },
+          {
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://forums.cdprojektred.com/index.php?forums/cyberpunk.21/"
+            },
+            "icon": "default#QUICK_LINK_ICON_FORUMS",
+            "id": "forums",
+            "label": "default#QUICK_LINK_FORUMS",
+            "rank": 302
+          },
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://www.cyberpunk.net/us/en"},
+            "icon": "default#QUICK_LINK_ICON_WEBSITE",
+            "id": "website",
+            "label": "default#QUICK_LINK_WEBSITE",
+            "rank": 303
+          }
+        ],
+        "region_permission_flags": {
+          "default": "requires_account",
+          "overrides": [
+            {"CN": "disabled_invisible", "override_type": "region"},
+            {
+              "BLR": "disabled_invisible",
+              "CHN": "disabled_invisible",
+              "RUS": "disabled_invisible",
+              "override_type": "country"
+            }
+          ]
+        },
+        "starter_items": [
+          {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://www.cyberpunk.net/us/en"},
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 3,
+            "style": "link",
+            "type": "button"
+          }
+        ],
+        "starter_mode_when_offline": true,
+        "supported_platforms": ["win", "mac"],
+        "supported_regions": ["US", "EU", "KR"],
+        "supports_language_selection": true,
+        "supports_starter_mode": true,
+        "tab_order": 8,
+        "title_id": 1346720339,
+        "types": {
+          "retail": {
+            "auto_favorite_on_grant": true,
+            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
+            "uid": "malb"
+          },
+          "retail_dev_1": {
+            "auto_favorite_on_grant": true,
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "supports_starter_mode": false,
+            "uid": "malb_retail_dev_1"
+          },
+          "retail_rc": {
+            "auto_favorite_on_grant": true,
+            "selector_display_name": "malb#MALBORK_NAME_RC",
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "supports_starter_mode": false,
+            "type_name": "default#TYPES_RC_NAME",
+            "uid": "malb_retail_rc"
+          },
+          "vendor_dev_1": {
+            "auto_favorite_on_grant": true,
+            "supported_regions": ["US", "EU", "KR", "XX"],
+            "supports_starter_mode": false,
+            "uid": "malb_vendor_dev_1"
+          }
+        },
+        "unsupported_platform_behavior": "disabled_install"
+      },
+      "id": "MALB"
+    }
+  ],
+  "program_configuration": {
+    "MALB": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "MALB", "type": "vendor_dev_1"}}}],
+          "match": {"license_id": 1208697}
+        },
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "MALB", "type": "retail_dev_1"}}}],
+          "match": {"license_id": 1208717}
+        },
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "MALB", "type": "retail_rc"}}}],
+          "match": {"license_id": 1208718}
+        }
+      ]
+    }
+  },
+  "strings": {
+    "default": {"malb#MALBORK_NAME": "Cyberpunk 2077", "malb#MALBORK_NAME_RC": "Cyberpunk 2077 RC"},
+    "jaJP": {"malb#MALBORK_NAME": "サイバーパンク2077"},
+    "koKR": {"malb#MALBORK_NAME": " 사이버펑크 2077"},
+    "zhCN": {"malb#MALBORK_NAME": "赛博朋克 2077"},
+    "zhTW": {"malb#MALBORK_NAME": "《電馭叛客 2077》"}
+  },
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_vendor",
+        "id": "vendor_dev_1",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 1,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_VENDOR_DEV_1_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "retail_dev_1",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 1,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_RETAIL_DEV_1_NAME"
+        }
+      },
+      {
+        "category": "cat_in_development",
+        "id": "retail_rc",
+        "product_defaults": {
+          "name_style": "type_name_suffix",
+          "rank": 4,
+          "supports_starter_mode": false,
+          "type_name": "default#TYPES_RETAIL_RC_NAME"
+        }
+      }
+    ]
+  },
+  "version": 30
+}

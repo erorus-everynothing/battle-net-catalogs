@@ -1029,6 +1029,27 @@
     "logo": "resources/lyra/phx_game_tab_logo_w3re.png",
     "background": "resources/lyra/phx_game_tab_app_background_w3re.png"
   },
+  "malb": {
+    "base": "Cyberpunk 2077",
+    "logo": "resources/malbork/phx_game_tab_logo_malbork.png",
+    "background": "resources/malbork/phx_game_app_background_malbork.png"
+  },
+  "malb-retail-dev-1": {
+    "base": "Cyberpunk 2077",
+    "logo": "resources/malbork/phx_game_tab_logo_malbork.png",
+    "background": "resources/malbork/phx_game_app_background_malbork.png"
+  },
+  "malb-retail-rc": {
+    "base": "Cyberpunk 2077",
+    "type": "Cyberpunk 2077 RC",
+    "logo": "resources/malbork/phx_game_tab_logo_malbork.png",
+    "background": "resources/malbork/phx_game_app_background_malbork.png"
+  },
+  "malb-vendor-dev-1": {
+    "base": "Cyberpunk 2077",
+    "logo": "resources/malbork/phx_game_tab_logo_malbork.png",
+    "background": "resources/malbork/phx_game_app_background_malbork.png"
+  },
   "nina": {
     "base": "Call of Duty: Modern Warfare II",
     "logo": "resources/nina/logo_nina_enUS.png",
