@@ -323,7 +323,7 @@
                 "color": "#6cdb00",
                 "icon": "default#QUICK_LINK_ICON_UPGRADE",
                 "id": "purchase_mw4",
-                "label": "auks#AUKS_QUICKLINK_PREPURCHASE_MW4",
+                "label": "auks#AUKS_QUICKLINK_MW4_LIVE_NOW",
                 "rank": 100
               }
             ],
@@ -707,6 +707,7 @@
   },
   "strings": {
     "deDE": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "Der Kampagnen-Vorabzugang ist jetzt live!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Kaufe Modern Warfare 4 vorab",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "Installiert Call of Duty: Warzone™",
       "auks#MW4_BETA_NAME": "Modern Warfare 4 Beta"
@@ -719,6 +720,7 @@
       "auks#AUKS_NAME_ESPORTS_2": "eSports Staff",
       "auks#AUKS_NAME_ESPORTS_3": "eSports Event",
       "auks#AUKS_NAME_MW4_NEXT": "COD MW4 NEXT",
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "Campaign Early Access Live Now!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Pre-purchase Modern Warfare 4",
       "auks#AUKS_RC_2_NAME": "Cortez RC 2",
       "auks#AUKS_RC_NAME": "Cortez RC",
@@ -726,26 +728,31 @@
       "auks#MW4_BETA_NAME": "Modern Warfare 4 Beta"
     },
     "esES": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "¡Acceso anticipado a la campaña ya disponible!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Precompra Modern Warfare 4",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "Instala Call of Duty: Warzone™",
       "auks#MW4_BETA_NAME": "Beta de Modern Warfare 4"
     },
     "esMX": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "¡Acceso anticipado a la campaña ya disponible!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Precompra Modern Warfare 4",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "Instala Call of Duty: Warzone™",
       "auks#MW4_BETA_NAME": "Beta de Modern Warfare 4"
     },
     "frFR": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "Accès anticipé à la Campagne maintenant disponible !",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Préacheter Modern Warfare 4",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "Installe Call of Duty: Warzone™",
       "auks#MW4_BETA_NAME": "Bêta de Modern Warfare 4"
     },
     "itIT": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "Accesso anticipato alla campagna disponibile ora!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Pre-acquista Modern Warfare 4",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "Installazioni Call of Duty: Warzone™",
       "auks#MW4_BETA_NAME": "Beta di Modern Warfare 4"
     },
     "jaJP": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "早期アクセス開催中！",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Modern Warfare 4を事前購入",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "「Call of Duty: Warzone™」をインストール",
       "auks#MW4_BETA_NAME": "Modern Warfare 4ベータ"
@@ -753,36 +760,43 @@
     "koKR": {
       "auks#AUKS_KR_DATA_SHARING_CONSENT": "이 체크박스에 표시함으로써, 귀하의 배틀태그, 블리자드 계정 정보, 지역 정보, 본 게임 서비스 구매 및 이용 내역이 서비스 제공을 위하여 Activision Publishing, Inc. (미국 소재, 문의처: privacy@activision.com)에게 온라인 전송의 방법으로 구매 및 이용 시에 제공되며, 서비스 기간 동안 보유됩니다. 이에 동의하지 않으실 경우 게임 플레이가 제한됩니다. <a href=\"http://kr.blizzard.com/ko-kr/company/about/privacy.html\">블리자드 개인정보 처리방침</a>을 참조해주세요.",
       "auks#AUKS_NAME": "콜 오브 듀티",
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "캠페인 얼리 액세스 진행 중!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "모던 워페어 4 예약 구매",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "콜 오브 듀티: 워존™ 설치하기",
       "auks#MW4_BETA_NAME": "모던 워페어 4 베타"
     },
     "plPL": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "Wczesny dostęp do kampanii już trwa!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Kup Modern Warfare 4 w przedsprzedaży",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "Instaluje Call of Duty: Warzone™",
       "auks#MW4_BETA_NAME": "Beta Modern Warfare 4"
     },
     "ptBR": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "ACESSO ANTECIPADO À CAMPANHA JÁ DISPONÍVEL!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Faça a reserva do Modern Warfare 4",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "Instala Call of Duty: Warzone™",
       "auks#MW4_BETA_NAME": "Beta do Modern Warfare 4"
     },
     "ruRU": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "Ранний доступ к кампании уже открыт!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "Оформите предзаказ на Modern Warfare 4",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "Включает в себя Call of Duty: Warzone™",
       "auks#MW4_BETA_NAME": "Бета-тест Modern Warfare 4"
     },
     "thTH": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "แคมเปญเปิดให้เล่นล่วงหน้าแล้ว!",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "ซื้อ Modern Warfare 4 ล่วงหน้า",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "ติดตั้ง Call of Duty: Warzone™"
     },
     "zhCN": {
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "抢先畅玩剧情战役现已上线！",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "预购《现代战争4》",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "安装《使命召唤：战争地带™》",
       "auks#MW4_BETA_NAME": "《现代战争4》试玩"
     },
     "zhTW": {
       "auks#AUKS_NAME": "《決勝時刻》",
+      "auks#AUKS_QUICKLINK_MW4_LIVE_NOW": "劇情戰役搶先體驗現已開始",
       "auks#AUKS_QUICKLINK_PREPURCHASE_MW4": "預購《現代戰爭4》",
       "auks#AUKS_STARTER_LABEL_INSTALL_WZ": "安裝《決勝時刻：現代戰域™》",
       "auks#MW4_BETA_NAME": "《現代戰爭4》公開測試"

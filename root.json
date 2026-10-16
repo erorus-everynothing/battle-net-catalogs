@@ -302,7 +302,7 @@
       "name": "arkansas_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
-    {"hash": "7649d3cf5653fdc19f7057807a5f89c0", "name": "auks"},
+    {"hash": "a2483930048c0ff5bc98586d567e4894", "name": "auks"},
     {
       "hash": "09efdd127784946cfd597b2f029aecf9",
       "name": "auks_alphadeprecationoverride",
