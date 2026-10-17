@@ -57,6 +57,15 @@
         ]
       }
     },
+    {
+      "id": "cod_promo_tab",
+      "requires": {
+        "all_of": [
+          {"begin": "2026-10-23T04:00:00Z", "end": "2026-10-24T04:00:00Z", "type": "server_time"},
+          {"exclude": "CN", "type": "login_region"}
+        ]
+      }
+    },
     {"id": "blizzard_profiles", "requires": {"exclude": "CN", "type": "login_region"}},
     {"id": "chat_giphy", "requires": {"exclude": "CN", "type": "login_region"}},
     {"id": "channels_dry_run", "requires": {"exclude": "CN", "type": "login_region"}},

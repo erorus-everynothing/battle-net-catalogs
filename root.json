@@ -357,7 +357,7 @@
       "name": "auks_mw4_vault",
       "requires": {"all_of": [{"$comment": "Rex Vault", "licenses": [1172868], "type": "licenses"}]}
     },
-    {"hash": "2b43ebe18156943f71f670a18045a414", "name": "battle.net"},
+    {"hash": "6b47677e7931e83d83565aed64b004eb", "name": "battle.net"},
     {"hash": "66fa87a135861bb6fc0cb7192523f460", "name": "btlr"},
     {"hash": "f8dc12685fe55de340b8c36c6b5914da", "name": "corn"},
     {"hash": "2837e1253e50ecdc71a96e479b3620b7", "name": "diablo_i"},
@@ -1308,7 +1308,7 @@
       }
     },
     {
-      "hash": "63857c3381ebda40fa45f991427c53d5",
+      "hash": "568d4a621585f2cb29b574acc514d91a",
       "name": "world_of_warcraft_wow_forever_stress_test_preload",
       "requires": {"exclude": "CN", "type": "login_region"}
     },
