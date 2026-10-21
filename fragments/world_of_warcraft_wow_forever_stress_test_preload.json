@@ -1,18 +1,6 @@
 {
   "fragment_id": "world_of_warcraft_wow_forever_stress_test_preload",
-  "products": [
-    {
-      "base": {
-        "types": {
-          "wowf": {
-            "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
-            "preinstalled_message": "default#PREINSTALLED_MESSAGE"
-          }
-        }
-      },
-      "id": "WoW"
-    }
-  ],
+  "products": [{"base": {"types": {"wowf": {"preinstalled_message": "default#PREINSTALLED_MESSAGE"}}}, "id": "WoW"}],
   "strings": {},
   "version": 30
 }

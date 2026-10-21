@@ -61,7 +61,7 @@
       "id": "cod_promo_tab",
       "requires": {
         "all_of": [
-          {"begin": "2026-10-23T04:00:00Z", "end": "2026-10-24T04:00:00Z", "type": "server_time"},
+          {"begin": "2026-10-23T04:00:00Z", "end": "2026-10-26T16:00:00Z", "type": "server_time"},
           {"exclude": "CN", "type": "login_region"}
         ]
       }

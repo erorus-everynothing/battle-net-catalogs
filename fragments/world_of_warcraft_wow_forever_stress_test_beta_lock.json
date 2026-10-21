@@ -1,0 +1,8 @@
+{
+  "fragment_id": "world_of_warcraft_wow_forever_stress_test_beta_lock",
+  "products": [
+    {"base": {"types": {"wow_classic_beta": {"play_disabled_message": "default#PLAY_DISABLED_MESSAGE"}}}, "id": "WoW"}
+  ],
+  "strings": {},
+  "version": 30
+}
