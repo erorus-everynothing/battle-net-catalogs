@@ -1621,7 +1621,12 @@
                 {
                   "actions": [
                     {"add_product": {"product_id": {"id": "WoWFNoUpgrade", "type": "wowf"}}},
-                    {"add_product": {"product_id": {"id": "WoWFNoUpgrade", "type": "wow_classic_beta"}}}
+                    {
+                      "add_product": {
+                        "level": "program",
+                        "product_id": {"id": "WoWFNoUpgrade", "type": "wow_classic_beta"}
+                      }
+                    }
                   ],
                   "match": {
                     "all_of": [
@@ -1633,7 +1638,7 @@
                 {
                   "actions": [
                     {"add_product": {"product_id": {"id": "WoWFPreload", "type": "wowf"}}},
-                    {"add_product": {"product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
+                    {"add_product": {"level": "program", "product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
                   ],
                   "match": {
                     "all_of": [
@@ -1645,7 +1650,7 @@
                 {
                   "actions": [
                     {"add_product": {"product_id": {"id": "WoW", "type": "wowf"}}},
-                    {"add_product": {"product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
+                    {"add_product": {"level": "program", "product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
                   ],
                   "match": {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}}
                 },
