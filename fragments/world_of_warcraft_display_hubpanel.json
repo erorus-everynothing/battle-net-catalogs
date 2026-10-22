@@ -222,8 +222,7 @@
           "wow_ptr_x": {"background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE"},
           "wowf": {
             "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_FOREVER",
-            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_FOREVER",
-            "selector_display_name": "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST"
+            "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_FOREVER"
           }
         }
       },
@@ -249,8 +248,7 @@
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Jubiläum von Burning Crusade",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Classic-Ära",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Classic-Ära",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Saison der Entdeckungen",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "Belastungstest"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Saison der Entdeckungen"
     },
     "default": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Burning Crusade Anniversary",
@@ -260,37 +258,31 @@
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Season of Discovery",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP": "Mists of Pandaria Classic",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_TITAN": "Titan Reforged Classic",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "Stress Test",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE": "Midnight"
     },
     "esES": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Aniversario de Burning Crusade",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada del Descubrimiento",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "Prueba de estrés"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada del Descubrimiento"
     },
     "esMX": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Aniversario de Burning Crusade",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Era clásica",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Era de Classic",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "Extremo",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada de descubrimiento",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "Prueba de servidores"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada de descubrimiento"
     },
     "frFR": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Anniversaire de Burning Crusade",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "Extrême",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Saison de la découverte",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "Test de charge"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Saison de la découverte"
     },
     "itIT": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Anniversary di Burning Crusade",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Era Classic",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Era Classic",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "Stress Test"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Era Classic"
     },
     "jaJP": {
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "「Burning Crusade」 Anniversary",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "ストレステスト"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "「Burning Crusade」 Anniversary"
     },
     "koKR": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "불타는 성전 기념 서버",
@@ -299,34 +291,29 @@
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "하드코어",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "디스커버리 시즌",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP": "판다리아의 안개 클래식",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "스트레스 테스트",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE": "한밤"
     },
     "plPL": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Burning Crusade Anniversary",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "wersja klasyczna",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "test obciążeniowy"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "wersja klasyczna"
     },
     "ptBR": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Aniversário de Burning Crusade",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA": "Era Classic",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Era Classic",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada da Descoberta",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "Teste de estresse"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Temporada da Descoberta"
     },
     "ruRU": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Годовщина Burning Crusade",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "Классическая эпоха",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "Героический режим",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Сезон открытий",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "проверка производительности"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "Сезон открытий"
     },
     "thTH": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "Burning Crusade Anniversary",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_BASE": "ยุคคลาสสิค",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "ฮาร์ดคอร์",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "ฤดูกาลแห่งการค้นพบ",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "การทดสอบขีดจำกัดเซิร์ฟเวอร์"
+      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "ฤดูกาลแห่งการค้นพบ"
     },
     "zhCN": {
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_BC_ANNIVERSARY": "\"燃烧的远征\"周年纪念",
@@ -336,7 +323,6 @@
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "探索赛季",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP": "\"熊猫人之谜\"",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_TITAN": "泰坦重铸",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "压力测试",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE": "至暗之夜"
     },
     "zhTW": {
@@ -346,7 +332,6 @@
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_HARDCORE": "專家模式",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_ERA_SOD": "探索賽季",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_CLASSIC_MOP": "《潘達利亞之謎》經典版",
-      "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_FOREVER_STRESS_TEST": "壓力測試",
       "world_of_warcraft_display_hubpanel#WOW_HUB_PLAY_SELECTOR_DISPLAY_NAME_MAINLINE": "《至暗之夜》"
     }
   },

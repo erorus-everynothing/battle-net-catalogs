@@ -80,25 +80,7 @@
           },
           "wow_classic_beta": {
             "quick_links": [
-              {
-                "action": {
-                  "target": "shop",
-                  "type": "url",
-                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
-                },
-                "color": "#6cdb00",
-                "icon": "default#QUICK_LINK_ICON_UPGRADE",
-                "id": "upgrade",
-                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
-                "rank": 100
-              },
-              {
-                "action": {"cms_id": "wow-classic", "cms_type": "retail", "type": "patch_notes"},
-                "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",
-                "id": "patch_notes",
-                "label": "default#QUICK_LINK_PATCH_NOTES",
-                "rank": 101
-              },
+              {"hidden": true, "id": "patch_notes"},
               {
                 "action": {
                   "target": "shop",
@@ -136,18 +118,6 @@
           },
           "wowf": {
             "quick_links": [
-              {
-                "action": {
-                  "target": "shop",
-                  "type": "url",
-                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
-                },
-                "color": "#6cdb00",
-                "icon": "default#QUICK_LINK_ICON_UPGRADE",
-                "id": "upgrade",
-                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
-                "rank": 100
-              },
               {
                 "action": {"cms_id": "wow-classic", "cms_type": "retail", "type": "patch_notes"},
                 "icon": "default#QUICK_LINK_ICON_PATCH_NOTES",

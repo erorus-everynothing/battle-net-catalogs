@@ -160,7 +160,7 @@
               "external": true,
               "target": "external",
               "type": "url",
-              "url": "nydus://client/support/game/witcher-3/pc"
+              "url": "https://support.cdprojektred.com/en/witcher-3/pc"
             },
             "icon": "default#QUICK_LINK_ICON_SUPPORT",
             "id": "support",

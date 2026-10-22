@@ -677,7 +677,7 @@
       "name": "libra_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
-    {"hash": "19852a52d9d33cfb139904c10e7ba705", "name": "lyra"},
+    {"hash": "69c52c7f91c804ffa77306f2b37ec24e", "name": "lyra"},
     {"hash": "b841a48b923351b369f4292d52dcaa84", "name": "malb"},
     {
       "decryption_key_id": "catalog-decryption-key-moon2",
@@ -1173,7 +1173,7 @@
         ]
       }
     },
-    {"hash": "1a68738b9a0ec3e9f0c933fd7420fe18", "name": "world_of_warcraft"},
+    {"hash": "db00fb8d8df90e0d293552147bdb88d0", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
@@ -1195,7 +1195,7 @@
       "requires": {"all_of": [{"licenses": [1134620], "type": "licenses"}, {"licenses": [1144770], "type": "licenses"}]}
     },
     {
-      "hash": "b8f5771b09cf6db95af71ec895f431ca",
+      "hash": "eb78b66241139c2e4ded73d9d3446ed1",
       "name": "world_of_warcraft_display_hubpanel",
       "requires": {"id": "hub_groups_enabled", "type": "feature"}
     },
@@ -1215,14 +1215,14 @@
       }
     },
     {
-      "hash": "c7dcd3b930fd5e8a49fc0adf11446750",
+      "hash": "7ea8ac2fabbe13a0311eb0c6b472788c",
       "name": "world_of_warcraft_quicklinks_hubpanel_cn",
       "requires": {
         "all_of": [{"id": "hub_groups_enabled", "type": "feature"}, {"include": "CN", "type": "login_region"}]
       }
     },
     {
-      "hash": "38f74c2d8fdd3f0847be31bcd31d3dd7",
+      "hash": "b4abac1b02f1f61e934231ec6d7a4c22",
       "name": "world_of_warcraft_quicklinks_hubpanel_row",
       "requires": {
         "all_of": [
@@ -1232,7 +1232,7 @@
       }
     },
     {
-      "hash": "3f6929ee26aaddfac5894b4332ee248f",
+      "hash": "60f719abdb311b5dff002686afc6cd18",
       "name": "world_of_warcraft_quicklinks_stdpanel_cn",
       "requires": {
         "all_of": [{"not": {"id": "hub_groups_enabled", "type": "feature"}}, {"include": "CN", "type": "login_region"}]
@@ -1298,7 +1298,7 @@
       }
     },
     {
-      "hash": "0f8c1b6d4fb813b4ac47ae71ef573b9a",
+      "hash": "78a510a430743223cca1045208bb0298",
       "name": "world_of_warcraft_wow_forever_access_restriction_cn",
       "requires": {
         "all_of": [
@@ -1306,16 +1306,6 @@
           {"licenses": [1190895, 1191799], "op": "none_of", "type": "licenses"}
         ]
       }
-    },
-    {
-      "hash": "4a6c9f66be959f22dbaa3fcbc11b6a4b",
-      "name": "world_of_warcraft_wow_forever_stress_test_beta_lock",
-      "requires": {"exclude": "CN", "type": "login_region"}
-    },
-    {
-      "hash": "1e01eca8c7d75eff6220c488551dbe87",
-      "name": "world_of_warcraft_wow_forever_stress_test_preload",
-      "requires": {"exclude": "CN", "type": "login_region"}
     },
     {"hash": "79339a5fc048b620a36cc9233de2cc03", "name": "zeus"},
     {

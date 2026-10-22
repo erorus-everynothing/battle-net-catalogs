@@ -8,6 +8,9 @@
             "install_disabled_message": "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_INSTALL_DISABLED_MESSAGE",
             "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
             "release_date_message": "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_RELEASE_DATE_MESSAGE_CN"
+          },
+          "wowf": {
+            "release_date_message": "world_of_warcraft_wow_forever_access_restriction_cn#WOW_FOREVER_RELEASE_DATE_MESSAGE_CN"
           }
         }
       },

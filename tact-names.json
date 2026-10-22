@@ -1839,7 +1839,7 @@
   },
   "wowf": {
     "base": "World of Warcraft",
-    "type": "WoW: Forever - Stress Test",
+    "type": "WoW: Forever",
     "logo": "resources/wow/logo_wow_forever_enUS.png",
     "background": "resources/wow/background_wow_forever_new_panel.png"
   },

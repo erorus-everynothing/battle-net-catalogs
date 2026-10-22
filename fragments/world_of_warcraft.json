@@ -1293,6 +1293,20 @@
             "override_product_id": "WoWF",
             "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_FOREVER",
             "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER",
+            "quick_links": [
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "url",
+                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
+                },
+                "color": "#6cdb00",
+                "icon": "default#QUICK_LINK_ICON_UPGRADE",
+                "id": "upgrade",
+                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+                "rank": 100
+              }
+            ],
             "region_permission_flags": {"default": "requires_account_visible"},
             "selector_display_name": "world_of_warcraft#WOW_FOREVER_BETA_NAME",
             "supported_regions": ["CN"],
@@ -1403,11 +1417,14 @@
             "breaking_news_url": "nydus://client/wow-forever/alert",
             "content_id": "world-of-warcraft-forever",
             "install_background": "world_of_warcraft#WOW_FOREVER_INSTALL_BACKGROUND",
+            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
             "logo": "world_of_warcraft#WOW_FOREVER_LOGO",
-            "name": "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME",
+            "name": "world_of_warcraft#WOW_FOREVER_NAME",
             "override_product_id": "WoWF",
+            "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
             "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_FOREVER",
             "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER",
+            "preinstalled_message": "default#PREINSTALLED_MESSAGE",
             "quick_links": [
               {
                 "action": {
@@ -1441,8 +1458,9 @@
               }
             ],
             "region_permission_flags": {"default": "unrestricted"},
-            "selector_display_name": "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME",
-            "supported_regions": ["US", "EU", "KR"],
+            "release_date_message": "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE",
+            "selector_display_name": "world_of_warcraft#WOW_FOREVER_NAME",
+            "supported_regions": ["US", "EU", "KR", "CN"],
             "uid": "wowf"
           }
         },
@@ -1464,7 +1482,27 @@
             }
           }
         },
-        "WoWFUpgrade": {"types": {"wow_cn_beta": {"quick_links": [{"hidden": true, "id": "upgrade", "rank": 100}]}}},
+        "WoWFNoUpgrade": {
+          "types": {
+            "wow_classic_beta": {
+              "quick_links": [{"hidden": true, "id": "upgrade"}],
+              "region_permission_flags": {"default": "requires_account"},
+              "supported_regions": ["XX"]
+            },
+            "wow_cn_beta": {"quick_links": [{"hidden": true, "id": "upgrade"}]},
+            "wowf": {
+              "install_disabled_message": "default#EMPTY_STRING",
+              "quick_links": [{"hidden": true, "id": "upgrade"}]
+            }
+          }
+        },
+        "WoWFNoUpgradeCN": {
+          "types": {
+            "wow_cn_beta": {"quick_links": [{"hidden": true, "id": "upgrade"}]},
+            "wowf": {"quick_links": [{"hidden": true, "id": "upgrade"}]}
+          }
+        },
+        "WoWFPreload": {"types": {"wowf": {"install_disabled_message": "default#EMPTY_STRING"}}},
         "WoWPTR": {"region_permission_flags": {"default": "requires_account"}, "supported_regions": ["XX"]},
         "WoWX10": {
           "background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
@@ -1572,33 +1610,83 @@
                 },
                 {"actions": [{"add_product": {"product_id": {"id": "WoW", "type": "retail"}}}]}
               ]
-            },
-            {
-              "run_first_rule": [
-                {
-                  "actions": [{"add_product": {"product_id": {"id": "WoWFUpgrade", "type": "wow_cn_beta"}}}],
-                  "match": {
-                    "all_of": [{"game_account": {"program_id": "WoW", "region": ["CN"]}}, {"license_id": [1177708]}]
-                  }
-                },
-                {
-                  "actions": [{"add_product": {"product_id": {"id": "WoW", "type": "wow_cn_beta"}}}],
-                  "match": {"game_account": {"program_id": "WoW", "region": ["CN"]}}
-                }
-              ]
             }
           ],
           "match": {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW", "CN"]}}
         },
         {
           "actions": [
-            {"add_product": {"level": "program", "product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
-          ],
-          "match": {"not": {"game_account": {"program_id": "WoW", "region": ["CN"]}}}
-        },
-        {
-          "actions": [{"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wowf"}}}],
-          "match": {"not": {"game_account": {"program_id": "WoW", "region": ["CN"]}}}
+            {
+              "run_first_rule": [
+                {
+                  "actions": [
+                    {"add_product": {"product_id": {"id": "WoWFNoUpgrade", "type": "wowf"}}},
+                    {"add_product": {"product_id": {"id": "WoWFNoUpgrade", "type": "wow_classic_beta"}}}
+                  ],
+                  "match": {
+                    "all_of": [
+                      {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
+                      {"license_id": [1209987]}
+                    ]
+                  }
+                },
+                {
+                  "actions": [
+                    {"add_product": {"product_id": {"id": "WoWFPreload", "type": "wowf"}}},
+                    {"add_product": {"product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
+                  ],
+                  "match": {
+                    "all_of": [
+                      {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
+                      {"license_id": [1190945, 1177708, 1178150, 1224928, 1209416, 1204683, 1204680]}
+                    ]
+                  }
+                },
+                {
+                  "actions": [
+                    {"add_product": {"product_id": {"id": "WoW", "type": "wowf"}}},
+                    {"add_product": {"product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
+                  ],
+                  "match": {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}}
+                },
+                {
+                  "actions": [
+                    {"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wowf"}}},
+                    {"add_product": {"level": "program", "product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
+                  ],
+                  "match": {
+                    "all_of": [
+                      {"account_region": ["US", "EU", "KR", "TW"]},
+                      {"not": {"game_account": {"program_id": "WoW"}}}
+                    ]
+                  }
+                },
+                {
+                  "actions": [
+                    {"add_product": {"product_id": {"id": "WoWFNoUpgradeCN", "type": "wowf"}}},
+                    {"add_product": {"product_id": {"id": "WoWFNoUpgradeCN", "type": "wow_cn_beta"}}}
+                  ],
+                  "match": {
+                    "all_of": [{"game_account": {"program_id": "WoW", "region": ["CN"]}}, {"license_id": [1177708]}]
+                  }
+                },
+                {
+                  "actions": [
+                    {"add_product": {"product_id": {"id": "WoW", "type": "wowf"}}},
+                    {"add_product": {"product_id": {"id": "WoW", "type": "wow_cn_beta"}}}
+                  ],
+                  "match": {"game_account": {"program_id": "WoW", "region": ["CN"]}}
+                },
+                {
+                  "actions": [
+                    {"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wowf"}}},
+                    {"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wow_cn_beta"}}}
+                  ],
+                  "match": {"all_of": [{"account_region": "CN"}, {"not": {"game_account": {"program_id": "WoW"}}}]}
+                }
+              ]
+            }
+          ]
         },
         {
           "actions": [{"add_product": {"level": "program", "product_id": {"id": "WoWX12", "type": "beta"}}}],
@@ -1725,7 +1813,7 @@
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW-Event 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Eventrealm",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Beta",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever – Belastungstest",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Verfügbar ab 4. November 2026",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Classic-Ära",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Saison der Entdeckungen",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Interner Test der Hauptversion",
@@ -1772,7 +1860,7 @@
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Event Realm",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever - Beta",
       "world_of_warcraft#WOW_FOREVER_NAME": "WoW: Forever",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever - Stress Test",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Available November 4, 2026",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Classic Era",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "Hardcore",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Season of Discovery",
@@ -1824,7 +1912,7 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento de WoW 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Reino del evento",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever - Prueba de estrés",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponible el 4 de noviembre de 2026",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Temporada del Descubrimiento",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Prueba interna principal",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW": "¿Buscas World of Warcraft?",
@@ -1856,7 +1944,7 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento 2 de WoW",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever (beta)",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever (prueba de servidores)",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponible el 4 de noviembre de 2026",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Era de Classic",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "Extremo",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Temporada de descubrimiento",
@@ -1890,7 +1978,7 @@
       "world_of_warcraft#WOW_EVENT_2_NAME": "Évènement World of Warcraft 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Royaume d’évènement",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Bêta",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever –Test de charge",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponible le 4 novembre 2026",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "Extrême",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Saison de la découverte",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Test interne de l’intrigue principale",
@@ -1924,7 +2012,7 @@
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento WoW 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Reame evento",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "Beta di WoW: Forever",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "Stress Test di WoW: Forever",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponibile dal 4 novembre 2026",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Era Classic",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Test interno della linea principale",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW": "Stai cercando World of Warcraft?",
@@ -1953,7 +2041,7 @@
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW イベント2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "イベント用サーバー",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever - ベータ",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever - ストレステスト",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "2026年11月4日リリース",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "メインライン内部テスト",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW": "「World of Warcraft」をお探しですか？",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW_CLASSIC": "「WoW Classic」をお探しですか？",
@@ -1987,7 +2075,7 @@
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "이벤트 서버",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: 포에버 - 베타",
       "world_of_warcraft#WOW_FOREVER_NAME": "WoW: 포에버",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: 포에버 - 스트레스 테스트",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "2026년 11월 4일 출시",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "클래식 시대",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "하드코어",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "디스커버리 시즌",
@@ -2028,7 +2116,7 @@
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW: wydarzenie 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Serwer wydarzeń",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Beta",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever – test obciążeniowy",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Gra dostępna od 4 listopada 2026",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Test wewnętrzny linii głównej",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW": "Szukasz World of Warcraft?",
       "world_of_warcraft#WOW_LOOKING_FOR_WOW_CLASSIC": "Szukasz WoW Classic?",
@@ -2060,7 +2148,7 @@
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "Era Classic",
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento do WoW 2",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever - Teste de estresse",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponível em 4 de novembro de 2026",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Era Classic",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Temporada da Descoberta",
       "world_of_warcraft#WOW_INTERNAL_ALPHA_NAME": "Teste Interno Principal",
@@ -2093,7 +2181,7 @@
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW: событие 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Игровой мир мероприятия",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever — бета-версия",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever — проверка производительности",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Доступно с 4 ноября 2026 г.",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Классическая эпоха",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "Героический режим",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "Сезон открытий",
@@ -2123,7 +2211,7 @@
       "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "เบต้า Dragonflight",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "อาณาจักรสำหรับกิจกรรม",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever - เบต้า",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "WoW: Forever - การทดสอบขีดจำกัดเซิร์ฟเวอร์",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "เปิดให้เล่นวันที่ 4 พ.ย. 2026 (ตามเวลาประเทศไทย)",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "ยุคคลาสสิค",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "ฮาร์ดคอร์",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "ฤดูกาลแห่งการค้นพบ",
@@ -2150,7 +2238,7 @@
       "world_of_warcraft#WOW_EVENT_2_NAME": "魔兽世界活动2",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "《魔兽世界》：“无限”——Beta测试",
       "world_of_warcraft#WOW_FOREVER_NAME": "《魔兽世界》：“无限”",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "《魔兽世界》 ：“无限”——压力测试",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "将于2026年11月4日上线",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "旧世经典服务器",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "专家模式",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "探索赛季",
@@ -2206,7 +2294,7 @@
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "活動伺服器",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "《魔獸世界：永恆》Beta 測試",
       "world_of_warcraft#WOW_FOREVER_NAME": "《魔獸世界：永恆》",
-      "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME": "《魔獸世界：永恆》壓力測試",
+      "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "2026 年 11 月 4 日推出",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "經典時期",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_HARDCORE": "專家模式",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_SOD": "探索賽季",
@@ -2303,11 +2391,7 @@
       {
         "category": "cat_wow_forever",
         "id": "wowf",
-        "product_defaults": {
-          "name_style": "default",
-          "rank": 3,
-          "type_name": "world_of_warcraft#WOW_FOREVER_STRESS_TEST_NAME"
-        }
+        "product_defaults": {"name_style": "default", "rank": 3, "type_name": "world_of_warcraft#WOW_FOREVER_NAME"}
       },
       {
         "category": "cat_wow_forever",

@@ -180,18 +180,6 @@
                   "type": "url",
                   "url": "nydus://client/shop/product/world-of-warcraft-forever"
                 },
-                "color": "#6cdb00",
-                "icon": "default#QUICK_LINK_ICON_UPGRADE",
-                "id": "upgrade",
-                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
-                "rank": 100
-              },
-              {
-                "action": {
-                  "target": "shop",
-                  "type": "url",
-                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
-                },
                 "icon": "default#QUICK_LINK_ICON_SHOP",
                 "id": "shop",
                 "label": "default#QUICK_LINK_SHOP",
@@ -235,7 +223,8 @@
               },
               {"hidden": true, "id": "forums"}
             ]
-          }
+          },
+          "wowf": {"quick_links": [{"hidden": true, "id": "patch_notes"}]}
         }
       },
       "id": "WoW"
