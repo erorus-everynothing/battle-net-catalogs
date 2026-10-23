@@ -1,0 +1,19 @@
+{
+  "fragment_id": "osi_live_vendor_not_deprecated",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "vendor_1": {"deprecated": false},
+          "vendor_2": {"deprecated": false},
+          "vendor_3": {"deprecated": false},
+          "vendor_4": {"deprecated": false},
+          "vendor_5": {"deprecated": false},
+          "vendor_6": {"deprecated": false}
+        }
+      },
+      "id": "OSI"
+    }
+  ],
+  "version": 30
+}

@@ -727,7 +727,7 @@
         ]
       }
     },
-    {"hash": "be7b35260e632224c9c72c2650a4925d", "name": "osi"},
+    {"hash": "6c170bfc4d65e7c7936f34311f0a492c", "name": "osi"},
     {
       "hash": "6e6d9113ab81c0ded6a679f4e4ff2446",
       "name": "osi_cn",
@@ -754,6 +754,11 @@
       "hash": "a8687e30038516073e6531ecf7746eda",
       "name": "osi_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
+    },
+    {
+      "hash": "7db148d0a983a0c27d9695eb1a30e11f",
+      "name": "osi_live_vendor_not_deprecated",
+      "requires": {"licenses": [107643, 1224866], "type": "licenses"}
     },
     {
       "hash": "7b4f7651b7e73a1ec5c622495fafb1ff",

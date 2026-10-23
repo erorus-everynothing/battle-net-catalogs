@@ -247,36 +247,42 @@
             "xbox_uid": "9NPSLX5HNN3H"
           },
           "vendor_1": {
+            "deprecated": true,
             "region_permission_flags": {"default": "requires_account"},
             "supported_regions": ["US", "EU", "KR", "XX"],
             "supports_starter_mode": false,
             "uid": "osi_vendor_1"
           },
           "vendor_2": {
+            "deprecated": true,
             "region_permission_flags": {"default": "requires_account"},
             "supported_regions": ["US", "EU", "KR", "XX"],
             "supports_starter_mode": false,
             "uid": "osi_vendor_2"
           },
           "vendor_3": {
+            "deprecated": true,
             "region_permission_flags": {"default": "requires_account"},
             "supported_regions": ["US", "EU", "KR", "XX"],
             "supports_starter_mode": false,
             "uid": "osi_vendor_3"
           },
           "vendor_4": {
+            "deprecated": true,
             "region_permission_flags": {"default": "requires_account"},
             "supported_regions": ["US", "EU", "KR", "XX"],
             "supports_starter_mode": false,
             "uid": "osi_vendor_4"
           },
           "vendor_5": {
+            "deprecated": true,
             "region_permission_flags": {"default": "requires_account"},
             "supported_regions": ["US", "EU", "KR", "XX"],
             "supports_starter_mode": false,
             "uid": "osi_vendor_5"
           },
           "vendor_6": {
+            "deprecated": true,
             "region_permission_flags": {"default": "requires_account"},
             "supported_regions": ["US", "EU", "KR", "CN", "XX"],
             "supports_starter_mode": false,
@@ -325,27 +331,27 @@
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "OSI", "type": "vendor_1"}}}],
-          "match": {"license_id": 107649}
+          "match": {"license_id": [107649, 1224866]}
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "OSI", "type": "vendor_2"}}}],
-          "match": {"license_id": 1093938}
+          "match": {"license_id": [1093938, 1224866]}
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "OSI", "type": "vendor_3"}}}],
-          "match": {"license_id": 107636}
+          "match": {"license_id": [107636, 1224866]}
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "OSI", "type": "vendor_4"}}}],
-          "match": {"license_id": 107650}
+          "match": {"license_id": [107650, 1224866]}
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "OSI", "type": "vendor_5"}}}],
-          "match": {"license_id": 107637}
+          "match": {"license_id": [107637, 1224866]}
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "OSI", "type": "vendor_6"}}}],
-          "match": {"license_id": 107638}
+          "match": {"license_id": [107638, 1224866]}
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "OSI", "type": "vendor_7"}}}],
