@@ -246,7 +246,7 @@
         ],
         "starter_mode_when_offline": true,
         "supported_platforms": ["win"],
-        "tab_order": 6,
+        "tab_order": 7,
         "title_id": 5272175,
         "types": {
           "beta": {

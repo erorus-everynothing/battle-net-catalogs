@@ -751,7 +751,7 @@
           }
         ],
         "starter_logo": "world_of_warcraft#WOW_CLASSIC_LOGO",
-        "tab_order": 5
+        "tab_order": 6
       },
       "id": "WoWC"
     },
@@ -802,7 +802,7 @@
         ],
         "starter_logo": "world_of_warcraft#WOW_FOREVER_LOGO",
         "supports_starter_mode": true,
-        "tab_order": 1
+        "tab_order": 2
       },
       "id": "WoWF"
     },
@@ -929,7 +929,7 @@
           }
         ],
         "starter_logo": "world_of_warcraft#WOW_LOGO_MIDNIGHT",
-        "tab_order": 4,
+        "tab_order": 5,
         "title_id": 5730135,
         "trial_display_name": "world_of_warcraft#WOW_NAME",
         "trial_icon": "world_of_warcraft#WOW_ICON_SVG",

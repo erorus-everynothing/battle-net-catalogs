@@ -150,7 +150,7 @@
         "region_permission_flags": {"default": "unrestricted"},
         "supported_regions": ["CN"],
         "supports_starter_mode": false,
-        "tab_order": 9,
+        "tab_order": 13,
         "title_id": 17459,
         "types": {"vendor_5": {"auto_favorite_on_grant": true, "uid": "d3vcn"}},
         "uid": "d3cn"

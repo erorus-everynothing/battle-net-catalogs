@@ -304,7 +304,7 @@
         "supported_platforms": ["win"],
         "supported_regions": ["GLOBAL", "CN"],
         "supports_starter_mode": false,
-        "tab_order": 7,
+        "tab_order": 8,
         "title_id": 4613486,
         "types": {
           "beta": {

@@ -177,7 +177,7 @@
   },
   "fragment_id": "default",
   "fragments": [
-    {"hash": "1bc60c045ae33c5ceeda604f2c8fcdd2", "name": "anbs"},
+    {"hash": "c5fa0f6721b1044626f344eba669b462", "name": "anbs"},
     {
       "hash": "70070f0c3c7dc34de83a7788a10c2a56",
       "name": "anbs_cndefault",
@@ -302,7 +302,7 @@
       "name": "arkansas_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
-    {"hash": "6119e24f8958b63111c576540708079f", "name": "auks"},
+    {"hash": "853f4dd70ae17b2bfeca2fb9f247a55e", "name": "auks"},
     {
       "hash": "09efdd127784946cfd597b2f029aecf9",
       "name": "auks_alphadeprecationoverride",
@@ -377,7 +377,7 @@
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
     {"hash": "8522a3a08583756cdc4ab11719e27842", "name": "diablo_iii"},
-    {"hash": "a6f4c4d4edec1e2eb99202713fc369e1", "name": "diablo_iii_china"},
+    {"hash": "89dedd07d0bca57f7d63a6db8fb61223", "name": "diablo_iii_china"},
     {
       "hash": "b0870ae59c487f8b4bfc8fb088a77474",
       "name": "diablo_iii_china_devearlyacces",
@@ -408,7 +408,7 @@
       "name": "diablo_iii_noaltcontent",
       "requires": {"not": {"id": "alt_content_for_starter", "type": "feature"}}
     },
-    {"hash": "fee6e6a32a3fb2ebd40b10271f8c8a15", "name": "fenris"},
+    {"hash": "437a3a29a8b6eebfcf0990ffe0d09025", "name": "fenris"},
     {
       "hash": "b75a4322767eb659832ab6650aecb284",
       "name": "fenris_cn",
@@ -580,7 +580,7 @@
         ]
       }
     },
-    {"hash": "5290112be064724d519b7cf60ae51dc2", "name": "hearthstone"},
+    {"hash": "a735e4cfc5806c2c58da5433ad58afd4", "name": "hearthstone"},
     {
       "hash": "db0d26cbcfe11adc28d452d42972bfe3",
       "name": "hearthstone_cn_region",
@@ -616,7 +616,7 @@
         ]
       }
     },
-    {"hash": "f431db117e84bfd519fc7f23d40d4e36", "name": "heroes"},
+    {"hash": "66c8ebe0e56542e0fda66c1b76a430ca", "name": "heroes"},
     {
       "hash": "6710d95df3d923e777df8f4cd966976b",
       "name": "heroes_gamepass",
@@ -677,7 +677,7 @@
       "name": "libra_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
-    {"hash": "69c52c7f91c804ffa77306f2b37ec24e", "name": "lyra"},
+    {"hash": "0af2236d1fa62715cd613b0fe927677e", "name": "lyra"},
     {"hash": "b841a48b923351b369f4292d52dcaa84", "name": "malb"},
     {
       "decryption_key_id": "catalog-decryption-key-moon2",
@@ -794,7 +794,7 @@
         ]
       }
     },
-    {"hash": "24b0e8406c429ac1c777e196ab60be6a", "name": "overwatch"},
+    {"hash": "7feee7e3b9900dbb484d9d0edace7c0c", "name": "overwatch"},
     {
       "hash": "d5a8ca3c879997ca4b90440f64109d57",
       "name": "overwatch_cn_assets_links_overrides",
@@ -1085,7 +1085,7 @@
       "name": "warcraft_ii_remastered_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
-    {"hash": "158a715700550338f272c9fd849e4833", "name": "warcraft_iii"},
+    {"hash": "b0a9229a902cbd4d174a215db3895070", "name": "warcraft_iii"},
     {
       "hash": "f07521a05c103f4ea7c622fcd5f4598f",
       "name": "warcraft_iii_cn_login",
@@ -1173,7 +1173,7 @@
         ]
       }
     },
-    {"hash": "a3e7787f787675d7f3f5a33e4657367f", "name": "world_of_warcraft"},
+    {"hash": "c6651040a1594a20c0073488c5c7f782", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",

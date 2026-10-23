@@ -251,7 +251,7 @@
         "supported_regions": ["US", "EU", "KR"],
         "supports_language_selection": false,
         "supports_starter_mode": true,
-        "tab_order": 10,
+        "tab_order": 11,
         "title_id": 1095647827,
         "types": {
           "dev": {

@@ -119,7 +119,6 @@
         "key_art": "warcraft_iii#W3_KEY_ART",
         "locale_support_flag": "text_audio",
         "logo": "warcraft_iii#W3_LOGO",
-        "milestone": {"state": "new"},
         "name": "warcraft_iii#W3_NAME",
         "program_id": "W3",
         "quick_links": [
@@ -196,7 +195,7 @@
           }
         ],
         "supports_starter_mode": true,
-        "tab_order": 2,
+        "tab_order": 3,
         "title_id": 22323,
         "types": {
           "beta": {
