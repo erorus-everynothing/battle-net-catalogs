@@ -1,0 +1,5 @@
+{
+  "fragment_id": "fenris_eventnotdeprecatedwithlicense",
+  "products": [{"base": {"types": {"event": {"deprecated": false}}}, "id": "Fen"}],
+  "version": 30
+}

@@ -158,7 +158,7 @@
     },
     "fenris_beta": {"deprecated": true, "tact_product": "fenrisb"},
     "fenris_dev": {"tact_product": "fenrisdev"},
-    "fenris_dev_2": {"deprecated": true, "tact_product": "fenrisdev2"},
+    "fenris_dev_2": {"tact_product": "fenrisdev2"},
     "fenris_event": {"tact_product": "fenrise"},
     "fenris_event_2": {"tact_product": "fenrise2"},
     "fenris_ptr": {
@@ -320,6 +320,7 @@
           },
           "event": {
             "auto_favorite_on_grant": true,
+            "deprecated": true,
             "region_permission_flags": {"default": "requires_account_visible"},
             "selector_display_name": "fenris#FENRIS_NAME_EVENT_SELECTOR",
             "uid": "fenris_event"
@@ -499,7 +500,7 @@
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "Fen", "type": "fenris_dev_2"}}}],
-          "match": {"license_id": 457665}
+          "match": {"license_id": [457665, 1190837]}
         },
         {
           "actions": [
@@ -515,7 +516,7 @@
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "Fen", "type": "event"}}}],
-          "match": {"license_id": [1153744, 1169551, 1190597]}
+          "match": {"license_id": [1153744, 1169551, 1190597, 1221884]}
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "Fen", "type": "event_2"}}}],

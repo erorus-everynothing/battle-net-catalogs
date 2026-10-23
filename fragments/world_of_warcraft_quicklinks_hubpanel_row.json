@@ -78,22 +78,6 @@
               }
             ]
           },
-          "wow_classic_beta": {
-            "quick_links": [
-              {"hidden": true, "id": "patch_notes"},
-              {
-                "action": {
-                  "target": "shop",
-                  "type": "url",
-                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
-                },
-                "icon": "default#QUICK_LINK_ICON_SHOP",
-                "id": "shop",
-                "label": "default#QUICK_LINK_SHOP",
-                "rank": 103
-              }
-            ]
-          },
           "wow_classic_era": {
             "quick_links": [
               {

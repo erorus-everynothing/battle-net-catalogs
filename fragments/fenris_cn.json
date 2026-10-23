@@ -51,7 +51,6 @@
         "supported_regions": ["CN"],
         "types": {
           "beta": {"deprecated": false},
-          "fenris_dev_2": {"deprecated": false},
           "retail": {
             "install_background": "fenris_cn#FENRIS_CN_REGION_INSTALL_BACKGROUND",
             "logo": "fenris_cn#FENRIS_CN_LOGO",

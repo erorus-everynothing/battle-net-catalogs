@@ -1,0 +1,5 @@
+{
+  "fragment_id": "fenris_dev2notdeprecatedwithlicense",
+  "products": [{"base": {"types": {"fenris_dev_2": {"deprecated": false}}}, "id": "Fen"}],
+  "version": 30
+}

@@ -408,9 +408,9 @@
       "name": "diablo_iii_noaltcontent",
       "requires": {"not": {"id": "alt_content_for_starter", "type": "feature"}}
     },
-    {"hash": "437a3a29a8b6eebfcf0990ffe0d09025", "name": "fenris"},
+    {"hash": "2357f2009055bc1ee43accedcc480209", "name": "fenris"},
     {
-      "hash": "b75a4322767eb659832ab6650aecb284",
+      "hash": "3ed05437ccadb72861126784d77b22b1",
       "name": "fenris_cn",
       "requires": {"include": "CN", "type": "login_region"}
     },
@@ -424,6 +424,11 @@
           {"none_of": [{"licenses": [1032989], "type": "licenses"}]}
         ]
       }
+    },
+    {
+      "hash": "fcb54c65a1007a8feb8f2bcc3eee9cf9",
+      "name": "fenris_dev2notdeprecatedwithlicense",
+      "requires": {"all_of": [{"licenses": [1190837], "type": "licenses"}]}
     },
     {
       "hash": "04ed2ad2bc33f3f0dd6a536cc18ac5a0",
@@ -447,14 +452,9 @@
       }
     },
     {
-      "hash": "850d9e60c7f48153b87e202aed057274",
-      "name": "fenris_eventdeprecatedwitholdlicense",
-      "requires": {
-        "all_of": [
-          {"licenses": [1153744, 1169551], "type": "licenses"},
-          {"licenses": [1190597], "op": "none_of", "type": "licenses"}
-        ]
-      }
+      "hash": "6a9e91703da4264c1930c24e94c1668e",
+      "name": "fenris_eventnotdeprecatedwithlicense",
+      "requires": {"all_of": [{"licenses": [1221884], "type": "licenses"}]}
     },
     {
       "hash": "c1e6e2dd1f2e6384c2cf8dc3f27dd137",
@@ -1173,7 +1173,7 @@
         ]
       }
     },
-    {"hash": "c6651040a1594a20c0073488c5c7f782", "name": "world_of_warcraft"},
+    {"hash": "cfd032abb566dc8dcba2f998dbb2af80", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
@@ -1222,7 +1222,7 @@
       }
     },
     {
-      "hash": "b4abac1b02f1f61e934231ec6d7a4c22",
+      "hash": "ae1fb6d2b951266458ae7cf2f4c626be",
       "name": "world_of_warcraft_quicklinks_hubpanel_row",
       "requires": {
         "all_of": [
@@ -1284,16 +1284,6 @@
         "all_of": [
           {"platform": "win", "type": "platform"},
           {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
-        ]
-      }
-    },
-    {
-      "hash": "c2553f72b8d8b7bdf5a0dc86b0498e4e",
-      "name": "world_of_warcraft_wow_forever_access_restriction",
-      "requires": {
-        "all_of": [
-          {"not": {"include": "CN", "type": "login_region"}},
-          {"licenses": [1190895, 1190896], "op": "none_of", "type": "licenses"}
         ]
       }
     },
