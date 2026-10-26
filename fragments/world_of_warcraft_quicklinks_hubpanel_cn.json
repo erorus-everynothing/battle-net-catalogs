@@ -172,7 +172,7 @@
               }
             ]
           },
-          "wow_cn_beta": {
+          "wowf": {
             "quick_links": [
               {
                 "action": {
@@ -220,11 +220,9 @@
                 "id": "patch_notes",
                 "label": "default#QUICK_LINK_PATCH_NOTES",
                 "rank": 307
-              },
-              {"hidden": true, "id": "forums"}
+              }
             ]
-          },
-          "wowf": {"quick_links": [{"hidden": true, "id": "patch_notes"}]}
+          }
         }
       },
       "id": "WoW"

@@ -585,6 +585,7 @@
     },
     "wow_cn_beta": {
       "auto_update_policy": {"meets_criteria": {"played_in_last_n_seconds": 1209600}},
+      "deprecated": true,
       "run_64_bit_only": true,
       "sso_launch_argument": "-launcherlogin",
       "tact_product": "wow_cn_beta"
@@ -1259,25 +1260,13 @@
             "background": "world_of_warcraft#WOW_BACKGROUND_FOREVER",
             "breaking_news_url": "nydus://client/wow-forever/alert",
             "content_id": "world-of-warcraft-forever",
+            "deprecated": true,
             "install_background": "world_of_warcraft#WOW_FOREVER_INSTALL_BACKGROUND",
             "logo": "world_of_warcraft#WOW_FOREVER_LOGO",
             "override_product_id": "WoWF",
             "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_FOREVER",
             "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER",
-            "quick_links": [
-              {
-                "action": {
-                  "target": "shop",
-                  "type": "url",
-                  "url": "nydus://client/shop/product/world-of-warcraft-forever"
-                },
-                "color": "#6cdb00",
-                "icon": "default#QUICK_LINK_ICON_UPGRADE",
-                "id": "upgrade",
-                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
-                "rank": 100
-              }
-            ],
+            "quick_links": [],
             "region_permission_flags": {"default": "requires_account_visible"},
             "selector_display_name": "world_of_warcraft#WOW_FOREVER_BETA_NAME",
             "supported_regions": ["CN"],
@@ -1455,17 +1444,10 @@
         },
         "WoWFNoUpgrade": {
           "types": {
-            "wow_cn_beta": {"quick_links": [{"hidden": true, "id": "upgrade"}]},
             "wowf": {
               "install_disabled_message": "default#EMPTY_STRING",
               "quick_links": [{"hidden": true, "id": "upgrade"}]
             }
-          }
-        },
-        "WoWFNoUpgradeCN": {
-          "types": {
-            "wow_cn_beta": {"quick_links": [{"hidden": true, "id": "upgrade"}]},
-            "wowf": {"quick_links": [{"hidden": true, "id": "upgrade"}]}
           }
         },
         "WoWFPreload": {"types": {"wowf": {"install_disabled_message": "default#EMPTY_STRING"}}},
@@ -1577,56 +1559,43 @@
                 {
                   "actions": [{"add_product": {"product_id": {"id": "WoWFNoUpgrade", "type": "wowf"}}}],
                   "match": {
-                    "all_of": [
-                      {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
-                      {"license_id": [1209987]}
+                    "any_of": [
+                      {
+                        "all_of": [
+                          {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
+                          {"license_id": [1209987]}
+                        ]
+                      },
+                      {"all_of": [{"game_account": {"program_id": "WoW", "region": ["CN"]}}, {"license_id": [1177708]}]}
                     ]
                   }
                 },
                 {
                   "actions": [{"add_product": {"product_id": {"id": "WoWFPreload", "type": "wowf"}}}],
                   "match": {
-                    "all_of": [
-                      {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
-                      {"license_id": [1190945, 1177708, 1178150, 1224928, 1209416, 1204683, 1204680]}
+                    "any_of": [
+                      {
+                        "all_of": [
+                          {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
+                          {"license_id": [1190945, 1177708, 1178150, 1224928, 1209416, 1204683, 1204680]}
+                        ]
+                      },
+                      {
+                        "all_of": [
+                          {"game_account": {"program_id": "WoW", "region": ["CN"]}},
+                          {"license_id": [1190945, 19986, 1177708, 1178150, 1224928, 1209416, 1204684, 1204680]}
+                        ]
+                      }
                     ]
                   }
                 },
                 {
                   "actions": [{"add_product": {"product_id": {"id": "WoW", "type": "wowf"}}}],
-                  "match": {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}}
+                  "match": {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW", "CN"]}}
                 },
                 {
                   "actions": [{"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wowf"}}}],
-                  "match": {
-                    "all_of": [
-                      {"account_region": ["US", "EU", "KR", "TW"]},
-                      {"not": {"game_account": {"program_id": "WoW"}}}
-                    ]
-                  }
-                },
-                {
-                  "actions": [
-                    {"add_product": {"product_id": {"id": "WoWFNoUpgradeCN", "type": "wowf"}}},
-                    {"add_product": {"product_id": {"id": "WoWFNoUpgradeCN", "type": "wow_cn_beta"}}}
-                  ],
-                  "match": {
-                    "all_of": [{"game_account": {"program_id": "WoW", "region": ["CN"]}}, {"license_id": [1177708]}]
-                  }
-                },
-                {
-                  "actions": [
-                    {"add_product": {"product_id": {"id": "WoW", "type": "wowf"}}},
-                    {"add_product": {"product_id": {"id": "WoW", "type": "wow_cn_beta"}}}
-                  ],
-                  "match": {"game_account": {"program_id": "WoW", "region": ["CN"]}}
-                },
-                {
-                  "actions": [
-                    {"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wowf"}}},
-                    {"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wow_cn_beta"}}}
-                  ],
-                  "match": {"all_of": [{"account_region": "CN"}, {"not": {"game_account": {"program_id": "WoW"}}}]}
+                  "match": {"not": {"game_account": {"program_id": "WoW"}}}
                 }
               ]
             }
@@ -1747,6 +1716,10 @@
             {"add_product": {"level": "program", "product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
           ],
           "match": {"not": {"game_account": {"program_id": "WoW", "region": ["CN"]}}}
+        },
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wow_cn_beta"}}}],
+          "match": {"account_region": "CN"}
         }
       ],
       "subscription_license": 19986

@@ -1178,14 +1178,14 @@
         ]
       }
     },
-    {"hash": "cfd032abb566dc8dcba2f998dbb2af80", "name": "world_of_warcraft"},
+    {"hash": "d708ba55d6490b9fd8c5faea251f528f", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
       "requires": {"licenses": [1134620], "type": "licenses"}
     },
     {
-      "hash": "9194953a8ed650d18641860e890ca2a8",
+      "hash": "9cd472e6cb4a563ab6ffc865c0590447",
       "name": "world_of_warcraft_cn",
       "requires": {"any_of": [{"include": "CN", "type": "login_region"}]}
     },
@@ -1220,7 +1220,7 @@
       }
     },
     {
-      "hash": "7ea8ac2fabbe13a0311eb0c6b472788c",
+      "hash": "45650161bb584f0f4024afb38a79f6f9",
       "name": "world_of_warcraft_quicklinks_hubpanel_cn",
       "requires": {
         "all_of": [{"id": "hub_groups_enabled", "type": "feature"}, {"include": "CN", "type": "login_region"}]
@@ -1237,14 +1237,14 @@
       }
     },
     {
-      "hash": "60f719abdb311b5dff002686afc6cd18",
+      "hash": "cefadca6a7e6e0c0a7a7e2b71c9d30ce",
       "name": "world_of_warcraft_quicklinks_stdpanel_cn",
       "requires": {
         "all_of": [{"not": {"id": "hub_groups_enabled", "type": "feature"}}, {"include": "CN", "type": "login_region"}]
       }
     },
     {
-      "hash": "05220a804dd7bd7721abf3dc553da56e",
+      "hash": "b3579218b882efc33268ab21a831aa63",
       "name": "world_of_warcraft_ruru_patch_notes",
       "requires": {"include": "ruRU", "type": "locale"}
     },
@@ -1289,16 +1289,6 @@
         "all_of": [
           {"platform": "win", "type": "platform"},
           {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
-        ]
-      }
-    },
-    {
-      "hash": "78a510a430743223cca1045208bb0298",
-      "name": "world_of_warcraft_wow_forever_access_restriction_cn",
-      "requires": {
-        "all_of": [
-          {"include": "CN", "type": "login_region"},
-          {"licenses": [1190895, 1191799], "op": "none_of", "type": "licenses"}
         ]
       }
     },
