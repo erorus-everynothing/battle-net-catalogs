@@ -1178,7 +1178,7 @@
         ]
       }
     },
-    {"hash": "d708ba55d6490b9fd8c5faea251f528f", "name": "world_of_warcraft"},
+    {"hash": "35c436b50648030ec8ccbdcb5631a15e", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
@@ -1289,6 +1289,32 @@
         "all_of": [
           {"platform": "win", "type": "platform"},
           {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {
+      "hash": "57f1aa1a8c60b62c28910762c18dcea2",
+      "name": "world_of_warcraft_wowforeverplayenabled",
+      "requires": {
+        "any_of": [
+          {
+            "all_of": [
+              {"include": "EU", "type": "login_region"},
+              {"begin": "2026-10-27T17:00:00Z", "type": "server_time"}
+            ]
+          },
+          {
+            "all_of": [
+              {"include": "US", "type": "login_region"},
+              {"begin": "2026-10-27T20:00:00Z", "type": "server_time"}
+            ]
+          },
+          {
+            "all_of": [
+              {"include": ["KR", "TW"], "type": "login_region"},
+              {"begin": "2026-10-27T22:00:00Z", "type": "server_time"}
+            ]
+          }
         ]
       }
     },

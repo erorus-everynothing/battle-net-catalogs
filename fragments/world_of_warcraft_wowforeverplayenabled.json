@@ -1,0 +1,14 @@
+{
+  "fragment_id": "world_of_warcraft_wowforeverplayenabled",
+  "products": [
+    {
+      "id": "WoW",
+      "variants": {
+        "WoWFNoUpgrade": {"types": {"wowf": {"play_disabled_message": "default#EMPTY_STRING"}}},
+        "WoWFPreloadAndPlay": {"types": {"wowf": {"play_disabled_message": "default#EMPTY_STRING"}}}
+      }
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

@@ -775,10 +775,13 @@
         "content_id": "world-of-warcraft-forever",
         "default_product_type": "wowf",
         "handheld_feature_compatibility": [
-          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_COMPATIBLE"},
-          {"compatibility": "handheld_unsupported", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_UNSUPPORTED"},
-          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_COMPATIBLE"},
-          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_COMPATIBLE"},
+          {
+            "compatibility": "handheld_unsupported",
+            "description": "default#HH_COMPATIBILITY_DEFAULTS_WORK_UNSUPPORTED"
+          },
+          {"compatibility": "handheld_compatible", "description": "default#HH_COMPATIBILITY_ICONOGRAPHY_COMPATIBLE"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_TEXT_INPUT_OPTIMIZED"},
+          {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_UI_LEGIBILITY_OPTIMIZED"},
           {"compatibility": "handheld_optimized", "description": "default#HH_COMPATIBILITY_DISPLAY_OPTIMIZED"}
         ],
         "handheld_status": ["handheld_unsupported"],
@@ -1451,6 +1454,7 @@
           }
         },
         "WoWFPreload": {"types": {"wowf": {"install_disabled_message": "default#EMPTY_STRING"}}},
+        "WoWFPreloadAndPlay": {"types": {"wowf": {"install_disabled_message": "default#EMPTY_STRING"}}},
         "WoWPTR": {"region_permission_flags": {"default": "requires_account"}, "supported_regions": ["XX"]},
         "WoWX10": {
           "background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
@@ -1571,19 +1575,38 @@
                   }
                 },
                 {
+                  "actions": [{"add_product": {"product_id": {"id": "WoWFPreloadAndPlay", "type": "wowf"}}}],
+                  "match": {
+                    "any_of": [
+                      {
+                        "all_of": [
+                          {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
+                          {"license_id": [1190945, 1177708, 1178150, 1204683, 1204680]}
+                        ]
+                      },
+                      {
+                        "all_of": [
+                          {"game_account": {"program_id": "WoW", "region": ["CN"]}},
+                          {"license_id": [1190945, 1178150, 1204684, 1204680]}
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
                   "actions": [{"add_product": {"product_id": {"id": "WoWFPreload", "type": "wowf"}}}],
                   "match": {
                     "any_of": [
                       {
                         "all_of": [
                           {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
-                          {"license_id": [1190945, 1177708, 1178150, 1224928, 1209416, 1204683, 1204680]}
+                          {"license_id": [19986, 1224928, 1209416]}
                         ]
                       },
                       {
                         "all_of": [
                           {"game_account": {"program_id": "WoW", "region": ["CN"]}},
-                          {"license_id": [1190945, 19986, 1177708, 1178150, 1224928, 1209416, 1204684, 1204680]}
+                          {"license_id": [19986, 1209416]}
                         ]
                       }
                     ]
