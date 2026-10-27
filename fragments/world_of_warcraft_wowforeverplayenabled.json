@@ -1,16 +1,6 @@
 {
   "fragment_id": "world_of_warcraft_wowforeverplayenabled",
-  "products": [
-    {
-      "base": {"types": {"wowf": {"play_disabled_message": "default#EMPTY_STRING"}}},
-      "id": "WoW",
-      "variants": {
-        "WoWFNoUpgrade": {"types": {"wowf": {"play_disabled_message": "default#EMPTY_STRING"}}},
-        "WoWFPreload": {"types": {"wowf": {"play_disabled_message": "default#EMPTY_STRING"}}},
-        "WoWFPreloadAndPlay": {"types": {"wowf": {"play_disabled_message": "default#EMPTY_STRING"}}}
-      }
-    }
-  ],
+  "products": [{"base": {"types": {"wowf": {"play_disabled_message": "default#EMPTY_STRING"}}}, "id": "WoW"}],
   "strings": {},
   "version": 30
 }

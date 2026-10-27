@@ -1293,30 +1293,9 @@
       }
     },
     {
-      "hash": "9af408940f47b47fc05de740b73bceaa",
+      "hash": "24d0503eddfe049d9642ae869f502eb3",
       "name": "world_of_warcraft_wowforeverplayenabled",
-      "requires": {
-        "any_of": [
-          {
-            "all_of": [
-              {"include": "EU", "type": "login_region"},
-              {"begin": "2026-10-27T17:00:00Z", "type": "server_time"}
-            ]
-          },
-          {
-            "all_of": [
-              {"include": "US", "type": "login_region"},
-              {"begin": "2026-10-27T20:00:00Z", "type": "server_time"}
-            ]
-          },
-          {
-            "all_of": [
-              {"include": ["KR", "TW"], "type": "login_region"},
-              {"begin": "2026-10-27T22:00:00Z", "type": "server_time"}
-            ]
-          }
-        ]
-      }
+      "requires": {"none_of": [{"include": "CN", "type": "login_region"}]}
     },
     {"hash": "79339a5fc048b620a36cc9233de2cc03", "name": "zeus"},
     {
