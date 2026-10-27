@@ -1260,6 +1260,7 @@
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
+  "phobos_event": {"base": "Phobos Event", "background": "resources/shared/background_default_v2.png"},
   "pinta": {
     "base": "Call of Duty: Modern Warfare III",
     "logo": "resources/pinta/logo_pinta_enUS.png",

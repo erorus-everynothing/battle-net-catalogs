@@ -1,0 +1,43 @@
+{
+  "files": {},
+  "fragment_id": "phobos",
+  "installs": {"phobos_event": {"tact_product": "phobos_event"}},
+  "products": [
+    {
+      "base": {
+        "background": "default#BACKGROUND_DEFAULT",
+        "content_id": "game",
+        "default_product_type": "phobos_event",
+        "name": "phobos#PHOBOS_EVENT_NAME",
+        "program_id": "PHO",
+        "region_permission_flags": {"default": "requires_account"},
+        "supported_platforms": ["win"],
+        "supported_regions": ["US", "EU", "KR"],
+        "supports_starter_mode": false,
+        "types": {"phobos_event": {"supports_starter_mode": false, "uid": "phobos_event"}}
+      },
+      "id": "phobos"
+    }
+  ],
+  "program_configuration": {
+    "PHO": {
+      "run_each_rule": [
+        {
+          "actions": [{"add_product": {"product_id": {"id": "phobos", "type": "phobos_event"}}}],
+          "match": {"license_id": 1224253}
+        }
+      ]
+    }
+  },
+  "strings": {"default": {"phobos#PHOBOS_EVENT_NAME": "Phobos Event"}},
+  "types": {
+    "definitions": [
+      {
+        "category": "cat_in_development",
+        "id": "phobos_event",
+        "product_defaults": {"name_style": "type_name_suffix", "type_name": "default#TYPES_DEV_NAME"}
+      }
+    ]
+  },
+  "version": 30
+}
