@@ -7,6 +7,46 @@
   },
   "files": {
     "default": {
+      "world_of_warcraft#WOWC_ICON_MASSIVE": {
+        "hash": "1cbfbd0192acd15c29c55ef90dd3fce2",
+        "name": "resources/wow/icon_game_wowc_massive.png"
+      },
+      "world_of_warcraft#WOWC_ICON_MEDIUM": {
+        "hash": "d3354563e734f471a1c76502aeea4c8a",
+        "name": "resources/wow/icon_game_wowc_medium.png"
+      },
+      "world_of_warcraft#WOWC_ICON_SMALL": {
+        "hash": "9ef717dc2f8de88c9fb6312c1442a332",
+        "name": "resources/wow/icon_game_wowc_small.png"
+      },
+      "world_of_warcraft#WOWC_ICON_SVG": {
+        "hash": "ef66796113972df282017ef8cc52eeab",
+        "name": "resources/wow/icon_game_wowc.svg"
+      },
+      "world_of_warcraft#WOWC_ICON_TINY": {
+        "hash": "45c56636981ea86b5cb0e6657bb2e49a",
+        "name": "resources/wow/icon_game_wowc_tiny.png"
+      },
+      "world_of_warcraft#WOWF_ICON_MASSIVE": {
+        "hash": "fa9612747140bf7e5a6a1ed6bbae626f",
+        "name": "resources/wow/icon_game_wowf_massive.png"
+      },
+      "world_of_warcraft#WOWF_ICON_MEDIUM": {
+        "hash": "18eea612b298db467906e326386f1d9a",
+        "name": "resources/wow/icon_game_wowf_medium.png"
+      },
+      "world_of_warcraft#WOWF_ICON_SMALL": {
+        "hash": "fe488ee8da1d5d404646f083a783ddd2",
+        "name": "resources/wow/icon_game_wowf_small.png"
+      },
+      "world_of_warcraft#WOWF_ICON_SVG": {
+        "hash": "e1806373dd222f5c912ce0dfc0a69bb6",
+        "name": "resources/wow/icon_game_wowf.svg"
+      },
+      "world_of_warcraft#WOWF_ICON_TINY": {
+        "hash": "31cc79fbbde7ca95942aa4e328831ab9",
+        "name": "resources/wow/icon_game_wowf_tiny.png"
+      },
       "world_of_warcraft#WOW_BACKGROUND": {
         "hash": "3aed0f530afc4e169137eb8a6997402b",
         "name": "resources/wow/background_wow_v2_new_panel.webp"
@@ -676,6 +716,24 @@
       "icon_56": "world_of_warcraft#WOW_ICON_MEDIUM",
       "icon_svg": "world_of_warcraft#WOW_ICON_SVG",
       "program_id": "WoW"
+    },
+    {
+      "display_name": "world_of_warcraft#WOW_FOREVER_BETA_NAME",
+      "icon_16": "world_of_warcraft#WOWF_ICON_TINY",
+      "icon_275": "world_of_warcraft#WOWF_ICON_MASSIVE",
+      "icon_32": "world_of_warcraft#WOWF_ICON_SMALL",
+      "icon_56": "world_of_warcraft#WOWF_ICON_MEDIUM",
+      "icon_svg": "world_of_warcraft#WOWF_ICON_SVG",
+      "program_id": "WoWF"
+    },
+    {
+      "display_name": "world_of_warcraft#WOW_CLASSIC_NAME",
+      "icon_16": "world_of_warcraft#WOWC_ICON_TINY",
+      "icon_275": "world_of_warcraft#WOWC_ICON_MASSIVE",
+      "icon_32": "world_of_warcraft#WOWC_ICON_SMALL",
+      "icon_56": "world_of_warcraft#WOWC_ICON_MEDIUM",
+      "icon_svg": "world_of_warcraft#WOWC_ICON_SVG",
+      "program_id": "WoWC"
     }
   ],
   "products": [

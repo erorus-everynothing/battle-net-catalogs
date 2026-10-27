@@ -1178,7 +1178,7 @@
         ]
       }
     },
-    {"hash": "35c436b50648030ec8ccbdcb5631a15e", "name": "world_of_warcraft"},
+    {"hash": "5f44c43e1a1c2f789a6876caeffb2f62", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
@@ -1293,7 +1293,7 @@
       }
     },
     {
-      "hash": "57f1aa1a8c60b62c28910762c18dcea2",
+      "hash": "9af408940f47b47fc05de740b73bceaa",
       "name": "world_of_warcraft_wowforeverplayenabled",
       "requires": {
         "any_of": [
