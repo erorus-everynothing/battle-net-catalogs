@@ -1179,14 +1179,14 @@
         ]
       }
     },
-    {"hash": "5f44c43e1a1c2f789a6876caeffb2f62", "name": "world_of_warcraft"},
+    {"hash": "64516ddd7637a6742283b77223e3ff4e", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
       "requires": {"licenses": [1134620], "type": "licenses"}
     },
     {
-      "hash": "9cd472e6cb4a563ab6ffc865c0590447",
+      "hash": "489312d4f65433d1b5f85b690190e804",
       "name": "world_of_warcraft_cn",
       "requires": {"any_of": [{"include": "CN", "type": "login_region"}]}
     },
@@ -1297,6 +1297,11 @@
       "hash": "24d0503eddfe049d9642ae869f502eb3",
       "name": "world_of_warcraft_wowforeverplayenabled",
       "requires": {"none_of": [{"include": "CN", "type": "login_region"}]}
+    },
+    {
+      "hash": "7d1d4807620543a18e738a879c01b99d",
+      "name": "world_of_warcraft_wowforeverreleasedateapac",
+      "requires": {"any_of": [{"include": "CN", "type": "login_region"}, {"include": "KR", "type": "login_region"}]}
     },
     {"hash": "79339a5fc048b620a36cc9233de2cc03", "name": "zeus"},
     {
