@@ -305,7 +305,7 @@
         },
         {
           "actions": [{"add_product": {"product_id": {"id": "WTCG", "type": "hs_event_1"}}}],
-          "match": {"license_id": [311806, 1209990]}
+          "match": {"license_id": [311806, 1209990, 1217843]}
         },
         {"actions": [{"add_product": {"product_id": {"id": "WTCG", "type": "alpha"}}}], "match": {"license_id": 69859}},
         {

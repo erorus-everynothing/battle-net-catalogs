@@ -215,6 +215,10 @@
     },
     {"id": "whisper_voice", "requires": true},
     {
+      "id": "wowf_promo_tab",
+      "requires": {"all_of": [{"begin": "2026-11-04T23:00:00Z", "end": "2026-11-11T23:00:00Z", "type": "server_time"}]}
+    },
+    {
       "id": "cui_sales_section",
       "requires": {"begin": "2026-08-11T17:00:00Z", "end": "2026-08-25T18:00:00Z", "type": "server_time"}
     },

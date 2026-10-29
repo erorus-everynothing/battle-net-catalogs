@@ -357,7 +357,7 @@
       "name": "auks_mw4_vault",
       "requires": {"all_of": [{"$comment": "Rex Vault", "licenses": [1172868], "type": "licenses"}]}
     },
-    {"hash": "3ac09321dbfd11df268c762184f9e4b9", "name": "battle.net"},
+    {"hash": "d248d37b03330a6c4b40efaaa02e81da", "name": "battle.net"},
     {"hash": "66fa87a135861bb6fc0cb7192523f460", "name": "btlr"},
     {"hash": "f8dc12685fe55de340b8c36c6b5914da", "name": "corn"},
     {"hash": "2837e1253e50ecdc71a96e479b3620b7", "name": "diablo_i"},
@@ -580,7 +580,7 @@
         ]
       }
     },
-    {"hash": "a735e4cfc5806c2c58da5433ad58afd4", "name": "hearthstone"},
+    {"hash": "60b3d5663936185862a217e72901aa44", "name": "hearthstone"},
     {
       "hash": "db0d26cbcfe11adc28d452d42972bfe3",
       "name": "hearthstone_cn_region",
@@ -599,7 +599,7 @@
     {
       "hash": "4f9c7b3cea497d8553d82ba533909015",
       "name": "hearthstone_live_event_not_deprecated",
-      "requires": {"licenses": [1209990], "type": "licenses"}
+      "requires": {"licenses": [1217843], "type": "licenses"}
     },
     {
       "hash": "64d55490f9536050ac47197d7bfb0b9e",
