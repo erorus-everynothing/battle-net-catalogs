@@ -1,2153 +1,3401 @@
 {
   "anbs": {
+    "tact": "anbs",
+    "agent": "anbs",
     "base": "Diablo Immortal",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-event": {
+    "tact": "anbs-event",
+    "agent": "anbs_event",
     "base": "Diablo Immortal",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-extevent": {
+    "tact": "anbs-extevent",
+    "agent": "anbs_extevent",
     "base": "Diablo Immortal",
     "type": "Diablo Immortal External Event",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-extevent-dev-1": {
+    "tact": "anbs-extevent-dev-1",
+    "agent": "anbs_extevent_dev_1",
     "base": "Diablo Immortal",
     "type": "Diablo Immortal External Event (Dev)",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-extevent-rc": {
+    "tact": "anbs-extevent-rc",
+    "agent": "anbs_extevent_rc",
     "base": "Diablo Immortal",
     "type": "Diablo Immortal External Event (RC)",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-ptr": {
+    "tact": "anbs-ptr",
+    "agent": "anbs_ptr",
     "base": "Diablo Immortal",
     "type": "Diablo Immortal PTR",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-ptr-dev-1": {
+    "tact": "anbs-ptr-dev-1",
+    "agent": "anbs_ptr_dev_1",
     "base": "Diablo Immortal",
     "type": "Diablo Immortal PTR (Dev)",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-ptr-rc": {
+    "tact": "anbs-ptr-rc",
+    "agent": "anbs_ptr_rc",
     "base": "Diablo Immortal",
     "type": "Diablo Immortal PTR (RC)",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-retail-dev-1": {
+    "tact": "anbs-retail-dev-1",
+    "agent": "anbs_retail_dev_1",
     "base": "Diablo Immortal",
     "type": "Diablo Immortal (Dev) - BM",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbs-retail-rc": {
+    "tact": "anbs-retail-rc",
+    "agent": "anbs_retail_rc",
     "base": "Diablo Immortal",
     "type": "Diablo Immortal (RC) - BM",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbsdev": {
+    "tact": "anbsdev",
+    "agent": "anbs_dev",
     "base": "Diablo Immortal",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "anbsdev2": {
+    "tact": "anbsdev2",
+    "agent": "anbs_dev_2",
     "base": "Diablo Immortal",
     "logo": "resources/anubis/logo_anubis.png",
     "background": "resources/anubis/background_anubis_new_panel.webp"
   },
   "aqua": {
+    "tact": "aqua",
+    "agent": "aqua",
     "base": "Avowed",
     "logo": "resources/aqua/logo_aqua_enUS.png",
     "background": "resources/aqua/background_aqua_new_panel.webp"
   },
   "aqua-artbook": {
+    "tact": "aqua-artbook",
+    "agent": "aqua_artbook",
     "base": "Avowed",
     "type": "Artbook & Soundtrack",
     "logo": "resources/aqua/logo_aqua_enUS.png",
     "background": "resources/aqua/background_aqua_new_panel.webp"
   },
   "aqua-artbook-dev-1": {
+    "tact": "aqua-artbook-dev-1",
+    "agent": "aqua_artbook_dev_1",
     "base": "Avowed",
     "type": "Developer 2",
     "logo": "resources/aqua/logo_aqua_enUS.png",
     "background": "resources/aqua/background_aqua_new_panel.webp"
   },
   "aqua-artbook-rc": {
+    "tact": "aqua-artbook-rc",
+    "agent": "aqua_artbook_rc",
     "base": "Avowed",
     "type": "Artbook & Soundtrack RC",
     "logo": "resources/aqua/logo_aqua_enUS.png",
     "background": "resources/aqua/background_aqua_new_panel.webp"
   },
   "aqua-retail-dev-1": {
+    "tact": "aqua-retail-dev-1",
+    "agent": "aqua_retail_dev_1",
     "base": "Avowed",
     "type": "Developer 1",
     "logo": "resources/aqua/logo_aqua_enUS.png",
     "background": "resources/aqua/background_aqua_new_panel.webp"
   },
   "aqua-retail-rc": {
+    "tact": "aqua-retail-rc",
+    "agent": "aqua_retail_rc",
     "base": "Avowed",
     "type": "Avowed RC",
     "logo": "resources/aqua/logo_aqua_enUS.png",
     "background": "resources/aqua/background_aqua_new_panel.webp"
   },
   "aris": {
+    "tact": "aris",
+    "agent": "aris",
     "base": "Doom: The Dark Ages",
     "logo": "resources/aris/logo_aries_enUS.png",
     "background": "resources/aris/background_aries_new_panel.webp"
   },
   "aris-artbook": {
+    "tact": "aris-artbook",
+    "agent": "aris_artbook",
     "base": "Doom: The Dark Ages",
     "type": "Artbook & Soundtrack",
     "logo": "resources/aris/logo_aries_enUS.png",
     "background": "resources/aris/background_aries_new_panel.webp"
   },
   "aris-artbook-dev-1": {
+    "tact": "aris-artbook-dev-1",
+    "agent": "aris_artbook_dev_1",
     "base": "Doom: The Dark Ages",
     "type": "Artbook Dev",
     "logo": "resources/aris/logo_aries_enUS.png",
     "background": "resources/aris/background_aries_new_panel.webp"
   },
   "aris-artbook-rc": {
+    "tact": "aris-artbook-rc",
+    "agent": "aris_artbook_rc",
     "base": "Doom: The Dark Ages",
     "type": "Artbook RC",
     "logo": "resources/aris/logo_aries_enUS.png",
     "background": "resources/aris/background_aries_new_panel.webp"
   },
   "aris-retail-dev-1": {
+    "tact": "aris-retail-dev-1",
+    "agent": "aris_retail_dev_1",
     "base": "Doom: The Dark Ages",
     "type": "Developer 1",
     "logo": "resources/aris/logo_aries_enUS.png",
     "background": "resources/aris/background_aries_new_panel.webp"
   },
   "aris-retail-rc": {
+    "tact": "aris-retail-rc",
+    "agent": "aris_retail_rc",
     "base": "Doom: The Dark Ages",
     "type": "Aries RC",
     "logo": "resources/aris/logo_aries_enUS.png",
     "background": "resources/aris/background_aries_new_panel.webp"
   },
   "ark": {
+    "tact": "ark",
+    "agent": "ark",
     "base": "The Outer Worlds 2",
     "logo": "resources/ark/logo_ark.png",
     "background": "resources/ark/background_ark_new_panel.webp"
   },
   "ark-artbook": {
+    "tact": "ark-artbook",
+    "agent": "ark_artbook",
     "base": "The Outer Worlds 2",
     "type": "The Outer Worlds 2 Artbook",
     "logo": "resources/ark/logo_ark.png",
     "background": "resources/ark/background_ark_new_panel.webp"
   },
   "ark-artbook-dev-1": {
+    "tact": "ark-artbook-dev-1",
+    "agent": "ark_artbook_dev_1",
     "base": "The Outer Worlds 2",
     "type": "TOW2 Artbook Dev",
     "logo": "resources/ark/logo_ark.png",
     "background": "resources/ark/background_ark_new_panel.webp"
   },
   "ark-artbook-rc": {
+    "tact": "ark-artbook-rc",
+    "agent": "ark_artbook_rc",
     "base": "The Outer Worlds 2",
     "type": "TOW2 Artbook RC",
     "logo": "resources/ark/logo_ark.png",
     "background": "resources/ark/background_ark_new_panel.webp"
   },
   "ark-retail-dev-1": {
+    "tact": "ark-retail-dev-1",
+    "agent": "ark_retail_dev_1",
     "base": "The Outer Worlds 2",
     "type": "TOW2 Dev",
     "logo": "resources/ark/logo_ark.png",
     "background": "resources/ark/background_ark_new_panel.webp"
   },
   "ark-retail-rc": {
+    "tact": "ark-retail-rc",
+    "agent": "ark_retail_rc",
     "base": "The Outer Worlds 2",
     "type": "TOW2 RC",
     "logo": "resources/ark/logo_ark.png",
     "background": "resources/ark/background_ark_new_panel.webp"
   },
   "auks": {
+    "tact": "auks",
+    "agent": "auks",
     "base": "Call of Duty",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksa": {
+    "tact": "auksa",
+    "agent": "auks_alpha",
     "base": "Call of Duty",
     "type": "Closed Internal Beta 2",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksb": {
+    "tact": "auksb",
+    "agent": "auks_beta",
     "base": "Call of Duty",
     "type": "Modern Warfare 4 Beta",
     "logo": "resources/auks/logo_cod_mw4b.png",
     "background": "resources/auks/background_cod_mw4b.png"
   },
   "auksdev": {
+    "tact": "auksdev",
+    "agent": "auks_dev",
     "base": "Call of Duty",
     "type": "COD MW4 NEXT",
     "logo": "resources/auks/logo_cod_mw4b.png",
     "background": "resources/auks/background_cod_mw4b.png"
   },
   "aukse": {
+    "tact": "aukse",
+    "agent": "auks_event_3",
     "base": "Call of Duty",
     "type": "Event",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "aukse2": {
+    "tact": "aukse2",
+    "agent": "auks_event_4",
     "base": "Call of Duty",
     "type": "Event 2",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksese": {
+    "tact": "auksese",
+    "agent": "auks_event_2",
     "base": "Call of Duty",
     "type": "eSports Event",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksesp": {
+    "tact": "auksesp",
+    "agent": "auks_tournament",
     "base": "Call of Duty",
     "type": "eSports Player",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksess": {
+    "tact": "auksess",
+    "agent": "auks_event_1",
     "base": "Call of Duty",
     "type": "eSports Staff",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksrc": {
+    "tact": "auksrc",
+    "agent": "auks_rc",
     "base": "Call of Duty",
     "type": "Cortez RC",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksrc2": {
+    "tact": "auksrc2",
+    "agent": "auks_rc_2",
     "base": "Call of Duty",
     "type": "Cortez RC 2",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv1": {
+    "tact": "auksv1",
+    "agent": "auks_vendor_1",
     "base": "Call of Duty",
     "type": "Vendor 1",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv2": {
+    "tact": "auksv2",
+    "agent": "auks_vendor_2",
     "base": "Call of Duty",
     "type": "Vendor 2",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv3": {
+    "tact": "auksv3",
+    "agent": "auks_vendor_3",
     "base": "Call of Duty",
     "type": "Vendor 3",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv4": {
+    "tact": "auksv4",
+    "agent": "auks_vendor_4",
     "base": "Call of Duty",
     "type": "Vendor 4",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv5": {
+    "tact": "auksv5",
+    "agent": "auks_vendor_5",
     "base": "Call of Duty",
     "type": "Vendor 5",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv6": {
+    "tact": "auksv6",
+    "agent": "auks_vendor_6",
     "base": "Call of Duty",
     "type": "Vendor 6",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv7": {
+    "tact": "auksv7",
+    "agent": "auks_vendor_7",
     "base": "Call of Duty",
     "type": "Vendor 7",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv8": {
+    "tact": "auksv8",
+    "agent": "auks_vendor_8",
     "base": "Call of Duty",
     "type": "Vendor 8",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv9": {
+    "tact": "auksv9",
+    "agent": "auks_vendor_9",
     "base": "Call of Duty",
     "type": "Vendor 9",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv10": {
+    "tact": "auksv10",
+    "agent": "auks_vendor_10",
     "base": "Call of Duty",
     "type": "Vendor 10",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv11": {
+    "tact": "auksv11",
+    "agent": "auks_vendor_11",
     "base": "Call of Duty",
     "type": "Vendor 11",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv12": {
+    "tact": "auksv12",
+    "agent": "auks_vendor_12",
     "base": "Call of Duty",
     "type": "Vendor 12",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv13": {
+    "tact": "auksv13",
+    "agent": "auks_vendor_13",
     "base": "Call of Duty",
     "type": "Vendor 13",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv14": {
+    "tact": "auksv14",
+    "agent": "auks_vendor_14",
     "base": "Call of Duty",
     "type": "Vendor 14",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv15": {
+    "tact": "auksv15",
+    "agent": "auks_vendor_15",
     "base": "Call of Duty",
     "type": "Vendor 15",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv16": {
+    "tact": "auksv16",
+    "agent": "auks_vendor_16",
     "base": "Call of Duty",
     "type": "Vendor 16",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv17": {
+    "tact": "auksv17",
+    "agent": "auks_vendor_17",
     "base": "Call of Duty",
     "type": "Vendor 17",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv18": {
+    "tact": "auksv18",
+    "agent": "auks_vendor_18",
     "base": "Call of Duty",
     "type": "Vendor 18",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv19": {
+    "tact": "auksv19",
+    "agent": "auks_vendor_19",
     "base": "Call of Duty",
     "type": "Vendor 19",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv20": {
+    "tact": "auksv20",
+    "agent": "auks_vendor_20",
     "base": "Call of Duty",
     "type": "Vendor 20",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv21": {
+    "tact": "auksv21",
+    "agent": "auks_vendor_21",
     "base": "Call of Duty",
     "type": "Vendor 21",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv22": {
+    "tact": "auksv22",
+    "agent": "auks_vendor_22",
     "base": "Call of Duty",
     "type": "Vendor 22",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "auksv23": {
+    "tact": "auksv23",
+    "agent": "auks_vendor_23",
     "base": "Call of Duty",
     "type": "Vendor 23",
     "logo": "resources/auks/logo_cod_v2.png",
     "background": "resources/auks/background_cod_mw4.png"
   },
   "btlr": {
+    "tact": "btlr",
+    "agent": "btlr",
     "base": "Call of Duty: Black Ops 6",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv1": {
+    "tact": "btlrv1",
+    "agent": "btlr_vendor_1",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 1",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv2": {
+    "tact": "btlrv2",
+    "agent": "btlr_vendor_2",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 2",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv3": {
+    "tact": "btlrv3",
+    "agent": "btlr_vendor_3",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 3",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv4": {
+    "tact": "btlrv4",
+    "agent": "btlr_vendor_4",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 4",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv5": {
+    "tact": "btlrv5",
+    "agent": "btlr_vendor_5",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 5",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv6": {
+    "tact": "btlrv6",
+    "agent": "btlr_vendor_6",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 6",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv7": {
+    "tact": "btlrv7",
+    "agent": "btlr_vendor_7",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 7",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv8": {
+    "tact": "btlrv8",
+    "agent": "btlr_vendor_8",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 8",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv9": {
+    "tact": "btlrv9",
+    "agent": "btlr_vendor_9",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 9",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv10": {
+    "tact": "btlrv10",
+    "agent": "btlr_vendor_10",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 10",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv11": {
+    "tact": "btlrv11",
+    "agent": "btlr_vendor_11",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 11",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv12": {
+    "tact": "btlrv12",
+    "agent": "btlr_vendor_12",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 12",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv13": {
+    "tact": "btlrv13",
+    "agent": "btlr_vendor_13",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 13",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv14": {
+    "tact": "btlrv14",
+    "agent": "btlr_vendor_14",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 14",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv15": {
+    "tact": "btlrv15",
+    "agent": "btlr_vendor_15",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 15",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv16": {
+    "tact": "btlrv16",
+    "agent": "btlr_vendor_16",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 16",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv17": {
+    "tact": "btlrv17",
+    "agent": "btlr_vendor_17",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 17",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv18": {
+    "tact": "btlrv18",
+    "agent": "btlr_vendor_18",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 18",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv19": {
+    "tact": "btlrv19",
+    "agent": "btlr_vendor_19",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 19",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv20": {
+    "tact": "btlrv20",
+    "agent": "btlr_vendor_20",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 20",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv21": {
+    "tact": "btlrv21",
+    "agent": "btlr_vendor_21",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 21",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv22": {
+    "tact": "btlrv22",
+    "agent": "btlr_vendor_22",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 22",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv23": {
+    "tact": "btlrv23",
+    "agent": "btlr_vendor_23",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 23",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv24": {
+    "tact": "btlrv24",
+    "agent": "btlr_vendor_24",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 24",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv25": {
+    "tact": "btlrv25",
+    "agent": "btlr_vendor_25",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 25",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv26": {
+    "tact": "btlrv26",
+    "agent": "btlr_vendor_26",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 26",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv27": {
+    "tact": "btlrv27",
+    "agent": "btlr_vendor_27",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 27",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv28": {
+    "tact": "btlrv28",
+    "agent": "btlr_vendor_28",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 28",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv29": {
+    "tact": "btlrv29",
+    "agent": "btlr_vendor_29",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 29",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
   "btlrv30": {
+    "tact": "btlrv30",
+    "agent": "btlr_vendor_30",
     "base": "Call of Duty: Black Ops 6",
     "type": "Vendor 30",
     "logo": "resources/btlr/logo_btlr.png",
     "background": "resources/btlr/background_btlr_new_panel.png"
   },
-  "cornv1": {"base": "Corn", "type": "Vendor 1", "background": "resources/shared/background_default_v2.png"},
-  "cornv2": {"base": "Corn", "type": "Vendor 2", "background": "resources/shared/background_default_v2.png"},
-  "cornv3": {"base": "Corn", "type": "Vendor 3", "background": "resources/shared/background_default_v2.png"},
-  "cornv4": {"base": "Corn", "type": "Vendor 4", "background": "resources/shared/background_default_v2.png"},
-  "cornv5": {"base": "Corn", "type": "Vendor 5", "background": "resources/shared/background_default_v2.png"},
-  "cornv6": {"base": "Corn", "type": "Vendor 6", "background": "resources/shared/background_default_v2.png"},
-  "cornv7": {"base": "Corn", "type": "Vendor 7", "background": "resources/shared/background_default_v2.png"},
-  "cornv8": {"base": "Corn", "type": "Vendor 8", "background": "resources/shared/background_default_v2.png"},
-  "cornv9": {"base": "Corn", "type": "Vendor 9", "background": "resources/shared/background_default_v2.png"},
-  "cornv10": {"base": "Corn", "type": "Vendor 10", "background": "resources/shared/background_default_v2.png"},
-  "cornv11": {"base": "Corn", "type": "Vendor 11", "background": "resources/shared/background_default_v2.png"},
-  "cornv12": {"base": "Corn", "type": "Vendor 12", "background": "resources/shared/background_default_v2.png"},
-  "cornv13": {"base": "Corn", "type": "Vendor 13", "background": "resources/shared/background_default_v2.png"},
-  "cornv14": {"base": "Corn", "type": "Vendor 14", "background": "resources/shared/background_default_v2.png"},
-  "cornv15": {"base": "Corn", "type": "Vendor 15", "background": "resources/shared/background_default_v2.png"},
-  "cornv16": {"base": "Corn", "type": "Vendor 16", "background": "resources/shared/background_default_v2.png"},
-  "cornv17": {"base": "Corn", "type": "Vendor 17", "background": "resources/shared/background_default_v2.png"},
-  "cornv18": {"base": "Corn", "type": "Vendor 18", "background": "resources/shared/background_default_v2.png"},
-  "cornv19": {"base": "Corn", "type": "Vendor 19", "background": "resources/shared/background_default_v2.png"},
-  "cornv20": {"base": "Corn", "type": "Vendor 20", "background": "resources/shared/background_default_v2.png"},
-  "cornv21": {"base": "Corn", "type": "Vendor 21", "background": "resources/shared/background_default_v2.png"},
-  "cornv22": {"base": "Corn", "type": "Vendor 22", "background": "resources/shared/background_default_v2.png"},
-  "cornv23": {"base": "Corn", "type": "Vendor 23", "background": "resources/shared/background_default_v2.png"},
-  "cornv24": {"base": "Corn", "type": "Vendor 24", "background": "resources/shared/background_default_v2.png"},
-  "cornv25": {"base": "Corn", "type": "Vendor 25", "background": "resources/shared/background_default_v2.png"},
-  "cornv26": {"base": "Corn", "type": "Vendor 26", "background": "resources/shared/background_default_v2.png"},
-  "cornv27": {"base": "Corn", "type": "Vendor 27", "background": "resources/shared/background_default_v2.png"},
-  "cornv28": {"base": "Corn", "type": "Vendor 28", "background": "resources/shared/background_default_v2.png"},
-  "cornv29": {"base": "Corn", "type": "Vendor 29", "background": "resources/shared/background_default_v2.png"},
-  "cornv30": {"base": "Corn", "type": "Vendor 30", "background": "resources/shared/background_default_v2.png"},
+  "cornv1": {
+    "tact": "cornv1",
+    "agent": "corn_vendor_1",
+    "base": "Corn",
+    "type": "Vendor 1",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv2": {
+    "tact": "cornv2",
+    "agent": "corn_vendor_2",
+    "base": "Corn",
+    "type": "Vendor 2",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv3": {
+    "tact": "cornv3",
+    "agent": "corn_vendor_3",
+    "base": "Corn",
+    "type": "Vendor 3",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv4": {
+    "tact": "cornv4",
+    "agent": "corn_vendor_4",
+    "base": "Corn",
+    "type": "Vendor 4",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv5": {
+    "tact": "cornv5",
+    "agent": "corn_vendor_5",
+    "base": "Corn",
+    "type": "Vendor 5",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv6": {
+    "tact": "cornv6",
+    "agent": "corn_vendor_6",
+    "base": "Corn",
+    "type": "Vendor 6",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv7": {
+    "tact": "cornv7",
+    "agent": "corn_vendor_7",
+    "base": "Corn",
+    "type": "Vendor 7",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv8": {
+    "tact": "cornv8",
+    "agent": "corn_vendor_8",
+    "base": "Corn",
+    "type": "Vendor 8",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv9": {
+    "tact": "cornv9",
+    "agent": "corn_vendor_9",
+    "base": "Corn",
+    "type": "Vendor 9",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv10": {
+    "tact": "cornv10",
+    "agent": "corn_vendor_10",
+    "base": "Corn",
+    "type": "Vendor 10",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv11": {
+    "tact": "cornv11",
+    "agent": "corn_vendor_11",
+    "base": "Corn",
+    "type": "Vendor 11",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv12": {
+    "tact": "cornv12",
+    "agent": "corn_vendor_12",
+    "base": "Corn",
+    "type": "Vendor 12",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv13": {
+    "tact": "cornv13",
+    "agent": "corn_vendor_13",
+    "base": "Corn",
+    "type": "Vendor 13",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv14": {
+    "tact": "cornv14",
+    "agent": "corn_vendor_14",
+    "base": "Corn",
+    "type": "Vendor 14",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv15": {
+    "tact": "cornv15",
+    "agent": "corn_vendor_15",
+    "base": "Corn",
+    "type": "Vendor 15",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv16": {
+    "tact": "cornv16",
+    "agent": "corn_vendor_16",
+    "base": "Corn",
+    "type": "Vendor 16",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv17": {
+    "tact": "cornv17",
+    "agent": "corn_vendor_17",
+    "base": "Corn",
+    "type": "Vendor 17",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv18": {
+    "tact": "cornv18",
+    "agent": "corn_vendor_18",
+    "base": "Corn",
+    "type": "Vendor 18",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv19": {
+    "tact": "cornv19",
+    "agent": "corn_vendor_19",
+    "base": "Corn",
+    "type": "Vendor 19",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv20": {
+    "tact": "cornv20",
+    "agent": "corn_vendor_20",
+    "base": "Corn",
+    "type": "Vendor 20",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv21": {
+    "tact": "cornv21",
+    "agent": "corn_vendor_21",
+    "base": "Corn",
+    "type": "Vendor 21",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv22": {
+    "tact": "cornv22",
+    "agent": "corn_vendor_22",
+    "base": "Corn",
+    "type": "Vendor 22",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv23": {
+    "tact": "cornv23",
+    "agent": "corn_vendor_23",
+    "base": "Corn",
+    "type": "Vendor 23",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv24": {
+    "tact": "cornv24",
+    "agent": "corn_vendor_24",
+    "base": "Corn",
+    "type": "Vendor 24",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv25": {
+    "tact": "cornv25",
+    "agent": "corn_vendor_25",
+    "base": "Corn",
+    "type": "Vendor 25",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv26": {
+    "tact": "cornv26",
+    "agent": "corn_vendor_26",
+    "base": "Corn",
+    "type": "Vendor 26",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv27": {
+    "tact": "cornv27",
+    "agent": "corn_vendor_27",
+    "base": "Corn",
+    "type": "Vendor 27",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv28": {
+    "tact": "cornv28",
+    "agent": "corn_vendor_28",
+    "base": "Corn",
+    "type": "Vendor 28",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv29": {
+    "tact": "cornv29",
+    "agent": "corn_vendor_29",
+    "base": "Corn",
+    "type": "Vendor 29",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "cornv30": {
+    "tact": "cornv30",
+    "agent": "corn_vendor_30",
+    "base": "Corn",
+    "type": "Vendor 30",
+    "background": "resources/shared/background_default_v2.png"
+  },
   "d3": {
+    "tact": "d3",
+    "agent": "diablo3",
     "base": "Diablo III",
     "logo": "resources/diablo3/logo_diablo3_v2.png",
     "background": "resources/diablo3/background_diablo3_new_panel.webp"
   },
   "d3vcn": {
+    "tact": "d3vcn",
+    "agent": "d3vcn",
     "base": "Diablo III",
     "logo": "resources/diablo3/logo_diablo3_ros_v2.png",
     "background": "resources/diablo3/background_diablo3_ros_new_panel.webp"
   },
   "fenris": {
+    "tact": "fenris",
+    "agent": "fenris",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisb": {
+    "tact": "fenrisb",
+    "agent": "fenris_beta",
     "base": "Diablo IV",
     "type": "Diablo IV - Server Slam",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisdev": {
+    "tact": "fenrisdev",
+    "agent": "fenris_dev",
     "base": "Diablo IV",
     "type": "Diablo IV - Alpha",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisdev2": {
+    "tact": "fenrisdev2",
+    "agent": "fenris_dev_2",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrise": {
+    "tact": "fenrise",
+    "agent": "fenris_event",
     "base": "Diablo IV",
     "type": "Diablo_Play 1",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrise2": {
+    "tact": "fenrise2",
+    "agent": "fenris_event_2",
     "base": "Diablo IV",
     "type": "Diablo_Play 2",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenristest": {
+    "tact": "fenristest",
+    "agent": "fenris_ptr",
     "base": "Diablo IV",
     "type": "Public Test Realm",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor": {
+    "tact": "fenrisvendor",
+    "agent": "fenris_vendor",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor2": {
+    "tact": "fenrisvendor2",
+    "agent": "fenris_vendor_2",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor3": {
+    "tact": "fenrisvendor3",
+    "agent": "fenris_vendor_3",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor4": {
+    "tact": "fenrisvendor4",
+    "agent": "fenris_vendor_4",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor5": {
+    "tact": "fenrisvendor5",
+    "agent": "fenris_vendor_5",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor6": {
+    "tact": "fenrisvendor6",
+    "agent": "fenris_vendor_6",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor7": {
+    "tact": "fenrisvendor7",
+    "agent": "fenris_vendor_7",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor8": {
+    "tact": "fenrisvendor8",
+    "agent": "fenris_vendor_8",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor9": {
+    "tact": "fenrisvendor9",
+    "agent": "fenris_vendor_9",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fenrisvendor10": {
+    "tact": "fenrisvendor10",
+    "agent": "fenris_vendor_10",
     "base": "Diablo IV",
     "logo": "resources/fenris/logo_fenris.png",
     "background": "resources/fenris/background_fenris_new_panel.webp"
   },
   "fore": {
+    "tact": "fore",
+    "agent": "fore",
     "base": "Call of Duty: Vanguard",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forea": {
+    "tact": "forea",
+    "agent": "fore_alpha",
     "base": "Call of Duty: Vanguard",
     "type": "Vanguard",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "foreb": {
+    "tact": "foreb",
+    "agent": "fore_beta",
     "base": "Call of Duty: Vanguard",
     "type": "Beta",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forec": {
+    "tact": "forec",
+    "agent": "fore_tournament",
     "base": "Call of Duty: Vanguard",
     "type": "CDL Player",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forecdlstaff": {
+    "tact": "forecdlstaff",
+    "agent": "fore_event",
     "base": "Call of Duty: Vanguard",
     "type": "CDL Staff",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "foredev": {
+    "tact": "foredev",
+    "agent": "fore_dev",
     "base": "Call of Duty: Vanguard",
     "type": "Vanguard",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev1": {
+    "tact": "forev1",
+    "agent": "fore_vendor_1",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 1",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev2": {
+    "tact": "forev2",
+    "agent": "fore_vendor_2",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 2",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev3": {
+    "tact": "forev3",
+    "agent": "fore_vendor_3",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 3",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev4": {
+    "tact": "forev4",
+    "agent": "fore_vendor_4",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 4",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev5": {
+    "tact": "forev5",
+    "agent": "fore_vendor_5",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 5",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev6": {
+    "tact": "forev6",
+    "agent": "fore_vendor_6",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 6",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev7": {
+    "tact": "forev7",
+    "agent": "fore_vendor_7",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 7",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev8": {
+    "tact": "forev8",
+    "agent": "fore_vendor_8",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 8",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev9": {
+    "tact": "forev9",
+    "agent": "fore_vendor_9",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 9",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev10": {
+    "tact": "forev10",
+    "agent": "fore_vendor_10",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 10",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev11": {
+    "tact": "forev11",
+    "agent": "fore_vendor_11",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 11",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev12": {
+    "tact": "forev12",
+    "agent": "fore_vendor_12",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 12",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev13": {
+    "tact": "forev13",
+    "agent": "fore_vendor_13",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 13",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev14": {
+    "tact": "forev14",
+    "agent": "fore_vendor_14",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 14",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev15": {
+    "tact": "forev15",
+    "agent": "fore_vendor_15",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 15",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev16": {
+    "tact": "forev16",
+    "agent": "fore_vendor_16",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 16",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev17": {
+    "tact": "forev17",
+    "agent": "fore_vendor_17",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 17",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev18": {
+    "tact": "forev18",
+    "agent": "fore_vendor_18",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 18",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev19": {
+    "tact": "forev19",
+    "agent": "fore_vendor_19",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 19",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
   "forev20": {
+    "tact": "forev20",
+    "agent": "fore_vendor_20",
     "base": "Call of Duty: Vanguard",
     "type": "Vendor 20",
     "logo": "resources/fore/logo_vanguard.png",
     "background": "resources/fore/background_fore_new_panel.webp"
   },
-  "gdt": {"base": "GDT", "background": "resources/shared/background_dev.png"},
-  "gdt-retail-dev-1": {"base": "GDT", "type": "GDT Dev 1", "background": "resources/shared/background_dev.png"},
-  "gdt-retail-dev-2": {"base": "GDT", "type": "GDT Dev 2", "background": "resources/shared/background_dev.png"},
-  "gdt-retail-rc": {"base": "GDT", "type": "GDT RC", "background": "resources/shared/background_dev.png"},
+  "gdt": {"tact": "gdt", "agent": "gdt", "base": "GDT", "background": "resources/shared/background_dev.png"},
+  "gdt-retail-dev-1": {
+    "tact": "gdt-retail-dev-1",
+    "agent": "gdt_retail_dev_1",
+    "base": "GDT",
+    "type": "GDT Dev 1",
+    "background": "resources/shared/background_dev.png"
+  },
+  "gdt-retail-dev-2": {
+    "tact": "gdt-retail-dev-2",
+    "agent": "gdt_retail_dev_2",
+    "base": "GDT",
+    "type": "GDT Dev 2",
+    "background": "resources/shared/background_dev.png"
+  },
+  "gdt-retail-rc": {
+    "tact": "gdt-retail-rc",
+    "agent": "gdt_retail_rc",
+    "base": "GDT",
+    "type": "GDT RC",
+    "background": "resources/shared/background_dev.png"
+  },
   "gryphon": {
+    "tact": "gryphon",
+    "agent": "gryphon",
     "base": "Warcraft Rumble",
     "logo": "resources/gryphon/logo_gryphon.png",
     "background": "resources/gryphon/background_gryphon_new_panel.webp"
   },
   "gryphondev": {
+    "tact": "gryphondev",
+    "agent": "gryphon_dev",
     "base": "Warcraft Rumble",
     "type": "Tech Test",
     "logo": "resources/gryphon/logo_gryphon.png",
     "background": "resources/gryphon/background_gryphon_new_panel.webp"
   },
   "gryphondev3": {
+    "tact": "gryphondev3",
+    "agent": "gryphon_dev_3",
     "base": "Warcraft Rumble",
     "type": "Strike Team",
     "logo": "resources/gryphon/logo_gryphon.png",
     "background": "resources/gryphon/background_gryphon_new_panel.webp"
   },
   "gryphonv": {
+    "tact": "gryphonv",
+    "agent": "gryphon_vendor",
     "base": "Warcraft Rumble",
     "type": "Submission",
     "logo": "resources/gryphon/logo_gryphon.png",
     "background": "resources/gryphon/background_gryphon_new_panel.webp"
   },
   "hero": {
+    "tact": "hero",
+    "agent": "heroes",
     "base": "Heroes of the Storm",
     "logo": "resources/heroes/logo_heroes_v2.png",
     "background": "resources/heroes/background_heroes_new_panel.webp"
   },
   "herot": {
+    "tact": "herot",
+    "agent": "heroes_ptr",
     "base": "Heroes of the Storm",
     "type": "Public Test Realm",
     "logo": "resources/heroes/logo_heroes_v2.png",
     "background": "resources/heroes/background_heroes_new_panel.webp"
   },
   "hsb": {
+    "tact": "hsb",
+    "agent": "hs_beta",
     "base": "Hearthstone",
     "logo": "resources/hearthstone/logo_hearthstone_v2.png",
     "background": "resources/hearthstone/phx_play_panel_hs.png"
   },
   "hsc": {
+    "tact": "hsc",
+    "agent": "hs_tournament",
     "base": "Hearthstone",
     "type": "Tournament Realm",
     "logo": "resources/hearthstone/logo_hearthstone_v2.png",
     "background": "resources/hearthstone/phx_play_panel_hs.png"
   },
   "hsdev": {
+    "tact": "hsdev",
+    "agent": "hs_alpha",
     "base": "Hearthstone",
     "type": "Hearthstone Alpha",
     "logo": "resources/hearthstone/logo_hearthstone_v2.png",
     "background": "resources/hearthstone/phx_play_panel_hs.png"
   },
   "hse": {
+    "tact": "hse",
+    "agent": "hs_event",
     "base": "Hearthstone",
     "type": "Event Realm",
     "logo": "resources/hearthstone/logo_hearthstone_v2.png",
     "background": "resources/hearthstone/phx_play_panel_hs.png"
   },
   "hse1": {
+    "tact": "hse1",
+    "agent": "hs_event_1",
     "base": "Hearthstone",
     "logo": "resources/hearthstone/logo_hearthstone_v2.png",
     "background": "resources/hearthstone/phx_play_panel_hs.png"
   },
   "hsrc": {
+    "tact": "hsrc",
+    "agent": "hs_rc",
     "base": "Hearthstone",
     "logo": "resources/hearthstone/logo_hearthstone_v2.png",
     "background": "resources/hearthstone/phx_play_panel_hs.png"
   },
-  "kelpv1": {"base": "Kelp", "type": "Vendor 1", "background": "resources/shared/background_default_v2.png"},
-  "kelpv2": {"base": "Kelp", "type": "Vendor 2", "background": "resources/shared/background_default_v2.png"},
-  "kelpv3": {"base": "Kelp", "type": "Vendor 3", "background": "resources/shared/background_default_v2.png"},
-  "kelpv4": {"base": "Kelp", "type": "Vendor 4", "background": "resources/shared/background_default_v2.png"},
-  "kelpv5": {"base": "Kelp", "type": "Vendor 5", "background": "resources/shared/background_default_v2.png"},
-  "kelpv6": {"base": "Kelp", "type": "Vendor 6", "background": "resources/shared/background_default_v2.png"},
-  "kelpv7": {"base": "Kelp", "type": "Vendor 7", "background": "resources/shared/background_default_v2.png"},
-  "kelpv8": {"base": "Kelp", "type": "Vendor 8", "background": "resources/shared/background_default_v2.png"},
-  "kelpv9": {"base": "Kelp", "type": "Vendor 9", "background": "resources/shared/background_default_v2.png"},
-  "kelpv10": {"base": "Kelp", "type": "Vendor 10", "background": "resources/shared/background_default_v2.png"},
-  "kelpv11": {"base": "Kelp", "type": "Vendor 11", "background": "resources/shared/background_default_v2.png"},
-  "kelpv12": {"base": "Kelp", "type": "Vendor 12", "background": "resources/shared/background_default_v2.png"},
-  "kelpv13": {"base": "Kelp", "type": "Vendor 13", "background": "resources/shared/background_default_v2.png"},
-  "kelpv14": {"base": "Kelp", "type": "Vendor 14", "background": "resources/shared/background_default_v2.png"},
-  "kelpv15": {"base": "Kelp", "type": "Vendor 15", "background": "resources/shared/background_default_v2.png"},
-  "kelpv16": {"base": "Kelp", "type": "Vendor 16", "background": "resources/shared/background_default_v2.png"},
-  "kelpv17": {"base": "Kelp", "type": "Vendor 17", "background": "resources/shared/background_default_v2.png"},
-  "kelpv18": {"base": "Kelp", "type": "Vendor 18", "background": "resources/shared/background_default_v2.png"},
-  "kelpv19": {"base": "Kelp", "type": "Vendor 19", "background": "resources/shared/background_default_v2.png"},
-  "kelpv20": {"base": "Kelp", "type": "Vendor 20", "background": "resources/shared/background_default_v2.png"},
-  "kelpv21": {"base": "Kelp", "type": "Vendor 21", "background": "resources/shared/background_default_v2.png"},
-  "kelpv22": {"base": "Kelp", "type": "Vendor 22", "background": "resources/shared/background_default_v2.png"},
-  "kelpv23": {"base": "Kelp", "type": "Vendor 23", "background": "resources/shared/background_default_v2.png"},
-  "kelpv24": {"base": "Kelp", "type": "Vendor 24", "background": "resources/shared/background_default_v2.png"},
-  "kelpv25": {"base": "Kelp", "type": "Vendor 25", "background": "resources/shared/background_default_v2.png"},
-  "kelpv26": {"base": "Kelp", "type": "Vendor 26", "background": "resources/shared/background_default_v2.png"},
-  "kelpv27": {"base": "Kelp", "type": "Vendor 27", "background": "resources/shared/background_default_v2.png"},
-  "kelpv28": {"base": "Kelp", "type": "Vendor 28", "background": "resources/shared/background_default_v2.png"},
-  "kelpv29": {"base": "Kelp", "type": "Vendor 29", "background": "resources/shared/background_default_v2.png"},
-  "kelpv30": {"base": "Kelp", "type": "Vendor 30", "background": "resources/shared/background_default_v2.png"},
-  "kelpv31": {"base": "Kelp", "type": "Vendor 31", "background": "resources/shared/background_default_v2.png"},
-  "kelpv32": {"base": "Kelp", "type": "Vendor 32", "background": "resources/shared/background_default_v2.png"},
-  "kelpv33": {"base": "Kelp", "type": "Vendor 33", "background": "resources/shared/background_default_v2.png"},
-  "kelpv34": {"base": "Kelp", "type": "Vendor 34", "background": "resources/shared/background_default_v2.png"},
-  "kelpv35": {"base": "Kelp", "type": "Vendor 35", "background": "resources/shared/background_default_v2.png"},
+  "kelpv1": {
+    "tact": "kelpv1",
+    "agent": "kelp_vendor_1",
+    "base": "Kelp",
+    "type": "Vendor 1",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv2": {
+    "tact": "kelpv2",
+    "agent": "kelp_vendor_2",
+    "base": "Kelp",
+    "type": "Vendor 2",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv3": {
+    "tact": "kelpv3",
+    "agent": "kelp_vendor_3",
+    "base": "Kelp",
+    "type": "Vendor 3",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv4": {
+    "tact": "kelpv4",
+    "agent": "kelp_vendor_4",
+    "base": "Kelp",
+    "type": "Vendor 4",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv5": {
+    "tact": "kelpv5",
+    "agent": "kelp_vendor_5",
+    "base": "Kelp",
+    "type": "Vendor 5",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv6": {
+    "tact": "kelpv6",
+    "agent": "kelp_vendor_6",
+    "base": "Kelp",
+    "type": "Vendor 6",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv7": {
+    "tact": "kelpv7",
+    "agent": "kelp_vendor_7",
+    "base": "Kelp",
+    "type": "Vendor 7",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv8": {
+    "tact": "kelpv8",
+    "agent": "kelp_vendor_8",
+    "base": "Kelp",
+    "type": "Vendor 8",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv9": {
+    "tact": "kelpv9",
+    "agent": "kelp_vendor_9",
+    "base": "Kelp",
+    "type": "Vendor 9",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv10": {
+    "tact": "kelpv10",
+    "agent": "kelp_vendor_10",
+    "base": "Kelp",
+    "type": "Vendor 10",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv11": {
+    "tact": "kelpv11",
+    "agent": "kelp_vendor_11",
+    "base": "Kelp",
+    "type": "Vendor 11",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv12": {
+    "tact": "kelpv12",
+    "agent": "kelp_vendor_12",
+    "base": "Kelp",
+    "type": "Vendor 12",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv13": {
+    "tact": "kelpv13",
+    "agent": "kelp_vendor_13",
+    "base": "Kelp",
+    "type": "Vendor 13",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv14": {
+    "tact": "kelpv14",
+    "agent": "kelp_vendor_14",
+    "base": "Kelp",
+    "type": "Vendor 14",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv15": {
+    "tact": "kelpv15",
+    "agent": "kelp_vendor_15",
+    "base": "Kelp",
+    "type": "Vendor 15",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv16": {
+    "tact": "kelpv16",
+    "agent": "kelp_vendor_16",
+    "base": "Kelp",
+    "type": "Vendor 16",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv17": {
+    "tact": "kelpv17",
+    "agent": "kelp_vendor_17",
+    "base": "Kelp",
+    "type": "Vendor 17",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv18": {
+    "tact": "kelpv18",
+    "agent": "kelp_vendor_18",
+    "base": "Kelp",
+    "type": "Vendor 18",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv19": {
+    "tact": "kelpv19",
+    "agent": "kelp_vendor_19",
+    "base": "Kelp",
+    "type": "Vendor 19",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv20": {
+    "tact": "kelpv20",
+    "agent": "kelp_vendor_20",
+    "base": "Kelp",
+    "type": "Vendor 20",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv21": {
+    "tact": "kelpv21",
+    "agent": "kelp_vendor_21",
+    "base": "Kelp",
+    "type": "Vendor 21",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv22": {
+    "tact": "kelpv22",
+    "agent": "kelp_vendor_22",
+    "base": "Kelp",
+    "type": "Vendor 22",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv23": {
+    "tact": "kelpv23",
+    "agent": "kelp_vendor_23",
+    "base": "Kelp",
+    "type": "Vendor 23",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv24": {
+    "tact": "kelpv24",
+    "agent": "kelp_vendor_24",
+    "base": "Kelp",
+    "type": "Vendor 24",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv25": {
+    "tact": "kelpv25",
+    "agent": "kelp_vendor_25",
+    "base": "Kelp",
+    "type": "Vendor 25",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv26": {
+    "tact": "kelpv26",
+    "agent": "kelp_vendor_26",
+    "base": "Kelp",
+    "type": "Vendor 26",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv27": {
+    "tact": "kelpv27",
+    "agent": "kelp_vendor_27",
+    "base": "Kelp",
+    "type": "Vendor 27",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv28": {
+    "tact": "kelpv28",
+    "agent": "kelp_vendor_28",
+    "base": "Kelp",
+    "type": "Vendor 28",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv29": {
+    "tact": "kelpv29",
+    "agent": "kelp_vendor_29",
+    "base": "Kelp",
+    "type": "Vendor 29",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv30": {
+    "tact": "kelpv30",
+    "agent": "kelp_vendor_30",
+    "base": "Kelp",
+    "type": "Vendor 30",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv31": {
+    "tact": "kelpv31",
+    "agent": "kelp_vendor_31",
+    "base": "Kelp",
+    "type": "Vendor 31",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv32": {
+    "tact": "kelpv32",
+    "agent": "kelp_vendor_32",
+    "base": "Kelp",
+    "type": "Vendor 32",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv33": {
+    "tact": "kelpv33",
+    "agent": "kelp_vendor_33",
+    "base": "Kelp",
+    "type": "Vendor 33",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv34": {
+    "tact": "kelpv34",
+    "agent": "kelp_vendor_34",
+    "base": "Kelp",
+    "type": "Vendor 34",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "kelpv35": {
+    "tact": "kelpv35",
+    "agent": "kelp_vendor_35",
+    "base": "Kelp",
+    "type": "Vendor 35",
+    "background": "resources/shared/background_default_v2.png"
+  },
   "lazr": {
+    "tact": "lazr",
+    "agent": "lazarus",
     "base": "Call of Duty: MW2 Campaign Remastered",
     "logo": "resources/lazarus/logo_codmw2cr_v2.png",
     "background": "resources/lazarus/background_lazarus_new_panel.webp"
   },
   "lazrdev": {
+    "tact": "lazrdev",
+    "agent": "lazarus_dev",
     "base": "Call of Duty: MW2 Campaign Remastered",
     "logo": "resources/lazarus/logo_codmw2cr_v2.png",
     "background": "resources/lazarus/background_lazarus_new_panel.webp"
   },
   "lazrv1": {
+    "tact": "lazrv1",
+    "agent": "lazarus_vendor_1",
     "base": "Call of Duty: MW2 Campaign Remastered",
     "logo": "resources/lazarus/logo_codmw2cr_v2.png",
     "background": "resources/lazarus/background_lazarus_new_panel.webp"
   },
   "lazrv2": {
+    "tact": "lazrv2",
+    "agent": "lazarus_vendor_2",
     "base": "Call of Duty: MW2 Campaign Remastered",
     "logo": "resources/lazarus/logo_codmw2cr_v2.png",
     "background": "resources/lazarus/background_lazarus_new_panel.webp"
   },
   "lbra": {
+    "tact": "lbra",
+    "agent": "lbra",
     "base": "Tony Hawk's™ Pro Skater™ 3 + 4",
     "logo": "resources/libra/logo_libra_enUS.png",
     "background": "resources/libra/background_libra_new_panel.webp"
   },
   "lbra-demo": {
+    "tact": "lbra-demo",
+    "agent": "lbra_demo",
     "base": "Tony Hawk's™ Pro Skater™ 3 + 4",
     "type": "Tony Hawk's™ Pro Skater™ 3 + 4 – Demo",
     "logo": "resources/libra/logo_libra_enUS.png",
     "background": "resources/libra/background_libra_new_panel.webp"
   },
   "lbra-demo-dev-1": {
+    "tact": "lbra-demo-dev-1",
+    "agent": "lbra_demo_dev_1",
     "base": "Tony Hawk's™ Pro Skater™ 3 + 4",
     "type": "Foundry Demo Developer-1",
     "logo": "resources/libra/logo_libra_enUS.png",
     "background": "resources/libra/background_libra_new_panel.webp"
   },
   "lbra-demo-rc": {
+    "tact": "lbra-demo-rc",
+    "agent": "lbra_demo_rc",
     "base": "Tony Hawk's™ Pro Skater™ 3 + 4",
     "type": "Tony Hawk's Pro Skater 3+4 - Demo RC",
     "logo": "resources/libra/logo_libra_enUS.png",
     "background": "resources/libra/background_libra_new_panel.webp"
   },
   "lbra-retail-dev-1": {
+    "tact": "lbra-retail-dev-1",
+    "agent": "lbra_retail_dev_1",
     "base": "Tony Hawk's™ Pro Skater™ 3 + 4",
     "type": "Developer 1",
     "logo": "resources/libra/logo_libra_enUS.png",
     "background": "resources/libra/background_libra_new_panel.webp"
   },
   "lbra-retail-rc": {
+    "tact": "lbra-retail-rc",
+    "agent": "lbra_retail_rc",
     "base": "Tony Hawk's™ Pro Skater™ 3 + 4",
     "type": "Retail RC",
     "logo": "resources/libra/logo_libra_enUS.png",
     "background": "resources/libra/background_libra_new_panel.webp"
   },
   "lyra": {
+    "tact": "lyra",
+    "agent": "lyra",
     "base": "The Witcher 3: Wild Hunt – Remastered",
     "logo": "resources/lyra/phx_game_tab_logo_w3re.png",
     "background": "resources/lyra/phx_game_tab_app_background_w3re.png"
   },
   "lyra-retail-dev-1": {
+    "tact": "lyra-retail-dev-1",
+    "agent": "lyra_retail_dev_1",
     "base": "The Witcher 3: Wild Hunt – Remastered",
     "type": "Retail Dev 1",
     "logo": "resources/lyra/phx_game_tab_logo_w3re.png",
     "background": "resources/lyra/phx_game_tab_app_background_w3re.png"
   },
   "lyra-retail-rc": {
+    "tact": "lyra-retail-rc",
+    "agent": "lyra_retail_rc",
     "base": "The Witcher 3: Wild Hunt – Remastered",
     "type": "RC",
     "logo": "resources/lyra/phx_game_tab_logo_w3re.png",
     "background": "resources/lyra/phx_game_tab_app_background_w3re.png"
   },
   "lyra-vendor-dev-1": {
+    "tact": "lyra-vendor-dev-1",
+    "agent": "lyra_vendor_dev_1",
     "base": "The Witcher 3: Wild Hunt – Remastered",
     "type": "Vendor 1",
     "logo": "resources/lyra/phx_game_tab_logo_w3re.png",
     "background": "resources/lyra/phx_game_tab_app_background_w3re.png"
   },
   "malb": {
+    "tact": "malb",
+    "agent": "malb",
     "base": "Cyberpunk 2077",
     "logo": "resources/malbork/phx_game_tab_logo_malbork.png",
     "background": "resources/malbork/phx_game_app_background_malbork.png"
   },
   "malb-retail-dev-1": {
+    "tact": "malb-retail-dev-1",
+    "agent": "malb_retail_dev_1",
     "base": "Cyberpunk 2077",
     "logo": "resources/malbork/phx_game_tab_logo_malbork.png",
     "background": "resources/malbork/phx_game_app_background_malbork.png"
   },
   "malb-retail-rc": {
+    "tact": "malb-retail-rc",
+    "agent": "malb_retail_rc",
     "base": "Cyberpunk 2077",
     "type": "Cyberpunk 2077 RC",
     "logo": "resources/malbork/phx_game_tab_logo_malbork.png",
     "background": "resources/malbork/phx_game_app_background_malbork.png"
   },
   "malb-vendor-dev-1": {
+    "tact": "malb-vendor-dev-1",
+    "agent": "malb_vendor_dev_1",
     "base": "Cyberpunk 2077",
     "logo": "resources/malbork/phx_game_tab_logo_malbork.png",
     "background": "resources/malbork/phx_game_app_background_malbork.png"
   },
   "nina": {
+    "tact": "nina",
+    "agent": "nina",
     "base": "Call of Duty: Modern Warfare II",
     "logo": "resources/nina/logo_nina_enUS.png",
     "background": "resources/nina/background_nina_new_panel.webp"
   },
   "ninav1": {
+    "tact": "ninav1",
+    "agent": "ninav1",
     "base": "Call of Duty: Modern Warfare II",
     "type": "Vendor 1",
     "logo": "resources/nina/logo_nina_enUS.png",
     "background": "resources/nina/background_nina_new_panel.webp"
   },
   "ninav2": {
+    "tact": "ninav2",
+    "agent": "ninav2",
     "base": "Call of Duty: Modern Warfare II",
     "type": "Vendor 2",
     "logo": "resources/nina/logo_nina_enUS.png",
     "background": "resources/nina/background_nina_new_panel.webp"
   },
   "ninav3": {
+    "tact": "ninav3",
+    "agent": "ninav3",
     "base": "Call of Duty: Modern Warfare II",
     "type": "Vendor 3",
     "logo": "resources/nina/logo_nina_enUS.png",
     "background": "resources/nina/background_nina_new_panel.webp"
   },
   "ninav4": {
+    "tact": "ninav4",
+    "agent": "ninav4",
     "base": "Call of Duty: Modern Warfare II",
     "type": "Vendor 4",
     "logo": "resources/nina/logo_nina_enUS.png",
     "background": "resources/nina/background_nina_new_panel.webp"
   },
   "ninav5": {
+    "tact": "ninav5",
+    "agent": "ninav5",
     "base": "Call of Duty: Modern Warfare II",
     "type": "Vendor 5",
     "logo": "resources/nina/logo_nina_enUS.png",
     "background": "resources/nina/background_nina_new_panel.webp"
   },
   "odin": {
+    "tact": "odin",
+    "agent": "odin",
     "base": "Call of Duty: Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odindev": {
+    "tact": "odindev",
+    "agent": "odin_dev",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odine": {
+    "tact": "odine",
+    "agent": "odin_event",
     "base": "Call of Duty: Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv1": {
+    "tact": "odinv1",
+    "agent": "odin_vendor",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv2": {
+    "tact": "odinv2",
+    "agent": "odin_vendor2",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv3": {
+    "tact": "odinv3",
+    "agent": "odin_vendor3",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv4": {
+    "tact": "odinv4",
+    "agent": "odin_vendor4",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv5": {
+    "tact": "odinv5",
+    "agent": "odin_vendor5",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv6": {
+    "tact": "odinv6",
+    "agent": "odin_vendor6",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv7": {
+    "tact": "odinv7",
+    "agent": "odin_vendor7",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv8": {
+    "tact": "odinv8",
+    "agent": "odin_vendor8",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv9": {
+    "tact": "odinv9",
+    "agent": "odin_vendor9",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv10": {
+    "tact": "odinv10",
+    "agent": "odin_vendor10",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv11": {
+    "tact": "odinv11",
+    "agent": "odin_vendor11",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv12": {
+    "tact": "odinv12",
+    "agent": "odin_vendor12",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv13": {
+    "tact": "odinv13",
+    "agent": "odin_vendor13",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv14": {
+    "tact": "odinv14",
+    "agent": "odin_vendor14",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv15": {
+    "tact": "odinv15",
+    "agent": "odin_vendor15",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "odinv16": {
+    "tact": "odinv16",
+    "agent": "odin_vendor16",
     "base": "Call of Duty: Modern Warfare",
     "type": "Modern Warfare",
     "logo": "resources/odin/logo_codmw_v2.png",
     "background": "resources/odin/background_codmw_new_panel.webp"
   },
   "osi": {
+    "tact": "osi",
+    "agent": "osi",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osia": {
+    "tact": "osia",
+    "agent": "osi_dev",
     "base": "Diablo II: Resurrected",
     "type": "D2R: Early Review",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osib": {
+    "tact": "osib",
+    "agent": "osi_beta",
     "base": "Diablo II: Resurrected",
     "type": "Beta",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osidev": {
+    "tact": "osidev",
+    "agent": "osi_dev_2",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osit": {
+    "tact": "osit",
+    "agent": "osi_test",
     "base": "Diablo II: Resurrected",
     "type": "Public Test Realm",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osiv1": {
+    "tact": "osiv1",
+    "agent": "osi_vendor_1",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osiv2": {
+    "tact": "osiv2",
+    "agent": "osi_vendor_2",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osiv3": {
+    "tact": "osiv3",
+    "agent": "osi_vendor_3",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osiv4": {
+    "tact": "osiv4",
+    "agent": "osi_vendor_4",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osiv5": {
+    "tact": "osiv5",
+    "agent": "osi_vendor_5",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osiv6": {
+    "tact": "osiv6",
+    "agent": "osi_vendor_6",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
   "osiv7": {
+    "tact": "osiv7",
+    "agent": "osi_vendor_7",
     "base": "Diablo II: Resurrected",
     "logo": "resources/osi/logo_osi_v2.png",
     "background": "resources/osi/background_osi_new_panel.webp"
   },
-  "phobos_event": {"base": "Phobos Event", "background": "resources/shared/background_default_v2.png"},
+  "phobos_event": {
+    "tact": "phobos_event",
+    "agent": "phobos_event",
+    "base": "Phobos Event",
+    "background": "resources/shared/background_default_v2.png"
+  },
   "pinta": {
+    "tact": "pinta",
+    "agent": "pinta",
     "base": "Call of Duty: Modern Warfare III",
     "logo": "resources/pinta/logo_pinta_enUS.png",
     "background": "resources/pinta/background_pinta_new_panel.webp"
   },
   "pro": {
+    "tact": "pro",
+    "agent": "prometheus",
     "base": "Overwatch",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prob": {
+    "tact": "prob",
+    "agent": "prometheus_beta",
     "base": "Overwatch",
     "type": "Overwatch Beta",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "probv1": {
+    "tact": "probv1",
+    "agent": "prometheus_vendor_bv_1",
     "base": "Overwatch",
     "type": "Vidcap 1",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "probv2": {
+    "tact": "probv2",
+    "agent": "prometheus_vendor_bv_2",
     "base": "Overwatch",
     "type": "Vidcap 2",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "probv3": {
+    "tact": "probv3",
+    "agent": "prometheus_vendor_bv_3",
     "base": "Overwatch",
     "type": "Vidcap 3",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "proc": {
+    "tact": "proc",
+    "agent": "prometheus_tournament",
     "base": "Overwatch",
     "type": "Tournament A",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "proc2": {
+    "tact": "proc2",
+    "agent": "prometheus_tournament2",
     "base": "Overwatch",
     "type": "Tournament B",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "proc3": {
+    "tact": "proc3",
+    "agent": "prometheus_tournament3",
     "base": "Overwatch",
     "type": "Dev Two",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "proc4": {
+    "tact": "proc4",
+    "agent": "prometheus_tournament4",
     "base": "Overwatch",
     "type": "Tournament C",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "proc5": {
+    "tact": "proc5",
+    "agent": "prometheus_tournament5",
     "base": "Overwatch",
     "type": "Overwatch Esports",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "procr": {
+    "tact": "procr",
+    "agent": "prometheus_tournament_viewer",
     "base": "Overwatch",
     "type": "Overwatch League – Current",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "procr2": {
+    "tact": "procr2",
+    "agent": "prometheus_tournament_viewer_2",
     "base": "Overwatch",
     "type": "Overwatch League – Previous",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodemo": {
+    "tact": "prodemo",
+    "agent": "prometheus_demo",
     "base": "Overwatch",
     "type": "Dev Three",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodemo2": {
+    "tact": "prodemo2",
+    "agent": "prometheus_demo_2",
     "base": "Overwatch",
     "type": "Dev Four",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodemo3": {
+    "tact": "prodemo3",
+    "agent": "prometheus_demo_3",
     "base": "Overwatch",
     "type": "Overwatch Vendor Competitive",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodemo4": {
+    "tact": "prodemo4",
+    "agent": "prometheus_demo_4",
     "base": "Overwatch",
     "type": "Overwatch Preview",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodemo5": {
+    "tact": "prodemo5",
+    "agent": "prometheus_demo_5",
     "base": "Overwatch",
     "type": "Overwatch Preview 2",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev": {
+    "tact": "prodev",
+    "agent": "prometheus_dev",
     "base": "Overwatch",
     "type": "Dev One",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev6": {
+    "tact": "prodev6",
+    "agent": "prometheus_dev_6",
     "base": "Overwatch",
     "type": "Dev Six",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev7": {
+    "tact": "prodev7",
+    "agent": "prometheus_dev_7",
     "base": "Overwatch",
     "type": "Dev Seven",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev8": {
+    "tact": "prodev8",
+    "agent": "prometheus_dev_8",
     "base": "Overwatch",
     "type": "Dev Eight",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev9": {
+    "tact": "prodev9",
+    "agent": "prometheus_dev_9",
     "base": "Overwatch",
     "type": "Dev Nine",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev10": {
+    "tact": "prodev10",
+    "agent": "prometheus_dev_10",
     "base": "Overwatch",
     "type": "Dev Ten",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev11": {
+    "tact": "prodev11",
+    "agent": "prometheus_dev_11",
     "base": "Overwatch",
     "type": "Dev Eleven",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev12": {
+    "tact": "prodev12",
+    "agent": "prometheus_dev_12",
     "base": "Overwatch",
     "type": "Dev Twelve",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev13": {
+    "tact": "prodev13",
+    "agent": "prometheus_dev_13",
     "base": "Overwatch",
     "type": "Dev Thirteen",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodev14": {
+    "tact": "prodev14",
+    "agent": "prometheus_dev_14",
     "base": "Overwatch",
     "type": "Dev Fourteen",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodevops": {
+    "tact": "prodevops",
+    "agent": "prometheus_dev_ops",
     "base": "Overwatch",
     "type": "Dev Ops 1",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prodevops2": {
+    "tact": "prodevops2",
+    "agent": "prometheus_dev_ops_2",
     "base": "Overwatch",
     "type": "Dev Ops 2",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "proev": {
+    "tact": "proev",
+    "agent": "prometheus_esports",
     "base": "Overwatch",
     "type": "Overwatch Esports",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "proindev": {
+    "tact": "proindev",
+    "agent": "prometheus_internal_dev",
     "base": "Overwatch",
     "type": "Dev Five",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prolocv1": {
+    "tact": "prolocv1",
+    "agent": "prometheus_vendor_1",
     "base": "Overwatch",
     "type": "Localization 1",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prolocv2": {
+    "tact": "prolocv2",
+    "agent": "prometheus_vendor_2",
     "base": "Overwatch",
     "type": "Localization 2",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prolocv3": {
+    "tact": "prolocv3",
+    "agent": "prometheus_vendor_3",
     "base": "Overwatch",
     "type": "Localization 3",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prolocv4": {
+    "tact": "prolocv4",
+    "agent": "prometheus_vendor_4",
     "base": "Overwatch",
     "type": "Localization 4",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prot": {
+    "tact": "prot",
+    "agent": "prometheus_test",
     "base": "Overwatch",
     "type": "Public Test Region",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "proutr": {
+    "tact": "proutr",
+    "agent": "prometheus_user_test",
     "base": "Overwatch",
     "type": "User Test Realm",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "prov": {
+    "tact": "prov",
+    "agent": "prometheus_vendor",
     "base": "Overwatch",
     "type": "Overwatch Vendor",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "provac": {
+    "tact": "provac",
+    "agent": "prometheus_vendor_ac",
     "base": "Overwatch",
     "type": "Overwatch Vendor AC",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "provbv": {
+    "tact": "provbv",
+    "agent": "prometheus_vendor_bv",
     "base": "Overwatch",
     "type": "Overwatch Vendor BVID",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "provcomp": {
+    "tact": "provcomp",
+    "agent": "prometheus_vendor_competitive",
     "base": "Overwatch",
     "type": "Overwatch Vendor Competitive",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "providcn1": {
+    "tact": "providcn1",
+    "agent": "prometheus_vendor_vidcn1",
     "base": "Overwatch",
     "type": "CN Vidcap 1",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "providcn2": {
+    "tact": "providcn2",
+    "agent": "prometheus_vendor_vidcn2",
     "base": "Overwatch",
     "type": "CN Vidcap 2",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "providcn3": {
+    "tact": "providcn3",
+    "agent": "prometheus_vendor_vidcn3",
     "base": "Overwatch",
     "type": "CN Vidcap 3",
     "logo": "resources/overwatch/logo_ow_enUS.png",
     "background": "resources/overwatch/background_ow_beta.png"
   },
   "rtro": {
+    "tact": "rtro",
+    "agent": "rtro",
     "base": "Blizzard Arcade Collection",
     "logo": "resources/retro/logo_retro_v2.png",
     "background": "resources/retro/background_retro_new_panel.webp"
   },
   "rtrodev": {
+    "tact": "rtrodev",
+    "agent": "rtro_dev",
     "base": "Blizzard Arcade Collection",
     "logo": "resources/retro/logo_retro_v2.png",
     "background": "resources/retro/background_retro_new_panel.webp"
   },
   "s1": {
+    "tact": "s1",
+    "agent": "s1",
     "base": "StarCraft",
     "logo": "resources/starcraft1/logo_starcraft1_v2.png",
     "background": "resources/starcraft1/background_starcraft1_new_panel.webp"
   },
   "s1t": {
+    "tact": "s1t",
+    "agent": "s1_ptr",
     "base": "StarCraft",
     "type": "Public Test Realm",
     "logo": "resources/starcraft1/logo_starcraft1_v2.png",
     "background": "resources/starcraft1/background_starcraft1_new_panel.webp"
   },
   "s2": {
+    "tact": "s2",
+    "agent": "s2",
     "base": "StarCraft II",
     "logo": "resources/starcraft2/logo_starcraft2_v2.png",
     "background": "resources/starcraft2/background_sc2_new_panel.webp"
   },
   "s2t": {
+    "tact": "s2t",
+    "agent": "s2_ptr",
     "base": "StarCraft II",
     "type": "Public Test Realm",
     "logo": "resources/starcraft2/logo_starcraft2_v2.png",
     "background": "resources/starcraft2/background_sc2_new_panel.webp"
   },
   "s2v": {
+    "tact": "s2v",
+    "agent": "s2_vendor",
     "base": "StarCraft II",
     "logo": "resources/starcraft2/logo_starcraft2_v2.png",
     "background": "resources/starcraft2/background_sc2_new_panel.webp"
   },
   "scor": {
+    "tact": "scor",
+    "agent": "scor",
     "base": "Sea of Thieves",
     "logo": "resources/scor/logo_scorpio.png",
     "background": "resources/scor/background_scorpio_new_panel.webp"
   },
   "scor-beta": {
+    "tact": "scor-beta",
+    "agent": "scor_beta",
     "base": "Sea of Thieves",
     "type": "Sea of Thieves Insiders",
     "logo": "resources/scor/logo_insider_scorpio.png",
     "background": "resources/scor/background_scorpio_new_panel.webp"
   },
   "scor-beta-dev-1": {
+    "tact": "scor-beta-dev-1",
+    "agent": "scor_beta_dev_1",
     "base": "Sea of Thieves",
     "type": "Beta Dev 1",
     "logo": "resources/scor/logo_scorpio.png",
     "background": "resources/scor/background_scorpio_new_panel.webp"
   },
   "scor-beta-rc": {
+    "tact": "scor-beta-rc",
+    "agent": "scor_beta_rc",
     "base": "Sea of Thieves",
     "type": "Beta RC",
     "logo": "resources/scor/logo_scorpio.png",
     "background": "resources/scor/background_scorpio_new_panel.webp"
   },
   "scor-retail-dev-1": {
+    "tact": "scor-retail-dev-1",
+    "agent": "scor_retail_dev_1",
     "base": "Sea of Thieves",
     "type": "Retail Dev 1",
     "logo": "resources/scor/logo_scorpio.png",
     "background": "resources/scor/background_scorpio_new_panel.webp"
   },
   "scor-retail-rc": {
+    "tact": "scor-retail-rc",
+    "agent": "scor_retail_rc",
     "base": "Sea of Thieves",
     "type": "Retail RC",
     "logo": "resources/scor/logo_scorpio.png",
     "background": "resources/scor/background_scorpio_new_panel.webp"
   },
-  "spotdev": {"base": "Spot", "background": "resources/shared/background_default_v2.png"},
-  "spotv1": {"base": "Spot", "type": "Vendor 1", "background": "resources/shared/background_default_v2.png"},
-  "spotv2": {"base": "Spot", "type": "Vendor 2", "background": "resources/shared/background_default_v2.png"},
-  "spotv3": {"base": "Spot", "type": "Vendor 3", "background": "resources/shared/background_default_v2.png"},
-  "spotv4": {"base": "Spot", "type": "Vendor 4", "background": "resources/shared/background_default_v2.png"},
-  "spotv5": {"base": "Spot", "type": "Vendor 5", "background": "resources/shared/background_default_v2.png"},
-  "spotv6": {"base": "Spot", "type": "Vendor 6", "background": "resources/shared/background_default_v2.png"},
-  "spotv7": {"base": "Spot", "type": "Vendor 7", "background": "resources/shared/background_default_v2.png"},
-  "spotv8": {"base": "Spot", "type": "Vendor 8", "background": "resources/shared/background_default_v2.png"},
-  "spotv9": {"base": "Spot", "type": "Vendor 9", "background": "resources/shared/background_default_v2.png"},
-  "spotv10": {"base": "Spot", "type": "Vendor 10", "background": "resources/shared/background_default_v2.png"},
-  "spotv11": {"base": "Spot", "type": "Vendor 11", "background": "resources/shared/background_default_v2.png"},
-  "spotv12": {"base": "Spot", "type": "Vendor 12", "background": "resources/shared/background_default_v2.png"},
-  "spotv13": {"base": "Spot", "type": "Vendor 13", "background": "resources/shared/background_default_v2.png"},
-  "spotv14": {"base": "Spot", "type": "Vendor 14", "background": "resources/shared/background_default_v2.png"},
-  "spotv15": {"base": "Spot", "type": "Vendor 15", "background": "resources/shared/background_default_v2.png"},
-  "spotv16": {"base": "Spot", "type": "Vendor 16", "background": "resources/shared/background_default_v2.png"},
-  "spotv17": {"base": "Spot", "type": "Vendor 17", "background": "resources/shared/background_default_v2.png"},
-  "spotv18": {"base": "Spot", "type": "Vendor 18", "background": "resources/shared/background_default_v2.png"},
-  "spotv19": {"base": "Spot", "type": "Vendor 19", "background": "resources/shared/background_default_v2.png"},
-  "spotv20": {"base": "Spot", "type": "Vendor 20", "background": "resources/shared/background_default_v2.png"},
+  "spotdev": {
+    "tact": "spotdev",
+    "agent": "spot_dev",
+    "base": "Spot",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv1": {
+    "tact": "spotv1",
+    "agent": "spot_vendor_1",
+    "base": "Spot",
+    "type": "Vendor 1",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv2": {
+    "tact": "spotv2",
+    "agent": "spot_vendor_2",
+    "base": "Spot",
+    "type": "Vendor 2",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv3": {
+    "tact": "spotv3",
+    "agent": "spot_vendor_3",
+    "base": "Spot",
+    "type": "Vendor 3",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv4": {
+    "tact": "spotv4",
+    "agent": "spot_vendor_4",
+    "base": "Spot",
+    "type": "Vendor 4",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv5": {
+    "tact": "spotv5",
+    "agent": "spot_vendor_5",
+    "base": "Spot",
+    "type": "Vendor 5",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv6": {
+    "tact": "spotv6",
+    "agent": "spot_vendor_6",
+    "base": "Spot",
+    "type": "Vendor 6",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv7": {
+    "tact": "spotv7",
+    "agent": "spot_vendor_7",
+    "base": "Spot",
+    "type": "Vendor 7",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv8": {
+    "tact": "spotv8",
+    "agent": "spot_vendor_8",
+    "base": "Spot",
+    "type": "Vendor 8",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv9": {
+    "tact": "spotv9",
+    "agent": "spot_vendor_9",
+    "base": "Spot",
+    "type": "Vendor 9",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv10": {
+    "tact": "spotv10",
+    "agent": "spot_vendor_10",
+    "base": "Spot",
+    "type": "Vendor 10",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv11": {
+    "tact": "spotv11",
+    "agent": "spot_vendor_11",
+    "base": "Spot",
+    "type": "Vendor 11",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv12": {
+    "tact": "spotv12",
+    "agent": "spot_vendor_12",
+    "base": "Spot",
+    "type": "Vendor 12",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv13": {
+    "tact": "spotv13",
+    "agent": "spot_vendor_13",
+    "base": "Spot",
+    "type": "Vendor 13",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv14": {
+    "tact": "spotv14",
+    "agent": "spot_vendor_14",
+    "base": "Spot",
+    "type": "Vendor 14",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv15": {
+    "tact": "spotv15",
+    "agent": "spot_vendor_15",
+    "base": "Spot",
+    "type": "Vendor 15",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv16": {
+    "tact": "spotv16",
+    "agent": "spot_vendor_16",
+    "base": "Spot",
+    "type": "Vendor 16",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv17": {
+    "tact": "spotv17",
+    "agent": "spot_vendor_17",
+    "base": "Spot",
+    "type": "Vendor 17",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv18": {
+    "tact": "spotv18",
+    "agent": "spot_vendor_18",
+    "base": "Spot",
+    "type": "Vendor 18",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv19": {
+    "tact": "spotv19",
+    "agent": "spot_vendor_19",
+    "base": "Spot",
+    "type": "Vendor 19",
+    "background": "resources/shared/background_default_v2.png"
+  },
+  "spotv20": {
+    "tact": "spotv20",
+    "agent": "spot_vendor_20",
+    "base": "Spot",
+    "type": "Vendor 20",
+    "background": "resources/shared/background_default_v2.png"
+  },
   "viper": {
+    "tact": "viper",
+    "agent": "viper",
     "base": "Call of Duty: Black Ops 4",
     "logo": "resources/viper/logo_codbo4_v2.png",
     "background": "resources/viper/background_codbo4_new_panel.webp"
   },
   "viperdev": {
+    "tact": "viperdev",
+    "agent": "viper_alpha",
     "base": "Call of Duty: Black Ops 4",
     "type": "Black Ops 4 Alpha",
     "logo": "resources/viper/logo_codbo4_v2.png",
     "background": "resources/viper/background_codbo4_new_panel.webp"
   },
   "viperv1": {
+    "tact": "viperv1",
+    "agent": "viper_vendor",
     "base": "Call of Duty: Black Ops 4",
     "type": "Black Ops 4 Vendor",
     "logo": "resources/viper/logo_codbo4_v2.png",
     "background": "resources/viper/background_codbo4_new_panel.webp"
   },
   "w1r": {
+    "tact": "w1r",
+    "agent": "w1r",
     "base": "Warcraft I: Remastered",
     "logo": "resources/w1r/logo_w1r_enUS.png",
     "background": "resources/w1r/background_w1r_new_panel.webp"
   },
   "w2r": {
+    "tact": "w2r",
+    "agent": "w2r",
     "base": "Warcraft II: Remastered",
     "logo": "resources/w2r/logo_w2r_enUS.png",
     "background": "resources/w2r/background_w2r_new_panel.webp"
   },
   "w2rd": {
+    "tact": "w2rd",
+    "agent": "w2r_alpha",
     "base": "Warcraft II: Remastered",
     "type": "Warcraft II: Remastered Internal Alpha",
     "logo": "resources/w2r/logo_w2r_enUS.png",
     "background": "resources/w2r/background_w2r_new_panel.webp"
   },
   "w3": {
+    "tact": "w3",
+    "agent": "w3",
     "base": "Warcraft III",
     "logo": "resources/warcraft3/logo_warcraft3_v3.png",
     "background": "resources/warcraft3/background_warcraft3_new_panel_v2.png"
   },
   "w3-legacy-tft": {
+    "tact": "w3-legacy-tft",
+    "agent": "w3_legacy",
     "base": "Warcraft III",
     "type": "Warcraft III - Legacy TFT 1.29",
     "logo": "resources/warcraft3/logo_warcraft3_v3.png",
     "background": "resources/warcraft3/background_warcraft3_new_panel_v2.png"
   },
   "w3b": {
+    "tact": "w3b",
+    "agent": "w3_beta",
     "base": "Warcraft III",
     "type": "Warcraft III: Reforged Beta",
     "logo": "resources/warcraft3/logo_warcraft3_v3.png",
     "background": "resources/warcraft3/background_warcraft3_new_panel_v2.png"
   },
   "w3d": {
+    "tact": "w3d",
+    "agent": "w3_dev",
     "base": "Warcraft III",
     "type": "Public Test Realm (Internal)",
     "logo": "resources/warcraft3/logo_warcraft3_v3.png",
     "background": "resources/warcraft3/background_warcraft3_new_panel_v2.png"
   },
   "w3t": {
+    "tact": "w3t",
+    "agent": "w3t",
     "base": "Warcraft III",
     "type": "Public Test Realm",
     "logo": "resources/warcraft3/logo_warcraft3_v3.png",
     "background": "resources/warcraft3/background_warcraft3_new_panel_v2.png"
   },
   "wlby": {
+    "tact": "wlby",
+    "agent": "wlby",
     "base": "Crash Bandicoot 4: It's About Time",
     "logo": "resources/wallaby/logo_wallaby_v2.png",
     "background": "resources/wallaby/background_wallaby_new_panel.webp"
   },
   "wlbydev": {
+    "tact": "wlbydev",
+    "agent": "wlby_dev",
     "base": "Crash Bandicoot 4: It's About Time",
     "type": "Crash Bandicoot 4",
     "logo": "resources/wallaby/logo_wallaby_v2.png",
     "background": "resources/wallaby/background_wallaby_new_panel.webp"
   },
   "wlbyv1": {
+    "tact": "wlbyv1",
+    "agent": "wlby_vendor_1",
     "base": "Crash Bandicoot 4: It's About Time",
     "type": "Crash Bandicoot 4",
     "logo": "resources/wallaby/logo_wallaby_v2.png",
     "background": "resources/wallaby/background_wallaby_new_panel.webp"
   },
   "wlbyv2": {
+    "tact": "wlbyv2",
+    "agent": "wlby_vendor_2",
     "base": "Crash Bandicoot 4: It's About Time",
     "type": "Crash Bandicoot 4",
     "logo": "resources/wallaby/logo_wallaby_v2.png",
     "background": "resources/wallaby/background_wallaby_new_panel.webp"
   },
   "wlbyv3": {
+    "tact": "wlbyv3",
+    "agent": "wlby_vendor_3",
     "base": "Crash Bandicoot 4: It's About Time",
     "type": "Crash Bandicoot 4",
     "logo": "resources/wallaby/logo_wallaby_v2.png",
     "background": "resources/wallaby/background_wallaby_new_panel.webp"
   },
   "wlbyv4": {
+    "tact": "wlbyv4",
+    "agent": "wlby_vendor_4",
     "base": "Crash Bandicoot 4: It's About Time",
     "type": "Crash Bandicoot 4",
     "logo": "resources/wallaby/logo_wallaby_v2.png",
     "background": "resources/wallaby/background_wallaby_new_panel.webp"
   },
   "wlbyv5": {
+    "tact": "wlbyv5",
+    "agent": "wlby_vendor_5",
     "base": "Crash Bandicoot 4: It's About Time",
     "type": "Crash Bandicoot 4",
     "logo": "resources/wallaby/logo_wallaby_v2.png",
     "background": "resources/wallaby/background_wallaby_new_panel.webp"
   },
   "wlbyv6": {
+    "tact": "wlbyv6",
+    "agent": "wlby_vendor_6",
     "base": "Crash Bandicoot 4: It's About Time",
     "type": "Crash Bandicoot 4",
     "logo": "resources/wallaby/logo_wallaby_v2.png",
     "background": "resources/wallaby/background_wallaby_new_panel.webp"
   },
   "wow": {
+    "tact": "wow",
+    "agent": "wow",
     "base": "World of Warcraft",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wow_anniversary": {
+    "tact": "wow_anniversary",
+    "agent": "wow_classic_anniversary",
     "base": "World of Warcraft",
     "type": "Burning Crusade Anniversary",
     "logo": "resources/wow/logo_wow_classic_bc_anniversary.png",
     "background": "resources/wow/background_wow_classic_bc_anniversary_new_panel.webp"
   },
   "wow_beta": {
+    "tact": "wow_beta",
+    "agent": "wow_beta",
     "base": "World of Warcraft",
     "type": "Midnight Beta",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wow_classic": {
+    "tact": "wow_classic",
+    "agent": "wow_classic",
     "base": "World of Warcraft",
     "type": "Mists of Pandaria Classic",
     "logo": "resources/wow/logo_wow_classic_mop.png",
     "background": "resources/wow/background_wow_classic_mop_new_panel.webp"
   },
   "wow_classic_beta": {
+    "tact": "wow_classic_beta",
+    "agent": "wow_classic_beta",
     "base": "World of Warcraft",
     "type": "WoW: Forever - Beta",
     "logo": "resources/wow/logo_wow_forever_enUS.png",
     "background": "resources/wow/background_wow_forever_new_panel.png"
   },
   "wow_classic_era": {
+    "tact": "wow_classic_era",
+    "agent": "wow_classic_era",
     "base": "World of Warcraft",
     "type": "World of Warcraft Classic",
     "logo": "resources/wow/logo_wow_classic_v2.png",
     "background": "resources/wow/background_wow_classic_cataclysm_new_panel.webp"
   },
   "wow_classic_era_ptr": {
+    "tact": "wow_classic_era_ptr",
+    "agent": "wow_classic_era_ptr",
     "base": "World of Warcraft",
     "type": "PTR (Classic Era)",
     "logo": "resources/wow/logo_wow_classic_v2.png",
     "background": "resources/wow/background_wow_classic_cataclysm_new_panel.webp"
   },
   "wow_classic_ptr": {
+    "tact": "wow_classic_ptr",
+    "agent": "wow_classic_ptr",
     "base": "World of Warcraft",
     "type": "PTR (MoP Classic)",
     "logo": "resources/wow/logo_wow_classic_mop.png",
     "background": "resources/wow/background_wow_classic_mop_new_panel.webp"
   },
   "wow_classic_titan": {
+    "tact": "wow_classic_titan",
+    "agent": "wow_classic_titan",
     "base": "World of Warcraft",
     "type": "Titan Reforged Classic",
     "logo": "resources/wow/logo_wow_classic_titan_zhCN.png",
     "background": "resources/wow/background_wow_classic_cataclysm_new_panel.webp"
   },
   "wow_cn_beta": {
+    "tact": "wow_cn_beta",
+    "agent": "wow_cn_beta",
     "base": "World of Warcraft",
     "type": "WoW: Forever - Beta",
     "logo": "resources/wow/logo_wow_forever_enUS.png",
     "background": "resources/wow/background_wow_forever_new_panel.png"
   },
   "wowdev": {
+    "tact": "wowdev",
+    "agent": "wow_alpha",
     "base": "World of Warcraft",
     "type": "Mainline Internal Test",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowdev2": {
+    "tact": "wowdev2",
+    "agent": "wow_dev",
     "base": "World of Warcraft",
     "type": "Classic Internal Alpha",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowdev3": {
+    "tact": "wowdev3",
+    "agent": "wow_dev_3",
     "base": "World of Warcraft",
     "type": "Development 3",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowdev4": {
+    "tact": "wowdev4",
+    "agent": "wow_dev_4",
     "base": "World of Warcraft",
     "type": "Development 4",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowdev5": {
+    "tact": "wowdev5",
+    "agent": "wow_dev_5",
     "base": "World of Warcraft",
     "type": "Development 5",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowdev6": {
+    "tact": "wowdev6",
+    "agent": "wow_dev_6",
     "base": "World of Warcraft",
     "type": "Development 6",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowe1": {
+    "tact": "wowe1",
+    "agent": "wow_event1",
     "base": "World of Warcraft",
     "type": "Event Realm",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowe2": {
+    "tact": "wowe2",
+    "agent": "wow_event2",
     "base": "World of Warcraft",
     "type": "WoW Event 2",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowf": {
+    "tact": "wowf",
+    "agent": "wowf",
     "base": "World of Warcraft",
     "type": "WoW: Forever",
     "logo": "resources/wow/logo_wow_forever_enUS.png",
     "background": "resources/wow/background_wow_forever_new_panel.png"
   },
   "wowlivetest": {
+    "tact": "wowlivetest",
+    "agent": "wow_dark",
     "base": "World of Warcraft",
     "type": "Dark Realm (Deprecated)",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowlivetest2": {
+    "tact": "wowlivetest2",
+    "agent": "wow_dark_2",
     "base": "World of Warcraft",
     "type": "Dark Realm Test",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev1": {
+    "tact": "wownev1",
+    "agent": "wow_ne_vendor1",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 1",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev2": {
+    "tact": "wownev2",
+    "agent": "wow_ne_vendor2",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 2",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev3": {
+    "tact": "wownev3",
+    "agent": "wow_ne_vendor3",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 3",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev4": {
+    "tact": "wownev4",
+    "agent": "wow_ne_vendor4",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 4",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev5": {
+    "tact": "wownev5",
+    "agent": "wow_ne_vendor5",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 5",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev6": {
+    "tact": "wownev6",
+    "agent": "wow_ne_vendor6",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 6",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev7": {
+    "tact": "wownev7",
+    "agent": "wow_ne_vendor7",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 7",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev8": {
+    "tact": "wownev8",
+    "agent": "wow_ne_vendor8",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 8",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev9": {
+    "tact": "wownev9",
+    "agent": "wow_ne_vendor9",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 9",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev10": {
+    "tact": "wownev10",
+    "agent": "wow_ne_vendor10",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 10",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev11": {
+    "tact": "wownev11",
+    "agent": "wow_ne_vendor11",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 11",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wownev12": {
+    "tact": "wownev12",
+    "agent": "wow_ne_vendor12",
     "base": "World of Warcraft",
     "type": "WoW NE Vendor 12",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowt": {
+    "tact": "wowt",
+    "agent": "wow_ptr",
     "base": "World of Warcraft",
     "type": "PTR (Midnight 12.1.7)",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv": {
+    "tact": "wowv",
+    "agent": "wow_vendor",
     "base": "World of Warcraft",
     "type": "WoW Vendor 1",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv2": {
+    "tact": "wowv2",
+    "agent": "wow_vendor2",
     "base": "World of Warcraft",
     "type": "WoW Vendor 2",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv3": {
+    "tact": "wowv3",
+    "agent": "wow_vendor3",
     "base": "World of Warcraft",
     "type": "WoW Vendor 3",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv4": {
+    "tact": "wowv4",
+    "agent": "wow_vendor4",
     "base": "World of Warcraft",
     "type": "WoW Vendor 4",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv5": {
+    "tact": "wowv5",
+    "agent": "wow_vendor5",
     "base": "World of Warcraft",
     "type": "WoW Vendor 5",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv6": {
+    "tact": "wowv6",
+    "agent": "wow_vendor6",
     "base": "World of Warcraft",
     "type": "WoW Vendor 6",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv7": {
+    "tact": "wowv7",
+    "agent": "wow_vendor7",
     "base": "World of Warcraft",
     "type": "WoW Vendor 7",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv8": {
+    "tact": "wowv8",
+    "agent": "wow_vendor8",
     "base": "World of Warcraft",
     "type": "WoW Vendor 8",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv9": {
+    "tact": "wowv9",
+    "agent": "wow_vendor9",
     "base": "World of Warcraft",
     "type": "WoW Vendor 9",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowv10": {
+    "tact": "wowv10",
+    "agent": "wow_vendor10",
     "base": "World of Warcraft",
     "type": "WoW Vendor 10",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowxptr": {
+    "tact": "wowxptr",
+    "agent": "wow_ptr_x",
     "base": "World of Warcraft",
     "type": "PTR (Midnight 12.1.5)",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "wowz": {
+    "tact": "wowz",
+    "agent": "wow_submission",
     "base": "World of Warcraft",
     "type": "WoW Submissions",
     "logo": "resources/wow/logo_midnight_enUS.png",
     "background": "resources/wow/background_midnight_new_panel.webp"
   },
   "zeus": {
+    "tact": "zeus",
+    "agent": "zeus",
     "base": "Call of Duty: Black Ops Cold War",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusa": {
+    "tact": "zeusa",
+    "agent": "zeus_alpha",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Closed Internal Alpha",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusb": {
+    "tact": "zeusb",
+    "agent": "zeus_beta",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Black Ops Cold War Beta",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusc": {
+    "tact": "zeusc",
+    "agent": "zeus_tournament",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "CDL Player",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeuscdlevent": {
+    "tact": "zeuscdlevent",
+    "agent": "zeus_event_4",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "CDL Event",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeuscdlstaff": {
+    "tact": "zeuscdlstaff",
+    "agent": "zeus_event_2",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "CDL Staff",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusdev": {
+    "tact": "zeusdev",
+    "agent": "zeus_dev",
     "base": "Call of Duty: Black Ops Cold War",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusevent": {
+    "tact": "zeusevent",
+    "agent": "zeus_event",
     "base": "Call of Duty: Black Ops Cold War",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusr": {
+    "tact": "zeusr",
+    "agent": "zeus_event_3",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Black Ops Cold War",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv1": {
+    "tact": "zeusv1",
+    "agent": "zeus_vendor_1",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 1",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv2": {
+    "tact": "zeusv2",
+    "agent": "zeus_vendor_2",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 2",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv3": {
+    "tact": "zeusv3",
+    "agent": "zeus_vendor_3",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 3",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv4": {
+    "tact": "zeusv4",
+    "agent": "zeus_vendor_4",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 4",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv5": {
+    "tact": "zeusv5",
+    "agent": "zeus_vendor_5",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 5",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv6": {
+    "tact": "zeusv6",
+    "agent": "zeus_vendor_6",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 6",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv7": {
+    "tact": "zeusv7",
+    "agent": "zeus_vendor_7",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 7",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv8": {
+    "tact": "zeusv8",
+    "agent": "zeus_vendor_8",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 8",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv9": {
+    "tact": "zeusv9",
+    "agent": "zeus_vendor_9",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 9",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv10": {
+    "tact": "zeusv10",
+    "agent": "zeus_vendor_10",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 10",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv11": {
+    "tact": "zeusv11",
+    "agent": "zeus_vendor_11",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 11",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv12": {
+    "tact": "zeusv12",
+    "agent": "zeus_vendor_12",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 12",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv13": {
+    "tact": "zeusv13",
+    "agent": "zeus_vendor_13",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 13",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv14": {
+    "tact": "zeusv14",
+    "agent": "zeus_vendor_14",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 14",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv15": {
+    "tact": "zeusv15",
+    "agent": "zeus_vendor_15",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 15",
     "logo": "resources/zeus/logo_codbocw_v2.png",
     "background": "resources/zeus/background_codbocw_new_panel.webp"
   },
   "zeusv16": {
+    "tact": "zeusv16",
+    "agent": "zeus_vendor_16",
     "base": "Call of Duty: Black Ops Cold War",
     "type": "Vendor 16",
     "logo": "resources/zeus/logo_codbocw_v2.png",
