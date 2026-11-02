@@ -1,0 +1,18 @@
+{
+  "fragment_id": "gdt_data_sharing_consent_kr",
+  "products": [
+    {
+      "base": {
+        "data_sharing_consent": "gdt_data_sharing_consent_kr#GDT_DATA_SHARING_CONSENT_KR",
+        "data_sharing_consent_type_id": 9001
+      },
+      "id": "GDT"
+    }
+  ],
+  "strings": {
+    "default": {
+      "gdt_data_sharing_consent_kr#GDT_DATA_SHARING_CONSENT_KR": "Test agreement for Korea. This placeholder is not approved legal text."
+    }
+  },
+  "version": 30
+}

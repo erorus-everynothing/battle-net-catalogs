@@ -227,6 +227,11 @@
     },
     {"hash": "da808f893d04760be58f4444a8e9c092", "name": "aqua"},
     {
+      "hash": "e5e55e047a5e349a67c49d346cc62300",
+      "name": "aqua_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
+    },
+    {
       "hash": "187af4f572f2f05882454116aa8d15ff",
       "name": "aqua_gamepass",
       "requires": {
@@ -317,6 +322,11 @@
       "hash": "6e34ee8cac0051291324485afae68c75",
       "name": "auks_cn_deprecation_override",
       "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "00c351f59e7e49a6c7bd98e1a622eab8",
+      "name": "auks_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
     },
     {
       "hash": "43ccca77e129c838aa99264ca8a69fcc",
@@ -534,6 +544,11 @@
       "requires": {"include": "CN", "type": "login_region"}
     },
     {
+      "hash": "9c49eb7012891dd48354060f744234a1",
+      "name": "fore_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
+    },
+    {
       "hash": "a3400df99e91d52b03830b5a13cefc70",
       "name": "fore_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
@@ -553,7 +568,17 @@
         ]
       }
     },
-    {"hash": "ddf3a5405d7b926fc816b2f207092bc0", "name": "gdt"},
+    {"hash": "94655c4feb2dbc76daa3df311df53821", "name": "gdt"},
+    {
+      "hash": "0c9b902ead4dda81400459b08b7a4347",
+      "name": "gdt_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
+    },
+    {
+      "hash": "ebc9fd82353d5765785c20a8b7a6e8c1",
+      "name": "gdt_data_sharing_consent_row",
+      "requires": {"exclude": ["KOR", "CHN"], "type": "account_country"}
+    },
     {
       "hash": "1d96ee6a75976c7b7c9b06f0fe5cc620",
       "name": "gdt_tact_branch_country_override",
@@ -678,7 +703,17 @@
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
     {"hash": "0af2236d1fa62715cd613b0fe927677e", "name": "lyra"},
+    {
+      "hash": "c6d9572da345a9beebc3f8fe8222f79c",
+      "name": "lyra_data_sharing_consent",
+      "requires": {"exclude": ["CHN"], "type": "account_country"}
+    },
     {"hash": "b841a48b923351b369f4292d52dcaa84", "name": "malb"},
+    {
+      "hash": "8f732eb479eaa7c121a7573456ec6485",
+      "name": "malb_data_sharing_consent",
+      "requires": {"exclude": ["CHN"], "type": "account_country"}
+    },
     {
       "decryption_key_id": "catalog-decryption-key-moon2",
       "encrypted_hash": "a7d95119ec527424ff50b06cd3e3c66d",
@@ -686,6 +721,11 @@
       "name": "moon"
     },
     {"hash": "bf670a0715f3bda36a40e4ccd9dca311", "name": "nina"},
+    {
+      "hash": "df740953f4a68b27fae8fccf2ac50ada",
+      "name": "nina_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
+    },
     {
       "hash": "d22315094d81f9eadb98c9a90c0439f3",
       "name": "nina_disablemac",
@@ -706,6 +746,11 @@
       "hash": "7995ac08f0eb5ccc8a454d7b41546f24",
       "name": "odin_cn_deprecation_override",
       "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "ee566c7d9e58665c00b54242ea05903a",
+      "name": "odin_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
     },
     {
       "hash": "71bdfdcd28c5499657f72b93ab16e3f2",
@@ -799,7 +844,7 @@
         ]
       }
     },
-    {"hash": "7feee7e3b9900dbb484d9d0edace7c0c", "name": "overwatch"},
+    {"hash": "0563251ab6975cab099c552db53fdd50", "name": "overwatch"},
     {
       "hash": "d5a8ca3c879997ca4b90440f64109d57",
       "name": "overwatch_cn_assets_links_overrides",
@@ -872,6 +917,11 @@
     },
     {"hash": "a8268306599d54609e716f14068c6db6", "name": "phobos"},
     {"hash": "bd520d3558301e5e46bcc40ffc65d2ee", "name": "pinta"},
+    {
+      "hash": "efc8ecf76fd94055ff4d8e25fe6e8681",
+      "name": "pinta_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
+    },
     {
       "hash": "01c7a0557f013f9a29f2e4ceb724c9a4",
       "name": "pinta_disablemac",
@@ -1012,6 +1062,11 @@
       }
     },
     {"hash": "7d2b11eff2d9439e5d832536435af74c", "name": "viper"},
+    {
+      "hash": "df107128d317ed546ce3ec8a08d0f5c6",
+      "name": "viper_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
+    },
     {
       "hash": "4b820a3f68ea4a47f7e1ae734237d290",
       "name": "viper_legacyplaypanel",
@@ -1179,7 +1234,7 @@
         ]
       }
     },
-    {"hash": "cbba5c04cecad8ff12905ec49ae85c02", "name": "world_of_warcraft"},
+    {"hash": "17c845cc0a048338caa9faa21b8ffbdf", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
@@ -1201,7 +1256,7 @@
       "requires": {"all_of": [{"licenses": [1134620], "type": "licenses"}, {"licenses": [1144770], "type": "licenses"}]}
     },
     {
-      "hash": "eb78b66241139c2e4ded73d9d3446ed1",
+      "hash": "500b5caf06c0c9a42ccd119906d6fade",
       "name": "world_of_warcraft_display_hubpanel",
       "requires": {"id": "hub_groups_enabled", "type": "feature"}
     },
@@ -1294,11 +1349,6 @@
       }
     },
     {
-      "hash": "24d0503eddfe049d9642ae869f502eb3",
-      "name": "world_of_warcraft_wowforeverplayenabled",
-      "requires": {"none_of": [{"include": "CN", "type": "login_region"}]}
-    },
-    {
       "hash": "7d1d4807620543a18e738a879c01b99d",
       "name": "world_of_warcraft_wowforeverreleasedateapac",
       "requires": {"any_of": [{"include": "CN", "type": "login_region"}, {"include": "KR", "type": "login_region"}]}
@@ -1308,6 +1358,11 @@
       "hash": "7be226bee401803bca6197d6be3c2634",
       "name": "zeus_cn_deprecation_override",
       "requires": {"include": "CN", "type": "login_region"}
+    },
+    {
+      "hash": "b2b4144c6d99831bca1fcee88e79f180",
+      "name": "zeus_data_sharing_consent_kr",
+      "requires": {"include": ["KOR"], "type": "account_country"}
     },
     {
       "hash": "36482bb34839d430a3e2960168cc7236",

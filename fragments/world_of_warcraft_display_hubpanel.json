@@ -228,14 +228,6 @@
       },
       "id": "WoW",
       "variants": {
-        "WoWAsia": {
-          "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
-          "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE"
-        },
-        "WoWX10": {
-          "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
-          "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE"
-        },
         "WoWX12": {
           "background": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_BACKGROUND_MAINLINE",
           "logo": "world_of_warcraft_display_hubpanel#WOW_HUB_PANEL_LOGO_MAINLINE"

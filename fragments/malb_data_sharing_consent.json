@@ -1,0 +1,57 @@
+{
+  "fragment_id": "malb_data_sharing_consent",
+  "products": [
+    {
+      "base": {
+        "data_sharing_consent": "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT",
+        "data_sharing_consent_type_id": 123
+      },
+      "id": "MALB"
+    }
+  ],
+  "strings": {
+    "deDE": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "Durch Ankreuzen des Kontrollkästchens erklären Sie sich damit einverstanden, sämtliche für die Bereitstellung der Spieldienste von CD PROJEKT RED und die Verknüpfung des Kontos erforderlichen Informationen zum Zeitpunkt des Kaufs und der Verwendung online an CD PROJEKT RED S.A. (Standort: Polen, Kontakt: dpo@cdprojektred.com) zu übermitteln. Die Informationen für die Bereitstellung der Spieldienste umfassen Kaufinformationen (Anspruchsdaten) sowie Ihr BattleTag (vorausgesetzt, Ihr Konto wurde verknüpft). Derartige Informationen werden für die Dauer des Zeitraums der Spieldienste oder der Kontoverknüpfung gespeichert und verwendet. Sie können Ihre Einwilligung verweigern; jedoch schränkt eine Verweigerung Ihre Möglichkeit zum Spielen des Spiels und zur Verknüpfung des Kontos ein. Sollten Sie Ihr Konto verknüpft haben, so können Sie die Verknüpfung hier aufheben: https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "default": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "By checking the check-box, you agree to provide all information necessary for the provision of CD PROJEKT RED game services and account linking to CD PROJEKT RED S.A. (location: Poland, contact: dpo@cdprojektred.com) via online transfer at the time of purchase and usage. The information required for game service provision includes purchase information (entitlement data) and your BattleTag (only when your account is linked). Such information will be retained and used for the duration of the game service or account linking period. You may refuse to consent; however, refusal will limit your ability to play the game and account linking. If you linked your account, you can unlink it here: https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "esES": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "Al marcar esta casilla, aceptas proporcionar toda la información necesaria para la prestación de los servicios de juego de CD PROJEKT RED y para la vinculación de tu cuenta con CD PROJEKT RED S.A. (ubicación: Polonia, contacto: dpo@cdprojektred.com) a través de transferencia online en el momento de la compra y del uso. La información requerida para la prestación de los servicios de juego incluye la información de la compra (datos sobre derechos) y tu BattleTag (solo cuando tu cuenta esté vinculada). Dicha información se conservará y se usará mientras duren los servicios de juego o el periodo de vinculación de la cuenta. Puedes negarte a dar tu consentimiento; sin embargo, si lo haces, se verá limitada tu capacidad para jugar al juego y vincular tu cuenta. Si tienes tu cuenta vinculada, puedes desvincularla aquí: https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "esMX": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "Al marcar la casilla, aceptas proporcionar toda la información que sea necesaria para la prestación de los servicios de juego de CD PROJEKT RED y la vinculación de cuenta a CD PROJEKT RED S. A. (ubicación: Polonia, contacto: dpo@cdprojektred.com) mediante transferencia en línea al momento de la compra y el uso. La información necesaria para la prestación del servicio del juego incluye datos de compra (datos de licencia) y tu BattleTag (solo cuando tu cuenta esté vinculada). Esta información se conservará y utilizará durante el periodo en que se preste el servicio del juego o se mantenga vinculada la cuenta. Puedes negarte a otorgar tu consentimiento; sin embargo, hacerlo limitará tu capacidad para jugar y vincular tu cuenta. Si vinculaste tu cuenta, puedes desvincularla aquí: https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "frFR": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "En cochant cette case, vous acceptez de transmettre à CD PROJEKT RED S.A. (située en Pologne ; contact : dpo@cdprojektred.com), par voie électronique lors de l’achat ou de l’utilisation, toutes les informations nécessaires à la fourniture des services de jeu CD PROJEKT RED et à l’association du compte. Les informations nécessaires à la fourniture des services de jeu comprennent les informations relatives à l’achat (données sur les droits d’accès) ainsi que votre BattleTag (une fois votre compte associé). Ces informations seront conservées et utilisées pendant toute la durée de fourniture des services de jeu ou de l’association du compte. Vous pouvez refuser de donner votre consentement. Ce refus limitera toutefois votre accès au jeu ainsi que votre capacité à associer votre compte. Si votre compte est déjà associé, vous pouvez le dissocier sur la page suivante : https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "itIT": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "Spuntando la casella accetti di fornire tutte le informazioni necessarie per la somministrazione dei servizi di gioco di CD PROJEKT RED e per il collegamento dell'account a CD PROJEKT RED S.A. (luogo: Polonia, dati di contatto: dpo@cdprojektred.com) tramite il trasferimento on-line al momento dell'acquisto e dell'utilizzo. I dati richiesti per la somministrazione dei servizi di gioco includono le informazioni di acquisto (dati di acquisizione del diritto) e il Battle Tag personale (solo quando l'account è collegato). Queste informazioni saranno conservate e utilizzate per la durata del servizio di gioco o per il periodo di collegamento dell'account. Puoi negare il consenso, ma ciò limiterà la capacità di gioco e di collegamento dell'account. Se hai già collegato l'account, puoi scollegarlo qui: https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "jaJP": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "チェックボックスにチェックを入れることで、CD PROJEKT REDのゲームサービスの提供およびアカウントの連携に必要なすべての情報を、購入時および利用時にオンライン転送を通じてCD PROJEKT RED S.A.（所在地：ポーランド、連絡先：dpo@cdprojektred.com）に提供することに同意したものとみなされます。ゲームサービスの提供に必要な情報には、購入情報（利用権データ）およびお客様のBattleTag（アカウントが連携されている場合のみ）が含まれます。当該情報は、ゲームサービスの提供期間またはアカウント連携期間中、保持および利用されます。同意を拒否することも可能ですが、拒否した場合、ゲームのプレイやアカウントの連携に制限が生じます。アカウントを連携している場合は、https://accounts.cdprojektred.com/realms/cdp/account/から連携を解除できます。"
+    },
+    "koKR": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "체크박스에 표시함으로써, CD PROJEKT 게임 서비스 제공, 계정 연동을 위해 필요한 정보 일체를 온라인 전송의 방법으로 구매 및 이용 시에 CD PROJEKT RED S.A. (폴란드 소재, 문의처: dpo@cdprojektred.com) 에게 제공하는 것에 동의합니다. 게임서비스 제공에 필요한 정보는 구매 및 이용권한 정보(entitlement data ) 및 BattleTag(계정 연동시에 한함)를 포함합니다. 해당 정보들은 게임 서비스 또는 계정 연동 기간 동안 보유 및 이용됩니다. 동의를 거부할 수 있으나 이 경우 게임 플레이 및 계정 연동이 제한됩니다."
+    },
+    "plPL": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "Zaznaczając to pole, wyrażasz zgodę na przekazanie wszystkich informacji niezbędnych do świadczenia usług związanych z grami CD PROJEKT RED oraz powiązania konta z firmą CD PROJEKT RED S.A. (z siedzibą w Polsce, kontakt: dpo@cdprojektred.com) drogą online w momencie zakupu i rozpoczęcia użytkowania. Informacje wymagane do świadczenia usług związanych z grą obejmują dane dotyczące zakupu (dane uprawniające) oraz twój BattleTag (tylko w przypadku powiązania konta). Informacje te będą przechowywane i wykorzystywane przez cały okres świadczenia usług związanych z grą lub powiązania konta. Możesz nie wyrazić zgody, jednak odmowa ograniczy możliwości grania oraz powiązania konta. Jeśli konto jest już powiązane, może usunąć powiązanie, klikając: https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "ptBR": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "Ao marcar a caixa de seleção, você concorda em fornecer todas as informações necessárias para o uso dos serviços de jogo da CD PROJEKT RED e para vincular sua conta à CD PROJEKT RED S.A. (local: Polônia, contato: dpo@cdprojektred.com) por meio da transferência online no momento da compra e uso. As informações necessárias para o uso do serviço de jogo são: informações de compra (dados de direito de acesso) e sua BattleTag (somente ao vincular a conta). Tais informações serão armazenadas e usadas durante o serviço de jogo ou período de vinculação da conta. Você pode recusar o compartilhamento, mas isso limitará sua capacidade de jogar o jogo e vincular sua conta. Se você vinculou sua conta, é possível desfazer aqui: https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "ruRU": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "Установив флажок, вы соглашаетесь на передачу компании CD PROJEKT RED S.A. (местоположение — Польша; контактный адрес электронной почты: dpo@cdprojektred.com) все данные, необходимые для оказания игровых услуг CD PROJEKT RED и привязки учетной записи, посредством передачи по Интернету в момент совершения покупки и использования услуг. Данные, необходимые для оказания игровых услуг, включают в себя информацию о покупке (подтверждение права доступа) и ваш BattleTag (только при привязке учетной записи). Указанные данные будут обрабатываться в период оказания игровых услуг либо в течение периода привязки учётной записи. Вы можете отказаться от предоставления данных, но в этом случае ваш доступ к игровым услугам и привязке учетной записи будет ограничен. Отменить привязку учетной записи можно здесь: https://accounts.cdprojektred.com/realms/cdp/account/."
+    },
+    "thTH": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "เมื่อทำเครื่องหมายในช่องนี้ คุณยินยอมให้โอนข้อมูลทั้งหมดที่จำเป็นต่อการให้บริการเกมของ CD PROJEKT RED และการเชื่อมโยงบัญชีกับ CD PROJEKT RED S.A. (สถานที่ตั้ง: ประเทศโปแลนด์ ช่องทางติดต่อ: dpo@cdprojektred.com) ผ่านทางออนไลน์ ณ เวลาที่ซื้อและใช้บริการ ข้อมูลที่จำเป็นสำหรับการให้บริการเกมประกอบด้วยข้อมูลการซื้อ (ข้อมูลสิทธิ์การใช้งาน) และ BattleTag ของคุณ (เฉพาะกรณีที่เชื่อมโยงบัญชีแล้วเท่านั้น) ข้อมูลดังกล่าวจะถูกเก็บรักษาและนำไปใช้ตลอดระยะเวลาที่คุณใช้บริการเกมหรือเชื่อมโยงบัญชี คุณมีสิทธิ์ที่จะไม่ให้ความยินยอม แต่การไม่ให้ความยินยอมจะจำกัดความสามารถในการเล่นเกมและเชื่อมโยงบัญชีของคุณ หากคุณเชื่อมโยงบัญชีแล้ว คุณสามารถยกเลิกการเชื่อมโยงได้ที่นี่: https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "zhCN": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "勾选此复选框即代表您同意在购买与使用游戏服务时通过在线传输的形式将CD PROJEKT RED提供游戏服务与关联账号所需信息提供给CD PROJEKT RED S.A.（地址：波兰；联系方式：dpo@cdprojektred.com）。提供游戏服务所需信息包括购买信息（授权资料）及您的战网昵称（仅在您已关联账号的情况下）。上述信息将在提供游戏服务或关联账号期间予以保留和使用。您可以拒绝同意，但拒绝同意会导致您游玩游戏及关联账号时受到限制。如果您已关联账号，可以通过以下链接解除关联：https://accounts.cdprojektred.com/realms/cdp/account/"
+    },
+    "zhTW": {
+      "malb_data_sharing_consent#MALBORK_DATA_SHARING_CONSENT": "勾選此方框後，即代表你同意在購買及使用本遊戲時，經由線上傳輸提供所有必需資訊，以獲得 CD PROJEKT RED 遊戲服務，並將帳號連結至 CD PROJEKT RED S.A.（地點：波蘭，聯絡方式：dpo@cdprojektred.com）。遊戲服務所需資訊包括購買資訊（授權資料），以及連結帳號時所需的 BattleTag。我們會在提供遊戲服務或帳號連結期間保留並使用上述資訊。你可以選擇不提供相關資訊，但將無法使用部分遊戲功能，也無法連結帳號。若要取消帳號連結，請前往：https://accounts.cdprojektred.com/realms/cdp/account/"
+    }
+  },
+  "version": 30
+}

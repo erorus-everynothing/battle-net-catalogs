@@ -75,6 +75,8 @@
         "meets_criteria": {"actioned_in_last_n_seconds": 1209600, "played_in_last_n_seconds": 2592000},
         "requires_licenses": [16332]
       },
+      "requires_account_data": true,
+      "requires_full_catalog": true,
       "tact_product": "pro"
     },
     "prometheus_beta": {
@@ -94,7 +96,7 @@
     "prometheus_dev_11": {"tact_product": "prodev11"},
     "prometheus_dev_12": {"tact_product": "prodev12"},
     "prometheus_dev_13": {"tact_product": "prodev13"},
-    "prometheus_dev_14": {"tact_product": "prodev14"},
+    "prometheus_dev_14": {"requires_account_data": true, "requires_full_catalog": true, "tact_product": "prodev14"},
     "prometheus_dev_6": {"tact_product": "prodev6"},
     "prometheus_dev_7": {"tact_product": "prodev7"},
     "prometheus_dev_8": {"tact_product": "prodev8"},

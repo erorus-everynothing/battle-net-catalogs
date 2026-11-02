@@ -79,10 +79,6 @@
         "hash": "a287c93cbb2dccd9ca0d1b8c97ebc966",
         "name": "resources/wow/background_wow_classic_wotlk_v2.png"
       },
-      "world_of_warcraft#WOW_BACKGROUND_DRAGON": {
-        "hash": "977cc0a040d43e0e8783bee5db52ee60",
-        "name": "resources/wow/background_wow_dragon.png"
-      },
       "world_of_warcraft#WOW_BACKGROUND_FOREVER": {
         "hash": "c697acac814695c165fe283a3e3922af",
         "name": "resources/wow/background_wow_forever_new_panel.png"
@@ -146,10 +142,6 @@
       "world_of_warcraft#WOW_CLASSIC_WOTLK_LOGO": {
         "hash": "1c4867d139811754bc4e47ceed3b01bb",
         "name": "resources/wow/logo_wow_classic_wotlk_v2.png"
-      },
-      "world_of_warcraft#WOW_DRAGON_LOGO": {
-        "hash": "adf397f810cd6496faddd1048730d55a",
-        "name": "resources/wow/logo_wow_dragon.png"
       },
       "world_of_warcraft#WOW_FOREVER_ICON_SVG": {
         "hash": "6e0011a1e2431f748878674524cec034",
@@ -450,10 +442,6 @@
       "world_of_warcraft#WOW_CLASSIC_WOTLK_LOGO": {
         "hash": "7e6042f82981961fcf717f4d36c045d1",
         "name": "resources/wow/logo_wow_classic_wotlk_zhTW_v2.png"
-      },
-      "world_of_warcraft#WOW_DRAGON_LOGO": {
-        "hash": "699559e9a5a0c67ff242e5623aafef21",
-        "name": "resources/wow/logo_wow_dragon_zhTW.png"
       },
       "world_of_warcraft#WOW_FOREVER_INSTALL_BACKGROUND": {
         "hash": "2c3bb64c27e8afee28b6059e86bc15c2",
@@ -1442,7 +1430,6 @@
             "logo": "world_of_warcraft#WOW_FOREVER_LOGO",
             "name": "world_of_warcraft#WOW_FOREVER_NAME",
             "override_product_id": "WoWF",
-            "play_disabled_message": "default#PLAY_DISABLED_MESSAGE",
             "play_selector_icon": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_ICON_FOREVER",
             "play_selector_thumbnail": "world_of_warcraft#WOW_HUB_PLAY_SELECTOR_THUMBNAIL_FOREVER",
             "preinstalled_message": "default#PREINSTALLED_MESSAGE",
@@ -1489,39 +1476,8 @@
       },
       "id": "WoW",
       "variants": {
-        "WoWAsia": {
-          "background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
-          "install_background": "world_of_warcraft#WOW_INSTALL_BACKGROUND_MIDNIGHT",
-          "logo": "world_of_warcraft#WOW_LOGO_MIDNIGHT",
-          "subtitle": "world_of_warcraft#WOW_MIDNIGHT_SUBTITLE",
-          "types": {
-            "retail": {
-              "quick_links": [
-                {"hidden": false, "id": "upgrade", "rank": 100},
-                {"hidden": true, "id": "select_beta", "rank": 301}
-              ]
-            }
-          }
-        },
         "WoWFNoUpgrade": {"types": {"wowf": {"quick_links": [{"hidden": true, "id": "upgrade"}]}}},
         "WoWPTR": {"region_permission_flags": {"default": "requires_account"}, "supported_regions": ["XX"]},
-        "WoWX10": {
-          "background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
-          "install_background": "world_of_warcraft#WOW_INSTALL_BACKGROUND_MIDNIGHT",
-          "logo": "world_of_warcraft#WOW_LOGO_MIDNIGHT",
-          "subtitle": "world_of_warcraft#WOW_MIDNIGHT_SUBTITLE",
-          "types": {
-            "beta": {
-              "deprecated": false,
-              "name": "world_of_warcraft#WOW_WAR_BETA_NAME",
-              "name_style": "default",
-              "selector_display_name": "world_of_warcraft#WOW_WAR_BETA_NAME",
-              "supported_regions": ["XX"],
-              "type_name": "default#TYPES_BETA_NAME"
-            },
-            "retail": {"quick_links": [{"hidden": true, "id": "select_beta", "rank": 301}]}
-          }
-        },
         "WoWX12": {
           "background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
           "install_background": "world_of_warcraft#WOW_INSTALL_BACKGROUND_MIDNIGHT",
@@ -1549,25 +1505,6 @@
           "background": "world_of_warcraft#WOW_BACKGROUND_CLASSIC_WOTLK",
           "install_background": "world_of_warcraft#WOW_CLASSIC_WOTLK_INSTALL_BACKGROUND",
           "logo": "world_of_warcraft#WOW_CLASSIC_WOTLK_LOGO"
-        },
-        "WoWX9": {
-          "types": {
-            "beta": {
-              "background": "world_of_warcraft#WOW_BACKGROUND_DRAGON",
-              "deprecated": true,
-              "logo": "world_of_warcraft#WOW_DRAGON_LOGO",
-              "name": "world_of_warcraft#WOW_DRAGONFLIGHT_SUBTITLE",
-              "region_permission_flags": {"default": "requires_account"},
-              "selector_display_name": "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME",
-              "type_name": "default#TYPES_BETA_NAME"
-            },
-            "retail": {
-              "quick_links": [
-                {"hidden": false, "id": "upgrade", "rank": 100},
-                {"hidden": true, "id": "select_beta", "rank": 301}
-              ]
-            }
-          }
         }
       }
     }
@@ -1586,18 +1523,6 @@
                 {
                   "actions": [{"add_product": {"product_id": {"id": "WoWX12", "type": "retail"}}}],
                   "match": {"license_id": [1106089]}
-                },
-                {
-                  "actions": [{"add_product": {"product_id": {"id": "WoWX10", "type": "retail"}}}],
-                  "match": {"license_id": [813186]}
-                },
-                {
-                  "actions": [{"add_product": {"product_id": {"id": "WoWX9", "type": "retail"}}}],
-                  "match": {"license_id": [179712]}
-                },
-                {
-                  "actions": [{"add_product": {"product_id": {"id": "WoWAsia", "type": "retail"}}}],
-                  "match": {"game_account": {"program_id": "WoW", "region": ["KR", "CN"]}}
                 },
                 {"actions": [{"add_product": {"product_id": {"id": "WoW", "type": "retail"}}}]}
               ]
@@ -1765,7 +1690,6 @@
       "world_of_warcraft#TYPES_INTERNAL_ALPHA_NAME": "Interne Alpha",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Jubiläum von Burning Crusade",
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "Classic-Ära",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta von Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW-Event 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Eventrealm",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Beta",
@@ -1789,8 +1713,7 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "WoW-Partner 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "WoW-Partner 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "WoW-Partner 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "WoW-Partner 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "Beta von The War Within"
+      "world_of_warcraft#WOW_VENDOR_NAME": "WoW-Partner 1"
     },
     "default": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "Housing Virtual Tour",
@@ -1808,8 +1731,6 @@
       "world_of_warcraft#WOW_DEV_4_NAME": "Development 4",
       "world_of_warcraft#WOW_DEV_5_NAME": "Development 5",
       "world_of_warcraft#WOW_DEV_6_NAME": "Development 6",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Dragonflight Beta",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_SUBTITLE": "Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW Event 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Event Realm",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever - Beta",
@@ -1853,14 +1774,12 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "WoW Vendor 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "WoW Vendor 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "WoW Vendor 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "WoW Vendor 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "The War Within Beta"
+      "world_of_warcraft#WOW_VENDOR_NAME": "WoW Vendor 1"
     },
     "esES": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "Recorrido virtual de hogares",
       "world_of_warcraft#TYPES_INTERNAL_ALPHA_NAME": "Alfa interna",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Aniversario de Burning Crusade",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento de WoW 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Reino del evento",
       "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponible el 4 de noviembre de 2026",
@@ -1882,15 +1801,13 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "Vendedor de WoW 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "Vendedor de WoW 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "Vendedor de WoW 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "Vendedor de WoW 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "Beta de The War Within"
+      "world_of_warcraft#WOW_VENDOR_NAME": "Vendedor de WoW 1"
     },
     "esMX": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "Recorrido virtual de viviendas",
       "world_of_warcraft#TYPES_INTERNAL_ALPHA_NAME": "Alfa interno",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Aniversario de Burning Crusade",
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "Era clásica",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento 2 de WoW",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever (beta)",
       "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponible el 4 de noviembre de 2026",
@@ -1913,15 +1830,13 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "Proveedor 7 de WoW",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "Proveedor 8 de WoW",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "Proveedor 9 de WoW",
-      "world_of_warcraft#WOW_VENDOR_NAME": "Proveedor 1 de WoW",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "Beta de The War Within"
+      "world_of_warcraft#WOW_VENDOR_NAME": "Proveedor 1 de WoW"
     },
     "frFR": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "Visite virtuelle du logis",
       "world_of_warcraft#TYPES_INTERNAL_ALPHA_NAME": "Alpha interne",
       "world_of_warcraft#TYPES_WOW_CLASSIC": "Classique",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Anniversaire de Burning Crusade",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Bêta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Évènement World of Warcraft 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Royaume d’évènement",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Bêta",
@@ -1945,15 +1860,13 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "Vendeur World of Warcraft 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "Vendeur World of Warcraft 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "Vendeur World of Warcraft 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "Vendeur World of Warcraft 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "Bêta de The War Within"
+      "world_of_warcraft#WOW_VENDOR_NAME": "Vendeur World of Warcraft 1"
     },
     "itIT": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "Tour virtuale degli Alloggi",
       "world_of_warcraft#TYPES_INTERNAL_ALPHA_NAME": "Alfa interna",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Anniversary di Burning Crusade",
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "Era Classic",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta di Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento WoW 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Reame evento",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "Beta di WoW: Forever",
@@ -1975,8 +1888,7 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "Fornitore WoW 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "Fornitore WoW 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "Fornitore WoW 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "Fornitore WoW 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "Beta di The War Within"
+      "world_of_warcraft#WOW_VENDOR_NAME": "Fornitore WoW 1"
     },
     "jaJP": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "ハウジングバーチャルツアー",
@@ -2002,8 +1914,7 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "WoW ベンダー7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "WoW ベンダー8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "WoW ベンダー9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "WoW ベンダー1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "The War Within ベータ"
+      "world_of_warcraft#WOW_VENDOR_NAME": "WoW ベンダー1"
     },
     "koKR": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "하우징 가상 투어",
@@ -2012,8 +1923,6 @@
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "불타는 성전 기념 서버",
       "world_of_warcraft#WOW_CLASSIC_NAME": "월드 오브 워크래프트 클래식",
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "클래식 시대",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "용군단 베타",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_SUBTITLE": "용군단",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW 이벤트 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "이벤트 서버",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: 포에버 - 베타",
@@ -2044,15 +1953,13 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "WoW 외부 업체 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "WoW 외부 업체 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "WoW 외부 업체 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "WoW 외부 업체 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "내부 전쟁 베타"
+      "world_of_warcraft#WOW_VENDOR_NAME": "WoW 외부 업체 1"
     },
     "plPL": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "Domy – Wirtualny przewodnik",
       "world_of_warcraft#TYPES_INTERNAL_ALPHA_NAME": "Wewnętrzna wersja alfa",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Burning Crusade Anniversary",
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "wersja klasyczna",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW: wydarzenie 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Serwer wydarzeń",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever – Beta",
@@ -2076,15 +1983,13 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "WoW: sprzedawca 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "WoW: sprzedawca 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "WoW: sprzedawca 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "WoW: sprzedawca 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "Wersja beta dodatku The War Within"
+      "world_of_warcraft#WOW_VENDOR_NAME": "WoW: sprzedawca 1"
     },
     "ptBR": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "Tour virtual das moradias",
       "world_of_warcraft#TYPES_INTERNAL_ALPHA_NAME": "Alfa Interno",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Aniversário de Burning Crusade",
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "Era Classic",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Beta de Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "Evento do WoW 2",
       "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "Disponível em 4 de novembro de 2026",
       "world_of_warcraft#WOW_GAME_MODE_CLASSIC_ERA_BASE": "Era Classic",
@@ -2106,14 +2011,12 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "Fornecedor do WoW 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "Fornecedor do WoW 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "Fornecedor do WoW 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "Fornecedor do WoW 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "The War Within Beta"
+      "world_of_warcraft#WOW_VENDOR_NAME": "Fornecedor do WoW 1"
     },
     "ruRU": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "Виртуальный тур по домам игроков",
       "world_of_warcraft#TYPES_INTERNAL_ALPHA_NAME": "Внутреннее альфа-тестирование",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Годовщина Burning Crusade",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "Бета Dragonflight",
       "world_of_warcraft#WOW_EVENT_2_NAME": "WoW: событие 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "Игровой мир мероприятия",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever — бета-версия",
@@ -2137,13 +2040,11 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "WoW: партнер 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "WoW: партнер 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "WoW: партнер 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "WoW: партнер 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "The War Within (версия бета)"
+      "world_of_warcraft#WOW_VENDOR_NAME": "WoW: партнер 1"
     },
     "thTH": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "พาทัวร์ระบบบ้านพัก",
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "Burning Crusade Anniversary",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "เบต้า Dragonflight",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "อาณาจักรสำหรับกิจกรรม",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "WoW: Forever - เบต้า",
       "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE": "เปิดให้เล่นวันที่ 4 พ.ย. 2026 (ตามเวลาประเทศไทย)",
@@ -2155,8 +2056,7 @@
       "world_of_warcraft#WOW_LOOKING_FOR_WOW_CLASSIC": "กำลังมองหา WoW Classic อยู่ใช่ไหม",
       "world_of_warcraft#WOW_MIDNIGHT_BETA_NAME": "เบต้าของ Midnight",
       "world_of_warcraft#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP": "เล่น World of Warcraft ฟรีถึงเลเวล 20!",
-      "world_of_warcraft#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "ช่วงทดลองเล่นฟรีนั้นไม่รวม WoW Classic หรือ Burning Crusade Classic",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "The War Within เบต้า"
+      "world_of_warcraft#WOW_STARTER_ITEM_TRY_FOR_FREE_TOOLTIP_REMARKS": "ช่วงทดลองเล่นฟรีนั้นไม่รวม WoW Classic หรือ Burning Crusade Classic"
     },
     "zhCN": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "住宅虚拟游览",
@@ -2166,8 +2066,6 @@
       "world_of_warcraft#WOW_CLASSIC_NAME": "魔兽世界（经典怀旧服）",
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "旧世经典服务器",
       "world_of_warcraft#WOW_CLASSIC_TITAN_DISPLAY_NAME": "泰坦重铸",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "“巨龙时代”Beta测试",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_SUBTITLE": "巨龙时代",
       "world_of_warcraft#WOW_EVENT_2_NAME": "魔兽世界活动2",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "《魔兽世界》：“无限”——Beta测试",
       "world_of_warcraft#WOW_FOREVER_NAME": "《魔兽世界》：“无限”",
@@ -2208,8 +2106,7 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "魔兽世界发行版本7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "魔兽世界发行版本8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "魔兽世界发行版本9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "魔兽世界发行版本1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "“地心之战”B测"
+      "world_of_warcraft#WOW_VENDOR_NAME": "魔兽世界发行版本1"
     },
     "zhTW": {
       "world_of_warcraft#QUICK_LINK_WOW_HOME_VIEWER": "房屋虛擬導覽",
@@ -2218,8 +2115,6 @@
       "world_of_warcraft#WOW_CLASSIC_BC_ANNIVERSARY_NAME": "《燃燒的遠征》週年紀念",
       "world_of_warcraft#WOW_CLASSIC_NAME": "《魔獸世界》經典版",
       "world_of_warcraft#WOW_CLASSIC_PTR_ERA_NAME_ALT": "經典時期",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_BETA_NAME": "《巨龍崛起》Beta 測試",
-      "world_of_warcraft#WOW_DRAGONFLIGHT_SUBTITLE": "《巨龍崛起》",
       "world_of_warcraft#WOW_EVENT_2_NAME": "《魔獸世界》事件 2",
       "world_of_warcraft#WOW_EVENT_DISPLAY_NAME": "活動伺服器",
       "world_of_warcraft#WOW_FOREVER_BETA_NAME": "《魔獸世界：永恆》Beta 測試",
@@ -2250,8 +2145,7 @@
       "world_of_warcraft#WOW_VENDOR_7_NAME": "《魔獸世界》供應商 7",
       "world_of_warcraft#WOW_VENDOR_8_NAME": "《魔獸世界》供應商 8",
       "world_of_warcraft#WOW_VENDOR_9_NAME": "《魔獸世界》供應商 9",
-      "world_of_warcraft#WOW_VENDOR_NAME": "《魔獸世界》供應商 1",
-      "world_of_warcraft#WOW_WAR_BETA_NAME": "《地心之戰》Beta 測試"
+      "world_of_warcraft#WOW_VENDOR_NAME": "《魔獸世界》供應商 1"
     }
   },
   "types": {

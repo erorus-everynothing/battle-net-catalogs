@@ -9,7 +9,11 @@
       "tact_product": "gdt"
     },
     "gdt_retail_dev_1": {"tact_product": "gdt-retail-dev-1"},
-    "gdt_retail_dev_2": {"tact_product": "gdt-retail-dev-2"},
+    "gdt_retail_dev_2": {
+      "requires_account_data": true,
+      "requires_full_catalog": true,
+      "tact_product": "gdt-retail-dev-2"
+    },
     "gdt_retail_rc": {"tact_product": "gdt-retail-rc"}
   },
   "products": [
