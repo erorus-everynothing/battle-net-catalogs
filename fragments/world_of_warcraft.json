@@ -1439,7 +1439,6 @@
             "breaking_news_url": "nydus://client/wow-forever/alert",
             "content_id": "world-of-warcraft-forever",
             "install_background": "world_of_warcraft#WOW_FOREVER_INSTALL_BACKGROUND",
-            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
             "logo": "world_of_warcraft#WOW_FOREVER_LOGO",
             "name": "world_of_warcraft#WOW_FOREVER_NAME",
             "override_product_id": "WoWF",
@@ -1504,16 +1503,7 @@
             }
           }
         },
-        "WoWFNoUpgrade": {
-          "types": {
-            "wowf": {
-              "install_disabled_message": "default#EMPTY_STRING",
-              "quick_links": [{"hidden": true, "id": "upgrade"}]
-            }
-          }
-        },
-        "WoWFPreload": {"types": {"wowf": {"install_disabled_message": "default#EMPTY_STRING"}}},
-        "WoWFPreloadAndPlay": {"types": {"wowf": {"install_disabled_message": "default#EMPTY_STRING"}}},
+        "WoWFNoUpgrade": {"types": {"wowf": {"quick_links": [{"hidden": true, "id": "upgrade"}]}}},
         "WoWPTR": {"region_permission_flags": {"default": "requires_account"}, "supported_regions": ["XX"]},
         "WoWX10": {
           "background": "world_of_warcraft#WOW_BACKGROUND_MIDNIGHT",
@@ -1630,44 +1620,6 @@
                         ]
                       },
                       {"all_of": [{"game_account": {"program_id": "WoW", "region": ["CN"]}}, {"license_id": [1177708]}]}
-                    ]
-                  }
-                },
-                {
-                  "actions": [{"add_product": {"product_id": {"id": "WoWFPreloadAndPlay", "type": "wowf"}}}],
-                  "match": {
-                    "any_of": [
-                      {
-                        "all_of": [
-                          {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
-                          {"license_id": [1190945, 1177708, 1178150, 1204683, 1204680]}
-                        ]
-                      },
-                      {
-                        "all_of": [
-                          {"game_account": {"program_id": "WoW", "region": ["CN"]}},
-                          {"license_id": [1190945, 1178150, 1204684, 1204680]}
-                        ]
-                      }
-                    ]
-                  }
-                },
-                {
-                  "actions": [{"add_product": {"product_id": {"id": "WoWFPreload", "type": "wowf"}}}],
-                  "match": {
-                    "any_of": [
-                      {
-                        "all_of": [
-                          {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW"]}},
-                          {"license_id": [19986, 1224928, 1209416]}
-                        ]
-                      },
-                      {
-                        "all_of": [
-                          {"game_account": {"program_id": "WoW", "region": ["CN"]}},
-                          {"license_id": [19986, 1209416]}
-                        ]
-                      }
                     ]
                   }
                 },
