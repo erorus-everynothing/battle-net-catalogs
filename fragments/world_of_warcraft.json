@@ -28,23 +28,23 @@
         "name": "resources/wow/icon_game_wowc_tiny.png"
       },
       "world_of_warcraft#WOWF_ICON_MASSIVE": {
-        "hash": "fa9612747140bf7e5a6a1ed6bbae626f",
+        "hash": "281a898a8253d702778d446244a42028",
         "name": "resources/wow/icon_game_wowf_massive.png"
       },
       "world_of_warcraft#WOWF_ICON_MEDIUM": {
-        "hash": "18eea612b298db467906e326386f1d9a",
+        "hash": "ef666adbeb1ce7732e06c08903e64d59",
         "name": "resources/wow/icon_game_wowf_medium.png"
       },
       "world_of_warcraft#WOWF_ICON_SMALL": {
-        "hash": "fe488ee8da1d5d404646f083a783ddd2",
+        "hash": "9426a279b738a881fd890ac6e7b28098",
         "name": "resources/wow/icon_game_wowf_small.png"
       },
       "world_of_warcraft#WOWF_ICON_SVG": {
-        "hash": "e1806373dd222f5c912ce0dfc0a69bb6",
+        "hash": "01c36d76e57af5be92df8b5e3469aaf2",
         "name": "resources/wow/icon_game_wowf.svg"
       },
       "world_of_warcraft#WOWF_ICON_TINY": {
-        "hash": "31cc79fbbde7ca95942aa4e328831ab9",
+        "hash": "cd59b2a2055b0fb021c47dde20f1f8e2",
         "name": "resources/wow/icon_game_wowf_tiny.png"
       },
       "world_of_warcraft#WOW_BACKGROUND": {
@@ -1468,6 +1468,7 @@
             "region_permission_flags": {"default": "unrestricted"},
             "release_date_message": "world_of_warcraft#WOW_FOREVER_RELEASE_DATE_MESSAGE",
             "selector_display_name": "world_of_warcraft#WOW_FOREVER_NAME",
+            "sub_title_id": 19,
             "supported_regions": ["US", "EU", "KR", "CN"],
             "uid": "wowf"
           }
