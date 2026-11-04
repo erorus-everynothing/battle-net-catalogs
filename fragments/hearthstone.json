@@ -230,7 +230,7 @@
           }
         ],
         "supported_platforms": ["win", "mac", "mobile"],
-        "tab_order": 10,
+        "tab_order": 9,
         "title_id": 1465140039,
         "types": {
           "alpha": {

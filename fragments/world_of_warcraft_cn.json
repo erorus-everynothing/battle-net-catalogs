@@ -32,7 +32,13 @@
       },
       "id": "WoWC"
     },
-    {"base": {"alt_content_url": "nydus://client/shop/product/world-of-warcraft-forever"}, "id": "WoWF"},
+    {
+      "base": {
+        "alt_content_url": "nydus://client/shop/product/world-of-warcraft-forever",
+        "post_launch_actions": ["overlay"]
+      },
+      "id": "WoWF"
+    },
     {
       "base": {
         "alt_content_url": "nydus://client/shop/embedded/product/world-of-warcraft-game-time-cn",

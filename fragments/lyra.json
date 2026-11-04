@@ -223,7 +223,7 @@
         "supported_regions": ["GLOBAL"],
         "supports_language_selection": true,
         "supports_starter_mode": true,
-        "tab_order": 4,
+        "tab_order": 10,
         "title_id": 1431458625,
         "types": {
           "dev_1": {
