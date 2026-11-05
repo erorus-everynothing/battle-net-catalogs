@@ -40,7 +40,7 @@
         "name": "resources/wow/icon_game_wowf_small.png"
       },
       "world_of_warcraft#WOWF_ICON_SVG": {
-        "hash": "01c36d76e57af5be92df8b5e3469aaf2",
+        "hash": "58be74ff79561fdd72edb4f1e6d1b4f8",
         "name": "resources/wow/icon_game_wowf.svg"
       },
       "world_of_warcraft#WOWF_ICON_TINY": {
@@ -706,7 +706,7 @@
       "program_id": "WoW"
     },
     {
-      "display_name": "world_of_warcraft#WOW_FOREVER_BETA_NAME",
+      "display_name": "world_of_warcraft#WOW_FOREVER_NAME",
       "icon_16": "world_of_warcraft#WOWF_ICON_TINY",
       "icon_275": "world_of_warcraft#WOWF_ICON_MASSIVE",
       "icon_32": "world_of_warcraft#WOWF_ICON_SMALL",
