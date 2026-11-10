@@ -112,7 +112,7 @@
         "breaking_news_url": "nydus://client/cyberpunk2077/alert",
         "content_id": "cyberpunk-2077",
         "default_product_type": "retail",
-        "genre": "default#GENRE_REAL_TIME_STRATEGY",
+        "genre": "default#GENRE_ACTION_RPG",
         "handheld_status": ["handheld_unsupported"],
         "heading_text": "default#QUICK_LINK_MOBILE",
         "icon_svg": "malb#MALBORK_ICON_SVG",
