@@ -6,23 +6,23 @@
         "name": "resources/malbork/phx_game_app_background_malbork.png"
       },
       "malb#MALBORK_ICON_MASSIVE": {
-        "hash": "857f0768e0655a48640e77774ff972a3",
+        "hash": "e904c9707d163176e07780237ac08973",
         "name": "resources/malbork/presence-icon-malbork-512.png"
       },
       "malb#MALBORK_ICON_MEDIUM": {
-        "hash": "ea47e6ac1254c8c055b14f0219cf8ad8",
+        "hash": "6c68e146f0f4986e31d1fd6ab2f0db3a",
         "name": "resources/malbork/presence-icon-malbork-256.png"
       },
       "malb#MALBORK_ICON_SMALL": {
-        "hash": "2910b2ae9c16d094aca9dc2759b7ffbf",
+        "hash": "67589e4b7e7222501616ea4a2c731a68",
         "name": "resources/malbork/presence-icon-malbork-64.png"
       },
       "malb#MALBORK_ICON_SVG": {
-        "hash": "8b15aaf80985460356c575d77770fd99",
+        "hash": "412408e254f39dcb3658ab002602ae30",
         "name": "resources/malbork/game_icon_malbork.svg"
       },
       "malb#MALBORK_ICON_TINY": {
-        "hash": "f3bf9d20fa6aa01c062d9f0b5798f2ef",
+        "hash": "e752513afc3918be12258b4395444cff",
         "name": "resources/malbork/presence-icon-malbork-32.png"
       },
       "malb#MALBORK_INSTALL_BACKGROUND": {
@@ -107,10 +107,10 @@
   "products": [
     {
       "base": {
-        "alt_content_url": "nydus://client/shop/embedded/product/malbork",
+        "alt_content_url": "nydus://client/shop/embedded/product/cyberpunk-2077",
         "background": "malb#MALBORK_BACKGROUND",
-        "breaking_news_url": "nydus://client/malbork/alert",
-        "content_id": "malbork",
+        "breaking_news_url": "nydus://client/cyberpunk2077/alert",
+        "content_id": "cyberpunk-2077",
         "default_product_type": "retail",
         "genre": "default#GENRE_REAL_TIME_STRATEGY",
         "handheld_status": ["handheld_unsupported"],
@@ -120,10 +120,11 @@
         "key_art": "malb#MALBORK_KEY_ART",
         "locale_support_flag": "text_audio",
         "logo": "malb#MALBORK_LOGO",
+        "milestone": {"state": "new"},
         "misc_flags": [],
         "mobile_qr_code_text": "default#MOBILE_QR_CODE_DOWNLOAD",
         "name": "malb#MALBORK_NAME",
-        "post_launch_actions": ["game_session_monitor", "overlay"],
+        "post_launch_actions": ["game_session_monitor"],
         "program_id": "PERS",
         "quick_links": [
           {
@@ -188,35 +189,35 @@
           }
         ],
         "starter_mode_when_offline": true,
-        "supported_platforms": ["win", "mac"],
-        "supported_regions": ["US", "EU", "KR"],
+        "supported_platforms": ["win"],
+        "supported_regions": ["GLOBAL"],
         "supports_language_selection": true,
         "supports_starter_mode": true,
-        "tab_order": 8,
+        "tab_order": 3,
         "title_id": 1346720339,
         "types": {
           "retail": {
             "auto_favorite_on_grant": true,
-            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
+            "region_permission_flags": {"default": "requires_account_visible"},
             "uid": "malb"
           },
           "retail_dev_1": {
             "auto_favorite_on_grant": true,
-            "supported_regions": ["US", "EU", "KR", "XX"],
+            "supported_regions": ["GLOBAL", "XX"],
             "supports_starter_mode": false,
             "uid": "malb_retail_dev_1"
           },
           "retail_rc": {
             "auto_favorite_on_grant": true,
             "selector_display_name": "malb#MALBORK_NAME_RC",
-            "supported_regions": ["US", "EU", "KR", "XX"],
+            "supported_regions": ["GLOBAL", "XX"],
             "supports_starter_mode": false,
             "type_name": "default#TYPES_RC_NAME",
             "uid": "malb_retail_rc"
           },
           "vendor_dev_1": {
             "auto_favorite_on_grant": true,
-            "supported_regions": ["US", "EU", "KR", "XX"],
+            "supported_regions": ["GLOBAL", "XX"],
             "supports_starter_mode": false,
             "uid": "malb_vendor_dev_1"
           }
@@ -229,6 +230,10 @@
   "program_configuration": {
     "MALB": {
       "run_each_rule": [
+        {
+          "actions": [{"add_product": {"level": "program", "product_id": {"id": "MALB", "type": "retail"}}}],
+          "match": {"license_id": [1208737, 1224872, 1224874]}
+        },
         {
           "actions": [{"add_product": {"level": "program", "product_id": {"id": "MALB", "type": "vendor_dev_1"}}}],
           "match": {"license_id": 1208697}
@@ -247,7 +252,7 @@
   "strings": {
     "default": {"malb#MALBORK_NAME": "Cyberpunk 2077", "malb#MALBORK_NAME_RC": "Cyberpunk 2077 RC"},
     "jaJP": {"malb#MALBORK_NAME": "サイバーパンク2077"},
-    "koKR": {"malb#MALBORK_NAME": " 사이버펑크 2077"},
+    "koKR": {"malb#MALBORK_NAME": "사이버펑크 2077"},
     "zhCN": {"malb#MALBORK_NAME": "赛博朋克 2077"},
     "zhTW": {"malb#MALBORK_NAME": "《電馭叛客 2077》"}
   },

@@ -1,0 +1,14 @@
+{
+  "fragment_id": "malb_unsupported_os",
+  "products": [
+    {
+      "base": {
+        "install_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "play_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE"
+      },
+      "id": "MALB"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

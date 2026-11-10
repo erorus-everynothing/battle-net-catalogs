@@ -216,7 +216,7 @@
         "supported_platforms": ["win"],
         "supported_regions": ["US", "EU", "KR"],
         "supports_starter_mode": false,
-        "tab_order": 7,
+        "tab_order": 8,
         "title_id": 1096108883,
         "track_exit_code": true,
         "types": {

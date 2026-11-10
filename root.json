@@ -307,7 +307,7 @@
       "name": "arkansas_legacyplaypanel",
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
-    {"hash": "87bf435417765e8c803527d5d8c0282b", "name": "auks"},
+    {"hash": "50ec5a25a1fb3b99c1bc9f5e95ad7557", "name": "auks"},
     {
       "hash": "09efdd127784946cfd597b2f029aecf9",
       "name": "auks_alphadeprecationoverride",
@@ -418,7 +418,7 @@
       "name": "diablo_iii_noaltcontent",
       "requires": {"not": {"id": "alt_content_for_starter", "type": "feature"}}
     },
-    {"hash": "1090fdcbe9741de4f1ec6badac2d1087", "name": "fenris"},
+    {"hash": "e4850b25e24da2dd08bc315f46d45d19", "name": "fenris"},
     {
       "hash": "3ed05437ccadb72861126784d77b22b1",
       "name": "fenris_cn",
@@ -708,11 +708,36 @@
       "name": "lyra_data_sharing_consent",
       "requires": {"exclude": ["CHN"], "type": "account_country"}
     },
-    {"hash": "b841a48b923351b369f4292d52dcaa84", "name": "malb"},
+    {"hash": "f2fdd5777f5e5f231c91ae549bc3450c", "name": "malb"},
     {
       "hash": "8f732eb479eaa7c121a7573456ec6485",
       "name": "malb_data_sharing_consent",
       "requires": {"exclude": ["CHN"], "type": "account_country"}
+    },
+    {
+      "hash": "a75ee801f08251983f751b7a361800cd",
+      "name": "malb_unsupported_os",
+      "requires": {
+        "any_of": [
+          {
+            "all_of": [
+              {"platform": "win", "type": "platform"},
+              {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+            ]
+          },
+          {
+            "all_of": [
+              {"platform": "mac", "type": "platform"},
+              {"none_of": [{"platform": "mac", "type": "platform", "version": "15.5"}]}
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "hash": "436fac24f09a274a1115255a2031c4bd",
+      "name": "malb_windows_post_launch_actions",
+      "requires": {"platform": "win", "type": "platform"}
     },
     {
       "decryption_key_id": "catalog-decryption-key-moon2",
@@ -844,7 +869,7 @@
         ]
       }
     },
-    {"hash": "e5dafb823046747bf384b155d6a38bf7", "name": "overwatch"},
+    {"hash": "b7e84a34f3e8bd59d23a6c088d25e2c5", "name": "overwatch"},
     {
       "hash": "d5a8ca3c879997ca4b90440f64109d57",
       "name": "overwatch_cn_assets_links_overrides",
@@ -1234,7 +1259,7 @@
         ]
       }
     },
-    {"hash": "6a9eb25b696fb1f1a79d4caf8356303f", "name": "world_of_warcraft"},
+    {"hash": "41637091e3d435edc854b61c3a64517f", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",

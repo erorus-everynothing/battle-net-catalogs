@@ -799,7 +799,7 @@
           }
         ],
         "starter_logo": "world_of_warcraft#WOW_CLASSIC_LOGO",
-        "tab_order": 4
+        "tab_order": 5
       },
       "id": "WoWC"
     },
@@ -980,7 +980,7 @@
           }
         ],
         "starter_logo": "world_of_warcraft#WOW_LOGO_MIDNIGHT",
-        "tab_order": 3,
+        "tab_order": 4,
         "title_id": 5730135,
         "trial_display_name": "world_of_warcraft#WOW_NAME",
         "trial_icon": "world_of_warcraft#WOW_ICON_SVG",

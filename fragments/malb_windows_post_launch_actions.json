@@ -1,0 +1,5 @@
+{
+  "fragment_id": "malb_windows_post_launch_actions",
+  "products": [{"base": {"post_launch_actions": ["game_session_monitor", "overlay"]}, "id": "MALB"}],
+  "version": 30
+}
