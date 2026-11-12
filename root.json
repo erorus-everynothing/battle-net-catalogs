@@ -708,7 +708,7 @@
       "name": "lyra_data_sharing_consent",
       "requires": {"exclude": ["CHN"], "type": "account_country"}
     },
-    {"hash": "e1c17dc8e1406159c860f2d628c0b98e", "name": "malb"},
+    {"hash": "85946253422fe27ee86dce9988ad0bd6", "name": "malb"},
     {
       "hash": "8f732eb479eaa7c121a7573456ec6485",
       "name": "malb_data_sharing_consent",

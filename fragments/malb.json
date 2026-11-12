@@ -198,6 +198,20 @@
         "types": {
           "retail": {
             "auto_favorite_on_grant": true,
+            "quick_links": [
+              {
+                "action": {
+                  "target": "shop",
+                  "type": "upgrade",
+                  "url": "nydus://client/shop/product/cyberpunk-2077-phantom-liberty"
+                },
+                "color": "#6cdb00",
+                "icon": "default#QUICK_LINK_ICON_UPGRADE",
+                "id": "upgrade",
+                "label": "default#QUICK_LINK_UPGRADE_AVAILABLE",
+                "rank": 100
+              }
+            ],
             "region_permission_flags": {"default": "requires_account_visible"},
             "uid": "malb"
           },
@@ -224,15 +238,30 @@
         },
         "unsupported_platform_behavior": "disabled_install"
       },
-      "id": "MALB"
+      "id": "MALB",
+      "variants": {"MALBNoUpgrade": {"types": {"retail": {"quick_links": [{"hidden": true, "id": "upgrade"}]}}}}
     }
   ],
   "program_configuration": {
     "MALB": {
       "run_each_rule": [
         {
-          "actions": [{"add_product": {"level": "program", "product_id": {"id": "MALB", "type": "retail"}}}],
-          "match": {"license_id": [1208737, 1224872, 1224874]}
+          "actions": [
+            {
+              "run_first_rule": [
+                {
+                  "actions": [
+                    {"add_product": {"level": "program", "product_id": {"id": "MALBNoUpgrade", "type": "retail"}}}
+                  ],
+                  "match": {"license_id": 1224874}
+                },
+                {
+                  "actions": [{"add_product": {"level": "program", "product_id": {"id": "MALB", "type": "retail"}}}],
+                  "match": {"license_id": [1208737, 1224872]}
+                }
+              ]
+            }
+          ]
         },
         {
           "actions": [{"add_product": {"level": "program", "product_id": {"id": "MALB", "type": "vendor_dev_1"}}}],
