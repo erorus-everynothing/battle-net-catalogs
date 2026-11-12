@@ -708,11 +708,16 @@
       "name": "lyra_data_sharing_consent",
       "requires": {"exclude": ["CHN"], "type": "account_country"}
     },
-    {"hash": "85946253422fe27ee86dce9988ad0bd6", "name": "malb"},
+    {"hash": "791769cb1a2c40200a35d26883f7c7df", "name": "malb"},
     {
       "hash": "8f732eb479eaa7c121a7573456ec6485",
       "name": "malb_data_sharing_consent",
       "requires": {"exclude": ["CHN"], "type": "account_country"}
+    },
+    {
+      "hash": "fb423f139774901dd4cb64a69b2834d1",
+      "name": "malb_disable_mac_retail",
+      "requires": {"platform": "mac", "type": "platform"}
     },
     {
       "hash": "a75ee801f08251983f751b7a361800cd",

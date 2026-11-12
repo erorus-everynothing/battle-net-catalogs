@@ -1,0 +1,18 @@
+{
+  "fragment_id": "malb_disable_mac_retail",
+  "products": [
+    {
+      "base": {
+        "types": {
+          "retail": {
+            "install_disabled_message": "default#INSTALL_DISABLED_MESSAGE",
+            "play_disabled_message": "default#PLAY_DISABLED_MESSAGE"
+          }
+        }
+      },
+      "id": "MALB"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

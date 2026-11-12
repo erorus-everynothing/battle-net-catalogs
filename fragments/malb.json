@@ -189,7 +189,7 @@
           }
         ],
         "starter_mode_when_offline": true,
-        "supported_platforms": ["win"],
+        "supported_platforms": ["win", "mac"],
         "supported_regions": ["GLOBAL"],
         "supports_language_selection": true,
         "supports_starter_mode": true,
