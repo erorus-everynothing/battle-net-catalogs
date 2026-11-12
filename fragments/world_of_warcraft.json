@@ -1567,7 +1567,7 @@
                 },
                 {
                   "actions": [{"add_product": {"product_id": {"id": "WoW", "type": "wowf"}}}],
-                  "match": {"game_account": {"program_id": "WoW"}}
+                  "match": {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW", "CN"]}}
                 }
               ]
             }
