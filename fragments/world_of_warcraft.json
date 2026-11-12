@@ -763,10 +763,9 @@
               "id": "owned",
               "rank": 100,
               "requires": {
-                "all_of": [
-                  {"type": "has_account"},
-                  {"type": "has_subscription"},
-                  {"not": {"type": "is_virtual_license_only"}}
+                "any_of": [
+                  {"all_of": [{"type": "has_account"}, {"not": {"type": "is_virtual_license_only"}}]},
+                  {"type": "is_managed_locally"}
                 ]
               }
             }
@@ -785,7 +784,7 @@
             },
             "id": "website",
             "label": "default#STARTER_ITEM_WEBSITE",
-            "rank": 2,
+            "rank": 3,
             "style": "link",
             "type": "button"
           },
@@ -793,7 +792,7 @@
             "action": {"product_id": "WoW", "type": "select_product"},
             "id": "select_wow",
             "label": "world_of_warcraft#WOW_LOOKING_FOR_WOW",
-            "rank": 3,
+            "rank": 4,
             "style": "link",
             "type": "button"
           }
@@ -837,16 +836,35 @@
         "logo": "world_of_warcraft#WOW_FOREVER_LOGO",
         "milestone": {"state": "new"},
         "name": "world_of_warcraft#WOW_FOREVER_NAME",
-        "play_state_config": {"default_state": "owned", "states": []},
+        "play_state_config": {
+          "default_state": "unowned",
+          "states": [
+            {
+              "id": "owned",
+              "rank": 100,
+              "requires": {
+                "any_of": [
+                  {"all_of": [{"type": "has_account"}, {"not": {"type": "is_virtual_license_only"}}]},
+                  {"type": "is_managed_locally"}
+                ]
+              }
+            }
+          ]
+        },
         "real_product_id": "WoW",
         "shop_url": "nydus://client/shop/family/world-of-warcraft-forever",
         "starter_background": "world_of_warcraft#WOW_BACKGROUND_FOREVER",
         "starter_items": [
           {
-            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/world-of-warcraft-forever"},
+            "action": {
+              "external": true,
+              "target": "external",
+              "type": "url",
+              "url": "https://worldofwarcraft.blizzard.com/?utm_source=app-battlenetdesktop&utm_medium=internal&utm_content=starter-screen"
+            },
             "id": "website",
             "label": "default#STARTER_ITEM_WEBSITE",
-            "rank": 1,
+            "rank": 3,
             "style": "link",
             "type": "button"
           }
@@ -966,7 +984,7 @@
             },
             "id": "website",
             "label": "default#STARTER_ITEM_WEBSITE",
-            "rank": 4,
+            "rank": 3,
             "style": "link",
             "type": "button"
           },
@@ -974,7 +992,7 @@
             "action": {"product_id": "WoWC", "type": "select_product"},
             "id": "select_wowc",
             "label": "world_of_warcraft#WOW_LOOKING_FOR_WOW_CLASSIC",
-            "rank": 3,
+            "rank": 4,
             "style": "link",
             "type": "button"
           }
@@ -1549,11 +1567,7 @@
                 },
                 {
                   "actions": [{"add_product": {"product_id": {"id": "WoW", "type": "wowf"}}}],
-                  "match": {"game_account": {"program_id": "WoW", "region": ["US", "EU", "KR", "TW", "CN"]}}
-                },
-                {
-                  "actions": [{"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wowf"}}}],
-                  "match": {"not": {"game_account": {"program_id": "WoW"}}}
+                  "match": {"game_account": {"program_id": "WoW"}}
                 }
               ]
             }
@@ -1668,16 +1682,6 @@
             }
           ],
           "match": {"game_account": {"program_id": "WoW", "region": "XX"}}
-        },
-        {
-          "actions": [
-            {"add_product": {"level": "program", "product_id": {"id": "WoWPTR", "type": "wow_classic_beta"}}}
-          ],
-          "match": {"not": {"game_account": {"program_id": "WoW", "region": ["CN"]}}}
-        },
-        {
-          "actions": [{"add_product": {"level": "program", "product_id": {"id": "WoW", "type": "wow_cn_beta"}}}],
-          "match": {"account_region": "CN"}
         }
       ],
       "subscription_license": 19986

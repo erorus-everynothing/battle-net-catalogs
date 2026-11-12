@@ -5,6 +5,21 @@
       "base": {
         "starter_items": [
           {
+            "action": {"external": true, "target": "external", "type": "url", "url": "https://wow.blizzard.cn/"},
+            "id": "website",
+            "label": "default#STARTER_ITEM_WEBSITE",
+            "rank": 3,
+            "style": "link",
+            "type": "button"
+          }
+        ]
+      },
+      "id": "WoWF"
+    },
+    {
+      "base": {
+        "starter_items": [
+          {
             "action": {"target": "shop", "type": "url", "url": "nydus://client/gametime/WoW"},
             "id": "buy_game_time",
             "label": "world_of_warcraft_starteritems_stdpanel_cn#WOW_STARTER_BUTTON_BUY_GAME_TIME",

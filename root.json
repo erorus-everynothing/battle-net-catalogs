@@ -1259,7 +1259,7 @@
         ]
       }
     },
-    {"hash": "41637091e3d435edc854b61c3a64517f", "name": "world_of_warcraft"},
+    {"hash": "b2f9f8814e50477c3d07ce3519d4cb16", "name": "world_of_warcraft"},
     {
       "hash": "31100b5169ffc17150911f406b82cd91",
       "name": "world_of_warcraft_alphanotdeprecatedwithnewlicense",
@@ -1281,7 +1281,7 @@
       "requires": {"all_of": [{"licenses": [1134620], "type": "licenses"}, {"licenses": [1144770], "type": "licenses"}]}
     },
     {
-      "hash": "500b5caf06c0c9a42ccd119906d6fade",
+      "hash": "d22d6c67621447405544be55fae7f2d5",
       "name": "world_of_warcraft_display_hubpanel",
       "requires": {"id": "hub_groups_enabled", "type": "feature"}
     },
@@ -1330,14 +1330,14 @@
       "requires": {"include": "ruRU", "type": "locale"}
     },
     {
-      "hash": "79d9dc2afd5156bb4117b59ff860da47",
+      "hash": "49d7fb747d2a6076fe287ca85be3c486",
       "name": "world_of_warcraft_starteritems_hubpanel_cn",
       "requires": {
         "all_of": [{"id": "hub_groups_enabled", "type": "feature"}, {"include": "CN", "type": "login_region"}]
       }
     },
     {
-      "hash": "eff22529940f45c0265a6309cbaabada",
+      "hash": "878d391810c0170a60750240906b8701",
       "name": "world_of_warcraft_starteritems_hubpanel_row",
       "requires": {
         "all_of": [
@@ -1347,7 +1347,7 @@
       }
     },
     {
-      "hash": "11cd9d804aadb666f26068d51f747ed6",
+      "hash": "fc3ae8a6b804966f9a7fca8cece2c519",
       "name": "world_of_warcraft_starteritems_stdpanel_cn",
       "requires": {
         "all_of": [{"not": {"id": "hub_groups_enabled", "type": "feature"}}, {"include": "CN", "type": "login_region"}]
@@ -1488,7 +1488,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Installieren",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Kostenlos spielen",
       "default#STARTER_ITEM_PLAY_NOW": "Jetzt spielen",
-      "default#STARTER_ITEM_PREPURCHASE": "Zum Vorverkauf",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Alle Editionen anzeigen",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Kostenlos testen",
       "default#STARTER_ITEM_WEBSITE": "Website besuchen",
@@ -1618,7 +1617,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Install",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Play For Free",
       "default#STARTER_ITEM_PLAY_NOW": "Play Now",
-      "default#STARTER_ITEM_PREPURCHASE": "Pre-purchase",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Shop All Editions",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Try For Free",
       "default#STARTER_ITEM_WEBSITE": "Visit Website",
@@ -1764,7 +1762,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Instalar",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Juega gratis",
       "default#STARTER_ITEM_PLAY_NOW": "Jugar ahora",
-      "default#STARTER_ITEM_PREPURCHASE": "Precomprar",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Ver todas las ediciones",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Probar gratis",
       "default#STARTER_ITEM_WEBSITE": "Visitar el sitio web",
@@ -1883,7 +1880,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Instalar",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Juégalo Gratis",
       "default#STARTER_ITEM_PLAY_NOW": "Jugar ahora",
-      "default#STARTER_ITEM_PREPURCHASE": "Precomprar",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Ver todas las ediciones",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Pruébalo gratis",
       "default#STARTER_ITEM_WEBSITE": "Visitar el sitio web",
@@ -2002,7 +1998,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Installer",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Jouez gratuitement",
       "default#STARTER_ITEM_PLAY_NOW": "Jouer maintenant",
-      "default#STARTER_ITEM_PREPURCHASE": "Préacheter",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Consulter toutes les éditions",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Essai gratuit",
       "default#STARTER_ITEM_WEBSITE": "Consulter le site",
@@ -2119,7 +2114,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Installa",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Inizia a giocare ora",
       "default#STARTER_ITEM_PLAY_NOW": "Gioca",
-      "default#STARTER_ITEM_PREPURCHASE": "Preacquista",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Scopri tutte le edizioni",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Inizia a giocare ora",
       "default#STARTER_ITEM_WEBSITE": "Visita il sito web",
@@ -2242,7 +2236,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "インストール",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "無料でプレイ",
       "default#STARTER_ITEM_PLAY_NOW": "今すぐプレイ",
-      "default#STARTER_ITEM_PREPURCHASE": "先行購入する",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "全てのエディションを見る",
       "default#STARTER_ITEM_TRY_FOR_FREE": "無料体験に参加",
       "default#STARTER_ITEM_WEBSITE": "ウェブサイトを見る",
@@ -2365,7 +2358,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "설치",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "무료로 플레이하기",
       "default#STARTER_ITEM_PLAY_NOW": "게임 실행",
-      "default#STARTER_ITEM_PREPURCHASE": "예약 구매",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "모든 에디션 구매",
       "default#STARTER_ITEM_TRY_FOR_FREE": "무료 체험하기",
       "default#STARTER_ITEM_WEBSITE": "웹사이트 방문",
@@ -2488,7 +2480,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Instaluj",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Graj za darmo",
       "default#STARTER_ITEM_PLAY_NOW": "Zagraj teraz",
-      "default#STARTER_ITEM_PREPURCHASE": "Kup w przedsprzedaży",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Sklep: wszystkie edycje",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Wypróbuj za darmo",
       "default#STARTER_ITEM_WEBSITE": "Odwiedź stronę",
@@ -2608,7 +2599,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Instalar",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Jogue grátis",
       "default#STARTER_ITEM_PLAY_NOW": "Jogar agora",
-      "default#STARTER_ITEM_PREPURCHASE": "Pré-venda",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Comprar todas as edições",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Experimente de Graça",
       "default#STARTER_ITEM_WEBSITE": "Visite o Site",
@@ -2739,7 +2729,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "Установить",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "Играть бесплатно",
       "default#STARTER_ITEM_PLAY_NOW": "Играть",
-      "default#STARTER_ITEM_PREPURCHASE": "Предзаказ",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "Просмотреть все издания",
       "default#STARTER_ITEM_TRY_FOR_FREE": "Бесплатная версия",
       "default#STARTER_ITEM_WEBSITE": "Посетить веб-сайт",
@@ -2856,7 +2845,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "ติดตั้ง",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "เล่นฟรี",
       "default#STARTER_ITEM_PLAY_NOW": "เล่นตอนนี้",
-      "default#STARTER_ITEM_PREPURCHASE": "ซื้อล่วงหน้า",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "เลือกซื้อทุก Edition",
       "default#STARTER_ITEM_TRY_FOR_FREE": "ลองฟรี",
       "default#STARTER_ITEM_WEBSITE": "เยี่ยมชมเว็บไซต์",
@@ -2972,7 +2960,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "安装",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "免费游戏",
       "default#STARTER_ITEM_PLAY_NOW": "立即体验",
-      "default#STARTER_ITEM_PREPURCHASE": "了解详情",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "选购所有版本",
       "default#STARTER_ITEM_TRY_FOR_FREE": "免费试玩",
       "default#STARTER_ITEM_WEBSITE": "访问网站",
@@ -3093,7 +3080,6 @@
       "default#STARTER_ITEM_INSTALL_LABEL": "安裝",
       "default#STARTER_ITEM_PLAY_FOR_FREE": "免費暢玩",
       "default#STARTER_ITEM_PLAY_NOW": "開始遊戲",
-      "default#STARTER_ITEM_PREPURCHASE": "預購",
       "default#STARTER_ITEM_SHOP_ALL_EDITIONS_LABEL": "購買所有版本",
       "default#STARTER_ITEM_TRY_FOR_FREE": "免費試玩",
       "default#STARTER_ITEM_WEBSITE": "造訪網站",

@@ -49,9 +49,9 @@
       "base": {
         "starter_items": [
           {
-            "action": {"target": "shop", "type": "url", "url": "nydus://client/shop/product/world-of-warcraft-forever"},
-            "id": "prepurchase",
-            "label": "default#STARTER_ITEM_PREPURCHASE",
+            "action": {"target": "shop", "type": "url", "url": "nydus://client/gametime/WoW"},
+            "id": "subscribe",
+            "label": "world_of_warcraft_starteritems_hubpanel_cn#WOW_HUB_BUTTON_LABEL_SUBSCRIBE",
             "rank": 1,
             "style": "primary",
             "type": "button"
