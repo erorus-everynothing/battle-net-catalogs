@@ -1,0 +1,19 @@
+{
+  "fragment_id": "auks_win10",
+  "products": [
+    {
+      "base": {
+        "install_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "misc_flags": [],
+        "play_disabled_message": "default#UNSUPPORTED_OS_DISABLED_MESSAGE",
+        "starter_items": [
+          {"hidden": true, "id": "play_for_free", "type": "button"},
+          {"hidden": true, "id": "play_for_free_label", "type": "label"}
+        ]
+      },
+      "id": "AUKS"
+    }
+  ],
+  "strings": {},
+  "version": 30
+}

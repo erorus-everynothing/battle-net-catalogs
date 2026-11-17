@@ -367,8 +367,28 @@
       "name": "auks_mw4_vault",
       "requires": {"all_of": [{"$comment": "Rex Vault", "licenses": [1172868], "type": "licenses"}]}
     },
+    {
+      "hash": "2bdb1bec1d83d695a4ccea66a7f853f4",
+      "name": "auks_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
     {"hash": "d248d37b03330a6c4b40efaaa02e81da", "name": "battle.net"},
     {"hash": "66fa87a135861bb6fc0cb7192523f460", "name": "btlr"},
+    {
+      "hash": "2b58f712d8f51324b486c75f67f44fde",
+      "name": "btlr_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
     {"hash": "f8dc12685fe55de340b8c36c6b5914da", "name": "corn"},
     {"hash": "2837e1253e50ecdc71a96e479b3620b7", "name": "diablo_i"},
     {
@@ -568,6 +588,16 @@
         ]
       }
     },
+    {
+      "hash": "424c8015c0ba61760b8b69c026e40016",
+      "name": "fore_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
     {"hash": "94655c4feb2dbc76daa3df311df53821", "name": "gdt"},
     {
       "hash": "0c9b902ead4dda81400459b08b7a4347",
@@ -679,6 +709,16 @@
         ]
       }
     },
+    {
+      "hash": "eff34a2f2a49b187e7cd58c6d4b32116",
+      "name": "lazarus_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
     {"hash": "384471bfe0be7e16f38ed61c0ec4def0", "name": "libra"},
     {
       "hash": "f6836b3d9d7c86dcfa6de06eba859d87",
@@ -771,6 +811,16 @@
       "name": "nina_removemwiibuylink",
       "requires": {"licenses": [92204], "type": "licenses"}
     },
+    {
+      "hash": "de21ea884a549781abf9881c14b2ad0a",
+      "name": "nina_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
     {"hash": "4051d0c5dc3d21474e138258bbe33b62", "name": "odin"},
     {
       "hash": "7995ac08f0eb5ccc8a454d7b41546f24",
@@ -799,6 +849,16 @@
         "all_of": [
           {"licenses": [29256], "op": "none_of", "type": "licenses"},
           {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {
+      "hash": "6b085eb485727b99bf4466376b7ecc8f",
+      "name": "odin_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
         ]
       }
     },
@@ -963,6 +1023,16 @@
       "requires": {"not": {"op": "greater_equal", "type": "client_version", "version": "2.52.0"}}
     },
     {
+      "hash": "95e84edf8861255e38b656667881bc82",
+      "name": "pinta_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
+        ]
+      }
+    },
+    {
       "decryption_key_id": "catalog-decryption-key-rose",
       "encrypted_hash": "d6ab83d530daa70e70788bb33a34a1f0",
       "hash": "92388e7b4e0cff96813d7c218ecb79c8",
@@ -1109,6 +1179,16 @@
         "all_of": [
           {"licenses": [26931, 36377], "op": "none_of", "type": "licenses"},
           {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {
+      "hash": "7329dee351e56a39b9156287a0111255",
+      "name": "viper_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
         ]
       }
     },
@@ -1401,6 +1481,16 @@
         "all_of": [
           {"licenses": [52713], "op": "none_of", "type": "licenses"},
           {"not": {"id": "alt_content_for_starter", "type": "feature"}}
+        ]
+      }
+    },
+    {
+      "hash": "918a55a5d487557222d7c3b83ddd4a23",
+      "name": "zeus_win10",
+      "requires": {
+        "all_of": [
+          {"platform": "win", "type": "platform"},
+          {"none_of": [{"platform": "win", "type": "platform", "version": "10.0"}]}
         ]
       }
     },
