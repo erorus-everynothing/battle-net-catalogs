@@ -30,10 +30,7 @@
         "hash": "a6ce09d8e8afbd8b5416190e217f37c4",
         "name": "resources/auks/install_background_mw4b.png"
       },
-      "auks#AUKS_KEY_ART_COD_SEASON_3": {
-        "hash": "e2be1397f0247f4df452337026f7163e",
-        "name": "resources/auks/key_art_cod_season_3.jpg"
-      },
+      "auks#AUKS_KEY_ART_COD": {"hash": "89e0b5cf35844a45af53a471c42771fe", "name": "resources/auks/key_art_cod.png"},
       "auks#AUKS_LOGO_COD": {"hash": "996cffc267b7b221cb5ab71750818179", "name": "resources/auks/logo_cod_v2.png"},
       "auks#AUKS_LOGO_MW4_BETA": {
         "hash": "c94f9cc23405df655a3a52524ab17a90",
@@ -145,7 +142,7 @@
         "install_background": "auks#AUKS_INSTALL_BACKGROUND_COD",
         "install_requires_login": true,
         "is_activision_game": true,
-        "key_art": "auks#AUKS_KEY_ART_COD_SEASON_3",
+        "key_art": "auks#AUKS_KEY_ART_COD",
         "kr_data_sharing_consent": "auks#AUKS_KR_DATA_SHARING_CONSENT",
         "kr_data_sharing_consent_type_id": 85,
         "logo": "auks#AUKS_LOGO_COD",
